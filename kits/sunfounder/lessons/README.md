@@ -1,7 +1,7 @@
 
-| :hash: |  Descriptions | :grey_question: |
+| :hash: |  Descriptions | :link: |
 |-|-|-|
-| Raspberry Pi Pico W LESSON([1](1)) | Write Your First Program for Absolute Beginners| |
+| Raspberry Pi Pico W LESSON([1](1)) | Write Your First Program for Absolute Beginners| [:tv:](https://youtu.be/SL4_oU9t8Ss)|
 | Raspberry Pi Pico W LESSON([2](1)) | Understanding and Using Breadboards| |
 | Raspberry Pi Pico W LESSON([3](1)) | Understanding and Using Binary Numbers| |
 | Raspberry Pi Pico W LESSON([4](1)) | Create a Binary Counter Using the Pico W| |
