@@ -1,6 +1,5 @@
 - [ ] [KhanAcademy Physics - SemiConductors](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors)
-
-
+  - [ ] [Unit: Electronic structure of atoms](https://www.khanacademy.org/science/chemistry/electronic-structure-of-atoms)
 
 - [ ] [:tv:@CircuitBread - CircuitBread](https://www.youtube.com/@CircuitBread)
 
