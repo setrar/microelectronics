@@ -5,11 +5,11 @@
 
 # References
 
-:round_pushpin: [rp-pico v0.7.0: Board Support Package for the Raspberry Pi Pico](https://crates.io/crates/rp-pico)
+- [ ] [rp-pico v0.7.0: Board Support Package for the Raspberry Pi Pico](https://crates.io/crates/rp-pico)
 
-:round_pushpin: [Raspberry Pi Pico Starter kit - Euler](https://www.sunfounder.com/products/sunfounder-euler-kit)
+- [ ] [Raspberry Pi Pico Starter kit - Euler](https://www.sunfounder.com/products/sunfounder-euler-kit)
 
-- [ ] Description
+** Description
 
 *【Ultimate Raspberry Pi Pico Kit】Contains over 320 items and 113 online projects for all Arduino and Raspberry Pi users, from beginners to advanced programmers.
 
