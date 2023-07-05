@@ -1,5 +1,5 @@
 
-| | | |
+| :hash: |  Descriptions | :grey_question: |
 |-|-|-|
 | Raspberry Pi Pico W LESSON [1](1) | Write Your First Program for Absolute Beginners| |
 | Raspberry Pi Pico W LESSON [2](1) | Understanding and Using Breadboards| |
