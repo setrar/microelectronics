@@ -1,6 +1,21 @@
 - [ ] [KhanAcademy Physics - SemiConductors](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors)
   - [ ] [Unit: Electronic structure of atoms](https://www.khanacademy.org/science/chemistry/electronic-structure-of-atoms)
 
+|  :hash:            |  Episodes                                                                                | :grey_question:    |
+|--------------------|------------------------------------------------------------------------------------------|--------------------|
+| Lecture[(1)](1)    | [Band theory of solids](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-band-theory-of-solids) | |
+| Lecture[(1)](1)    | [Basics of semiconductors](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-basics-of-semiconductors) | |
+| Lecture[(1)](1)    | [The PN junction](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-the-pn-junction) | |
+| Lecture[(1)](1)    | [PN junction biasing](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-pn-junction-biasing) | |
+| Lecture[(1)](1)    | [Rectifiers](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-rectifiers) | |
+| Lecture[(1)](1)    | [Zener diode](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-zener-diode) | |
+| Lecture[(1)](1)    | [Optoelectronic devices](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#x51bd77206da864f3:optoelectronic-devices) | |
+| Lecture[(1)](1)    | [Transistors working](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-transistors) | |
+| Lecture[(1)](1)    | [Transistor characteristics](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-transistor-characteristics) | |
+| Lecture[(1)](1)    | [Transistor as a device](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-transistor-as-a-device) | |
+
+
+
 - [ ] [:tv:@CircuitBread - CircuitBread](https://www.youtube.com/@CircuitBread)
 
 - [ ] [Circuits 101](https://www.youtube.com/playlist?list=PLfYdTiQCV_p4IKgfbRML5EHFJPfBdW9Fv)
