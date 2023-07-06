@@ -20,7 +20,7 @@ while True:
 stateDiagram-v2
     direction LR
     [*] --> VSYS : 39
-    VSYS --> GP28 : +
+    VSYS --> GP28 : (+)
     GP28 --> [*] : 34
 ```
 
