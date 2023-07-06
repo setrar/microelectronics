@@ -47,3 +47,5 @@ while True:
     print(voltage)
     sleep(.5)
 ```
+
+<img src=images/python-3.3v.png width='50%' height='50%' > </img>
