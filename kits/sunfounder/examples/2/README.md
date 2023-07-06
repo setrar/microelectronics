@@ -21,7 +21,7 @@ led = Pin(25, Pin.OUT)
 led.toggle()
 ```
 
-<img src=images/IMG_4390.jpg width='50%' height='50%' > </img>
+<img src=images/IMG_4388.jpg width='50%' height='50%' > </img>
 
 - [ ] [Use digital inputs and outputs](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/6)
 
@@ -35,6 +35,8 @@ def blink(timer):
 
 timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
 ```
+
+<img src=images/IMG_4390.jpg width='50%' height='50%' > </img>
 
 ```python
 from machine import Pin
