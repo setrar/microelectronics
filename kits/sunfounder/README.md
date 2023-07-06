@@ -4,6 +4,7 @@
 |-|-|
 | [ :book: Euler Kit Documentation ](https://docs.sunfounder.com/projects/euler-kit) | |
 | [:octocat: euler-kit](https://github.com/sunfounder/euler-kit) | |
+| [:toolbox: setup](setup) | | 
 | [:tv: Raspberry Pi Pico W Lessons for Absolute Beginners Paul McWhorter](https://www.youtube.com/playlist?list=PLGs0VKk2DiYz8js1SJog21cDhkBqyAhC5) | [lessons](lessons) |
 
 
