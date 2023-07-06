@@ -2,6 +2,7 @@
 
 
 - [ ] [Upload Library](https://docs.sunfounder.com/projects/euler-kit/en/latest/pyproject/python_start/download_add.html#add-libraries-py) to the RPI PICO
+
 <img src=images/upload-library.png width='25%' height='25%' > </img>
 
 - [ ] Run the program
