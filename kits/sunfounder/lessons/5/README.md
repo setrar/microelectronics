@@ -14,7 +14,7 @@ while True:
     sleep(.5)
 ```
 
-- [ ] Calculating the [Ratte of Change](https://www.varsitytutors.com/hotmath/hotmath_help/topics/rate-of-change)
+- [ ] Calculating the [Rate of Change](https://www.varsitytutors.com/hotmath/hotmath_help/topics/rate-of-change)
 
 
 ```math
