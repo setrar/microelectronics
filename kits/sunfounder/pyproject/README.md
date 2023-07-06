@@ -23,7 +23,7 @@
 | 3.1 | Beep| |
 | 3.2 | Custom Tone| |
 | 3.3 | RGB LED Strip| |
-| 3.4 | Liquid Crystal Display| |
+| [3.4](3.4) | [Liquid Crystal Display](https://docs.sunfounder.com/projects/euler-kit/en/latest/pyproject/py_lcd.html) | |
 | 3.5 | Small Fan| |
 | 3.6 | Pumping| |
 | 3.7 | Swinging Servo| |
