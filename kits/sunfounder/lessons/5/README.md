@@ -18,7 +18,7 @@ while True:
 
 
 ```math
-rateofchange = \frac{change in y}{change in x}
+\text{ rate of change } = \frac{\text {change in y}}{\text {change in x}}
 ```
 
 ```math
