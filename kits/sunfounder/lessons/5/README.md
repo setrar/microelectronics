@@ -33,3 +33,17 @@ y = \frac{3.3}{65391}x - (\frac{144 * 3.3}{65391})
 ```math
 Voltage = \frac{3.3}{65391} potVal - (\frac{144 * 3.3}{65391})
 ```
+
+```
+import machine
+from time import sleep
+
+potPin = 28
+myPot = machine.ADC(potPin)
+
+while True:
+    potVal = myPot.read_u16()
+    voltage = (3.3/65391)*potVal-(144*3.3/65391)
+    print(voltage)
+    sleep(.5)
+```
