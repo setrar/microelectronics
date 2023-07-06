@@ -34,7 +34,7 @@ y = \frac{3.3}{65391}x - (\frac{144 * 3.3}{65391})
 Voltage = \frac{3.3}{65391} potVal - (\frac{144 * 3.3}{65391})
 ```
 
-```
+```python
 import machine
 from time import sleep
 
@@ -48,4 +48,4 @@ while True:
     sleep(.5)
 ```
 
-<img src=images/python-3.3v.png width='50%' height='50%' > </img>
+<img src=images/python-3.3v.png width='75%' height='75%' > </img>
