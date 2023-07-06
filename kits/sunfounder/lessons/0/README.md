@@ -16,4 +16,4 @@ while True:
    utime.sleep(1)
 ```
 
-<img src=images/IMG_4388.HEIC width='50%' height='50%' > </img>
+<img src=images/IMG_4388.jpg width='50%' height='50%' > </img>
