@@ -10,7 +10,7 @@ brew install --cask thonny
 
 <img src=images/Install-Micro-Python.png width='50%' height='50%' > </img>
 
-- [ ] 
+- [ ] Update the UF2 Bootloader on the Pico Pi
 
 <img src=images/Install-Micro-Python-UF2-bootloader.png width='50%' height='50%' > </img>
 
