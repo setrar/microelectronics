@@ -16,4 +16,12 @@ while True:
    utime.sleep(1)
 ```
 
+```mermaid
+stateDiagram-v2
+    direction LR
+    [*] --> VSYS : 39
+    VSYS --> GP28
+    GP28 --> [*] : 34
+```
+
 <img src=images/IMG_4388.jpg width='50%' height='50%' > </img>
