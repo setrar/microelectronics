@@ -22,7 +22,7 @@ while True:
 ```
 
 ```math
-\text{ rate of change } = \frac{\text {change in volts (max 3.3v, min 0v)}}{\text {change in potentiometer reading}}
+\text{ rate of change } = \frac{\text {change in volts (max 3.3v, min 0v)}}{\text {change in potentiometer reading at (max and min)}}
 ```
 
 ```math
