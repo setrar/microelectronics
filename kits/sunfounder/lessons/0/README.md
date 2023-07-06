@@ -20,7 +20,7 @@ while True:
 stateDiagram-v2
     direction LR
     [*] --> GND : Pin 398
-    VSYS --> GP28 : (+)
+    GND --> GP28 : (+)
     GP28 --> [*] : Pin 34
 ```
 
