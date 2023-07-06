@@ -21,6 +21,8 @@ led = Pin(25, Pin.OUT)
 led.toggle()
 ```
 
+<img src=images/IMG_4395.jpg width='50%' height='50%' > </img>
+
 #### :two:  [Use digital inputs and outputs](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/6)
 
 ```mermaid
