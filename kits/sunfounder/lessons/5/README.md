@@ -13,3 +13,9 @@ while True:
     print(potVal)
     sleep(.5)
 ```
+
+```math
+
+m = \frac{(y_2 - y_1)}{(x_2 - x_1)} = \frac{(3.3 - 0)}{(65535 - 144)
+
+```
