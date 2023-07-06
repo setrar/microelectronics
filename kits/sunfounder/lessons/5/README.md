@@ -14,6 +14,13 @@ while True:
     sleep(.5)
 ```
 
+- [ ] Calculating the [Ratte of Change](https://www.varsitytutors.com/hotmath/hotmath_help/topics/rate-of-change)
+
+
+```math
+rateofchange = \frac{change in y}{change in x}
+```
+
 ```math
 m = \frac{(y_2 - y_1)}{(x_2 - x_1)} = \frac{(3.3 - 0)}{(65535 - 144)} = ( \frac{3.3}{65391} )
 ```
