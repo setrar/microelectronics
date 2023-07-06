@@ -81,3 +81,15 @@ while True:
 
 #### :four: [Control a LED with an analogue input](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/8)
 
+- [ ] Turn the potentiometer and observe the values (0 to 2^16)
+
+```python
+from machine import ADC, Pin
+import time
+
+adc = ADC(Pin(26))
+
+while True:
+    print(adc.read_u16())
+    time.sleep(1)
+```
