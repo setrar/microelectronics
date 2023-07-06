@@ -8,7 +8,7 @@
 | [:one:](README.md#one-blink-the-onboard-led) |  Blink the onboard LED |
 | [:two:](README.md#two--use-digital-inputs-and-outputs) | Use digital inputs and outputs |
 | [:three:](README.md#three--control-led-brightness-with--pwm) | Control LED brightness with PWM |
-| | Control an LED with an analogue input |
+| [:four:](README.md#four-control-an-led-with-an-analogue-input) | Control an LED with an analogue input |
 
 
 #### :one: [Blink the onboard LED](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/5)
