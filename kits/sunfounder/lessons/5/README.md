@@ -22,6 +22,10 @@ while True:
 ```
 
 ```math
+\text{ rate of change } = \frac{\text {change in volts (max 3.3v, min 0v)}}{\text {change in potentiometer reading}}
+```
+
+```math
 m = \frac{(y_2 - y_1)}{(x_2 - x_1)} = \frac{(3.3 - 0)}{(65535 - 144)} = ( \frac{3.3}{65391} )
 ```
 
