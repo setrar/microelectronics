@@ -30,6 +30,15 @@ while True:
 
 - [ ] [Getting started with Raspberry Pi Pico](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico)
 
+```mermaid
+stateDiagram-v2
+    direction LR
+    [*] --> GP15 : Pin 20
+    GP15 --> GND : (+)
+    GND --> [*] : Pin 38
+```
+
+
 ```python
 from machine import Pin, Timer
 led = Pin(15, Pin.OUT)
@@ -43,13 +52,6 @@ timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
 
 <img src=images/IMG_4390.jpg width='50%' height='50%' > </img>
 
-```mermaid
-stateDiagram-v2
-    direction LR
-    [*] --> GP15 : Pin 20
-    GP15 --> GND : (+)
-    GND --> [*] : Pin 38
-```
 
 ```python
 from machine import Pin
