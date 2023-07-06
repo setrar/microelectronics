@@ -7,6 +7,12 @@
 | [:tv: Raspberry Pi Pico W Lessons for Absolute Beginners Paul McWhorter](https://www.youtube.com/playlist?list=PLGs0VKk2DiYz8js1SJog21cDhkBqyAhC5) | [lessons](lessons) |
 
 
+[:snake: Thonny.org](https://thonny.org)
+
+```
+brew install --cask thonny
+```
+
 # References
 
 - [ ] [rp-pico v0.7.0: Board Support Package for the Raspberry Pi Pico](https://crates.io/crates/rp-pico)
