@@ -41,6 +41,14 @@ timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
 
 <img src=images/IMG_4390.jpg width='50%' height='50%' > </img>
 
+```mermaid
+stateDiagram-v2
+    direction LR
+    [*] --> GP15 : Pin 20
+    GP15 --> GND : (+)
+    GND --> [*] : Pin 38
+```
+
 ```python
 from machine import Pin
 import time
