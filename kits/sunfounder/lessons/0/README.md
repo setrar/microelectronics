@@ -19,9 +19,9 @@ while True:
 ```mermaid
 stateDiagram-v2
     direction LR
-    [*] --> VSYS : 39
+    [*] --> VSYS : Pin 39
     VSYS --> GP28 : (+)
-    GP28 --> [*] : 34
+    GP28 --> [*] : Pin 34
 ```
 
 <img src=images/IMG_4388.jpg width='50%' height='50%' > </img>
