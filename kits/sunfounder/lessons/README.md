@@ -5,7 +5,7 @@
 | Raspberry Pi Pico W LESSON([2](1)) | Understanding and Using Breadboards| |
 | Raspberry Pi Pico W LESSON([3](1)) | Understanding and Using Binary Numbers| |
 | Raspberry Pi Pico W LESSON([4](1)) | Create a Binary Counter Using the Pico W| |
-| Raspberry Pi Pico W LESSON([5](1)) | Reading Analog Voltages Using a Potentiometer| |
+| Raspberry Pi Pico W LESSON([5](5)) | Reading Analog Voltages Using a Potentiometer| |
 | Raspberry Pi Pico W LESSON([6](1)) | Understanding If Statements in MicroPython| |
 | Raspberry Pi Pico W LESSON([7](1)) | Controlling 3 LED with a Potentiometer in Micropython| |
 | Raspberry Pi Pico W LESSON([8](1)) | Compound Conditionals and If Statements in MicroPython| |
