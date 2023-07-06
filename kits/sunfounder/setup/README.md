@@ -39,6 +39,8 @@ def blink(timer):
 timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
 ```
 
+<img src=images/IMG_4390.jpg width='50%' height='50%' > </img>
+
 ```python
 from machine import Pin
 import time
@@ -51,3 +53,5 @@ while True:
         led.toggle()
         time.sleep(0.5)
 ```
+
+<img src=images/IMG_4391.jpg width='50%' height='50%' > </img>
