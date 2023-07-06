@@ -4,8 +4,8 @@
 |-|-|
 | [ :book: Euler Kit Documentation ](https://docs.sunfounder.com/projects/euler-kit) | |
 | [:octocat: euler-kit](https://github.com/sunfounder/euler-kit) | |
-| [:adhesive_bandage: examples](examples) | | 
 | [:tv: Raspberry Pi Pico W Lessons for Absolute Beginners](https://www.youtube.com/playlist?list=PLGs0VKk2DiYz8js1SJog21cDhkBqyAhC5) |  Paul McWhorter's [lessons](lessons) |
+| [:adhesive_bandage: examples](examples) | | 
 
 
 # References
