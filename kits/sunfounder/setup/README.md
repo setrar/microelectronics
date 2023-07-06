@@ -26,6 +26,15 @@ stateDiagram-v2
 
 <img src=images/IMG_4388.jpg width='50%' height='50%' > </img>
 
-# References
-
 - [ ] [Getting started with Raspberry Pi Pico](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico)
+
+```python
+from machine import Pin, Timer
+led = Pin(15, Pin.OUT)
+timer = Timer()
+
+def blink(timer):
+    led.toggle()
+
+timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
+```
