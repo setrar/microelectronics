@@ -6,13 +6,6 @@
 | [:octocat: euler-kit](https://github.com/sunfounder/euler-kit) | |
 | [:tv: Raspberry Pi Pico W Lessons for Absolute Beginners Paul McWhorter](https://www.youtube.com/playlist?list=PLGs0VKk2DiYz8js1SJog21cDhkBqyAhC5) | [lessons](lessons) |
 
-## :a: [Getting started with Raspberry Pi Pico](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico)
-
-[:snake: Thonny.org](https://thonny.org)
-
-```
-brew install --cask thonny
-```
 
 # References
 
