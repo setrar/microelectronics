@@ -40,3 +40,16 @@ while True:
 ```
 
 <img src=images/IMG_4391.jpg width='50%' height='50%' > </img>
+
+- [ ] [Use digital inputs and outputs](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/6)
+
+```python
+from machine import Pin, Timer
+led = Pin(15, Pin.OUT)
+timer = Timer()
+
+def blink(timer):
+    led.toggle()
+
+timer.init(freq=2.5, mode=Timer.PERIODIC, callback=blink)
+```
