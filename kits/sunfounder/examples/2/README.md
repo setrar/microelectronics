@@ -96,7 +96,7 @@ while True:
 
 - [ ] Turn the potentiometer and observe led 
 
-```
+```python
 from machine import Pin, PWM, ADC
 
 pwm = PWM(Pin(15))
@@ -108,3 +108,6 @@ while True:
     duty = adc.read_u16()
     pwm.duty_u16(duty)
 ```
+
+<img src=images/IMG_4394.jpg width='50%' height='50%' > </img>
+
