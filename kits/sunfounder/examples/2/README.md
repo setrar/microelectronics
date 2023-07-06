@@ -5,7 +5,7 @@
 
 | :hash: | Description |
 |-|-|
-| [:one:](#one-blink-the-onboard-led) | |
+| [:one:](README.md#one-blink-the-onboard-led) |  Blink the onboard LED |
 
 #### :one: [Blink the onboard LED](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/5)
 
