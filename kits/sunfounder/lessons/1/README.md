@@ -1,3 +1,10 @@
+# :one:
+
+[:snake: Thonny.org](https://thonny.org)
+
+```
+brew install --cask thonny
+```
 
 
 <img src=images/Install-Micro-Python.png width='50%' height='50%' > </img>
@@ -9,3 +16,7 @@ from machine import Pin
 myLED=Pin('LED',Pin.OUT)
 myLED.value(0)
 ```
+
+# References
+
+- [ ] [Getting started with Raspberry Pi Pico](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico)
