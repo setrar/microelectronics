@@ -76,3 +76,4 @@ while True:
        pwm.duty_u16(duty)
        sleep(0.0001)
 ```
+<img src=images/IMG_4390.jpg width='50%' height='50%' > </img>
