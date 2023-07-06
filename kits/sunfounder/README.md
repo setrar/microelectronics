@@ -2,7 +2,7 @@
 
 | | |
 |-|-|
-| [:snake2: PyProject](https://docs.sunfounder.com/projects/euler-kit/en/latest/pyproject/for_micropython_user.html) for the [ :book: Euler Kit ](https://docs.sunfounder.com/projects/euler-kit) | |
+| [:snake: PyProject](https://docs.sunfounder.com/projects/euler-kit/en/latest/pyproject/for_micropython_user.html) for the [ :book: Euler Kit ](https://docs.sunfounder.com/projects/euler-kit) | |
 | [:octocat: euler-kit](https://github.com/sunfounder/euler-kit) | |
 | [:tv: Raspberry Pi Pico W Lessons for Absolute Beginners](https://www.youtube.com/playlist?list=PLGs0VKk2DiYz8js1SJog21cDhkBqyAhC5) |  Paul McWhorter's [lessons](lessons) |
 | [:adhesive_bandage: examples](examples) | | 
