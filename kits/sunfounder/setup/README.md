@@ -25,3 +25,7 @@ stateDiagram-v2
 ```
 
 <img src=images/IMG_4388.jpg width='50%' height='50%' > </img>
+
+# References
+
+- [ ] [Getting started with Raspberry Pi Pico](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico)
