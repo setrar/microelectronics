@@ -58,7 +58,7 @@ while True:
 
 <img src=images/IMG_4391.jpg width='50%' height='50%' > </img>
 
-#### :three:  [Control LED brightness with PWM](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/7)
+#### :three:  [Control LED brightness with ](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/7) [PWM](https://en.wikipedia.org/wiki/Pulse-width_modulation)
 
 ```python
 from machine import Pin, PWM
