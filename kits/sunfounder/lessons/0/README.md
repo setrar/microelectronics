@@ -19,7 +19,7 @@ while True:
 ```mermaid
 stateDiagram-v2
     direction LR
-    [*] --> GND : Pin 398
+    [*] --> GND : Pin 38
     GND --> GP28 : (+)
     GP28 --> [*] : Pin 34
 ```
