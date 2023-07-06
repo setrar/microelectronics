@@ -5,9 +5,9 @@
 
 | :hash: | Description |
 |-|-|
-| [:one:](README#one- | |
+| [:one:](#one-blink-the-onboard-led) | |
 
-## :one: [Blink the onboard LED](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/5)
+#### :one: [Blink the onboard LED](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/5)
 
 
 ```python
@@ -17,7 +17,7 @@ led = Pin(25, Pin.OUT)
 led.toggle()
 ```
 
-## :two:  [Use digital inputs and outputs](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/6)
+#### :two:  [Use digital inputs and outputs](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/6)
 
 ```mermaid
 stateDiagram-v2
