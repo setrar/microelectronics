@@ -1,5 +1,7 @@
 :one: Raspberry Pi Pico W LESSON 1	Write Your First Program for Absolute Beginners
 
+:a: 1st Installation
+
 - [ ] Install [:snake: Thonny.org](https://thonny.org)
 
 ```
@@ -14,9 +16,11 @@ brew install --cask thonny
 
 <img src=images/Install-Micro-Python-UF2-bootloader.png width='50%' height='50%' > </img>
 
-- [ ] 
+- [ ] Select the Pico Pi on Thonny
 
 <img src=images/Select-Micro-Python,png.png width='50%' height='50%' > </img>
+
+:b: Testing
 
 ```python
 from machine import Pin
@@ -24,6 +28,3 @@ myLED=Pin('LED',Pin.OUT)
 myLED.value(0)
 ```
 
-# References
-
-- [ ] [Getting started with Raspberry Pi Pico](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico)
