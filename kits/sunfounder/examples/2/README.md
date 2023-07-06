@@ -96,7 +96,7 @@ while True:
 
 - [ ] Turn the potentiometer and observe led 
 
-```
+```python
 from machine import Pin, PWM, ADC
 
 pwm = PWM(Pin(15))
