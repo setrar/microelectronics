@@ -6,7 +6,7 @@
 | :hash: | Description |
 |-|-|
 | [:one:](README.md#one-blink-the-onboard-led) |  Blink the onboard LED |
-
+| [:two:](README.md#two--use-digital-inputs-and-outputs) | Use digital inputs and outputs |
 #### :one: [Blink the onboard LED](https://projects.raspberrypi.org/en/projects/getting-started-with-the-pico/5)
 
 
