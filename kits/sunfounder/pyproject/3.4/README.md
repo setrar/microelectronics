@@ -5,5 +5,5 @@
 
 
 
-<img src=images/upload-library.png width='50%' height='50%' > </img>
+<img src=images/upload-library.png width='25%' height='25%' > </img>
 <img src=images/IMG_4396.jpg width='50%' height='50%' > </img>
