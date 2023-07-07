@@ -14,5 +14,8 @@
 brew install oscilloscope
 ```
 
-<img src=images/IMG_4406.jpeg width=50% height=50% > </img>
-<img src=images/IMG_4407.jpeg width=50% height=50% > </img>
+- [ ] [Multimeter](https://en.wikipedia.org/wiki/Multimeter)
+* Measuring Volts (i.e. 110V AC) 
+<img src=images/IMG_4406.jpeg width=25% height=25% > </img>
+* Measuring Amps (i.e. mA Audio)
+<img src=images/IMG_4407.jpeg width=25% height=25% > </img>
