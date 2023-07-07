@@ -9,3 +9,7 @@
 - [ ] [Tektronix](https://www.tek.com/)
 - [ ] [10 Reasons Every Hobbyist needs an Oscilloscope](https://www.hackster.io/news/10-reasons-every-hobbyist-needs-an-oscilloscope-507df34f38d9)
 - [ ] [Oscilloscope! by Hansi Raber](https://oscilloscopemusic.com/software/oscilloscope/)
+
+```
+brew install oscilloscope
+```
