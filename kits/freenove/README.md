@@ -103,6 +103,7 @@ def setup():
    GPIO.setmode(GPIO.BOARD)
    GPIO.setup(ledPin, GPIO.OUT)
    GPIO.output(ledPin, GPIO.LOW)      # make ledPin output LOW level print ('using pin%d'%ledPin)
+   print ('using pin%d'%ledPin)
 
 def loop():
    while True:
