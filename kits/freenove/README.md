@@ -8,6 +8,40 @@
 
 [<img src=https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi/blob/master/List_Ultimate_RPi_Kit.jpg width=50% height=50% > </img>](https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi/blob/master/List_Ultimate_RPi_Kit.jpg)
 
+## :a: Starting
+
+```bash
+sudo apt-get update
+git clone https://github.com/WiringPi/WiringPi cd WiringPi
+./build
+```
+> Response :
+```python
+wiringPi Build script
+=====================
+
+
+WiringPi Library
+[UnInstall]
+[Compile] wiringPi.c
+...
+GPIO Utility
+[Compile] gpio.c
+[Compile] readall.c
+[Link]
+[Install]
+
+All Done.
+
+NOTE: To compile programs with wiringPi, you need to add:
+    -lwiringPi
+  to your compile line(s) To use the Gertboard, MaxDetect, etc.
+  code (the devLib), you need to also add:
+    -lwiringPiDev
+  to your compile line(s).
+```
+
+
 
 # References
 
