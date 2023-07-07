@@ -13,3 +13,6 @@
 ```
 brew install oscilloscope
 ```
+
+<img src=images/IMG_4406.jpeg width=50% height=50% > </img>
+<img src=images/IMG_4407.jpeg width=50% height=50% > </img>
