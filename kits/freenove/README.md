@@ -93,6 +93,39 @@ gpio readall
  +-----+-----+---------+------+---+---Pi 4B--+---+------+---------+-----+-----+
 ```
 
+```python
+import RPi.GPIO as GPIO
+import time
+
+ledPin = 11    # define ledPin
+
+def setup():
+   GPIO.setmode(GPIO.BOARD)
+   GPIO.setup(ledPin, GPIO.OUT)
+   GPIO.output(ledPin, GPIO.LOW) # make ledPin output LOW level print ('using pin%d'%ledPin)
+
+def loop():
+   while True:
+      GPIO.output(ledPin, GPIO.HIGH)  # make ledPin output HIGH level to turn on led
+      print ('led turned on >>>') # print information on terminal
+      time.sleep(1) # Wait for 1 second
+      GPIO.output(ledPin, GPIO.LOW) # make ledPin output LOW level to turn off led
+      print ('led turned off <<<')
+      time.sleep(1) # Wait for 1 second
+
+def destroy():
+    GPIO.cleanup() # Release all GPIO
+
+if __name__ == '__main__': # Program entrance
+    print ('Program is starting ... \n')
+    setup()
+    try:
+        loop()
+    except KeyboardInterrupt:   # Press ctrl-c to end the program.
+        destroy()
+
+```
+
 # References
 
 - [ ] [Raspberry Pi OS with desktop 64 bit Debian version: 11 (bullseye)](https://downloads.raspberrypi.org/raspios_arm64/images/raspios_arm64-2023-05-03/2023-05-03-raspios-bullseye-arm64.img.xz)
