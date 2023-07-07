@@ -172,3 +172,7 @@ gcc Blink.c -o Blink -lwiringPi ; \
 brew install --cask raspberry-pi-imager
 ```
 - [ ] [GPIO and the 40-pin Header](https://www.raspberrypi.com/documentation/computers/os.html#gpio-and-the-40-pin-header)
+- [ ] [Processing.io](https://processing.io)
+```
+brew install processing
+```
