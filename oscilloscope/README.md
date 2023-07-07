@@ -15,6 +15,7 @@ brew install oscilloscope
 ```
 
 - [ ] [:tv: How to use an oscilloscope / What is an oscilloscope / Oscilloscope tutorial](https://www.youtube.com/watch?v=CzY2abWCVTY)
+
       "The oscilloscope, it's a time machine" [@mjlorton](https://www.youtube.com/@mjlorton)
 
       - The multimeter is the still picture
