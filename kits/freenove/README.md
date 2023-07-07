@@ -43,7 +43,22 @@ NOTE: To compile programs with wiringPi, you need to add:
   to your compile line(s).
 ```
 
+```
+gpio -v
+```
+> Response
+```python
+gpio version: 2.70
+Copyright (c) 2012-2018 Gordon Henderson
+This is free software with ABSOLUTELY NO WARRANTY.
+For details type: gpio -warranty
 
+Raspberry Pi Details:
+  Type: Pi 4B, Revision: 01, Memory: 4096MB, Maker: Sony 
+  * Device tree is enabled.
+  *--> Raspberry Pi 4 Model B Rev 1.1
+  * This Raspberry Pi supports user-level GPIO access.
+```
 
 # References
 
