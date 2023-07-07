@@ -10,6 +10,8 @@
 
 ## :a: Starting
 
+:round_pushpin: WiringPi Installation Steps
+
 ```bash
 sudo apt-get update
 git clone https://github.com/WiringPi/WiringPi cd WiringPi
