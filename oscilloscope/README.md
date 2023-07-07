@@ -14,6 +14,12 @@
 brew install oscilloscope
 ```
 
+- [ ] [:tv: How to use an oscilloscope / What is an oscilloscope / Oscilloscope tutorial](https://www.youtube.com/watch?v=CzY2abWCVTY)
+      "The oscilloscope, it's a time machine" [@mjlorton](https://www.youtube.com/@mjlorton)
+
+      - The multimeter is the still picture
+      - The oscilloscope is the video of it
+
 - [ ] [Multimeter](https://en.wikipedia.org/wiki/Multimeter)
 * Measuring Volts (i.e. 117V at an expected 110V AC) 
 <img src=images/IMG_4406.jpeg width=25% height=25% > </img>
