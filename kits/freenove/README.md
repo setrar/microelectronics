@@ -93,6 +93,9 @@ gpio readall
  +-----+-----+---------+------+---+---Pi 4B--+---+------+---------+-----+-----+
 ```
 
+- [ ]  Tesst with :snake: Python
+
+
 ```python
 import RPi.GPIO as GPIO
 import time
@@ -127,6 +130,8 @@ if __name__ == '__main__':            # Program entrance
 
 ```
 
+- [ ] Test with `C`
+
 ```c
 #include <wiringPi.h>
 #include <stdio.h>
@@ -150,6 +155,8 @@ int main(void)
    }
 }
 ```
+
+- [ ] Compile and run
 
 ```
 gcc Blink.c -o Blink -lwiringPi ; \
