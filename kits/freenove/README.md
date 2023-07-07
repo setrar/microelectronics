@@ -158,7 +158,7 @@ int main(void)
 
 - [ ] Compile and run
 
-```
+```bash
 gcc Blink.c -o Blink -lwiringPi ; \
 ./Blink
 ```
