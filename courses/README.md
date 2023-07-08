@@ -1,5 +1,6 @@
 - [ ] [KhanAcademy Physics - SemiConductors](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors)
   - [ ] [Unit: Electronic structure of atoms](https://www.khanacademy.org/science/chemistry/electronic-structure-of-atoms)
+  - [ ] [9 Types of Transistors and How They Work ⚡ How a Transistor Works (Part 2)](https://www.youtube.com/watch?v=wEHSpsSZ3d8)
 
 |  :hash:            |  Episodes                                                                                | :grey_question:    |
 |--------------------|------------------------------------------------------------------------------------------|--------------------|
