@@ -15,6 +15,20 @@
 | [Transistor as a device](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-transistor-as-a-device) | |
 
 
+- [ ] [What is a transducer?](https://www.techtarget.com/whatis/definition/transducer)
+
+A `transducer` is an `electronic device` that `converts energy` from one form to another. Common examples include :
+* `microphones`,
+* loudspeakers,
+* thermometers,
+* position and pressure sensors,
+* and `antennas`.
+
+Although not generally thought of as transducers :
+* photocells,
+* LEDs (light-emitting diodes),
+* and even `common light bulbs` are transducers.
+
 - [ ] [How a Transistor Works :zap: What is a Transistor](https://www.youtube.com/watch?v=dpUAecLQNnw&list=PLra8hz8BV8EmpAXQvULfpwWHGT5yIr_7U)
   - [ ] [How a Transistor Works :zap: What is a Transistor](https://youtu.be/dpUAecLQNnw)
   - [ ] [9 Types of Transistors and How They Work :zap: How a Transistor Works (Part 2)](https://www.youtube.com/watch?v=wEHSpsSZ3d8)
