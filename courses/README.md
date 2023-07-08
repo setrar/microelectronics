@@ -6,20 +6,18 @@
   - [ ] [9 Types of Transistors and How They Work :zap: How a Transistor Works (Part 2)](https://www.youtube.com/watch?v=wEHSpsSZ3d8)
   - [ ] [The Problem of Quantum Physics in Transistors ⚡ How a Transistor Works (Part 3)](https://youtu.be/N9Yzv6GMOxY)
 
-|  :hash:            |  Episodes                                                                                | :grey_question:    |
-|--------------------|------------------------------------------------------------------------------------------|--------------------|
-| Lecture[(1)](1)    | [Band theory of solids](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-band-theory-of-solids) | |
-| Lecture[(1)](1)    | [Basics of semiconductors](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-basics-of-semiconductors) | |
-| Lecture[(1)](1)    | [The PN junction](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-the-pn-junction) | |
-| Lecture[(1)](1)    | [PN junction biasing](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-pn-junction-biasing) | |
-| Lecture[(1)](1)    | [Rectifiers](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-rectifiers) | |
-| Lecture[(1)](1)    | [Zener diode](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-zener-diode) | |
-| Lecture[(1)](1)    | [Optoelectronic devices](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#x51bd77206da864f3:optoelectronic-devices) | |
-| Lecture[(1)](1)    | [Transistors working](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-transistors) | |
-| Lecture[(1)](1)    | [Transistor characteristics](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-transistor-characteristics) | |
-| Lecture[(1)](1)    | [Transistor as a device](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-transistor-as-a-device) | |
-
-
+|  Episodes                                                                                | :grey_question:    |
+|------------------------------------------------------------------------------------------|--------------------|
+| [Band theory of solids](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-band-theory-of-solids) | |
+| [Basics of semiconductors](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-basics-of-semiconductors) | |
+| [The PN junction](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-the-pn-junction) | |
+| [PN junction biasing](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-pn-junction-biasing) | |
+| [Rectifiers](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-rectifiers) | |
+| [Zener diode](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-zener-diode) | |
+| [Optoelectronic devices](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#x51bd77206da864f3:optoelectronic-devices) | |
+| [Transistors working](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-transistors) | |
+| [Transistor characteristics](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-transistor-characteristics) | |
+| [Transistor as a device](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-transistor-as-a-device) | |
 
 - [ ] [:tv:@CircuitBread - CircuitBread](https://www.youtube.com/@CircuitBread)
 
