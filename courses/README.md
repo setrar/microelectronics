@@ -1,6 +1,6 @@
 # Courses
 
-| |
-|-|
-| [transducers](1.transducers) |
-| [semiconductors](2.semiconductors) |
+| :hash: | |
+|-|-|
+| :one: | [transducers](1.transducers) |
+| :two: | [semiconductors](2.semiconductors) |
