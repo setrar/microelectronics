@@ -1,11 +1,6 @@
 - [ ] [KhanAcademy Physics - SemiConductors](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors)
   - [ ] [Unit: Electronic structure of atoms](https://www.khanacademy.org/science/chemistry/electronic-structure-of-atoms)
 
-- [ ] [How a Transistor Works :zap: What is a Transistor](https://www.youtube.com/watch?v=dpUAecLQNnw&list=PLra8hz8BV8EmpAXQvULfpwWHGT5yIr_7U)
-  - [ ] [How a Transistor Works :zap: What is a Transistor](https://youtu.be/dpUAecLQNnw)
-  - [ ] [9 Types of Transistors and How They Work :zap: How a Transistor Works (Part 2)](https://www.youtube.com/watch?v=wEHSpsSZ3d8)
-  - [ ] [The Problem of Quantum Physics in Transistors ⚡ How a Transistor Works (Part 3)](https://youtu.be/N9Yzv6GMOxY)
-
 |  Episodes                                                                                | :grey_question:    |
 |------------------------------------------------------------------------------------------|--------------------|
 | [Band theory of solids](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-band-theory-of-solids) | |
@@ -18,6 +13,13 @@
 | [Transistors working](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-transistors) | |
 | [Transistor characteristics](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-transistor-characteristics) | |
 | [Transistor as a device](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-transistor-as-a-device) | |
+
+
+- [ ] [How a Transistor Works :zap: What is a Transistor](https://www.youtube.com/watch?v=dpUAecLQNnw&list=PLra8hz8BV8EmpAXQvULfpwWHGT5yIr_7U)
+  - [ ] [How a Transistor Works :zap: What is a Transistor](https://youtu.be/dpUAecLQNnw)
+  - [ ] [9 Types of Transistors and How They Work :zap: How a Transistor Works (Part 2)](https://www.youtube.com/watch?v=wEHSpsSZ3d8)
+  - [ ] [The Problem of Quantum Physics in Transistors ⚡ How a Transistor Works (Part 3)](https://youtu.be/N9Yzv6GMOxY)
+
 
 - [ ] [:tv:@CircuitBread - CircuitBread](https://www.youtube.com/@CircuitBread)
 
