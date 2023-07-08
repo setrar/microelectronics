@@ -18,7 +18,7 @@ while True:
 
 
 ```math
-\text{ rate of change } = \frac{\text {change in y}}{\text {change in x}}
+\text{ slope } = \frac{\text { rise }}{\text { run }} = \text{ rate of change } = \frac{\text {change in y}}{\text {change in x}}
 ```
 
 ```math
