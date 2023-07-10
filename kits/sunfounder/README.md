@@ -25,3 +25,11 @@
 *【Provided 113 Projects】This Pi Pico Kit contains 113 professional projects of varying complexity. In each lesson, we provide circuit diagrams, a description of how it works, and an explanation of the code.
 
 *【3 Programming Languages】Raspberry Pi Pico Ultimate kit features three programming languages to meet the needs of programmers of every level: 59 MicroPython lessons, 38 lessons in C/C++, and 16 lessons in Piper Make.
+
+:pushpin: Arduino IDE
+
+- [ ] [Arduino IDE 2.1.1](https://www.arduino.cc/en/software)
+
+```
+brew install --cask arduino-ide
+```
