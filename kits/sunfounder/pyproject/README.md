@@ -17,7 +17,7 @@
 | 2.12 | Feel the Light| |
 | 2.13 | Thermometer| |
 | 2.14 | Feel the Water Level| |
-| 2.15 | Two Kinds of Transistors| |
+| [2.15](2.15) | [Two Kinds of Transistors](https://docs.sunfounder.com/projects/euler-kit/en/latest/pyproject/py_transistor.html) | |
 | 2.16 | Control Another Circuit| |
 | 3. | Sound & Display & Movement| |
 | 3.1 | Beep| |
