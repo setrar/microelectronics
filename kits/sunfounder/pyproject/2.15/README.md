@@ -14,6 +14,8 @@ while True:
         signal.value(0)
 ```
 
+- [ ] S8050 Transistor
+
 <img src=images/IMG_0418.jpg width=50% height=50% > </img>
 
 
