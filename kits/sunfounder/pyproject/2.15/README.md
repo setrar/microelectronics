@@ -18,6 +18,10 @@ while True:
 
 <img src=images/IMG_0418.jpg width=50% height=50% > </img>
 
+- [ ] S8550 Transistor
+
+<img src=images/IMG_0419.jpg width=50% height=50% > </img>
+
 
 # References
 
