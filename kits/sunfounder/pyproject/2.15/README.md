@@ -1,6 +1,21 @@
 [2.15 Two Kinds of Transistors](https://docs.sunfounder.com/projects/euler-kit/en/latest/pyproject/py_transistor.html)
 
 
+```python
+import machine
+button = machine.Pin(14, machine.Pin.IN)
+signal = machine.Pin(15, machine.Pin.OUT)
+
+while True:
+    button_status = button.value()
+    if button_status== 1:
+        signal.value(1)
+    elif button_status == 0:
+        signal.value(0)
+```
+
+<img src=images/IMG_0418.jpg width=50% height=50% > </img>
+
 
 # References
 
