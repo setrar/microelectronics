@@ -44,7 +44,7 @@
 | Lecture[(1)](1)    | Solving Circuits with Superposition | Basic Circuits | CircuitBread Electronics Tutorials | |
 | Lecture[(1)](1)    | Thevenin Equivalent Circuits | Basic Circuits | Electronics Tutorials | |
 | Lecture[(1)](1)    | Norton Equivalent Circuits | Basic Circuits | |
-| Lecture[(1)](1)    | Intro to Op-Amps (Operational Amplifiers) | Basic Circuits | |
+| Lecture[(1)](1)    | [Intro to Op-Amps (Operational Amplifiers)](https://www.electronics-tutorials.ws/opamp) | Basic Circuits | |
 | Lecture[(1)](1)    | Op-Amp (Operational Amplifier) Practice Problems | |
 | Lecture[(1)](1)    | Voltage Follower - Operational Amplifier | Basic Circuits | Electronics Tutorials | |
 | Lecture[(1)](1)    | Inverting and Non-inverting Amplifiers - Op-amps | Basic Circuits #13 | |
