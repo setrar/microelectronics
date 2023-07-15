@@ -14,4 +14,5 @@ MicroElectronics Studies
 - [ ] [The History of the Semiconductor Photomask](https://www.youtube.com/watch?v=Pt9NEnWmyMo)
 > As a fundamental part of the lithography puzzle, the photomask has a fascinating history that goes all the way back to the very beginning.
 - [ ] [How VLSI Revolutionized Semiconductor Design](https://www.youtube.com/watch?v=XgbxFVyKMMo)
+- [ ] [How are microchips made?](https://www.youtube.com/watch?v=g8Qav3vIv9s)
 
