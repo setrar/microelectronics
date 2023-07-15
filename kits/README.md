@@ -8,3 +8,5 @@
 - [ ] [6502 computer project kits](https://eater.net/shop)
 
 If you’re interested in building your own [6502 computer](https://eater.net/6502), I provide a kit that includes all of the components used in my 6502 video series.****
+
+- [ ] [Is the EEPROM Programmer in the 6502 kit the best you can do for the price?](https://www.reddit.com/r/beneater/comments/u6tiko/is_the_eeprom_programmer_in_the_6502_kit_the_best)
