@@ -11,8 +11,7 @@ MicroElectronics Studies
 
 
 
-- [ ] [How VLSI Revolutionized Semiconductor Design](https://www.youtube.com/watch?v=XgbxFVyKMMo)
 - [ ] [The History of the Semiconductor Photomask](https://www.youtube.com/watch?v=Pt9NEnWmyMo)
-
 > As a fundamental part of the lithography puzzle, the photomask has a fascinating history that goes all the way back to the very beginning.
-> So in this video, we are going to look at this essential piece of the semiconductor manufacturing process from rubylith to EUV: The photomask. 
+- [ ] [How VLSI Revolutionized Semiconductor Design](https://www.youtube.com/watch?v=XgbxFVyKMMo)
+
