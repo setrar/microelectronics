@@ -25,6 +25,6 @@ brew install --cask thonny
 ```python
 from machine import Pin
 myLED=Pin('LED',Pin.OUT)
-myLED.value(0)
+myLED.value(1)
 ```
 
