@@ -32,7 +32,7 @@
 | 4.2 | 4x4 Keypad| |
 | 4.3 | Electrode Keyboard| |
 | 5. | Microchip| |
-| 5.1 | Microchip - 74HC595| |
+| 5.1 | [Microchip - 74HC595](https://docs.sunfounder.com/projects/euler-kit/en/latest/pyproject/py_74hc595_led.html)| |
 | 5.2 | Number Display| |
 | 5.3 | Time Counter| |
 | 5.4 | 8x8 Pixel Graphics| |
