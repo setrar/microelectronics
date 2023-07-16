@@ -1,6 +1,6 @@
 # :cl: C-Language
 
-| :hash: | |
+| :hash: | Episodes |
 |-|-|
 | [1](1) | Attaching a 7 segment LED via GPIO |                                                               
 | [1](1) | DHT-11, DHT-22, and AM2302 Sensors |                                                             
@@ -13,7 +13,13 @@
 | [1](1) | Attaching a BMP280 temp/pressure sensor via I2C |                                                  
 | [1](1) | Attaching a LIS3DH Nano Accelerometer via i2c |                                                    
 | [1](1) | Attaching a MCP9808 digital temperature sensor via I2C | 
-
+| [1](1) | Attaching a MMA8451 3-axis digital accelerometer via I2C |
+| [1](1) | Attaching an MPL3115A2 altimeter via I2C |
+| [1](1) | Attaching an OLED display via I2C |
+| [1](1) | Attaching a PA1010D Mini GPS module via I2C |
+| [1](1) | Attaching a PCF8523 Real Time Clock via I2C |
+| [1](1) | Interfacing 1-Wire devices to the Pico |
+| [1](1) | Communicating as master and slave via SPI |
 
 # References
 
