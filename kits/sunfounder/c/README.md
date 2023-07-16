@@ -24,3 +24,4 @@
 # References
 
 - [ ] [Raspberry Pi Pico C/C++ SDK](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf)
+- [ ] [How fast are the fast floating point functions?](https://forums.raspberrypi.com/viewtopic.php?t=308794)
