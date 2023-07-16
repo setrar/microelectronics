@@ -17,6 +17,7 @@
 | [Transistor as a device](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-transistor-as-a-device) | |
 
 
+:round_pushpin: [Op-Amps - Using Operational Amplifiers](https://www.youtube.com/watch?v=_HHxV-7alwE)
 
 
 - [ ] [How a Transistor Works :zap: What is a Transistor](https://www.youtube.com/watch?v=dpUAecLQNnw&list=PLra8hz8BV8EmpAXQvULfpwWHGT5yIr_7U)
