@@ -23,4 +23,4 @@
 |  Episodes                              |
 |----------------------------------------|
 | [How to use Breadboard?](https://www.youtube.com/watch?v=dFzF59Lv3LM) |
-| [Dependent Resistors (LDR, NTC, PTC and VDR)]([https://www.youtube.com/watch?v=523XkennY9I) |
+| [Dependent Resistors (LDR, NTC, PTC and VDR)](https://www.youtube.com/watch?v=523XkennY9I) |
