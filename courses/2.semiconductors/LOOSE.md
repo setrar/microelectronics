@@ -1,8 +1,6 @@
 
 
-- [ ] [bigclivedotcom](https://www.youtube.com/@bigclivedotcom)
-
-[A simple guide to electronic components.](https://www.youtube.com/watch?v=6Maq5IyHSuc)
+:roundd_pushpin: [A simple guide to electronic components.](https://www.youtube.com/watch?v=6Maq5IyHSuc) by [:tv:@bigclivedotcom](https://www.youtube.com/@bigclivedotcom)
 
 |  :hash:                                                      |  Episodes                              | :grey_question:    |
 |--------------------------------------------------------------|----------------------------------------|--------------------|
@@ -22,7 +20,3 @@
 
 [How to use Breadboard?](https://www.youtube.com/watch?v=dFzF59Lv3LM)
 [Dependent Resistors (LDR, NTC, PTC and VDR)]([https://www.youtube.com/watch?v=523XkennY9I)
-
-- [ ] [:tv:@CircuitBread - CircuitBread](https://www.youtube.com/@CircuitBread)
-
-[Intro to Op-Amps (Operational Amplifiers) | Basic Circuits](https://youtu.be/fmRHDqcodS4)
