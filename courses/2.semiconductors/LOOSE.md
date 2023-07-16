@@ -1,6 +1,6 @@
 
 
-:roundd_pushpin: [A simple guide to electronic components.](https://www.youtube.com/watch?v=6Maq5IyHSuc) by [:tv:@bigclivedotcom](https://www.youtube.com/@bigclivedotcom)
+:round_pushpin: [A simple guide to electronic components.](https://www.youtube.com/watch?v=6Maq5IyHSuc) by [:tv:@bigclivedotcom](https://www.youtube.com/@bigclivedotcom)
 
 |  :hash:                                                      |  Episodes                              | :grey_question:    |
 |--------------------------------------------------------------|----------------------------------------|--------------------|
