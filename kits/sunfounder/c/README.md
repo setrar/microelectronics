@@ -1,5 +1,7 @@
 # :cl: C-Language
 
+| |
+|-|
 | Attaching a 7 segment LED via GPIO |                                                               
 | DHT-11, DHT-22, and AM2302 Sensors |                                                             
 | Attaching a 16x2 LCD via TTL |                                                                     
