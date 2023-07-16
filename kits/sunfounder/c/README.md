@@ -1,4 +1,4 @@
-# :cl: C-Language
+# :cl: C SDK
 
 | :hash: | Episodes |
 |-|-|
@@ -25,3 +25,4 @@
 
 - [ ] [Raspberry Pi Pico C/C++ SDK](https://datasheets.raspberrypi.com/pico/raspberry-pi-pico-c-sdk.pdf)
 - [ ] [How fast are the fast floating point functions?](https://forums.raspberrypi.com/viewtopic.php?t=308794)
+- [ ] [Quick-start your own project](https://www.raspberrypi.com/documentation/microcontrollers/c_sdk.html#quick-start-your-own-project)
