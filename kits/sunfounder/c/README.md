@@ -24,11 +24,24 @@ git submodule update --init
 
 - [ ] Setup a `CMakeLists.txt` like:
 
+* put the `PICO_SDK_PATH` in `.bashrc`
+
+```
+echo "export PICO_SDK_PATH=~/Developer/pico-sdk" >> ~/.bash_aliases
+```
+
+* `source ~/.bash_aliases` or exit the terminal
+
+```
+source ~/.bash_aliases
+```
+
 ```cmake
 cmake_minimum_required(VERSION 3.13)
 
-# initialize the SDK directly
-include(~/Developer/pico-sdk/pico_sdk_init.cmake)
+# initialize the SDK based on PICO_SDK_PATH
+# note: this must happen before project()
+include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 
 project(my_project)
 
