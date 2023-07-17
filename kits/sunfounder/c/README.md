@@ -2,7 +2,9 @@
 
 :gear: Install [Pico SDK](https://github.com/raspberrypi/pico-sdk)
 
-
+```bash
+sudo apt install cmake gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib
+```
 
 :books: Examples
 
