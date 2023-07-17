@@ -21,7 +21,7 @@ git clone https://github.com/raspberrypi/pico-sdk.git
 cmake_minimum_required(VERSION 3.13)
 
 # initialize the SDK directly
-include(/path/to/pico-sdk/pico_sdk_init.cmake)
+include(~/Developer/pico-sdk/pico_sdk_init.cmake)
 
 project(my_project)
 
