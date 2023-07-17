@@ -93,7 +93,7 @@ gpio readall
 +-----+-----+---------+------+---+---Pi 4B--+---+------+---------+-----+-----+
 ```
 
-- [ ]  Tesst with :snake: Python
+- [ ]  Test with :snake: Python
 
 
 ```python
