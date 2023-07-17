@@ -94,7 +94,7 @@ cmake ..
 - [ ] Make the program
 
 ```
-make hello_ussb
+make hello_usb
 ```
 
 :books: Examples
