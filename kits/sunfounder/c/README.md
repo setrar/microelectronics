@@ -84,6 +84,13 @@ elseif(PICO_ON_DEVICE)
 endif()
 ```
 
+- [ ] Build the program
+
+```
+mkdir build ; cd build ; \
+cmake ..
+```
+
 - [ ] Make the program
 
 ```
