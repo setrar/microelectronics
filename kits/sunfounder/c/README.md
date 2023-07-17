@@ -14,6 +14,23 @@ sudo apt install cmake gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-n
 git clone https://github.com/raspberrypi/pico-sdk.git
 ```
 
+
+- [ ] Setup a `CMakeLists.txt` like:
+
+```cmake
+cmake_minimum_required(VERSION 3.13)
+
+# initialize the SDK directly
+include(/path/to/pico-sdk/pico_sdk_init.cmake)
+
+project(my_project)
+
+# initialize the Raspberry Pi Pico SDK
+pico_sdk_init()
+
+# rest of your project
+```
+
 :books: Examples
 
 | :hash: | Episodes |
