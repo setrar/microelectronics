@@ -14,6 +14,13 @@ sudo apt install cmake gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-n
 git clone https://github.com/raspberrypi/pico-sdk.git
 ```
 
+- [ ] Init submodules to avoid `TinyUSB submodule is not initialized in the SDK`
+
+
+```
+git submodule update --init
+```
+
 
 - [ ] Setup a `CMakeLists.txt` like:
 
@@ -72,11 +79,15 @@ if (TARGET tinyusb_device)
     # create map/bin/hex/uf2 file etc.
     pico_add_extra_outputs(hello_usb)
 
-    # add url via pico_set_program_url
-    example_auto_set_url(hello_usb)
 elseif(PICO_ON_DEVICE)
     message(WARNING "not building hello_usb because TinyUSB submodule is not initialized in the SDK")
 endif()
+```
+
+- [ ] Make the program
+
+```
+make hello_ussb
 ```
 
 :books: Examples
