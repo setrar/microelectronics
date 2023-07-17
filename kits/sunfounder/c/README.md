@@ -1,5 +1,11 @@
 # :cl: C SDK
 
+:gear: Install [Pico SDK](https://github.com/raspberrypi/pico-sdk)
+
+
+
+:books: Examples
+
 | :hash: | Episodes |
 |-|-|
 | [1](1) | Attaching a 7 segment LED via GPIO |                                                               
