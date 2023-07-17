@@ -33,7 +33,7 @@ pico_sdk_init()
 
 - [ ] Write your code (see pico-examples or the Raspberry Pi Pico C/C++ SDK documentation for more information)
 
-About the simplest you can do is a single source file (e.g. hello_world.c)
+About the simplest you can do is a single source file (e.g. hello_usb.c)
 
 ```c
 /**
@@ -57,15 +57,26 @@ int main() {
 And add the following to your CMakeLists.txt:
 
 ```cmake
-add_executable(hello_world
-    hello_world.c
-)
+if (TARGET tinyusb_device)
+    add_executable(hello_usb
+            hello_usb.c
+            )
 
-# Add pico_stdlib library which aggregates commonly used features
-target_link_libraries(hello_world pico_stdlib)
+    # pull in common dependencies
+    target_link_libraries(hello_usb pico_stdlib)
 
-# create map/bin/hex/uf2 file in addition to ELF.
-pico_add_extra_outputs(hello_world)
+    # enable usb output, disable uart output
+    pico_enable_stdio_usb(hello_usb 1)
+    pico_enable_stdio_uart(hello_usb 0)
+
+    # create map/bin/hex/uf2 file etc.
+    pico_add_extra_outputs(hello_usb)
+
+    # add url via pico_set_program_url
+    example_auto_set_url(hello_usb)
+elseif(PICO_ON_DEVICE)
+    message(WARNING "not building hello_usb because TinyUSB submodule is not initialized in the SDK")
+endif()
 ```
 
 :books: Examples
