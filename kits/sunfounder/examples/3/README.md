@@ -4,13 +4,20 @@
 ```python
 #Code for Simple Rasberry Pi PICO Web server
 #Using ESP8266 wifi module
+
+# First we need to import required libraries.
+
 from machine import UART
 import machine
 import _thread
 import time
+
+# Then we configure UART-0 of Raspberry Pi Pico with a baud rate of 115200 & print status in a serial terminal.
+
 uart = UART(0,115200)
 print('UART Serial')
 print('>', end='')
+
 def uartSerialRxMonitor(command):
     recv=bytes()
     while uart.any()>0:
@@ -19,16 +26,19 @@ def uartSerialRxMonitor(command):
     erase_len=len(command)+5
     res = res[erase_len:]
     return res
+
 #configure as SoftAP+station mode
 send='AT+CWMODE=3'
 uart.write(send+'\r\n')
 time.sleep(1)
+
 #Set SoftAP name
 send='AT+CWSAP="pos_softap","",11,0,3'
 uart.write(send+'\r\n')
 time.sleep(1)
 res=uartSerialRxMonitor(send)
 print(res)
+
 #enable multi connection mode
 send='AT+CIPMUX=1'
 uart.write(send+'\r\n')
