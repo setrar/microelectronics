@@ -33,3 +33,8 @@
 ```
 brew install --cask arduino-ide
 ```
+
+:cloud_with_lightning: Flash Nuke
+
+- [ ] [With CirtuitPython](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/circuitpython)
+
