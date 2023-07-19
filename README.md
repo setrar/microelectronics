@@ -18,3 +18,7 @@ MicroElectronics Studies
 - [ ] [How VLSI Revolutionized Semiconductor Design](https://www.youtube.com/watch?v=XgbxFVyKMMo)
 - [ ] [How are microchips made?](https://www.youtube.com/watch?v=g8Qav3vIv9s)
 
+
+:round_pushpin: Trend
+
+- [ ] [Microelectronic Medical Implants Market is Booming in upcoming Years 2028](https://www.wicz.com/story/48526014/microelectronic-medical-implants-market-is-booming-in-upcoming-years-2028)
