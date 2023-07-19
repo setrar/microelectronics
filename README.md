@@ -22,3 +22,4 @@ MicroElectronics Studies
 :round_pushpin: Trend
 
 - [ ] [Microelectronic Medical Implants Market is Booming in upcoming Years 2028](https://www.wicz.com/story/48526014/microelectronic-medical-implants-market-is-booming-in-upcoming-years-2028)
+- [ ] [Microelectronics Market Size USD 677.92 Billion by 2030](https://www.vantagemarketresearch.com/industry-report/microelectronics-market-1579)
