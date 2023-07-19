@@ -98,3 +98,7 @@ Cargo's bin directory ($HOME/.cargo/bin).
 To configure your current shell, run:
 source "$HOME/.cargo/env"
 ```
+
+# References
+
+- [ ] [rustup is an installer for the systems programming language Rust](https://rustup.rs/)
