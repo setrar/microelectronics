@@ -49,7 +49,52 @@ Current installation options:
 1) Proceed with installation (default)
 2) Customize installation
 3) Cancel installation
-> 1
 ```
 
- 
+- [ ] 1) Proceed with installation (default)
+
+```
+> 1
+```
+> Response :
+```rust
+
+info: profile set to 'default'
+info: default host triple is aarch64-unknown-linux-gnu
+info: syncing channel updates for 'stable-aarch64-unknown-linux-gnu'
+info: latest update on 2023-07-13, rust version 1.71.0 (8ede3aae2 2023-07-12)
+info: downloading component 'cargo'
+info: downloading component 'clippy'
+info: downloading component 'rust-docs'
+ 13.6 MiB /  13.6 MiB (100 %)  11.3 MiB/s in  1s ETA:  0s
+info: downloading component 'rust-std'
+ 30.9 MiB /  30.9 MiB (100 %)  11.2 MiB/s in  4s ETA:  0s
+info: downloading component 'rustc'
+ 74.8 MiB /  74.8 MiB (100 %)  11.1 MiB/s in 14s ETA:  0s
+info: downloading component 'rustfmt'
+info: installing component 'cargo'
+  6.7 MiB /   6.7 MiB (100 %)   5.7 MiB/s in  1s ETA:  0s
+info: installing component 'clippy'
+info: installing component 'rust-docs'
+ 13.6 MiB /  13.6 MiB (100 %)   1.0 MiB/s in 20s ETA:  0s
+info: installing component 'rust-std'
+ 30.9 MiB /  30.9 MiB (100 %)   4.0 MiB/s in  9s ETA:  0s
+  6 IO-ops /   6 IO-ops (100 %)   0 IOPS in 14s ETA: Unknown
+info: installing component 'rustc'
+ 74.8 MiB /  74.8 MiB (100 %)   5.4 MiB/s in 27s ETA:  0s
+  9 IO-ops /   9 IO-ops (100 %)   0 IOPS in 19s ETA: Unknown
+info: installing component 'rustfmt'
+info: default toolchain set to 'stable-aarch64-unknown-linux-gnu'
+
+  stable-aarch64-unknown-linux-gnu installed - rustc 1.71.0 (8ede3aae2 2023-07-12)
+
+
+Rust is installed now. Great!
+
+To get started you may need to restart your current shell.
+This would reload your PATH environment variable to include
+Cargo's bin directory ($HOME/.cargo/bin).
+
+To configure your current shell, run:
+source "$HOME/.cargo/env"
+```
