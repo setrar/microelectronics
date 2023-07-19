@@ -6,7 +6,7 @@
 | [:octocat: euler-kit](https://github.com/sunfounder/euler-kit) | |
 | [:tv: Raspberry Pi Pico W Lessons for Absolute Beginners](https://www.youtube.com/playlist?list=PLGs0VKk2DiYz8js1SJog21cDhkBqyAhC5) |  Paul McWhorter's [lessons](lessons) |
 | [:adhesive_bandage: examples](examples) | | 
-
+| [:snake: micropython :camera_flash:  rp2-pico-latest.uf2](https://micropython.org/download/rp2-pico/rp2-pico-latest.uf2) | |
 
 # References
 
