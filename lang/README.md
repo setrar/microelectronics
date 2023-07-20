@@ -130,6 +130,19 @@ cargo add rp-pico
     Updating crates.io index
 ```
 
+```
+cargo add cortex-m-rt
+```
+> Response:
+```rust
+    Updating crates.io index
+      Adding cortex-m-rt v0.7.3 to dependencies.
+             Features:
+             - device
+             - set-sp
+             - set-vtor
+```
+
 # References
 
 - [ ] [rustup is an installer for the systems programming language Rust](https://rustup.rs/)
