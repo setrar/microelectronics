@@ -5,7 +5,8 @@
 | [How can I build my own semiconductor company?](#catgpt-how-can-i-build-my-own-semiconductor-company) |
 | [How do I create my own semiconductor foundry?](#catgpt-how-do-i-create-my-own-semiconductor-foundry) |
 | [What Technology and Equipment is required to make my own semiconductor foundry?](#catgpt-what-technology-and-equipment-is-required-to-make-my-own-semiconductor-foundry) |
-
+| [how long does it take to create a foundry?](#catgpt-how-long-does-it-take-to-create-a-foundry) |
+ 
 #### :cat:GPT how can I build my own semiconductor company?
 
 Building your own semiconductor company is a complex and challenging endeavor that requires significant expertise, resources, and capital investment. Below are the general steps you can follow to start your semiconductor company:
