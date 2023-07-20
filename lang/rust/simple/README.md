@@ -1,4 +1,4 @@
-# Languages
+# simple
 
 This is an attempt to compile the Pico Pi with Rust.
 
@@ -9,11 +9,11 @@ This is an attempt to compile the Pico Pi with Rust.
 - [ ] [rp-pico - Board Support for the Raspberry Pi Pico - From Scratch](https://crates.io/crates/rp-pico/#:~:text=From,Scratch)
 
 ```
-cargo new blink
+cargo new simple
 ```
 
 ```
-cd blink
+cd simple
 ```
 
 
