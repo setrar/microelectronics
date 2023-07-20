@@ -99,7 +99,7 @@ To configure your current shell, run:
 source "$HOME/.cargo/env"
 ```
 
-- [ ] [rp-pico - Board Support for the Raspberry Pi Pico - From Scratch]https://crates.io/crates/rp-pico/#:~:text=From,Scratch
+- [ ] [rp-pico - Board Support for the Raspberry Pi Pico - From Scratch](https://crates.io/crates/rp-pico/#:~:text=From,Scratch)
 
 # References
 
