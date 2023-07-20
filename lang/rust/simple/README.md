@@ -6,7 +6,7 @@ This is an attempt to compile the Pico Pi with Rust.
 - [ ] Prequisite: Install [Rust](../install)
 
 
-- [ ] [rp-pico - Board Support for the Raspberry Pi Pico - From Scratch](https://crates.io/crates/rp-pico/#:~:text=From,Scratch) - use this for Cortex-M0 and Cortex-M0+.
+- [ ] [rp-pico - Board Support for the Raspberry Pi Pico - From Scratch](https://crates.io/crates/rp-pico/#:~:text=From,Scratch)
 
 ```
 cargo new simple && cd simple
@@ -51,7 +51,7 @@ mkdir .cargo && curl -o .cargo/config https://raw.githubusercontent.com/rp-rs/rp
 curl -o memory.x https://raw.githubusercontent.com/rp-rs/rp-hal-boards/main/memory.x
 ```
 
-- [ ] Add the targeted platform [`thumbv6m-none-eabi`](https://mynewt.apache.org/v1_9_0/tutorials/other/rust.html#:~:text=targets,syscfg)
+- [ ] Add the targeted platform [`thumbv6m-none-eabi`](https://mynewt.apache.org/v1_9_0/tutorials/other/rust.html#:~:text=targets,syscfg)  - use this for Cortex-M0 and Cortex-M0+.
 
 ```
 rustup target add thumbv6m-none-eabi
