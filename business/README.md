@@ -1,6 +1,6 @@
 
 
-| TOC | Commentss |
+| TOC | Comments |
 |-|-|
 | [How can I build my own semiconductor company?](#catgpt-how-can-i-build-my-own-semiconductor-company) |
 | [How do I create my own semiconductor foundry?](#catgpt-how-do-i-create-my-own-semiconductor-foundry) |
