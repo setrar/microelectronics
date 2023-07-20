@@ -16,7 +16,8 @@ cargo new simple && cd simple
 
 ```
 cargo add rp-pico ; \
-cargo add cortex-m-rt
+cargo add cortex-m-rt ; \
+cargo add panic-halt
 ```
 > Response:
 ```rust
@@ -33,39 +34,36 @@ cargo add cortex-m-rt
              - rom-v2-intrinsics
              - rp2040-e5
     Updating crates.io index
-```
-
-```
-```
-> Response:
-```rust
-    Updating crates.io index
       Adding cortex-m-rt v0.7.3 to dependencies.
              Features:
              - device
              - set-sp
              - set-vtor
-```
-
-```
-cargo add panic-halt
-```
-> Response:
-```rust
     Updating crates.io index
       Adding panic-halt v0.2.0 to dependencies.
     Updating crates.io index
 ```
 
-```
-mkdir .cargo && curl -o .cargo/config https://raw.githubusercontent.com/rp-rs/rp-hal-boards/main/.cargo/config
-```
+- [ ] Downloading the config files
 
 ```
+mkdir .cargo && curl -o .cargo/config https://raw.githubusercontent.com/rp-rs/rp-hal-boards/main/.cargo/config &&
 curl -o memory.x https://raw.githubusercontent.com/rp-rs/rp-hal-boards/main/memory.x
 ```
 
-src/main.rs
+- [ ] Add the targeted platform [`thumbv6m-none-eabi`](https://mynewt.apache.org/v1_9_0/tutorials/other/rust.html#:~:text=targets,syscfg)
+
+```
+rustup target add thumbv6m-none-eabi
+```
+> Response:
+```rust
+info: downloading component 'rust-std' for 'thumbv6m-none-eabi'
+info: installing component 'rust-std' for 'thumbv6m-none-eabi'
+  8.0 MiB /   8.0 MiB (100 %)   5.0 MiB/s in  1s ETA:  0s
+```
+
+- [ ] Write the code `src/main.rs`
 
 ```rust
 #![no_std]
@@ -78,17 +76,6 @@ fn see_doesnt_have_to_be_called_main() -> ! {
 }
 ```
 
-- [ ] Add the platform target `thumbv6m-none-eabi`
-
-```
-rustup target add thumbv6m-none-eabi
-```
-> Response:
-```rust
-info: downloading component 'rust-std' for 'thumbv6m-none-eabi'
-info: installing component 'rust-std' for 'thumbv6m-none-eabi'
-  8.0 MiB /   8.0 MiB (100 %)   5.0 MiB/s in  1s ETA:  0s
-```
 
 - [ ] run the app
 
