@@ -99,6 +99,94 @@ To configure your current shell, run:
 source "$HOME/.cargo/env"
 ```
 
+- [ ] Prerequisites 
+
+```
+sudo apt-get install libudev-dev
+```
+> Response:
+```bash
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  libfuse2
+Use 'sudo apt autoremove' to remove it.
+The following NEW packages will be installed:
+  libudev-dev
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 123 kB of archives.
+After this operation, 213 kB of additional disk space will be used.
+Get:1 http://deb.debian.org/debian bullseye/main arm64 libudev-dev arm64 247.3-7+deb11u2 [123 kB]
+Fetched 123 kB in 0s (912 kB/s) 
+Selecting previously unselected package libudev-dev:arm64.
+(Reading database ... 96913 files and directories currently installed.)
+Preparing to unpack .../libudev-dev_247.3-7+deb11u2_arm64.deb ...
+Unpacking libudev-dev:arm64 (247.3-7+deb11u2) ...
+Setting up libudev-dev:arm64 (247.3-7+deb11u2) ...
+Processing triggers for man-db (2.9.4-2) ...
+```
+
+```
+cargo install elf2uf2-rs
+```
+> Response
+```cargo
+    Updating crates.io index
+  Installing elf2uf2-rs v1.3.8
+    Updating crates.io index
+   Compiling autocfg v1.1.0
+   Compiling libc v0.2.147
+   Compiling proc-macro2 v1.0.66
+   Compiling cfg-if v1.0.0
+   Compiling unicode-ident v1.0.11
+   Compiling crossbeam-utils v0.8.16
+   Compiling version_check v0.9.4
+   Compiling memoffset v0.9.0
+   Compiling syn v1.0.109
+   Compiling quote v1.0.31
+   Compiling crossbeam-epoch v0.9.15
+   Compiling scopeguard v1.2.0
+   Compiling proc-macro-error-attr v1.0.4
+   Compiling pkg-config v0.3.27
+   Compiling libudev-sys v0.1.4
+   Compiling crossbeam-channel v0.5.8
+   Compiling proc-macro-error v1.0.4
+   Compiling rayon-core v1.11.0
+   Compiling num_cpus v1.16.0
+   Compiling crossbeam-deque v0.8.3
+   Compiling indexmap v1.9.3
+   Compiling bitflags v1.3.2
+   Compiling hashbrown v0.12.3
+   Compiling either v1.8.1
+   Compiling once_cell v1.18.0
+   Compiling os_str_bytes v6.5.1
+   Compiling heck v0.4.1
+   Compiling static_assertions v1.1.0
+   Compiling nix v0.26.2
+   Compiling clap_lex v0.2.4
+   Compiling rayon v1.7.0
+   Compiling libudev v0.3.0
+   Compiling zerocopy-derive v0.3.2
+   Compiling clap_derive v3.2.25
+   Compiling atty v0.2.14
+   Compiling bitflags v2.0.2
+   Compiling strsim v0.10.0
+   Compiling textwrap v0.16.0
+   Compiling termcolor v1.2.0
+   Compiling byteorder v1.4.3
+   Compiling zerocopy v0.6.1
+   Compiling sysinfo v0.28.4
+   Compiling clap v3.2.25
+   Compiling serialport v4.2.1
+   Compiling pbr v1.1.1
+   Compiling assert_into v1.1.0
+   Compiling elf2uf2-rs v1.3.8
+    Finished release [optimized] target(s) in 2m 17s
+  Installing /home/pi/.cargo/bin/elf2uf2-rs
+   Installed package `elf2uf2-rs v1.3.8` (executable `elf2uf2-rs`)
+```
+
 - [ ] [rp-pico - Board Support for the Raspberry Pi Pico - From Scratch](https://crates.io/crates/rp-pico/#:~:text=From,Scratch)
 
 ```
@@ -239,3 +327,4 @@ cargo run
 - [ ] [rustup is an installer for the systems programming language Rust](https://rustup.rs/)
 - [ ] [rp-pico - Board Support for the Raspberry Pi Pico](https://crates.io/crates/rp-pico)
 - [ ] [.cargo/config.toml in your project](https://doc.rust-lang.org/cargo/reference/config.html#:~:text=level%20of%20discovered%20.-,cargo%2Fconfig.,as%20%2Fmy%2Fproject%2F.)
+- [ ] [libudev development package not found](https://stackoverflow.com/questions/55945023/libudev-development-package-not-found)
