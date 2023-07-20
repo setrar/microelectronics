@@ -7,7 +7,8 @@ cargo new blinky && cd blinky
 
 ```
 cargo add rp-pico ; \
-cargo add cortex-m-rt ; \
+cargo add cortex-m ; \
+cargo add embedded-hal ; \
 cargo add panic-halt
 ```
 > Response:
