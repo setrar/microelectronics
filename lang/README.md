@@ -339,6 +339,7 @@ cargo run
     Finished dev [unoptimized + debuginfo] target(s) in 1m 37s
      Running `elf2uf2-rs -d target/thumbv6m-none-eabi/debug/blink`
 ```
+> Error: "Unable to find mounted pico"
 
 # References
 
