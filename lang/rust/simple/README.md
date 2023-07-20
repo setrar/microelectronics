@@ -3,7 +3,7 @@
 This is an attempt to compile the Pico Pi with Rust.
 
 
-- [ ] Prequisite: Install [Rust](install)
+- [ ] Prequisite: Install [Rust](../install)
 
 
 - [ ] [rp-pico - Board Support for the Raspberry Pi Pico - From Scratch](https://crates.io/crates/rp-pico/#:~:text=From,Scratch)
