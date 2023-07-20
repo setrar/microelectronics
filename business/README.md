@@ -105,3 +105,4 @@ Establishing a semiconductor foundry requires significant capital investment and
 # References
 
 - [ ] [Semiconductor fabrication plant](https://en.wikipedia.org/wiki/Semiconductor_fabrication_plant)
+- [ ] [Foundry model](https://en.wikipedia.org/wiki/Foundry_model)
