@@ -161,6 +161,19 @@ mkdir .cargo && curl -o .cargo/config https://raw.githubusercontent.com/rp-rs/rp
 curl -o memory.x https://raw.githubusercontent.com/rp-rs/rp-hal-boards/main/memory.x
 ```
 
+src/main.rs
+
+```rust
+#![no_std]
+#![no_main]
+use rp_pico::entry;
+use panic_halt as _;
+#[entry]
+fn see_doesnt_have_to_be_called_main() -> ! {
+  loop {}
+}
+```
+
 # References
 
 - [ ] [rustup is an installer for the systems programming language Rust](https://rustup.rs/)
