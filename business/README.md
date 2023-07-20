@@ -155,6 +155,32 @@ As of my last update in September 2021, the TWINSCAN XT:1900i lithography system
 
 For the most current and accurate pricing information, I recommend reaching out to ASML or their authorized distributors, as they can provide you with up-to-date quotes and details specific to your needs and location. Keep in mind that semiconductor manufacturing equipment is a significant investment, and the costs involved may require thorough consideration and planning.
 
+#### [Photolithography | Its Importance in Semiconductor Manufacturing](https://www.waferworld.com/post/photolithography-its-importance-in-semiconductor-manufacturing)
+
+- [ ] What is Photolithography?
+
+Photolithography is a process used in microfabrication to transfer geometric patterns to a film or substrate. Geometric shapes and patterns on a semiconductor make up the complex structures that allow the dopants, electrical properties and wires to complete a circuit and fulfill a technological purpose.
+
+#### :cat:GPT What is the Photolithography Process?
+
+Photolithography is a key process used in semiconductor manufacturing to transfer patterns onto silicon wafers or other substrates. It is a crucial step in creating integrated circuits (ICs) and other microdevices. The photolithography process involves several essential steps:
+
+1. Substrate Preparation: The process begins with a clean semiconductor wafer or substrate. The wafer is typically made of silicon and is polished to a high degree of flatness.
+
+2. Photoresist Coating: A layer of photoresist is deposited onto the substrate. Photoresist is a light-sensitive material that can be chemically altered when exposed to light.
+
+3. Exposure: The wafer is exposed to a mask or reticle that contains the desired pattern. This mask is like a stencil with the pattern of the circuit or device to be created. The mask is placed in close proximity to the wafer, and light (usually ultraviolet light) is shone through the mask onto the photoresist-coated wafer. The pattern on the mask is projected onto the wafer's surface, creating a latent image in the photoresist.
+
+4. Photoresist Development: The exposed photoresist is developed, which removes the areas that were exposed to light, leaving behind a patterned photoresist layer on the wafer.
+
+5. Etching: The patterned photoresist layer acts as a protective mask during the etching process. The wafer is exposed to chemical or plasma etching, which removes the exposed areas of the substrate. This transfers the pattern from the photoresist onto the wafer surface.
+
+6. Photoresist Stripping: After the etching process, the remaining photoresist is stripped away, leaving the patterned substrate with the desired circuit or device structure.
+
+7. Repeat: The photolithography process may be repeated multiple times with different masks and photoresist layers to create the various layers of the integrated circuit.
+
+This process is highly precise and is repeated for each layer of the IC, allowing for the creation of complex integrated circuits with nanometer-scale features. Photolithography is a fundamental technology that enables the miniaturization and increased functionality of modern semiconductor devices.
+
 # References
 
 - [ ] [Semiconductor fabrication plant](https://en.wikipedia.org/wiki/Semiconductor_fabrication_plant)
