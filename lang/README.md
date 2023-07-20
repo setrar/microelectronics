@@ -143,6 +143,17 @@ cargo add cortex-m-rt
              - set-vtor
 ```
 
+```
+cargo add panic-halt
+```
+> Response:
+```rust
+    Updating crates.io index
+      Adding panic-halt v0.2.0 to dependencies.
+    Updating crates.io index
+```
+
+
 # References
 
 - [ ] [rustup is an installer for the systems programming language Rust](https://rustup.rs/)
