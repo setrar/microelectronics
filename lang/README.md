@@ -174,107 +174,64 @@ fn see_doesnt_have_to_be_called_main() -> ! {
 }
 ```
 
+- [ ] Add the platform target
+
+```
+rustup target add thumbv6m-none-eabi
+```
+> Response:
+```rust
+info: downloading component 'rust-std' for 'thumbv6m-none-eabi'
+info: installing component 'rust-std' for 'thumbv6m-none-eabi'
+  8.0 MiB /   8.0 MiB (100 %)   5.0 MiB/s in  1s ETA:  0s
+```
+
+- [ ] run the app
+
 ```
 cargo run
 ```
 > Response:
 ```rust
-  Downloaded arrayvec v0.7.4
-  Downloaded nb v0.1.3
-  Downloaded proc-macro2 v1.0.66
-  Downloaded unicode-ident v1.0.11
-  Downloaded stable_deref_trait v1.2.0
-  Downloaded rand_core v0.6.4
-  Downloaded quote v1.0.31
-  Downloaded void v1.0.2
-  Downloaded nb v1.1.0
-  Downloaded embedded-hal v0.2.7
-  Downloaded debug-helper v0.3.13
-  Downloaded paste v1.0.14
-  Downloaded rp2040-boot2 v0.2.1
-  Downloaded rp-pico v0.7.0
-  Downloaded pio v0.2.1
-  Downloaded rp2040-hal v0.8.2
-  Downloaded num_enum_derive v0.5.11
-  Downloaded rp2040-hal-macros v0.1.0
-  Downloaded vcell v0.1.3
-  Downloaded volatile-register v0.2.1
-  Downloaded gcd v2.3.0
-  Downloaded rustc_version v0.2.3
-  Downloaded bitfield v0.13.2
-  Downloaded semver v0.9.0
-  Downloaded usb-device v0.2.9
-  Downloaded cortex-m-rt-macros v0.7.0
-  Downloaded panic-halt v0.2.0
-  Downloaded embedded-dma v0.2.0
-  Downloaded cortex-m-rt v0.7.3
-  Downloaded semver-parser v0.7.0
-  Downloaded bare-metal v0.2.5
-  Downloaded num_enum v0.5.11
-  Downloaded rp2040-pac v0.4.0
-  Downloaded critical-section v1.1.1
-  Downloaded cortex-m v0.7.7
-  Downloaded either v1.8.1
-  Downloaded itertools v0.10.5
-  Downloaded fugit v0.3.7
-  Downloaded syn v1.0.109
-  Downloaded crc-any v2.4.3
-  Downloaded 40 crates (1.9 MB) in 6.19s
-   Compiling proc-macro2 v1.0.66
-   Compiling unicode-ident v1.0.11
-   Compiling syn v1.0.109
-   Compiling semver-parser v0.7.0
-   Compiling cortex-m-rt v0.7.3
-   Compiling semver v0.9.0
+   Compiling quote v1.0.31
+   Compiling rustc_version v0.2.3
    Compiling cortex-m v0.7.7
    Compiling nb v1.1.0
-error[E0463]: can't find crate for `core`
-  |
-  = note: the `thumbv6m-none-eabi` target may not be installed
-  = help: consider downloading the target with `rustup target add thumbv6m-none-eabi`
-
-error[E0463]: can't find crate for `compiler_builtins`
-
-error[E0463]: can't find crate for `core`
-   --> /home/pi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nb-1.1.0/src/lib.rs:192:5
-    |
-192 | use core::fmt;
-    |     ^^^^ can't find crate
-    |
-    = note: the `thumbv6m-none-eabi` target may not be installed
-    = help: consider downloading the target with `rustup target add thumbv6m-none-eabi`
-
-error: cannot find attribute `derive` in this scope
-   --> /home/pi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nb-1.1.0/src/lib.rs:201:3
-    |
-201 | #[derive(Clone, Copy, PartialEq, Eq, PartialOrd, Ord, Hash)]
-    |   ^^^^^^
-
-error[E0463]: can't find crate for `core`
-   --> /home/pi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nb-1.1.0/src/lib.rs:195:27
-    |
-195 | pub type Result<T, E> = ::core::result::Result<T, Error<E>>;
-    |                           ^^^^ can't find crate
-    |
-    = note: the `thumbv6m-none-eabi` target may not be installed
-    = help: consider downloading the target with `rustup target add thumbv6m-none-eabi`
-
-error[E0405]: cannot find trait `FnOnce` in this scope
-   --> /home/pi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nb-1.1.0/src/lib.rs:239:12
-    |
-239 |         F: FnOnce(E) -> T,
-    |            ^^^^^^ not found in this scope
-
-error[E0405]: cannot find trait `From` in this scope
-   --> /home/pi/.cargo/registry/src/index.crates.io-6f17d22bba15001f/nb-1.1.0/src/lib.rs:248:9
-    |
-248 | impl<E> From<E> for Error<E> {
-    |         ^^^^ not found in this scope
-
-Some errors have detailed explanations: E0405, E0463.
-For more information about an error, try `rustc --explain E0405`.
-error: could not compile `nb` (lib) due to 7 previous errors
-warning: build failed, waiting for other jobs to finish...
+   Compiling void v1.0.2
+   Compiling nb v0.1.3
+   Compiling debug-helper v0.3.13
+   Compiling vcell v0.1.3
+   Compiling paste v1.0.14
+   Compiling cortex-m-rt v0.7.3
+   Compiling syn v1.0.109
+   Compiling bare-metal v0.2.5
+   Compiling crc-any v2.4.3
+   Compiling volatile-register v0.2.1
+   Compiling embedded-hal v0.2.7
+   Compiling rp2040-pac v0.4.0
+   Compiling bitfield v0.13.2
+   Compiling rp2040-boot2 v0.2.1
+   Compiling arrayvec v0.7.4
+   Compiling either v1.8.1
+   Compiling gcd v2.3.0
+   Compiling stable_deref_trait v1.2.0
+   Compiling embedded-dma v0.2.0
+   Compiling fugit v0.3.7
+   Compiling itertools v0.10.5
+   Compiling usb-device v0.2.9
+   Compiling rp-pico v0.7.0
+   Compiling critical-section v1.1.1
+   Compiling rand_core v0.6.4
+   Compiling panic-halt v0.2.0
+   Compiling cortex-m-rt-macros v0.7.0
+   Compiling num_enum_derive v0.5.11
+   Compiling rp2040-hal-macros v0.1.0
+   Compiling num_enum v0.5.11
+   Compiling pio v0.2.1
+   Compiling rp2040-hal v0.8.2
+   Compiling blink v0.1.0 (/home/pi/Developer/microelectronics/lang/blink)
+    Finished dev [unoptimized + debuginfo] target(s) in 1m 37s
+     Running `elf2uf2-rs -d target/thumbv6m-none-eabi/debug/blink`
 ```
 
 # References
