@@ -102,3 +102,4 @@ source "$HOME/.cargo/env"
 # References
 
 - [ ] [rustup is an installer for the systems programming language Rust](https://rustup.rs/)
+- [ ] [rp-pico - Board Support for the Raspberry Pi Pico](https://crates.io/crates/rp-pico)
