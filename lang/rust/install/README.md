@@ -98,7 +98,7 @@ To configure your current shell, run:
 source "$HOME/.cargo/env"
 ```
 
-- [ ] Prerequisites
+- [ ] Prerequisites install `~/.cargo/bin/elf2uf2-rs`
 
 * compiling `elf2uf2-rs` Pico flasher
 
