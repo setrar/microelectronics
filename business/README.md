@@ -101,3 +101,7 @@ Establishing a semiconductor foundry requires a wide range of specialized techno
 15. **Environmental and Safety Systems:** Proper environmental and safety systems are essential to comply with regulations and protect the workforce.
 
 Establishing a semiconductor foundry requires significant capital investment and access to cutting-edge technology. Many equipment suppliers specialize in providing semiconductor manufacturing tools and solutions. Additionally, semiconductor companies may collaborate with foundry services that already possess the required technology and expertise, avoiding the need to build their own foundry from scratch.
+
+# References
+
+- [ ] [Semiconductor fabrication plant](https://en.wikipedia.org/wiki/Semiconductor_fabrication_plant)
