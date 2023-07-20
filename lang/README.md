@@ -153,6 +153,10 @@ cargo add panic-halt
     Updating crates.io index
 ```
 
+```
+mkdir .cargo && curl -o .cargo/config https://raw.githubusercontent.com/rp-rs/rp-hal-boards/main/.cargo/config
+```
+
 
 # References
 
