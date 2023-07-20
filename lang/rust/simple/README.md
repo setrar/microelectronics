@@ -6,7 +6,7 @@ This is an attempt to compile the Pico Pi with Rust.
 - [ ] Prequisite: Install [Rust](../install)
 
 
-- [ ] [rp-pico - Board Support for the Raspberry Pi Pico - From Scratch](https://crates.io/crates/rp-pico/#:~:text=From,Scratch)
+- [ ] [rp-pico - Board Support for the Raspberry Pi Pico - From Scratch](https://crates.io/crates/rp-pico/#:~:text=From,Scratch) - use this for Cortex-M0 and Cortex-M0+.
 
 ```
 cargo new simple && cd simple
