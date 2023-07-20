@@ -9,6 +9,7 @@
 | [Where can I buy the Technology and Equipment Procurement?](#catgpt-where-can-i-buy-the-technology-and-equipment-procurement) |
 | [How much does the TWINSCAN XT:1900i lithography system from ASML cost?](#catgpt-how-much-does-the-twinscan-xt1900i-lithography-system-from-asml-cost) |
 | [Photolithography \| Its Importance in Semiconductor Manufacturing](#photolithography--its-importance-in-semiconductor-manufacturing) |
+| [What is the Photolithography Process?](#catgpt-what-is-the-photolithography-process) |
  
 #### :cat:GPT how can I build my own semiconductor company?
 
