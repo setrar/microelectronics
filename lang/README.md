@@ -338,8 +338,11 @@ cargo run
    Compiling blink v0.1.0 (/home/pi/Developer/microelectronics/lang/blink)
     Finished dev [unoptimized + debuginfo] target(s) in 1m 37s
      Running `elf2uf2-rs -d target/thumbv6m-none-eabi/debug/blink`
+Found pico uf2 disk /media/pi/RPI-RP2
+Transfering program to pico
+1.50 KB / 1.50 KB [========================================================================] 100.00 % 10.70 KB/s 
 ```
-> Error: "Unable to find mounted pico"
+
 
 # References
 
@@ -347,3 +350,4 @@ cargo run
 - [ ] [rp-pico - Board Support for the Raspberry Pi Pico](https://crates.io/crates/rp-pico)
 - [ ] [.cargo/config.toml in your project](https://doc.rust-lang.org/cargo/reference/config.html#:~:text=level%20of%20discovered%20.-,cargo%2Fconfig.,as%20%2Fmy%2Fproject%2F.)
 - [ ] [libudev development package not found](https://stackoverflow.com/questions/55945023/libudev-development-package-not-found)
+- [ ] [> Error: "Unable to find mounted pico"](https://kresna.dev/raspberry-pico-unable-to-find-mounted-pico/)
