@@ -19,7 +19,7 @@ MicroElectronics Studies
 - [ ] [How are microchips made?](https://www.youtube.com/watch?v=g8Qav3vIv9s)
 
 
-:round_pushpin: Trend
+:round_pushpin: Trends
 
 - [ ] [Microelectronic Medical Implants Market is Booming in upcoming Years 2028](https://www.wicz.com/story/48526014/microelectronic-medical-implants-market-is-booming-in-upcoming-years-2028)
 - [ ] [Microelectronics Market Size USD 677.92 Billion by 2030](https://www.vantagemarketresearch.com/industry-report/microelectronics-market-1579)
