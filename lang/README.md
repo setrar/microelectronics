@@ -128,10 +128,28 @@ Processing triggers for man-db (2.9.4-2) ...
 ```
 
 ```
+sudo apt autoremove
+```
+> Response:
+```bash
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following packages will be REMOVED:
+  libfuse2
+0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
+After this operation, 354 kB disk space will be freed.
+Do you want to continue? [Y/n] Y
+(Reading database ... 96988 files and directories currently installed.)
+Removing libfuse2:arm64 (2.9.9-5) ...
+Processing triggers for libc-bin (2.31-13+rpt2+rpi1+deb11u5) ...
+```
+
+```
 cargo install elf2uf2-rs
 ```
 > Response
-```cargo
+```rust
     Updating crates.io index
   Installing elf2uf2-rs v1.3.8
     Updating crates.io index
