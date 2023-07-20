@@ -40,3 +40,12 @@ cargo add panic-halt
 mkdir .cargo && curl -o .cargo/config https://raw.githubusercontent.com/rp-rs/rp-hal-boards/main/.cargo/config ; \
 curl -o memory.x https://raw.githubusercontent.com/rp-rs/rp-hal-boards/main/memory.x
 ```
+> Response:
+```rust
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  1528  100  1528    0     0  11175      0 --:--:-- --:--:-- --:--:-- 11664
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   319  100   319    0     0   2769      0 --:--:-- --:--:-- --:--:--  2900
+```
