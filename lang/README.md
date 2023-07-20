@@ -157,6 +157,9 @@ cargo add panic-halt
 mkdir .cargo && curl -o .cargo/config https://raw.githubusercontent.com/rp-rs/rp-hal-boards/main/.cargo/config
 ```
 
+```
+curl -o memory.x https://raw.githubusercontent.com/rp-rs/rp-hal-boards/main/memory.x
+```
 
 # References
 
