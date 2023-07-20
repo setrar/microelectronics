@@ -1,4 +1,4 @@
-[# Languages
+# Languages
 
 This is an attempt to compile the Pico Pi with Rust.
 
