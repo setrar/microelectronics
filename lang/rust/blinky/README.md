@@ -49,3 +49,18 @@ curl -o memory.x https://raw.githubusercontent.com/rp-rs/rp-hal-boards/main/memo
                                  Dload  Upload   Total   Spent    Left  Speed
 100   319  100   319    0     0   2769      0 --:--:-- --:--:-- --:--:--  2900
 ```
+
+```
+rustup target add thumbv6m-none-eabi
+```
+> Response:
+```rust
+info: downloading component 'rust-std' for 'thumbv6m-none-eabi'
+info: installing component 'rust-std' for 'thumbv6m-none-eabi'
+```
+
+- [ ]  run the app
+
+```
+cargo run
+```
