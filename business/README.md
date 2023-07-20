@@ -7,6 +7,7 @@
 | [What Technology and Equipment is required to make my own semiconductor foundry?](#catgpt-what-technology-and-equipment-is-required-to-make-my-own-semiconductor-foundry) |
 | [how long does it take to create a foundry?](#catgpt-how-long-does-it-take-to-create-a-foundry) |
 | [Where can I buy the Technology and Equipment Procurement?](#catgpt-where-can-i-buy-the-technology-and-equipment-procurement) |
+| [How much does the TWINSCAN XT:1900i lithography system from ASML cost?](#catgpt-how-much-does-the-twinscan-xt1900i-lithography-system-from-asml-cost) |
  
 #### :cat:GPT how can I build my own semiconductor company?
 
