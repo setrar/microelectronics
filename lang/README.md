@@ -101,6 +101,35 @@ source "$HOME/.cargo/env"
 
 - [ ] [rp-pico - Board Support for the Raspberry Pi Pico - From Scratch](https://crates.io/crates/rp-pico/#:~:text=From,Scratch)
 
+```
+cargo new blink
+```
+
+```
+cd blink
+```
+
+
+```
+cargo add rp-pico
+```
+> Response:
+```rust
+    Updating crates.io index
+      Adding rp-pico v0.7.0 to dependencies.
+             Features:
+             + boot2
+             + cortex-m-rt
+             + critical-section-impl
+             + rom-func-cache
+             + rp2040-boot2
+             + rt
+             - disable-intrinsics
+             - rom-v2-intrinsics
+             - rp2040-e5
+    Updating crates.io index
+```
+
 # References
 
 - [ ] [rustup is an installer for the systems programming language Rust](https://rustup.rs/)
