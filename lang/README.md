@@ -350,4 +350,4 @@ Transfering program to pico
 - [ ] [rp-pico - Board Support for the Raspberry Pi Pico](https://crates.io/crates/rp-pico)
 - [ ] [.cargo/config.toml in your project](https://doc.rust-lang.org/cargo/reference/config.html#:~:text=level%20of%20discovered%20.-,cargo%2Fconfig.,as%20%2Fmy%2Fproject%2F.)
 - [ ] [libudev development package not found](https://stackoverflow.com/questions/55945023/libudev-development-package-not-found)
-- [ ] [> Error: "Unable to find mounted pico"](https://kresna.dev/raspberry-pico-unable-to-find-mounted-pico/)
+- [ ] [Error: "Unable to find mounted pico" in Raspberry Pico](https://kresna.dev/raspberry-pico-unable-to-find-mounted-pico/)
