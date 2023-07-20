@@ -148,6 +148,12 @@ Procuring the technology and equipment required for a semiconductor foundry invo
 
 When purchasing semiconductor equipment, it's essential to ensure that the equipment meets your specific requirements, is compatible with your chosen manufacturing processes, and comes with reliable customer support and service. Additionally, considering factors like warranty, training, and installation support is crucial to ensuring a successful equipment procurement process. Always verify the reputation and reliability of the vendors and suppliers before making any purchase.
 
+#### :cat:GPT How much does the TWINSCAN XT:1900i lithography system from ASML cost?
+
+As of my last update in September 2021, the TWINSCAN XT:1900i lithography system from ASML can cost anywhere from $40 million to over $100 million, depending on the configuration and additional features chosen. However, please note that semiconductor equipment prices can fluctuate over time and may vary based on factors like market demand, currency exchange rates, and customizations required.
+
+For the most current and accurate pricing information, I recommend reaching out to ASML or their authorized distributors, as they can provide you with up-to-date quotes and details specific to your needs and location. Keep in mind that semiconductor manufacturing equipment is a significant investment, and the costs involved may require thorough consideration and planning.
+
 # References
 
 - [ ] [Semiconductor fabrication plant](https://en.wikipedia.org/wiki/Semiconductor_fabrication_plant)
