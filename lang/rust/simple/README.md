@@ -9,16 +9,14 @@ This is an attempt to compile the Pico Pi with Rust.
 - [ ] [rp-pico - Board Support for the Raspberry Pi Pico - From Scratch](https://crates.io/crates/rp-pico/#:~:text=From,Scratch)
 
 ```
-cargo new simple
+cargo new simple && cd simple
 ```
 
-```
-cd simple
-```
-
+- [ ] Add the libraries
 
 ```
-cargo add rp-pico
+cargo add rp-pico ; \
+cargo add cortex-m-rt
 ```
 > Response:
 ```rust
@@ -38,7 +36,6 @@ cargo add rp-pico
 ```
 
 ```
-cargo add cortex-m-rt
 ```
 > Response:
 ```rust
