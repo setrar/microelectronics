@@ -1,13 +1,18 @@
+# Blinky
 
+- [ ] Create the `Blinky` project
 
 ```
 cargo new blinky && cd blinky
 ```
 >    Created binary (application) `blinky` package
 
+- [ ] Add the libraries
+
 ```
 cargo add rp-pico ; \
 cargo add cortex-m ; \
+cargo add cortex-m-rt ; \
 cargo add embedded-hal ; \
 cargo add panic-halt
 ```
@@ -26,16 +31,31 @@ cargo add panic-halt
              - rom-v2-intrinsics
              - rp2040-e5
     Updating crates.io index
+      Adding cortex-m v0.7.7 to dependencies.
+             Features:
+             - cm7
+             - cm7-r0p1
+             - critical-section
+             - critical-section-single-core
+             - inline-asm
+             - linker-plugin-lto
+             - serde
+             - std
+    Updating crates.io index
       Adding cortex-m-rt v0.7.3 to dependencies.
              Features:
              - device
              - set-sp
              - set-vtor
     Updating crates.io index
+      Adding embedded-hal v0.2.7 to dependencies.
+             Features:
+             - unproven
+    Updating crates.io index
       Adding panic-halt v0.2.0 to dependencies.
 ```
 
-
+- [ ] Download the config files
 
 ```
 mkdir .cargo && curl -o .cargo/config https://raw.githubusercontent.com/rp-rs/rp-hal-boards/main/.cargo/config ; \
@@ -50,6 +70,8 @@ curl -o memory.x https://raw.githubusercontent.com/rp-rs/rp-hal-boards/main/memo
                                  Dload  Upload   Total   Spent    Left  Speed
 100   319  100   319    0     0   2769      0 --:--:-- --:--:-- --:--:--  2900
 ```
+
+- [ ] Assign the targetted platform
 
 ```
 rustup target add thumbv6m-none-eabi
@@ -158,7 +180,7 @@ fn main() -> ! {
 ```
 
 
-- [ ]  run the app
+- [ ]  run the app (make sure the BOOTLOADER folder is available)
 
 ```
 cargo run
