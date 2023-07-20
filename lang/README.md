@@ -158,3 +158,4 @@ cargo add panic-halt
 
 - [ ] [rustup is an installer for the systems programming language Rust](https://rustup.rs/)
 - [ ] [rp-pico - Board Support for the Raspberry Pi Pico](https://crates.io/crates/rp-pico)
+- [ ] [.cargo/config.toml in your project](https://doc.rust-lang.org/cargo/reference/config.html#:~:text=level%20of%20discovered%20.-,cargo%2Fconfig.,as%20%2Fmy%2Fproject%2F.)
