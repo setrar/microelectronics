@@ -2,6 +2,7 @@
 
 | TOC |
 |-|
+| [how do I create my own semiconductor foundry?](#catgpt-how-do-i-create-my-own-semiconductor-foundry) |
 | [how can I build my own semiconductor company?](README.md#catgpt-what-technology-and-equipment-is-required-to-make-my-own-semiconductor-foundry) |
 
 #### :cat:GPT how can I build my own semiconductor company?
@@ -30,7 +31,7 @@ Building your own semiconductor company is a complex and challenging endeavor th
 
 It's important to note that the semiconductor industry is highly competitive and requires a long-term vision and commitment. Success in this field often takes years of dedicated effort, continuous innovation, and a strong focus on delivering value to customers. Additionally, building a semiconductor company involves significant financial risk, so careful planning and execution are critical for success.
 
-#### :cat:GPT how do I create my own semiconductor foundry?
+#### :cat:GPT How do I create my own semiconductor foundry?
 
 Creating your own semiconductor foundry is an incredibly complex and capital-intensive endeavor. It requires a vast amount of technical expertise, significant financial resources, and a long-term commitment. Foundries are specialized manufacturing facilities that produce integrated circuits (ICs) for other companies based on their designs. Here are some steps you would need to consider if you want to create your own semiconductor foundry:
 
