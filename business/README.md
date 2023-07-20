@@ -2,8 +2,9 @@
 
 | TOC |
 |-|
+| [How can I build my own semiconductor company?](#catgpt-how-can-i-build-my-own-semiconductor-company) |
 | [How do I create my own semiconductor foundry?](#catgpt-how-do-i-create-my-own-semiconductor-foundry) |
-| [What Technology and Equipment is required to make my own semiconductor foundry?](README.md#catgpt-what-technology-and-equipment-is-required-to-make-my-own-semiconductor-foundry) |
+| [What Technology and Equipment is required to make my own semiconductor foundry?](#catgpt-what-technology-and-equipment-is-required-to-make-my-own-semiconductor-foundry) |
 
 #### :cat:GPT how can I build my own semiconductor company?
 
