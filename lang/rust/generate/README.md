@@ -74,3 +74,4 @@ Setting up libusb-1.0-0-dev:arm64 (2:1.0.24-3) ...
 
 - [ ] [rp-rs/rp2040-project-template](https://github.com/rp-rs/rp2040-project-template)
 - [ ] [cargo-generate](https://crates.io/crates/cargo-generate)
+- [ ] [Debugging embedded software with Raspberry Pi Pico](https://www.raspberrypi.com/news/debugging-embedded-software-with-raspberry-pi-pico/)
