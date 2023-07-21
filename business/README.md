@@ -185,7 +185,7 @@ This process is highly precise and is repeated for each layer of the IC, allowin
 
 #### :cat:GPT how to make my own EUV lythography machine
 
-###### - [ ] First response
+###### :pushpin: First response
 
 Creating your own EUV (Extreme Ultraviolet) lithography machine is an extremely complex and challenging task that requires significant expertise in various fields of engineering, optics, physics, and semiconductor manufacturing. Additionally, it involves cutting-edge technology and specialized equipment that is typically only available to large semiconductor companies and research institutions.
 
