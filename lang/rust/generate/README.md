@@ -69,6 +69,11 @@ Setting up libusb-1.0-doc (2:1.0.24-3) ...
 Setting up libusb-1.0-0-dev:arm64 (2:1.0.24-3) ...
 ```
 
+| Raspberry Pi Pico | Raspberry Pi     |
+|-------------------|------------------|
+| SWDIO	            | GPIO 24 (PIN 18) |
+| SWD GND           | GND (PIN 20)     |
+| SWCLK	            | GPIO 25 (PIN 22) |
 
 # References
 
