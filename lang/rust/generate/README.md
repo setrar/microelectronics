@@ -39,7 +39,7 @@ Initializing a fresh Git repository
 
 - [ ] [Troubleshooting - "Error: no probe was found."](https://github.com/knurling-rs/probe-run#troubleshooting)
 
-- [ ] [](https://embedded-trainings.ferrous-systems.com/installation.html?highlight=udev#linux-only-usb)
+- [ ] [Linux only: USB](https://embedded-trainings.ferrous-systems.com/installation.html?highlight=udev#linux-only-usb) :grey_question::grey_question:
 
 ```
 sudo apt-get install libudev-dev libusb-1.0-0-dev
