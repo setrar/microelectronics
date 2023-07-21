@@ -77,3 +77,4 @@ Setting up libusb-1.0-0-dev:arm64 (2:1.0.24-3) ...
 - [ ] [Debugging embedded software with Raspberry Pi Pico](https://www.raspberrypi.com/news/debugging-embedded-software-with-raspberry-pi-pico/)
 - [ ] [Debugging Raspberry Pi Pico via SWD](https://visualgdb.com/documentation/embedded/raspberry/pico/swd/)
 - [ ] [JTAG/SWD Interface](https://developer.arm.com/documentation/101636/0100/Debug-and-Trace/JTAG-SWD-Interface)
+- [ ] [ARM's Serial Wire Debug (SWD) replaces the traditional 5-pin JTAG debug interface](https://wiki.segger.com/SWD)
