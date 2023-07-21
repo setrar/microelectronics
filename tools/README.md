@@ -14,5 +14,5 @@
 
 # References
 
-- [ ] [](https://electronics.stackexchange.com/questions/571946/soldering-iron-temperature-for-lead-free-solder-sn99-3-cu0-7)
+- [ ] [Soldering Iron Temperature for Lead Free Solder (Sn99.3%, Cu0.7%)](https://electronics.stackexchange.com/questions/571946/soldering-iron-temperature-for-lead-free-solder-sn99-3-cu0-7)
 
