@@ -6,4 +6,12 @@
 | [SOLDS-000004](https://www.creatroninc.com/product/brass-sponge)                                 | Brass Sponge                             |   $5.00 | 
 | [PROPC-106300](https://www.creatroninc.com/product/electret-microphone-module-adjustable-gain/)  | Electret Microphone (Adj Gain)           |  $12.50 |
 | [WIREJ-000140](https://www.creatroninc.com/product/22awg-hookup-wire-box-140pcs/)                | 22AWG Solid Wire Box (140pcs)            |   $9.50 |
+| [TOOHH-009317](https://www.creatroninc.com/product/helping-hand-with-soldering-stand/)           | Helping Hand with Soldering Stand        |  $16.00 |
+
+
+
+
+# References
+
+- [ ] [](https://electronics.stackexchange.com/questions/571946/soldering-iron-temperature-for-lead-free-solder-sn99-3-cu0-7)
 
