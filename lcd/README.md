@@ -51,7 +51,7 @@
 | NC   | :three:          | :four:          | 5V |
 | NC   | :five:           | :six:           | NC |
 | NC   | :seven:          | :eight:         | NC |
-| NC   | :nine:           | :ten:           | NC |
+| NC   | :nine:           | :one::zero:     | NC |
 | NC   | :one::one:       | :one::two:      | NC |
 
 
