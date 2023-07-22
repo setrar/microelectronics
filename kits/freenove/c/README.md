@@ -10,7 +10,7 @@
 
 ## :a: Starting
 
-:round_pushpin: WiringPi Installation Steps
+:round_pushpin: WiringPi Installation Steps (i.e. ~/Developer)
 
 ```bash
 sudo apt-get update
