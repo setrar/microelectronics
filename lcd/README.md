@@ -2,6 +2,7 @@
 
 
 - [ ] [3.5 inch RPi Display](https://www.youtube.com/watch?v=5DAn_5-1Jg4)
+- [ ] [LCD Wiki: 3.5inch RPi Display](http://www.lcdwiki.com/3.5inch_RPi_Display)
 - [ ] [Waveshare: 3.5inch RPi LCD (A), 480x320](https://www.waveshare.com/3.5inch-rpi-lcd-a.htm)
 
 | |
@@ -27,5 +28,6 @@
 
 # References
 
-- [ ] [LCD Wiki: 3.5inch RPi Display](http://www.lcdwiki.com/3.5inch_RPi_Display)
 
+- [ ] [Getting Started with the Arduino TFT Screen](https://docs.arduino.cc/retired/getting-started-guides/TFT)
+- [ ] [:octocat: TFT eSPI](https://github.com/Bodmer/TFT_eSPI)
