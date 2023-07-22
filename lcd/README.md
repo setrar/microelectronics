@@ -45,7 +45,7 @@
 
 ## [PinOUT](https://pinout.xyz)
 
-|      |   P      |   p     |    |
+|      |   :parking:      |   :parking:     |    |
 |------|---------|--------|----|
 | 3.3V | :one:   | :two:  | 5V |
 | 3.3V | :three: | :four: | 5V |
