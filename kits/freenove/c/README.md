@@ -14,7 +14,7 @@
 
 ```bash
 sudo apt-get update
-git clone https://github.com/WiringPi/WiringPi cd WiringPi
+git clone https://github.com/WiringPi/WiringPi && cd WiringPi
 ./build
 ```
 > Response :
