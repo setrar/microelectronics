@@ -10,8 +10,8 @@
 | [ARDTS-156315](https://www.creatroninc.com/product/2-4-tft-lcd-touch-shield-320x240px/)          | 2.4″ TFT Touchscreen Shield (320x240px)  |  $18.85 |
 | | St Microphone  |  $40.85 |
 | |             	 |  $61.85 | 
-| |        |13.00% |   $8.04 | 
-| |        |		   | $69.89 |
+|         |13.00% |   $8.04 | 
+|         |		   | $69.89 |
 
 
 
