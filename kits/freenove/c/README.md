@@ -44,6 +44,11 @@ NOTE: To compile programs with wiringPi, you need to add:
 ```
 
 ```
+which gpio
+```
+> /usr/local/bin/gpio
+
+```
 gpio -v
 ```
 > Response
