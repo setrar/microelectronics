@@ -3,15 +3,17 @@
 
 - [ ] [3.5 inch RPi Display](https://www.youtube.com/watch?v=5DAn_5-1Jg4)
 
-SKU MPI3501
-LCD Type TFT
-LCD Interface SPI
-Touch Screen Type Resistive
-Touch Screen Controller XPT2046
-Colors 65536
-Backlight LED
-Resolution 320*240 (Pixel)
-Aspect Ratio 8:5
+| |
+|-|
+| SKU MPI3501 |
+| LCD Type TFT | 
+| LCD Interface SPI |
+| Touch Screen Type Resistive |
+| Touch Screen Controller XPT2046 |
+| Colors 65536 |
+| Backlight LED |
+| Resolution 320*240 (Pixel) |
+| Aspect Ratio 8:5 |
 
 
 
