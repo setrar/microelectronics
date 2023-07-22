@@ -53,6 +53,13 @@
 | NC   | :seven:          | :eight:         | NC |
 | NC   | :nine:           | :one::zero:     | NC |
 | NC   | :one::one:       | :one::two:      | NC |
+| NC   | :one::three:     | :one::four:     | NC |
+| NC   | :one::five:      | :one::six:      | NC |
+| NC   | :one::seven:     | :one::eight:    | NC |
+| NC   | :one::nine:      | :two::zero:     | NC |
+| NC   | :two::one:       | :two::two:      | NC |
+| NC   | :two::three:     | :two::four:     | NC |
+| NC   | :two::five:      | :two::six:      | NC |
 
 
 
