@@ -45,9 +45,9 @@
 
 ## [PinOUT](https://pinout.xyz)
 
-|   |   |
-|---|---|
-| 1 | 2 |
+|      |   |   |    |
+|------|---|---|----|
+| 3.3V | :one: | :two: | 5V |
 
 # References
 
