@@ -8,40 +8,7 @@
 
 [<img src=https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi/blob/master/List_Ultimate_RPi_Kit.jpg width=50% height=50% > </img>](https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi/blob/master/List_Ultimate_RPi_Kit.jpg)
 
-## :a: Starting
-
-:round_pushpin: WiringPi Installation Steps
-
-```bash
-sudo apt-get update
-git clone https://github.com/WiringPi/WiringPi cd WiringPi
-./build
-```
-> Response :
-```python
-wiringPi Build script
-=====================
-
-
-WiringPi Library
-[UnInstall]
-[Compile] wiringPi.c
-...
-GPIO Utility
-[Compile] gpio.c
-[Compile] readall.c
-[Link]
-[Install]
-
-All Done.
-
-NOTE: To compile programs with wiringPi, you need to add:
-    -lwiringPi
-  to your compile line(s) To use the Gertboard, MaxDetect, etc.
-  code (the devLib), you need to also add:
-    -lwiringPiDev
-  to your compile line(s).
-```
+## :a: GPIO
 
 ```
 gpio -v
@@ -92,78 +59,6 @@ gpio readall
 | BCM | wPi |   Name  | Mode | V | Physical | V | Mode | Name    | wPi | BCM |
 +-----+-----+---------+------+---+---Pi 4B--+---+------+---------+-----+-----+
 ```
-
-- [ ]  Test with :snake: Python
-
-
-```python
-import RPi.GPIO as GPIO
-import time
-
-ledPin = 11                           # define ledPin
-
-def setup():
-   GPIO.setmode(GPIO.BOARD)
-   GPIO.setup(ledPin, GPIO.OUT)
-   GPIO.output(ledPin, GPIO.LOW)      # make ledPin output LOW level print ('using pin%d'%ledPin)
-   print ('using pin%d'%ledPin)
-
-def loop():
-   while True:
-      GPIO.output(ledPin, GPIO.HIGH)  # make ledPin output HIGH level to turn on led
-      print ('led turned on >>>')     # print information on terminal
-      time.sleep(1)                   # Wait for 1 second
-      GPIO.output(ledPin, GPIO.LOW)   # make ledPin output LOW level to turn off led
-      print ('led turned off <<<')
-      time.sleep(1)                   # Wait for 1 second
-
-def destroy():
-    GPIO.cleanup()                    # Release all GPIO
-
-if __name__ == '__main__':            # Program entrance
-    print ('Program is starting ... \n')
-    setup()
-    try:
-        loop()
-    except KeyboardInterrupt:          # Press ctrl-c to end the program.
-        destroy()
-
-```
-
-- [ ] Test with `C`
-
-```c
-#include <wiringPi.h>
-#include <stdio.h>
-
-#define ledPin 0 //define the led pin number
-
-int main(void)
-{
-   printf("Program is starting ... \n"); 
-   wiringPiSetup(); //Initialize wiringPi.
-
-   pinMode(ledPin, OUTPUT);//Set the pin mode
-   printf("Using pin%d\n",ledPin); //Output information on terminal 
-   while(1){
-      digitalWrite(ledPin, HIGH); //Make GPIO output HIGH level
-      printf("led turned on >>>\n"); //Output information on terminal 
-      delay(1000); //Wait for 1 second 
-      digitalWrite(ledPin, LOW); //Make GPIO output LOW level
-      printf("led turned off <<<\n"); //Output information on terminal 
-      delay(1000); //Wait for 1 second
-   }
-}
-```
-
-- [ ] Compile and run
-
-```bash
-gcc Blink.c -o Blink -lwiringPi ; \
-./Blink
-```
-
-<img src=images/IMG_4405.jpg width=50% height=50% > </img>
 
 # References
 
