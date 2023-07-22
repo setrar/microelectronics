@@ -49,6 +49,11 @@
 |------|-----------------:|----------------:|----|
 | 3.3V | :one:            | :two:           | 5V |
 | NC   | :three:          | :four:          | 5V |
+| NC   | :five:           | :six:           | NC |
+| NC   | :seven:          | :eight:         | NC |
+| NC   | :nine:           | :ten:           | NC |
+| NC   | :one::one:       | :one::two:      | NC |
+
 
 
 # References
