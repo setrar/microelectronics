@@ -43,6 +43,10 @@
 | 24		                         | LCD_CS	          | LCD chip selection, low active                                          |
 | 26                             | TP_CS            | Touch Panel chip selection, low active                                  |
 
+|   |   |
+|---|---|
+| 1 | 2 |
+
 # References
 
 
