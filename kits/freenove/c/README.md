@@ -131,7 +131,7 @@ gcc Blink.c -o Blink -lwiringPi ; \
 ./Blink
 ```
 
-<img src=images/IMG_4405.jpg width=50% height=50% > </img>
+<img src=../images/IMG_4405.jpg width=50% height=50% > </img>
 
 # References
 
