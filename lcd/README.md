@@ -45,21 +45,21 @@
 
 ## [PinOUT](https://pinout.xyz)
 
-|      |   :parking:      |   :parking:     |    |
-|------|-----------------:|----------------:|----|
-| 3.3V | :one:            | :two:           | 5V |
-| NC   | :three:          | :four:          | 5V |
-| NC   | :five:           | :six:           | NC |
-| NC   | :seven:          | :eight:         | NC |
-| NC   | :nine:           | :one::zero:     | NC |
-| NC   | :one::one:       | :one::two:      | NC |
-| NC   | :one::three:     | :one::four:     | NC |
-| NC   | :one::five:      | :one::six:      | NC |
-| NC   | :one::seven:     | :one::eight:    | NC |
-| NC   | :one::nine:      | :two::zero:     | NC |
-| NC   | :two::one:       | :two::two:      | NC |
-| NC   | :two::three:     | :two::four:     | NC |
-| NC   | :two::five:      | :two::six:      | NC |
+|                  |   :parking:      |   :parking:     |        |
+|------------------|-----------------:|----------------:|--------|
+| 3.3V             | :one:            | :two:           | 5V     |
+| NC               | :three:          | :four:          | 5V     |
+| NC               | :five:           | :six:           | GND    |
+| NC               | :seven:          | :eight:         | NC     |
+| GND              | :nine:           | :one::zero:     | NC     |
+| TP_IRQ           | :one::one:       | :one::two:      | NC     |
+| NC               | :one::three:     | :one::four:     | GND    |
+| NC               | :one::five:      | :one::six:      | NC     |
+| NC               | :one::seven:     | :one::eight:    | LCD_RS |
+| LCD_SI / TP_SI   | :one::nine:      | :two::zero:     | GND    |
+| TP_SO            | :two::one:       | :two::two:      | RST    |
+| LCD_SCK / TP_SCK | :two::three:     | :two::four:     | LCD_CS |
+| GND              | :two::five:      | :two::six:      | TP_CS  |
 
 
 
