@@ -26,7 +26,7 @@
 | Rough Weight(Package containing)	75 (g) |
 
 
-### Interface
+### [Interface](https://www.waveshare.com/3.5inch-rpi-lcd-a.htm/#:~:text=pin,symbol)
 
 | PIN NO.	                       | SYMBOL	          | DESCRIPTION                                                             |
 |--------------------------------|------------------|-------------------------------------------------------------------------|
