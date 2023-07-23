@@ -16,7 +16,7 @@ make
 sudo ./flashmem
 ```
 
-| | |
+| Setup | Flashing |
 |-|-|
 | <img src=images/IMG_0007.JPG width='' height='' > </img> | <img src=images/IMG_0008.JPG width='' height='' > </img> |
 
