@@ -32,16 +32,7 @@ cargo add embedded-graphics ; cargo add display-interface-spi ; cargo add mipids
              - defmt
 ```
 
-
-```
-hal = { package = "esp32c3-hal", version = "0.10.0" }
-esp-backtrace = { version = "0.7.0", features = ["esp32c3", "panic-handler", "exception-handler", "print-uart"] }
-esp-println       = { version = "0.5.0", features = ["esp32c3"] }
-embedded-graphics = "0.8.0"
-display-interface-spi = "0.4.1"
-mipidsi = "0.7.1"
-fugit = "0.3.7"
-```
+:x: First build fail
 
 ```rust
 error[E0433]: failed to resolve: use of undeclared crate or module `hal`
@@ -173,3 +164,95 @@ For more information about an error, try `rustc --explain E0405`.
 error: could not compile `tft_lcd` (bin "tft_lcd") due to 17 previous errors
 
 ```
+
+:x: Second build fail
+
+```rust
+error: cannot find attribute `entry` in this scope
+  --> src/main.rs:19:3
+   |
+19 | #[entry]
+   |   ^^^^^
+   |
+   = help: consider importing one of these items:
+           cortex_m_rt::entry
+           rp_pico::entry
+
+error[E0433]: failed to resolve: use of undeclared type `Peripherals`
+  --> src/main.rs:21:23
+   |
+21 |     let peripherals = Peripherals::take();
+   |                       ^^^^^^^^^^^ use of undeclared type `Peripherals`
+   |
+help: consider importing this struct
+   |
+5  + use cortex_m::Peripherals;
+   |
+
+error[E0433]: failed to resolve: use of undeclared type `Delay`
+  --> src/main.rs:46:21
+   |
+46 |     let mut delay = Delay::new(&clocks);
+   |                     ^^^^^ use of undeclared type `Delay`
+   |
+help: consider importing this struct
+   |
+5  + use cortex_m::delay::Delay;
+   |
+
+warning: unused import: `Rectangle`
+ --> src/main.rs:8:53
+  |
+8 |     primitives::{Circle, Primitive, PrimitiveStyle, Rectangle, Triangle},
+  |                                                     ^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` on by default
+
+error[E0433]: failed to resolve: use of undeclared type `ClockControl`
+  --> src/main.rs:23:18
+   |
+23 |     let clocks = ClockControl::boot_defaults(system.clock_control).freez...
+   |                  ^^^^^^^^^^^^ use of undeclared type `ClockControl`
+
+error[E0433]: failed to resolve: use of undeclared type `IO`
+  --> src/main.rs:24:14
+   |
+24 |     let io = IO::new(peripherals.GPIO, peripherals.IO_MUX);
+   |              ^^ use of undeclared type `IO`
+
+error[E0433]: failed to resolve: use of undeclared type `Rtc`
+  --> src/main.rs:27:19
+   |
+27 |     let mut rtc = Rtc::new(peripherals.RTC_CNTL);
+   |                   ^^^ use of undeclared type `Rtc`
+
+error[E0433]: failed to resolve: use of undeclared type `TimerGroup`
+  --> src/main.rs:28:24
+   |
+28 |     let timer_group0 = TimerGroup::new(
+   |                        ^^^^^^^^^^ use of undeclared type `TimerGroup`
+
+error[E0433]: failed to resolve: use of undeclared type `TimerGroup`
+  --> src/main.rs:34:24
+   |
+34 |     let timer_group1 = TimerGroup::new(
+   |                        ^^^^^^^^^^ use of undeclared type `TimerGroup`
+
+error[E0433]: failed to resolve: use of undeclared type `Spi`
+  --> src/main.rs:59:15
+   |
+59 |     let spi = Spi::new(
+   |               ^^^ use of undeclared type `Spi`
+
+error[E0433]: failed to resolve: use of undeclared type `SpiMode`
+  --> src/main.rs:66:9
+   |
+66 |         SpiMode::Mode0,
+   |         ^^^^^^^ use of undeclared type `SpiMode`
+
+For more information about this error, try `rustc --explain E0433`.
+warning: `tft_lcd` (bin "tft_lcd") generated 1 warning
+error: could not compile `tft_lcd` (bin "tft_lcd") due to 10 previous errors; 1 warning emitted
+
+```
+
