@@ -61,6 +61,8 @@
 | LCD_SCK / TP_SCK | :two::three:     | :two::four:     | LCD_CS |
 | GND              | :two::five:      | :two::six:      | TP_CS  |
 
+<img src=images/IMG_0006.jpg width=50% height=50% > </img>
+
 
 
 # References
