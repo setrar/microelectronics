@@ -1,6 +1,6 @@
 
 
-```cargo
+```rust
 cargo install hal ; \
 cargo install embedded-graphics ; \
 cargo install display-interface-spi ; \
