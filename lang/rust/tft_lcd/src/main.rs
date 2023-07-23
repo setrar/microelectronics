@@ -16,6 +16,20 @@ use rp_pico as bsp;
 // GPIO traits
 use embedded_hal::digital::v2::OutputPin;
 
+use embedded_graphics::{
+    pixelcolor::Rgb565,
+    prelude::*,
+    primitives::{Circle, Primitive, PrimitiveStyle, Rectangle, Triangle},
+};
+
+// Provides the parallel port and display interface builders
+use display_interface_spi::SPIInterfaceNoCS;
+
+// Provides the Display builder
+use mipidsi::Builder;
+
+use fugit::RateExtU32;
+
 /// Entry point to our bare-metal application.
 ///
 /// The `#[entry]` macro ensures the Cortex-M start-up code calls this function
