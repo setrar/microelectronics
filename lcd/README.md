@@ -62,9 +62,10 @@
 | SPI clock of LCD/Touch Panel       | LCD_SCK / TP_SCK | :two::three:     | :two::four:     | LCD_CS | LCD chip selection, low active       |
 | Ground                             | GND              | :two::five:      | :two::six:      | TP_CS  |
 
-<img src=images/IMG_0006.JPG width=50% height=50% > </img>
 
-
+| | |
+|-|-|
+| <img src=images/IMG_0006.JPG width='' height='' > </img> | <img src=images/RPI4-pins.png width='' height='' > </img> |
 
 # References
 
