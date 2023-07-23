@@ -46,13 +46,13 @@
 ## [PinOUT](https://pinout.xyz)
 
 | DESCRIPTION                        |                  |   :parking:      |   :parking:     |        | DESCRIPTION                          |
-|------------------------------------|-----------------:|-----------------:|----------------:|--------|--------------------------------------|
+|------------------------------------|------------------|-----------------:|----------------:|--------|--------------------------------------|
 | Power positive (3.3V power input)  | 3.3V             | :one:            | :two:           | 5V     | Power positive (5V power input)      |
 |                                    | NC               | :three:          | :four:          | 5V     | Power positive (5V power input)      |
 |                                    | NC               | :five:           | :six:           | GND    | Ground                               |
 |                                    | NC               | :seven:          | :eight:         | NC     |                                      |
-| Ground                             | GND              | :nine:          | :one::zero:      | NC     |                                      |
-| Touch Panel interrupt, low level   | TP_IRQ           | :one::one:      | :one::two:       | NC     |                                      |
+| Ground                             | GND              | :nine:           | :one::zero:     | NC     |                                      |
+| Touch Panel interrupt, low level   | TP_IRQ           | :one::one:       | :one::two:      | NC     |                                      |
 |                                    | NC               | :one::three:     | :one::four:     | GND    | Ground                               |
 |                                    | NC               | :one::five:      | :one::six:      | NC     |                                      |
 |                                    | NC               | :one::seven:     | :one::eight:    | LCD_RS | Instruction/Data Register selection  |
