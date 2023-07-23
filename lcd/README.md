@@ -45,9 +45,9 @@
 
 ## [PinOUT](https://pinout.xyz)
 
-|                  |   :parking:      |   :parking:     |        |
-|------------------|-----------------:|----------------:|--------|
-| 3.3V             | :one:            | :two:           | 5V     |
+| DESCRIPTION                        |                  |   :parking:      |   :parking:     |        | DESCRIPTION                       |
+|------------------------------------|------------------|-----------------:|----------------:|--------|-----------------------------------|
+| Power positive (3.3V power input)  | 3.3V             | :one:            | :two:           | 5V     | Power positive (5V power input)   |
 | NC               | :three:          | :four:          | 5V     |
 | NC               | :five:           | :six:           | GND    |
 | NC               | :seven:          | :eight:         | NC     |
