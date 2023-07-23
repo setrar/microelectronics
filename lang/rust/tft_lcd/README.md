@@ -256,3 +256,6 @@ error: could not compile `tft_lcd` (bin "tft_lcd") due to 10 previous errors; 1 
 
 ```
 
+# References
+
+- [ ] [generic display driver to connect to TFT displays that implement ](https://docs.rs/mipidsi) the [MIPI Display Command Set](https://www.mipi.org/specifications/display-command-set).
