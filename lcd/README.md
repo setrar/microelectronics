@@ -69,6 +69,8 @@
 # References
 
 
+- [ ] [MIPI Display Serial Interface unified driver: Rust :gear:](https://github.com/almindor/mipidsi)
+
 - [ ] [Getting Started with the Arduino TFT Screen](https://docs.arduino.cc/retired/getting-started-guides/TFT)
 - [ ] [:octocat: TFT eSPI](https://github.com/Bodmer/TFT_eSPI)
 - [ ] [:octocat: Python_ILI9486](https://github.com/ustropo/Python_ILI9486)
