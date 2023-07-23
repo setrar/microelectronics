@@ -16,7 +16,9 @@ make
 sudo ./flashmem
 ```
 
+<img src=images/IMG_0008.JPG width=50% height=50% > </img>
 
+<img src=images/IMG_0009.JPG width=50% height=50% > </img>
 
 # References
 
