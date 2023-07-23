@@ -1,5 +1,23 @@
 # Assembly
 
+```
+cd Chapter\ 8
+```
+
+```
+make
+```
+
+```
+./flash
+```
+
+```
+sudo ./flashmem
+```
+
+
+
 # References
 
 - [ ] [:octocat: programming-with-64-bit-ARM-assembly-language](https://github.com/Apress/programming-with-64-bit-ARM-assembly-language)
