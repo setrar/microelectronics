@@ -381,3 +381,4 @@ fn main() -> ! {
 # References
 
 - [ ] [Introduction to SPI Interface](https://www.analog.com/en/analog-dialogue/articles/introduction-to-spi-interface.html)
+- [ ] [Displaying Images on ESP32 with Rust!](https://lilymara.xyz/posts/images-esp32/)
