@@ -1,21 +1,10 @@
-//! # Pico Blinky Example
-//!
-//! Blinks the LED on a Pico board.
-//!
-//! This will blink an LED attached to GP25, which is the pin the Pico uses for
-//! the on-board LED.
-//!
-//! See the `Cargo.toml` file for Copyright and license details.
-
-
 /* --- Needed by RPI Pico --- */
 #![no_std]
 #![no_main]
 use bsp::entry;
 use bsp::hal::{
-    prelude::*,
     clocks::{init_clocks_and_plls, Clock},
-    gpio, pac,
+    pac,
     sio::Sio,
     watchdog::Watchdog,
 };
@@ -41,12 +30,12 @@ fn main() -> ! {
     let core = pac::CorePeripherals::take().unwrap();
 
     // Set up the watchdog driver - needed by the clock setup code
-    let mut watchdog = hal::Watchdog::new(pac.WATCHDOG);
+    let mut watchdog = Watchdog::new(pac.WATCHDOG);
 
     // Configure the clocks
     //
     // The default is to generate a 125 MHz system clock
-    let clocks = hal::clocks::init_clocks_and_plls(
+    let clocks = init_clocks_and_plls(
         rp_pico::XOSC_CRYSTAL_FREQ,
         pac.XOSC,
         pac.CLOCKS,
@@ -63,7 +52,7 @@ fn main() -> ! {
     let mut delay = cortex_m::delay::Delay::new(core.SYST, clocks.system_clock.freq().to_Hz());
 
     // The single-cycle I/O block controls our GPIO pins
-    let sio = hal::Sio::new(pac.SIO);
+    let sio = Sio::new(pac.SIO);
 
     // Set the pins up according to their function on this particular board
     let pins = rp_pico::Pins::new(
