@@ -1,4 +1,23 @@
 
+
+```cargo
+cargo install hal ; \
+cargo install embedded-graphics ; \
+cargo install display-interface-spi ; \
+cargo install mipidsi ; \
+cargo install fugit
+```
+
+```
+hal = { package = "esp32c3-hal", version = "0.10.0" }
+esp-backtrace = { version = "0.7.0", features = ["esp32c3", "panic-handler", "exception-handler", "print-uart"] }
+esp-println       = { version = "0.5.0", features = ["esp32c3"] }
+embedded-graphics = "0.8.0"
+display-interface-spi = "0.4.1"
+mipidsi = "0.7.1"
+fugit = "0.3.7"
+```
+
 ```rust
 error[E0433]: failed to resolve: use of undeclared crate or module `hal`
  --> src/main.rs:6:5
