@@ -52,7 +52,7 @@
 |                                    | NC               | :five:           | :six:           | GND    | Ground                               |
 |                                    | NC               | :seven:          | :eight:         | NC     |                                      |
 | Ground                             | GND              | :nine:          | :one::zero:      | NC     |                                      |
-| Touch Panel interrupt, low level  when touching | TP_IRQ           | :one::one:      | :one::two:       | NC     |                                      |
+| Touch Panel interrupt, low level   | TP_IRQ           | :one::one:      | :one::two:       | NC     |                                      |
 |                                    | NC               | :one::three:     | :one::four:     | GND    | Ground                               |
 |                                    | NC               | :one::five:      | :one::six:      | NC     |                                      |
 |                                    | NC               | :one::seven:     | :one::eight:    | LCD_RS | Instruction/Data Register selection  |
