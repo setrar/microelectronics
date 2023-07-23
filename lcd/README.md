@@ -260,3 +260,117 @@ class LCD():
 
 ```
 - [ ] [2D vector graphics for micropython with ctx](https://ctx.graphics/uctx/#/main.py)
+- [ ] [Rust LILYGO T-Display with RP2040](https://circuit4us.medium.com/rust-lilygo-t-display-with-rp2040-a93635240d7b)
+```rust
+#![no_std]
+#![no_main]
+
+use defmt_rtt as _;
+use embedded_hal::digital::v2::OutputPin;
+use panic_probe as _;
+
+use rp2040_hal as hal;
+
+use display_interface_spi::SPIInterfaceNoCS;
+use fugit::RateExtU32;
+use mipidsi::{Builder, Orientation};
+
+use embedded_graphics::{
+    mono_font::{ascii::FONT_10X20, MonoTextStyle},
+    pixelcolor::Rgb565,
+    prelude::*,
+    primitives::{Line, PrimitiveStyle},
+    text::Text,
+};
+use hal::{
+    clocks::{init_clocks_and_plls, Clock},
+    pac,
+    sio::Sio,
+    watchdog::Watchdog,
+};
+
+#[link_section = ".boot2"]
+#[used]
+pub static BOOT2: [u8; 256] = rp2040_boot2::BOOT_LOADER_GENERIC_03H;
+
+#[rp2040_hal::entry]
+fn main() -> ! {
+    let mut pac = pac::Peripherals::take().unwrap();
+    let core = pac::CorePeripherals::take().unwrap();
+    let mut watchdog = Watchdog::new(pac.WATCHDOG);
+    let sio = Sio::new(pac.SIO);
+
+    // External high-speed crystal on the pico board is 12Mhz
+    let external_xtal_freq_hz = 12_000_000u32;
+    let clocks = init_clocks_and_plls(
+        external_xtal_freq_hz,
+        pac.XOSC,
+        pac.CLOCKS,
+        pac.PLL_SYS,
+        pac.PLL_USB,
+        &mut pac.RESETS,
+        &mut watchdog,
+    )
+    .ok()
+    .unwrap();
+
+    let mut delay = cortex_m::delay::Delay::new(core.SYST, clocks.system_clock.freq().to_Hz());
+
+    let pins = hal::gpio::Pins::new(
+        pac.IO_BANK0,
+        pac.PADS_BANK0,
+        sio.gpio_bank0,
+        &mut pac.RESETS,
+    );
+
+    let mut pw_en = pins.gpio22.into_push_pull_output();
+    pw_en.set_high().unwrap();
+
+    let lcd_dc = pins.gpio1.into_push_pull_output();
+
+    let mut _lcd_cs = pins.gpio5.into_mode::<hal::gpio::FunctionSpi>();
+    let mut _lcd_clk = pins.gpio2.into_mode::<hal::gpio::FunctionSpi>();
+    let mut _lcd_mosi = pins.gpio3.into_mode::<hal::gpio::FunctionSpi>();
+
+    let lcd_rst = pins
+        .gpio0
+        .into_push_pull_output_in_state(hal::gpio::PinState::High);
+
+    let mut lcd_bl = pins.gpio4.into_push_pull_output();
+    lcd_bl.set_high().unwrap();
+
+    let spi = hal::Spi::<_, _, 8>::new(pac.SPI0);
+    let spi = spi.init(
+        &mut pac.RESETS,
+        clocks.peripheral_clock.freq(),
+        10.MHz(),
+        &embedded_hal::spi::MODE_0,
+    );
+    let di = SPIInterfaceNoCS::new(spi, lcd_dc);
+
+    let mut display = Builder::st7789_pico1(di)
+        .init(&mut delay, Some(lcd_rst))
+        .unwrap(); // delay provider from your MCU
+    display
+        .set_orientation(Orientation::Landscape(true))
+        .unwrap();
+
+    display.clear(Rgb565::BLUE).unwrap();
+
+    Line::new(
+        Point::zero(),
+        Point::new((240 - 1) as i32, (135 - 1) as i32),
+    )
+    .into_styled(PrimitiveStyle::with_stroke(Rgb565::RED, 1))
+    .draw(&mut display)
+    .unwrap();
+
+    let style = MonoTextStyle::new(&FONT_10X20, Rgb565::WHITE);
+    // Create a text at position (20, 30) and draw it using the previously defined style
+    Text::new("Hello World!", Point::new(20, 30), style)
+        .draw(&mut display)
+        .unwrap();
+
+    loop {}
+}
+```
