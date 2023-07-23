@@ -65,7 +65,7 @@
 
 | | |
 |-|-|
-| <img src=images/IMG_0006.JPG width='' height='' > </img> | <img src=images/RPI4-pins.png width='' height='' > </img> |
+| <img src=images/IMG_0006.JPG width=50% height=50% > </img> | <img src=images/RPI4-pins.png width=125% height=125% > </img> |
 
 # References
 
