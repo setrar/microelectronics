@@ -7,29 +7,25 @@
 //!
 //! See the `Cargo.toml` file for Copyright and license details.
 
+
+/* --- Needed by RPI Pico --- */
 #![no_std]
 #![no_main]
-
-// The macro for our start-up function
-use rp_pico::entry;
+use bsp::entry;
+use bsp::hal::{
+    prelude::*,
+    clocks::{init_clocks_and_plls, Clock},
+    gpio, pac,
+    sio::Sio,
+    watchdog::Watchdog,
+};
+use defmt_rtt as _;
+use panic_probe as _;
+use rp_pico as bsp;
+/* -------------------------- */
 
 // GPIO traits
 use embedded_hal::digital::v2::OutputPin;
-
-// Ensure we halt the program on panic (if we don't mention this crate it won't
-// be linked)
-use panic_probe as _;
-
-// Pull in any important traits
-use rp_pico::hal::prelude::*;
-
-// A shorter alias for the Peripheral Access Crate, which provides low-level
-// register access
-use rp_pico::hal::pac;
-
-// A shorter alias for the Hardware Abstraction Layer, which provides
-// higher-level drivers.
-use rp_pico::hal;
 
 /// Entry point to our bare-metal application.
 ///
