@@ -377,3 +377,7 @@ fn main() -> ! {
     loop {}
 }
 ```
+
+# References
+
+- [ ] [Introduction to SPI Interface](https://www.analog.com/en/analog-dialogue/articles/introduction-to-spi-interface.html)
