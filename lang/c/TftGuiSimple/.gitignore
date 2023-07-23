@@ -1,0 +1,9 @@
+CMakeCache.txt
+CMakeFiles/
+Makefile
+TftGuiSimple.*
+cmake_install.cmake
+elf2uf2/
+generated/
+pico-sdk/
+pioasm/
