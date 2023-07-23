@@ -70,4 +70,5 @@
 
 - [ ] [Getting Started with the Arduino TFT Screen](https://docs.arduino.cc/retired/getting-started-guides/TFT)
 - [ ] [:octocat: TFT eSPI](https://github.com/Bodmer/TFT_eSPI)
+- [ ] [:octocat: Python_ILI9486](https://github.com/ustropo/Python_ILI9486)
 - [ ] [ILI9486_Datasheet](https://www.waveshare.com/w/upload/7/78/ILI9486_Datasheet.pdf)
