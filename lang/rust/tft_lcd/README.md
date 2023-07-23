@@ -259,3 +259,8 @@ error: could not compile `tft_lcd` (bin "tft_lcd") due to 10 previous errors; 1 
 # References
 
 - [ ] [generic display driver to connect to TFT displays that implement ](https://docs.rs/mipidsi) the [MIPI Display Command Set](https://www.mipi.org/specifications/display-command-set).
+
+:round_pushpin: Blogs getting through
+
+- [ ] [Displaying Images on ESP32 with Rust!](https://lilymara.xyz/posts/images-esp32/)
+- [ ] [Rust LILYGO T-Display with RP2040](https://circuit4us.medium.com/rust-lilygo-t-display-with-rp2040-a93635240d7b)
