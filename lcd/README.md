@@ -72,3 +72,6 @@
 - [ ] [:octocat: TFT eSPI](https://github.com/Bodmer/TFT_eSPI)
 - [ ] [:octocat: Python_ILI9486](https://github.com/ustropo/Python_ILI9486)
 - [ ] [ILI9486_Datasheet](https://www.waveshare.com/w/upload/7/78/ILI9486_Datasheet.pdf)
+- [ ] [Re: Library for ILI9486](https://forum.micropython.org/viewtopic.php?t=8343#p66692)
+- [ ] [The py-driver (originally from waveshare) I am using for this display is among the example files in](https://ctx.graphics/uctx/downloads/uctx-examples.tar.gz)
+- [ ] [2D vector graphics for micropython with ctx](https://ctx.graphics/uctx/#/main.py)
