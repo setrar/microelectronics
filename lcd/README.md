@@ -45,17 +45,17 @@
 
 ## [PinOUT](https://pinout.xyz)
 
-| DESCRIPTION                        |                  |   :parking:      |   :parking:     |        | DESCRIPTION                       |
-|------------------------------------|------------------|-----------------:|----------------:|--------|-----------------------------------|
-| Power positive (3.3V power input)  | 3.3V             | :one:            | :two:           | 5V     | Power positive (5V power input)   |
-| NC               | :three:          | :four:          | 5V     |
-| NC               | :five:           | :six:           | GND    |
-| NC               | :seven:          | :eight:         | NC     |
-| GND              | :nine:           | :one::zero:     | NC     |
-| TP_IRQ           | :one::one:       | :one::two:      | NC     |
-| NC               | :one::three:     | :one::four:     | GND    |
-| NC               | :one::five:      | :one::six:      | NC     |
-| NC               | :one::seven:     | :one::eight:    | LCD_RS |
+| DESCRIPTION                                                             |                  |   :parking:      |   :parking:     |        | DESCRIPTION                       |
+|-------------------------------------------------------------------------|-----------------:|-----------------:|----------------:|--------|-----------------------------------|
+| Power positive (3.3V power input)                                       | 3.3V             | :one:            | :two:           | 5V     | Power positive (5V power input)   |
+|                                                                         | NC               | :three:          | :four:          | 5V     |
+|                                                                         | NC               | :five:           | :six:           | GND    |
+|                                                                         | NC               | :seven:          | :eight:         | NC     |
+| Ground                                                                  | GND              | :nine:          | :one::zero:      | NC     |
+| Touch Panel interrupt, low level while the Touch Panel detects touching | TP_IRQ           | :one::one:      | :one::two:       | NC     |
+|                                    | NC               | :one::three:     | :one::four:     | GND    |
+|                                    | NC               | :one::five:      | :one::six:      | NC     |
+|                                    | NC               | :one::seven:     | :one::eight:    | LCD_RS |
 | LCD_SI / TP_SI   | :one::nine:      | :two::zero:     | GND    |
 | TP_SO            | :two::one:       | :two::two:      | RST    |
 | LCD_SCK / TP_SCK | :two::three:     | :two::four:     | LCD_CS |
