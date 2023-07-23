@@ -60,7 +60,7 @@
 | SPI data input of LCD/Touch Panel  | LCD_SI / TP_SI   | :one::nine:      | :two::zero:     | GND    | Ground                               |
 | SPI data output of Touch Panel     | TP_SO            | :two::one:       | :two::two:      | RST    | Reset                                |
 | SPI clock of LCD/Touch Panel       | LCD_SCK / TP_SCK | :two::three:     | :two::four:     | LCD_CS | LCD chip selection, low active       |
-| Ground                             | GND              | :two::five:      | :two::six:      | TP_CS  |
+| Ground                             | GND              | :two::five:      | :two::six:      | TP_CS  | Touch Panel chip selection, low active |
 
 
 | | |
