@@ -40,10 +40,10 @@ Some things that helped :
 |-|-|-|
 | LCD_RST  | 14                  | 22 |
 | LCD_DC   | 15                  | 18 |
+| LCD_MISO | 16                  | 21 |
 | LCD_CS   | 17                  | 24 |
 | LCD_SCK  | 18                  | 23 |
 | LCD_MOSI | 19                  | 19 | 
-| LCD_MISO | 16                  | 21 |
 
 |  Func     |  PICO PORT :hash:  | ILI9486 PORT :hash: |
 |-|-|-|
