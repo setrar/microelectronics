@@ -35,7 +35,7 @@ Some things that helped :
 | LCD chip selection, low active         | LCD_CS       | :two::three: | :two::four:     | LCD_SCK       | SPI clock of LCD/Touch Panel       |
 | 3.3V power input  (TP chip selection)  | 3.3V (TP_CS) | :two::five:  | :two::six:      | GND           | Ground                             | 
 
-```pytthon
+```python
 # PICO PORT     # ILI9486 PORT
 LCD_DC   = 8    # 17 Data / Command
 LCD_CS   = 9    # 23 Chip Selection
