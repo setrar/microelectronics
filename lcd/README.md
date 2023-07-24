@@ -15,9 +15,9 @@ What I have (Where my wires are etc) for anyone in the future https://imgur.com/
 Some things that helped :
 - [ ] [Connect an SPI LCD TFT Display to Your Raspberry Pi Pico With MicroPython - ILI9341 Driver](https://youtu.be/suCTwxlYgnM?t=252)
 - [ ] https://spotpear.com/uploads/picture/learn/raspberry-pi/rpi-pico/pico-restouch-lcd-2.8/pico-restouch-lcd-2.8-02.jpg
-- [ ] by [unknown.png](https://cdn.discordapp.com/attachments/898384284010811452/1013396080425177088/unknown.png)
+- [ ] by 
 
-| | |
+| [unknown.png](https://cdn.discordapp.com/attachments/898384284010811452/1013396080425177088/unknown.png) | The LCD Hat going on top of the Pi, the pin numbers are inverted |
 |-|-|
 | <img src=images/unknown.png width='' height='' > </img> |  <img src=images/unknown-label.png width='' height='' > </img> |
 
