@@ -68,9 +68,9 @@ Interesting. By this, do you mean that for the LCD controller, the MOSI pin is u
 
 That is right.
 
-<img src=images/IMG_0433.jpg width=50% height=50% > </img>
-<img src=images/IMG_0434.jpg width=50% height=50% > </img>
-<img src=images/IMG_0435.jpg width=50% height=50% > </img>
+| | | |
+|-|-|-|
+| <img src=images/IMG_0433.jpg width=50% height=50% > </img> | <img src=images/IMG_0434.jpg width=50% height=50% > </img> | <img src=images/IMG_0435.jpg width=50% height=50% > </img> |
 
 [Connect an SPI LCD TFT Display to Your Raspberry Pi Pico With MicroPython - ILI9341 Driver](https://www.youtube.com/watch?v=suCTwxlYgnM&t=252s)<img src=images/fritzing-1.png width=50% height=50% > </img>
 
@@ -141,7 +141,7 @@ That is right.
 
 | The LCD Hat going on top of the Pi, the pin numbers are inverted | [:warning: RPi4 SPI Pinouts](https://pinout.xyz/pinout/spi) | | 
 |-|-|-|
-| <img src=images/IMG_0006.JPG width=50% height=50% > </img> | <img src=images/RPI4-pins.png width=200% height=200% > </img> | <img src=images/rpi-pico-pinout.pngwidth='' height='' > </img>
+| <img src=images/IMG_0006.JPG width=50% height=50% > </img> | <img src=images/RPI4-pins.png width=200% height=200% > </img> | <img src=images/rpi-pico-pinout.png width='' height='' > </img> |
 
 # References
 
