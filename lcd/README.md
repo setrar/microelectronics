@@ -5,6 +5,7 @@
 - [ ] [LCD Wiki: 3.5inch RPi Display](http://www.lcdwiki.com/3.5inch_RPi_Display)
 - [ ] [Waveshare: 3.5inch RPi LCD (A), 480x320](https://www.waveshare.com/3.5inch-rpi-lcd-a.htm)
 - [ ] [thin-film-transistor liquid-crystal display (TFT LCD)](https://en.wikipedia.org/wiki/TFT_LCD)
+- [ ] [a-Si TFT LCD Single Chip Driver 320RGBx480 Resolution and 262K-color ](http://www.lcdwiki.com/res/MRB3503/ILI9486_Datasheet.pdf)
 
 | |
 |-|
