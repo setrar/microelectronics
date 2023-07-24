@@ -5,6 +5,18 @@
 
 I have this screen [3.5inch_RPi_Display](http://www.lcdwiki.com/3.5inch_RPi_Display) and a pico. I am new to screens and could only get that one at the moment. How could I connect them so I can display stuff on it from the pico? I was told "I dont see why it wont work"
 
+- [ ] [🚴‍♂️chez_man69](https://www.reddit.com/user/chez_man69/)
+
+I did end up solving it. There was no documentation for this model as far as i could find so I used other images to figure it out.
+
+Just need some drivers first
+
+What I have (Where my wires are etc) for anyone in the future https://imgur.com/a/Ol74ny2
+Some things that helped :
+- [ ] https://youtu.be/suCTwxlYgnM?t=252
+- [ ] https://spotpear.com/uploads/picture/learn/raspberry-pi/rpi-pico/pico-restouch-lcd-2.8/pico-restouch-lcd-2.8-02.jpg
+- [ ] https://cdn.discordapp.com/attachments/898384284010811452/1013396080425177088/unknown.png
+
 ---
 
 - [ ] [3.5 inch RPi Display](https://www.youtube.com/watch?v=5DAn_5-1Jg4)
