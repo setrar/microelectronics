@@ -86,7 +86,7 @@ import time
 import os
 
 # PICO PORT     # ILI9486 PORT
-LCD_DC   = 8    # 
+LCD_DC   = 8    # 22
 LCD_CS   = 9    # 24
 LCD_SCK  = 10   # 23
 LCD_MOSI = 11   # 21 TP_SO 
