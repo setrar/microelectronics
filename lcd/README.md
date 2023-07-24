@@ -48,6 +48,9 @@ TP_CS    = 16   #
 TP_IRQ   = 17   #  
 ```
 
+<img src=images/IMG_0433.jpg width=50% height=50% > </img>
+<img src=images/IMG_0434.jpg width=50% height=50% > </img>
+<img src=images/IMG_0435.jpg width=50% height=50% > </img>
 
 ---
 
