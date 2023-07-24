@@ -6,6 +6,11 @@ Attempt to Install Fritzing
 ## QT
 
 
+```
+brew install --cask qt-creator
+```
+
+
 
 ```
 brew install qt
@@ -18,6 +23,5 @@ pressing "Choose..." and selecting as the Qt installation path:
   /usr/local
 ```
 
-```
-brew install --cask qt-creator
-```
+<img src=images/qt-creator-preferences.png widtth=50% height=50% > </img>
+
