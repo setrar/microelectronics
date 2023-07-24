@@ -23,5 +23,7 @@ pressing "Choose..." and selecting as the Qt installation path:
   /usr/local
 ```
 
-<img src=images/qt-creator-preferences.png widtth=50% height=50% > </img>
+| Setting Up | Result |
+|-|-|
+| <img src=images/qt-creator-preferences.png widtth='' height='' > </img> | <img src=images/qt-creator-preferences.png widtth='' height='' > </img> |
 
