@@ -38,3 +38,5 @@ brew install --cask qt-creator
 ```
 git clone https://github.com/fritzing/fritzing-app.git
 ```
+
+:x: Failed to compile
