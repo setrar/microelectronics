@@ -38,15 +38,18 @@ Some things that helped :
 
 |  Func     |  PICO PORT :hash:  | ILI9486 PORT :hash: |
 |-|-|-|
-| LCD_DC   | 8                 | 18 |
-| LCD_CS   | 9                 | 24 |
-| LCD_SCK  | 10                | 23 |
-| LCD_MOSI | 11                | 19 LCD_SI | 
-| LCD_MISO | 12                | 21 TP_SO |
+| LCD_RST  | 14                  | 22 |
+| LCD_DC   | 15                  | 18 |
+| LCD_CS   | 17                  | 24 |
+| LCD_SCK  | 18                  | 23 |
+| LCD_MOSI | 19                  | 19 | 
+| LCD_MISO | 16                  | 21 |
+
+|  Func     |  PICO PORT :hash:  | ILI9486 PORT :hash: |
+|-|-|-|
 | LCD_BL   | 13                | | 
-| LCD_RST  | 15                |  22 |
-| TP_CS    | 16                | 26  |
-| TP_IRQ   | 17                | 11 |
+| TP_CS    | 16                |   |
+| TP_IRQ   | 17                |  |
 
 
 :round_pushpin: Articles
