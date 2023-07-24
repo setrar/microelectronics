@@ -135,7 +135,7 @@ That is right.
 | Ground                             | GND              | :two::five:      | :two::six:      | TP_CS  | Touch Panel chip selection, low active |
 
 
-| The LCD Hat going on top of the Pi, the numbers are inverted | RPi4 |
+| The LCD Hat going on top of the Pi, the pin numbers are inverted | RPi4 |
 |-|-|
 | <img src=images/IMG_0006.JPG width=50% height=50% > </img> | <img src=images/RPI4-pins.png width=200% height=200% > </img> |
 
