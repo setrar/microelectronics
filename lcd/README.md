@@ -13,7 +13,7 @@ Just need some drivers first
 
 What I have (Where my wires are etc) for anyone in the future https://imgur.com/a/Ol74ny2
 Some things that helped :
-- [ ] https://youtu.be/suCTwxlYgnM?t=252
+- [ ] [Connect an SPI LCD TFT Display to Your Raspberry Pi Pico With MicroPython - ILI9341 Driver](https://youtu.be/suCTwxlYgnM?t=252)
 - [ ] https://spotpear.com/uploads/picture/learn/raspberry-pi/rpi-pico/pico-restouch-lcd-2.8/pico-restouch-lcd-2.8-02.jpg
 - [ ] https://cdn.discordapp.com/attachments/898384284010811452/1013396080425177088/unknown.png
 
