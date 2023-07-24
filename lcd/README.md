@@ -32,7 +32,7 @@ Some things that helped :
 |                                    | NC               | :one::three:     | :one::four:     | GND    | Ground                               |
 |                                    | NC               | :one::five:      | :one::six:      | NC     |                                      |
 |                                    | NC               | :one::seven:     | :one::eight:    | LCD_RS (DC) | Instruction/Data Register selection  |
-| SPI data input of LCD/Touch Panel  | LCD_SI / TP_SI (MOSI)  | :one::nine:      | :two::zero:     | GND    | Ground                               |
+| SPI data input of LCD/Touch Panel  | LCD_SI / (MOSI)  | :one::nine:      | :two::zero:     | GND    | Ground                               |
 | SPI data output of Touch Panel     | TP_SO            | :two::one:       | :two::two:      | RST    | Reset                                |
 | SPI clock of LCD/Touch Panel       | LCD_SCK / TP_SCK | :two::three:     | :two::four:     | LCD_CS | LCD chip selection, low active       |
 | Ground                             | GND              | :two::five:      | :two::six:      | TP_CS  | Touch Panel chip selection, low active |
