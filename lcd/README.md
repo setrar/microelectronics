@@ -19,6 +19,23 @@ Some things that helped :
 
 <img src=images/unknown.png width='' height='' > </img>
 
+| DESCRIPTION                            |              |   :parking:  |   :parking:     |        | DESCRIPTION                          |
+|----------------------------------------|--------------|-------------:|----------------:|--------|--------------------------------------|
+| Power positive (5V power input)        | 5V           | :one:        | :two:           | NC     |                                      |
+|                                        | NC           | :three:      | :four:          | NC     |                                      |
+|                                        | NC           | :five:       | :six:           | NC     |                                      |
+|                                        | NC           | :seven:      | :eight:         | NC     |                                      |
+|                                        | NC           | :nine:       | :one::zero:     | NC     |                                      |
+|                                        | NC           | :one::one:   | :one::two:      | NC     |                                      |
+| Ground                                 | GND          | :one::three: | :one::four:     | NC     |                                      |
+|                                        | NC           | :one::five:  | :one::six:      | NC            |                                    |
+| DC Data / Command                      | DC           | :one::seven: | :one::eight:    | NC            |                                    |
+|                                        | NC           | :one::nine:  | :two::zero:     | LCD_SI (MOSI) | SPI data input of LCD/Touch Panel  | 
+| Reset                                  | RST          | :two::one:   | :two::two:      |               |                                    |
+| LCD chip selection, low active         | LCD_CS       | :two::three: | :two::four:     | LCD_SCK       | SPI clock of LCD/Touch Panel       |
+| 3.3V power input  (TP chip selection)  | 3.3V (TP_CS) | :two::five:  | :two::six:      | GND           | Ground                             | 
+
+
 ---
 
 - [ ] [3.5 inch RPi Display](https://www.youtube.com/watch?v=5DAn_5-1Jg4)
