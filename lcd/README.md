@@ -52,6 +52,8 @@ TP_IRQ   = 17   #
 <img src=images/IMG_0434.jpg width=50% height=50% > </img>
 <img src=images/IMG_0435.jpg width=50% height=50% > </img>
 
+[Connect an SPI LCD TFT Display to Your Raspberry Pi Pico With MicroPython - ILI9341 Driver](https://www.youtube.com/watch?v=suCTwxlYgnM&t=252s)<img src=images/fritzing-1.png width=50% height=50% > </img>
+
 ---
 
 - [ ] [3.5 inch RPi Display](https://www.youtube.com/watch?v=5DAn_5-1Jg4)
