@@ -17,7 +17,7 @@ Some things that helped :
 - [ ] https://spotpear.com/uploads/picture/learn/raspberry-pi/rpi-pico/pico-restouch-lcd-2.8/pico-restouch-lcd-2.8-02.jpg
 - [ ] by [unknown.png](https://cdn.discordapp.com/attachments/898384284010811452/1013396080425177088/unknown.png)
 
-<img src=images/unknowm.png width='' height='' > </img>
+<img src=images/unknown.png width='' height='' > </img>
 
 ---
 
