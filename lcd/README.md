@@ -48,6 +48,20 @@ TP_CS    = 16   #
 TP_IRQ   = 17   #  
 ```
 
+- [ ] [What is the D/C pin on the 1.8" TFT LCD breakout?](https://forums.adafruit.com/viewtopic.php?t=51949)
+
+> by adafruit_support_bill » Mon Mar 31, 2014 3:47 pm
+
+That is a data/command pin. SPI has no formal standard and there are lots variations on it. Instead of separate CS pins for data and command, they use one CS pin and the D/C to toggle between them.
+ 
+> by xenoc » Mon Mar 31, 2014 4:06 pm
+
+Interesting. By this, do you mean that for the LCD controller, the MOSI pin is used for receiving data and commands, and that D/C is set by the master to indicate which it is being sent?
+
+> by adafruit_support_bill » Mon Mar 31, 2014 4:16 pm
+
+That is right.
+
 <img src=images/IMG_0433.jpg width=50% height=50% > </img>
 <img src=images/IMG_0434.jpg width=50% height=50% > </img>
 <img src=images/IMG_0435.jpg width=50% height=50% > </img>
