@@ -33,3 +33,8 @@ brew install --cask qt-creator
 |-|-|
 | <img src=images/qt-creator-preferences.png widtth='' height='' > </img> | <img src=images/qt-creator-preferences-result.png widtth='' height='' > </img> |
 
+### :b: In `~/Developer` folder
+
+```
+git clone https://github.com/fritzing/fritzing-app.git
+```
