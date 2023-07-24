@@ -36,6 +36,11 @@ Some things that helped :
 | SPI clock of LCD/Touch Panel       | LCD_SCK / TP_SCK | :two::three:     | :two::four:     | LCD_CS | LCD chip selection, low active       |
 | Ground                             | GND              | :two::five:      | :two::six:      | TP_CS  | Touch Panel chip selection, low active |
 
+:round_pushpin: Articles
+
+- [ ] [3.5" ILI9488/ILI9486 w ESP32](https://forum.arduino.cc/t/3-5-ili9488-ili9486-w-esp32/480035/3)
+
+
 ```python
 # PICO PORT     # ILI9486 PORT
 LCD_DC   = 8    # 17 Data / Command
