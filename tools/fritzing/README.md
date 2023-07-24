@@ -1,6 +1,8 @@
 # Install Fritzing
 
-Attempt to Install Fritzing
+Attempt to Install Fritzing by following the below insstall instructions:
+
+https://github.com/fritzing/fritzing-app/wiki/1.1-Mac-notes
 
 
 ## QT
