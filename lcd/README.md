@@ -79,20 +79,22 @@
 - [ ] [Re: Library for ILI9486](https://forum.micropython.org/viewtopic.php?t=8343#p66692)
 - [ ] [The py-driver (originally from waveshare) I am using for this display is among the example files in](https://ctx.graphics/uctx/downloads/uctx-examples.tar.gz)
 ```python
+
 from machine import Pin,SPI,PWM
 import framebuf
 import time
 import os
 
-LCD_DC   = 8
-LCD_CS   = 9
-LCD_SCK  = 10
-LCD_MOSI = 11
-LCD_MISO = 12
-LCD_BL   = 13
-LCD_RST  = 15
-TP_CS    = 16
-TP_IRQ   = 17
+# PICO PORT     # ILI9486 PORT
+LCD_DC   = 8    # 
+LCD_CS   = 9    # 24
+LCD_SCK  = 10   # 23
+LCD_MOSI = 11   # 21 TP_SO 
+LCD_MISO = 12   # 19 LCD_SI
+LCD_BL   = 13   # 
+LCD_RST  = 15   # 18
+TP_CS    = 16   # 26
+TP_IRQ   = 17   # 11
 
 class LCD():
 
@@ -259,10 +261,13 @@ class LCD():
 
 
             Result_list = [X_Point,Y_Point]
-            #print(Result_list)
+            print(Result_list)
             return(Result_list)
 
+cl = LCD()
+cl.write_data(12345)
 ```
+
 - [ ] [2D vector graphics for micropython with ctx](https://ctx.graphics/uctx/#/main.py)
 - [ ] [Rust LILYGO T-Display with RP2040](https://circuit4us.medium.com/rust-lilygo-t-display-with-rp2040-a93635240d7b)
 ```rust
