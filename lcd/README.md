@@ -1,6 +1,12 @@
 # LCD (Liquid Crystal Display)
 
 
+- [ ] [How do I use the 3.5inch RPi Display with the pico?](https://www.reddit.com/r/raspberrypipico/comments/wzrpw0/how_do_i_use_the_35inch_rpi_display_with_the_pico)
+
+I have this screen [3.5inch_RPi_Display](http://www.lcdwiki.com/3.5inch_RPi_Display) and a pico. I am new to screens and could only get that one at the moment. How could I connect them so I can display stuff on it from the pico? I was told "I dont see why it wont work"
+
+---
+
 - [ ] [3.5 inch RPi Display](https://www.youtube.com/watch?v=5DAn_5-1Jg4)
 - [ ] [LCD Wiki: 3.5inch RPi Display](http://www.lcdwiki.com/3.5inch_RPi_Display)
 - [ ] [Waveshare: 3.5inch RPi LCD (A), 480x320](https://www.waveshare.com/3.5inch-rpi-lcd-a.htm)
