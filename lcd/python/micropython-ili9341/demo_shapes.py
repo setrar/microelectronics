@@ -6,9 +6,17 @@ from machine import Pin, SPI
 
 def test():
     """Test code."""
-    # Baud rate of 40000000 seems about the max
-    spi = SPI(1, baudrate=40000000, sck=Pin(14), mosi=Pin(13))
-    display = Display(spi, dc=Pin(4), cs=Pin(16), rst=Pin(17))
+
+    spi = SPI(0,
+              baudrate=10000000,
+              polarity=1,
+              phase=1,
+              bits=8,
+              firstbit=SPI.MSB,
+              sck=Pin(18),
+              mosi=Pin(19),
+              miso=Pin(16))
+    display = Display(spi, dc=Pin(15), cs=Pin(17), rst=Pin(14))
 
     display.clear(color565(64, 0, 255))
     sleep(1)
