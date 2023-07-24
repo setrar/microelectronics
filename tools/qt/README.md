@@ -12,3 +12,7 @@ You can add Homebrew's Qt to QtCreator's "Qt Versions" in:
 pressing "Choose..." and selecting as the Qt installation path:
   /usr/local
 ```
+
+```
+brew install --cask qt-creator
+```
