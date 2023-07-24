@@ -86,7 +86,6 @@ That is right.
 
 | | | |
 |-|-|-|
-| <img src=images/IMG_0433.jpg width='' height='' > </img> | <img src=images/IMG_0434.jpg width='' height='' > </img> | <img src=images/IMG_0435.jpg width='' height='' > </img> |
 | <img src=images/IMG_0437.jpg width='' height='' > </img> | <img src=images/IMG_0438.jpg width='' height='' > </img> | <img src=images/IMG_0441.jpg width='' height='' > </img> |
 
 [Connect an SPI LCD TFT Display to Your Raspberry Pi Pico With MicroPython - ILI9341 Driver](https://www.youtube.com/watch?v=suCTwxlYgnM&t=252s)<img src=images/fritzing-1.png width=50% height=50% > </img>
