@@ -25,5 +25,5 @@ pressing "Choose..." and selecting as the Qt installation path:
 
 | Setting Up | Result |
 |-|-|
-| <img src=images/qt-creator-preferences.png widtth='' height='' > </img> | <img src=images/qt-creator-preferences.png widtth='' height='' > </img> |
+| <img src=images/qt-creator-preferences.png widtth='' height='' > </img> | <img src=images/qt-creator-preferences-result.png widtth='' height='' > </img> |
 
