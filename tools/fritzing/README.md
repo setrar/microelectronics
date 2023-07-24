@@ -5,12 +5,7 @@ Attempt to Install Fritzing
 
 ## QT
 
-
-```
-brew install --cask qt-creator
-```
-
-
+- [ ] Install QT
 
 ```
 brew install qt
@@ -22,6 +17,15 @@ You can add Homebrew's Qt to QtCreator's "Qt Versions" in:
 pressing "Choose..." and selecting as the Qt installation path:
   /usr/local
 ```
+
+- [ ] Install QT Creator
+
+```
+brew install --cask qt-creator
+```
+
+- [ ] Adjust QT Creator's runtime
+
 
 | Setting Up | Result |
 |-|-|
