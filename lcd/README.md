@@ -36,6 +36,19 @@ Some things that helped :
 | SPI clock of LCD/Touch Panel       | LCD_SCK / TP_SCK | :two::three:     | :two::four:     | LCD_CS | LCD chip selection, low active       |
 | Ground                             | GND              | :two::five:      | :two::six:      | TP_CS  | Touch Panel chip selection, low active |
 
+|  Func     |  PICO PORT :hash:  | ILI9486 PORT :hash: |
+|-|-|-|
+| LCD_DC   | 8                 | 18 |
+| LCD_CS   | 9                 | 24 |
+| LCD_SCK  | 10                | 23 |
+| LCD_MOSI | 11                | 19 LCD_SI | 
+| LCD_MISO | 12                | 21 TP_SO |
+| LCD_BL   | 13                | | 
+| LCD_RST  | 15                |  22 |
+| TP_CS    | 16                | 26  |
+| TP_IRQ   | 17                | 11 |
+
+
 :round_pushpin: Articles
 
 - [ ] [3.5" ILI9488/ILI9486 w ESP32](https://forum.arduino.cc/t/3-5-ili9488-ili9486-w-esp32/480035/3)
@@ -143,17 +156,6 @@ That is right.
 |-|-|-|
 | <img src=images/IMG_0006.JPG width=50% height=50% > </img> | <img src=images/RPI4-pins.png width=200% height=200% > </img> | <img src=images/rpi-pico-pinout.png width='' height='' > </img> |
 
-|  Func     |  PICO PORT :hash:  | ILI9486 PORT :hash: |
-|-|-|-|
-| LCD_DC   | 8                 | 22 |
-| LCD_CS   | 9    | 24 |
-| LCD_SCK  | 10   | 23 |
-| LCD_MOSI | 11   | 21 TP_SO | 
-| LCD_MISO | 12   | 19 LCD_SI |
-| LCD_BL   | 13   | | 
-| LCD_RST  | 15   |  18 |
-| TP_CS    | 16   | 26  |
-| TP_IRQ   | 17   | 11 |
 
 
 
