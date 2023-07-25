@@ -151,7 +151,7 @@ class Display(object):
         if is_data:
             self._spi.write(bytearray(data))
         else:
-            self._spi.write(data)
+            self._spi.write(bytearray(data))
 
     def command(self, data):
         """Write a byte or array of bytes to the display as command data."""
@@ -166,7 +166,7 @@ class Display(object):
         if self._rst is not None:
             self._rst(1)
             time.sleep(.005)
-            self.rst(0)
+            self._rst(0)
             time.sleep(.02)
             self._rst(1)
             time.sleep(.150)
