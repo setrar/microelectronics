@@ -25,6 +25,7 @@ HDL - Languages
 - [ ] [Chisel/FIRRTL Hardware Compiler Framework](https://www.chisel-lang.org/)
 - [ ] [Digital Design with Chisel by Martin Schoeberl](https://github.com/schoeberl/chisel-book)
 - [ ] [Chisel Lab](https://github.com/schoeberl/chisel-lab)
+- [ ] [:octocat: Raspberry Pi PICO board + Lattice iCE40 FPGA's](https://github.com/tinyvision-ai-inc/pico-ice)
 
 :tv: Digi-Key
 
