@@ -82,20 +82,23 @@ fn main() -> ! {
     
     // Define the reset and write enable pins as digital outputs and make them high
     let reset = pins
-        .gpio9
+        .gpio14
         .into_push_pull_output_in_state(gpio::PinState::High);
-    let _wr = pins
-        .gpio5
-        .into_push_pull_output_in_state(gpio::PinState::High);
+//    let _wr = pins
+//        .gpio5
+//        .into_push_pull_output_in_state(gpio::PinState::High);
 
     // Define the Data/Command select pin as a digital output
-    let dc = pins.gpio7.into_push_pull_output();
+    let dc = pins
+            .gpio15
+            .into_push_pull_output_in_state(gpio::PinState::High);
+//            .into_push_pull_output();
     
     // Define the SPI pins and create the SPI interface
-    let _sck = pins.gpio12;
-    let _miso = pins.gpio11;
-    let _mosi = pins.gpio13;
-    let _cs = pins.gpio10;
+    let _sck  = pins.gpio18;
+    let _mosi = pins.gpio19;
+    let _miso = pins.gpio16;
+    let _cs   = pins.gpio17;
 
     let spi = Spi::<_, _, 8>::new(pac.SPI0);
 //    let spi = spi.init(
