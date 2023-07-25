@@ -282,11 +282,6 @@ class Display(object):
         self.data(y1 & 0xFF)                    # YEND
         self.command(0x2C)        # write to RAM
 
-    def clear(self, color=(0,0,0)):
-        """Clear the image buffer to the specified RGB color (default black)."""
-        width, height = self.buffer.size
-        self.buffer.putdata([color]*(width*height))
-
     def draw_hline(self, x, y, w, color):
         """Draw a horizontal line.
 
