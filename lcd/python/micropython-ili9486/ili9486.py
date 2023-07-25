@@ -143,11 +143,15 @@ class Display(object):
         single SPI transaction, with a default of 4096.
         """
         # Convert scalar argument to list so either can be passed as parameter.
-        data = [data & 0xFF]
+        #data = [data & 0xFF]
         # Write data a chunk at a time.
-        for start in range(0, len(data), chunk_size):
-            end = min(start+chunk_size, len(data))
-            self._spi.write(data[start:end])
+        #for start in range(0, len(data), chunk_size):
+        #    end = min(start+chunk_size, len(data))
+        #    self._spi.write(data[start:end])
+        if is_data:
+            self._spi.write(bytearray(data))
+        else:
+            self._spi.write(data)
 
     def command(self, data):
         """Write a byte or array of bytes to the display as command data."""
