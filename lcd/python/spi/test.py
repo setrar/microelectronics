@@ -48,6 +48,7 @@ class LCD():
                 mosi=Pin(LCD_MOSI),
                 miso=Pin(LCD_MISO)
                 )
+        print("SPI Called")
              
         self.init_display()
 
@@ -66,6 +67,7 @@ class LCD():
         #self.spi.write(bytearray([0X00]))
         self.spi.write(bytearray([buf]))
         self.cs(1)
+        print("done writing data ", buf)
 
 
     def init_display(self):
@@ -194,3 +196,4 @@ class LCD():
 
 cl = LCD()
 cl.write_data(12345)
+print('done')
