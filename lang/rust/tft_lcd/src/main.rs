@@ -18,7 +18,7 @@ use rp_pico as bsp;
 use embedded_hal::digital::v2::OutputPin;
 
 use embedded_graphics::{
-    pixelcolor::Rgb565,
+    pixelcolor::Rgb666,
     prelude::*,
     primitives::{Circle, Primitive, PrimitiveStyle, Triangle},
 };
@@ -123,12 +123,12 @@ fn main() -> ! {
     let di = SPIInterfaceNoCS::new(spi, dc);
     
     // Define the display from the display interface and initialize it
-    let mut display = mipidsi::ili9486_rgb565(di)
+    let mut display = mipidsi::ili9486_rgb666(di)
         .init(&mut delay, Some(reset))
         .unwrap();
 
     // Make the display all black
-    display.clear(Rgb565::BLACK).unwrap();
+    display.clear(Rgb666::BLACK).unwrap();
     
     // Draw a smiley face with white eyes and a red mouth
     draw_smiley(&mut display).unwrap();
@@ -142,15 +142,15 @@ fn main() -> ! {
     }
 }
 
-fn draw_smiley<T: DrawTarget<Color = Rgb565>>(display: &mut T) -> Result<(), T::Error> {
+fn draw_smiley<T: DrawTarget<Color = Rgb666>>(display: &mut T) -> Result<(), T::Error> {
     // Draw the left eye as a circle located at (50, 100), with a diameter of 40, filled with white
     Circle::new(Point::new(50, 100), 40)
-        .into_styled(PrimitiveStyle::with_fill(Rgb565::WHITE))
+        .into_styled(PrimitiveStyle::with_fill(Rgb666::WHITE))
         .draw(display)?;
 
     // Draw the right eye as a circle located at (50, 200), with a diameter of 40, filled with white
     Circle::new(Point::new(50, 200), 40)
-        .into_styled(PrimitiveStyle::with_fill(Rgb565::WHITE))
+        .into_styled(PrimitiveStyle::with_fill(Rgb666::WHITE))
         .draw(display)?;
 
     // Draw an upside down red triangle to represent a smiling mouth
@@ -159,7 +159,7 @@ fn draw_smiley<T: DrawTarget<Color = Rgb565>>(display: &mut T) -> Result<(), T::
         Point::new(130, 200),
         Point::new(160, 170),
     )
-    .into_styled(PrimitiveStyle::with_fill(Rgb565::RED))
+    .into_styled(PrimitiveStyle::with_fill(Rgb666::RED))
     .draw(display)?;
 
     // Cover the top part of the mouth with a black triangle so it looks closed instead of open
@@ -168,7 +168,7 @@ fn draw_smiley<T: DrawTarget<Color = Rgb565>>(display: &mut T) -> Result<(), T::
         Point::new(130, 190),
         Point::new(150, 170),
     )
-    .into_styled(PrimitiveStyle::with_fill(Rgb565::BLACK))
+    .into_styled(PrimitiveStyle::with_fill(Rgb666::BLACK))
     .draw(display)?;
 
     Ok(())
