@@ -333,8 +333,20 @@ class Display(object):
             y1 (int):  Ending Y position.
             data (bytes): Data buffer to write.
         """
-        self.write_cmd(self.SET_COLUMN, *ustruct.pack(">HH", x0, x1))
-        self.write_cmd(self.SET_PAGE, *ustruct.pack(">HH", y0, y1))
+        self.write_cmd(self.ILI9486_CASET, *ustruct.pack(">HH", x0, x1))
+        self.write_cmd(self.ILI9486_PASET, *ustruct.pack(">HH", y0, y1))
 
-        self.write_cmd(self.WRITE_RAM)
-        self.write_data(data)
+        self.write_cmd(self.ILI9486_RAMWR)
+        self.data(data)
+
+    def write_cmd(self, command, *args):
+        """Write command to OLED (MicroPython).
+
+        Args:
+            command (byte): ILI9341 command code.
+            *args (optional bytes): Data to transmit.
+        """
+        self.command(bytearray([command]))
+        # Handle any passed data
+        if len(args) > 0:
+            self.data(bytearray(args))
