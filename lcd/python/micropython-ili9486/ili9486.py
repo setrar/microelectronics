@@ -26,7 +26,6 @@ from sys import implementation
 from framebuf import FrameBuffer, RGB565  # type: ignore
 import ustruct  # type: ignore
 import time
-import numbers
 
 
 
@@ -144,8 +143,7 @@ class Display(object):
         single SPI transaction, with a default of 4096.
         """
         # Convert scalar argument to list so either can be passed as parameter.
-        if isinstance(data, numbers.Number):
-            data = [data & 0xFF]
+        data = [data & 0xFF]
         # Write data a chunk at a time.
         for start in range(0, len(data), chunk_size):
             end = min(start+chunk_size, len(data))
