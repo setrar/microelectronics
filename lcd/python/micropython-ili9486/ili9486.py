@@ -322,3 +322,19 @@ class Display(object):
                 ymax, self.height - 1))
             return True
         return False
+    
+    def block(self, x0, y0, x1, y1, data):
+        """Write a block of data to display.
+
+        Args:
+            x0 (int):  Starting X position.
+            y0 (int):  Starting Y position.
+            x1 (int):  Ending X position.
+            y1 (int):  Ending Y position.
+            data (bytes): Data buffer to write.
+        """
+        self.write_cmd(self.SET_COLUMN, *ustruct.pack(">HH", x0, x1))
+        self.write_cmd(self.SET_PAGE, *ustruct.pack(">HH", y0, y1))
+
+        self.write_cmd(self.WRITE_RAM)
+        self.write_data(data)
