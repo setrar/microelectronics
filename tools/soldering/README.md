@@ -11,10 +11,10 @@
 <img src=images/1-1.jpg width=50% height=50% > </img>
 
 
-Quad Flat Package (QFP)
-Small Outline Package (SOP)
-Plastic Leaded Chip Carrier (PLCC)
-Small Outline J-Lead (SOJ)
-Ball Grid Array (BGA)
-Chip Scale Package (CSP)
+- [ ] Quad Flat Package (QFP)
+- [ ] Small Outline Package (SOP)
+- [ ] Plastic Leaded Chip Carrier (PLCC)
+- [ ] Small Outline J-Lead (SOJ)
+- [ ] Ball Grid Array (BGA)
+- [ ] Chip Scale Package (CSP)
 
