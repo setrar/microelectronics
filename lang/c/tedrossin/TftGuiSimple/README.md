@@ -15,9 +15,9 @@ export PICO_SDK_PATH=~/Developer/pico-sdk
 - [ ] [2.8" TFT Touch Shield for Arduino with Resistive Touch Screen](https://www.adafruit.com/product/1651)
 
 ```
-cmake .
+cmake -B build -S .
 ```
 
 ```
-make
+cd build ; make ; cd ..
 ```
