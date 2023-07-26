@@ -6,7 +6,9 @@
 - [ ] [:tv: Beginner how to Solder](https://www.youtube.com/watch?v=oqV2xU1fee8)
 - [ ] [:tv: iCEBreaker FPGA HDMI PMOD soldering time and testing!](https://www.youtube.com/watch?v=2_wzw87l2_Q)
 
-- [ ] Understanding [IC Packaging](https://en.wikipedia.org/wiki/Integrated_circuit_packaging): [Types and Applications](https://www.electronicsforu.com/resources/dip-smd-qfp-bga-ic-packages)
+## [IC Packaging](https://en.wikipedia.org/wiki/Integrated_circuit_packaging)
+
+- [ ] [Understanding IC Packaging: Types and Applications](https://www.electronicsforu.com/resources/dip-smd-qfp-bga-ic-packages)
 
 <img src=images/1-1.jpg width=50% height=50% > </img>
 
