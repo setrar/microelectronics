@@ -9,3 +9,12 @@
 - [ ] [Understanding IC Packaging: Types and Applications](https://www.electronicsforu.com/resources/dip-smd-qfp-bga-ic-packages)
 
 <img src=images/1-1.jpg width=50% height=50% > </img>
+
+
+Quad Flat Package (QFP)
+Small Outline Package (SOP)
+Plastic Leaded Chip Carrier (PLCC)
+Small Outline J-Lead (SOJ)
+Ball Grid Array (BGA)
+Chip Scale Package (CSP)
+
