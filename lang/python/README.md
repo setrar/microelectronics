@@ -37,23 +37,9 @@ myPot = machine.ADC(potPin)
 while True:
     potVal = myPot.read_u16()
     print(potVal)
-    sleep(.5)
+    sleep(.2)
 ```
 
-
-```python
-import machine
-from time import sleep
-
-potPin = 28
-myPot = machine.ADC(potPin)
-
-while True:
-    potVal = myPot.read_u16()
-    voltage = (3.3/65391)*potVal-(144*3.3/65391)
-    print(voltage)
-    sleep(.5)
-```
 
 # References
 
