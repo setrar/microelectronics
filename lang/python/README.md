@@ -1,6 +1,25 @@
 # Testing the [Electret Microphone Amplifier - MAX4466 with Adjustable Gain](https://www.adafruit.com/product/1063) with ADC Pin
 
 
+### Hardware Setup
+
+#### Assembly
+
+1. Solder headers onto your Adafruit Electret Microphone
+
+#### Wiring
+
+The electret microphone breakout is an analog input, meaning we can connect it
+to one of the ADC pins on the Raspberry Pi Pico. Make the following connections:
+
+##### Analog Microphone
+
+| __Adafruit Electret Microphone__ | __Raspberry Pi Pico__ |
+|----------------------------------|-----------------------|
+| OUT                              | ADC2 - GP28 - Pin34   |
+| GND                              | Any ground pin        |
+| VDD                              | 3V3(OUT)    - Pin36   |
+
 ```python
 import machine
 from time import sleep
