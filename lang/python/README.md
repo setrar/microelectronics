@@ -49,3 +49,4 @@ while True:
 
 - [ ] [Successive-approximation (Register) ADC (](https://en.wikipedia.org/wiki/Successive-approximation_ADC)
 - [ ] [How to use ADC in Raspberry Pi Pico | ADC Example Code](https://how2electronics.com/how-to-use-adc-in-raspberry-pi-pico-adc-example-code/)
+- [ ] [Fast Fourier Transform Tone Detector](https://web.engr.oregonstate.edu/~drakemil/NoteDetector.pdf)
