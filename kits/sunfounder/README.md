@@ -10,9 +10,8 @@
 
 # References
 
-- [ ] [rp-pico v0.7.0: Board Support Package for the Raspberry Pi Pico](https://crates.io/crates/rp-pico)
-
 - [ ] [Raspberry Pi Pico Starter kit - Euler](https://www.sunfounder.com/products/sunfounder-euler-kit)
+- [ ] [Raspberry Pi Pico RP2040 Review](https://www.youtube.com/watch?v=ijn-QDAgZss)
 
 ** Description
 
