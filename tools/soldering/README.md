@@ -21,3 +21,4 @@
 - [ ] Chip Scale Package (CSP)
 
 - [ ] [IC Packages](https://www.nxp.com/products/nxp-product-information/packages:IC-PACKAGES)
+- [ ] [List of integrated circuit packaging types](https://en.wikipedia.org/wiki/List_of_integrated_circuit_packaging_types)
