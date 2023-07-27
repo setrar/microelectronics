@@ -42,6 +42,9 @@ while True:
     sleep(.2)
 ```
 
+<img src=images/IMG_0447.jpg width=50% height=50% > </img>
+<img src=images/IMG_0447.png width=50% height=50% > </img>
+
 
 # References
 
