@@ -1,13 +1,10 @@
 # Testing the ADC Pins
 
-- [ ] [Electret Microphone Amplifier - MAX4466 with Adjustable Gain](https://www.adafruit.com/product/1063) 
-
-
 ### Hardware Setup
 
 #### Assembly
 
-1. Solder headers onto your Adafruit Electret Microphone
+1. Solder headers onto your  [Electret Microphone Amplifier - MAX4466 with Adjustable Gain](https://www.adafruit.com/product/1063) 
 
 #### Wiring
 
