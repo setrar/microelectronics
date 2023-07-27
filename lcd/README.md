@@ -157,7 +157,7 @@ That is right.
 
 | The LCD Hat going on top of the Pi, the pin numbers are inverted | [:warning: RPi4 SPI Pinouts](https://pinout.xyz/pinout/spi) | | 
 |-|-|-|
-| <img src=images/IMG_0006.JPG width=50% height=50% > </img> | <img src=images/RPI4-pins.png width=200% height=200% > </img> | <img src=images/IMG_0455.jpg width='' height='' > </img> |
+| <img src=images/IMG_0006.JPG width='' height='' > </img> | <img src=images/RPI4-pins.png width=200% height=200% > </img> | <img src=images/IMG_0455.jpg width='' height='' > </img> |
 
 
 
