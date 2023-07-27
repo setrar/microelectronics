@@ -1,5 +1,8 @@
 # LCD (Liquid Crystal Display)
 
+[Waveshare_ILI9486](https://github.com/ImpulseAdventure/Waveshare_ILI9486)
+
+Arduino library for Waveshare ILI9486 supporting the Waveshare 3.5" & 4" TFT Touch Shields for Arduino. Includes GFX-compatible API and touchscreen driver
 
 - [ ] [How do I use the 3.5inch RPi Display with the pico?](https://www.reddit.com/r/raspberrypipico/comments/wzrpw0/how_do_i_use_the_35inch_rpi_display_with_the_pico)
 
