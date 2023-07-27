@@ -160,6 +160,7 @@ That is right.
 | <img src=images/IMG_0006.JPG width=50% height=50% > </img> | <img src=images/RPI4-pins.png width=200% height=200% > </img> | <img src=images/rpi-pico-pinout.png width='' height='' > </img> |
 
 
+<img src=images/IMG_0455.jpg width=70% height=70% > </img>
 
 
 # References
