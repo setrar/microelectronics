@@ -22,6 +22,9 @@ to one of the ADC pins on the Raspberry Pi Pico. Make the following connections:
 | GND                              | Any ground pin        |
 | VDD                              | 3V3(OUT)    - Pin36   |
 
+<img src=images/IMG_0447.jpg width=50% height=50% > </img>
+
+##### The Source Code
 
 You can perform the `A/D` conversion in polling, interrupt & FIFO with DMA mode. The ADC conversion speed per sample is `2μs` that is `500kS/s`. The RP2040 microcontroller operates on a `48MHZ` clock frequency which comes from `USB PLL`. So, its ADC takes a `96` CPU clock cycle to perform one conversion. Therefore, the sampling frequency is :
 
@@ -42,7 +45,6 @@ while True:
     sleep(.2)
 ```
 
-<img src=images/IMG_0447.jpg width=50% height=50% > </img>
 <img src=images/IMG_0447.png width=50% height=50% > </img>
 
 
