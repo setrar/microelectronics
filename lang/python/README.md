@@ -48,3 +48,6 @@ while True:
     sleep(.5)
 ```
 
+# References
+
+- [ ] [Successive-approximation (Register) ADC (](https://en.wikipedia.org/wiki/Successive-approximation_ADC)
