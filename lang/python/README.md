@@ -1,6 +1,6 @@
 # Testing the ADC Pins
 
-- [ ] [Electret Microphone Amplifier - MAX4466 with Adjustable Gain](https://www.adafruit.com/product/1063) with ADC Pin
+- [ ] [Electret Microphone Amplifier - MAX4466 with Adjustable Gain](https://www.adafruit.com/product/1063) 
 
 
 ### Hardware Setup
