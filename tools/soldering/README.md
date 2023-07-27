@@ -1,5 +1,10 @@
 
 
+
+- [ ] [Electret Microphone Amplifier - MAX4466 with Adjustable Gain](https://www.adafruit.com/product/1063)
+
+- [ ] []https://youtu.be/WwKis1vek0U?t=58
+
 - [ ] [8786D - Is It Worth Your Money?](https://www.youtube.com/watch?v=CF6SdRQg9G0)
 
 - [ ] [:tv: Soldering Header Pins to your Raspberry Pi Pico](https://www.youtube.com/watch?v=R11QanPDccs)
