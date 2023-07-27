@@ -1,5 +1,9 @@
 # LCD (Liquid Crystal Display)
 
+---
+
+### :warning::warning::warning::warning::warning:
+
 [Waveshare_ILI9486](https://github.com/ImpulseAdventure/Waveshare_ILI9486)
 
 Arduino library for Waveshare ILI9486 supporting the Waveshare 3.5" & 4" TFT Touch Shields for Arduino. Includes GFX-compatible API and touchscreen driver
@@ -8,6 +12,10 @@ Arduino library for Waveshare ILI9486 supporting the Waveshare 3.5" & 4" TFT Tou
 
  I would be reluctant to adapt their Waveshare driver into the mainline code as it isn't really packaged as a library, the API doesn't follow common convention, nor does it provide much applicability outside of this specific display — hence the interest in identifying a suitable alternate library.
 
+
+[ILI9486 Screen with ESP32 SPI and Parallel](https://github.com/Bodmer/TFT_eSPI/issues/299)
+
+---
 
 - [ ] [How do I use the 3.5inch RPi Display with the pico?](https://www.reddit.com/r/raspberrypipico/comments/wzrpw0/how_do_i_use_the_35inch_rpi_display_with_the_pico)
 
