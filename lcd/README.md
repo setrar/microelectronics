@@ -2,7 +2,8 @@
 
 ---
 
-### :warning::warning::warning::warning::warning:
+### :warning::warning::warning::warning::warning: [ILI9486 Screen with ESP32 SPI and Parallel](https://github.com/Bodmer/TFT_eSPI/issues/299)
+
 
 [Waveshare_ILI9486](https://github.com/ImpulseAdventure/Waveshare_ILI9486)
 
@@ -13,7 +14,6 @@ Arduino library for Waveshare ILI9486 supporting the Waveshare 3.5" & 4" TFT Tou
  I would be reluctant to adapt their Waveshare driver into the mainline code as it isn't really packaged as a library, the API doesn't follow common convention, nor does it provide much applicability outside of this specific display — hence the interest in identifying a suitable alternate library.
 
 
-[ILI9486 Screen with ESP32 SPI and Parallel](https://github.com/Bodmer/TFT_eSPI/issues/299)
 
 ---
 
