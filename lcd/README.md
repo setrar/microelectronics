@@ -13,7 +13,7 @@ Arduino library for Waveshare ILI9486 supporting the Waveshare 3.5" & 4" TFT Tou
 
  I would be reluctant to adapt their Waveshare driver into the mainline code as it isn't really packaged as a library, the API doesn't follow common convention, nor does it provide much applicability outside of this specific display — hence the interest in identifying a suitable alternate library.
 
-
+[Why ili9486 LCD need 74HC4094 to make spi to parallel](https://forums.raspberrypi.com/viewtopic.php?t=158640)
 
 ---
 
