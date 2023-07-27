@@ -1,5 +1,7 @@
 
 
+- [ ] [8786D - Is It Worth Your Money?](https://www.youtube.com/watch?v=CF6SdRQg9G0)
+
 - [ ] [:tv: Soldering Header Pins to your Raspberry Pi Pico](https://www.youtube.com/watch?v=R11QanPDccs)
 - [ ] [How to Solder: Through-Hole Soldering](https://learn.sparkfun.com/tutorials/how-to-solder-through-hole-soldering/all)
 - [ ] [:tv: SparkFun How to Solder with David Stillman](https://www.youtube.com/watch?v=f95i88OSWB4&t=191s)
