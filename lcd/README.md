@@ -17,6 +17,8 @@ Arduino library for Waveshare ILI9486 supporting the Waveshare 3.5" & 4" TFT Tou
 
 - [ ] [Question: Pin Setup Kuman 3.5 Inch](https://github.com/Bodmer/TFT_eSPI/issues/11)
 
+<img src=https://camo.githubusercontent.com/84a047c16778056a999f05964e0740ab0c4e993d207826c6130ecb74b603f9c6/687474703a2f2f692e696d6775722e636f6d2f514231706838732e706e67 width='' height='' . </img>
+
 ---
 
 # References
