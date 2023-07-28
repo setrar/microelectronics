@@ -1,23 +1,5 @@
 # LCD (Liquid Crystal Display)
 
----
-
-### :warning::warning::warning::warning::warning: [ILI9486 Screen with ESP32 SPI and Parallel](https://github.com/Bodmer/TFT_eSPI/issues/299)
-
-
-[Waveshare_ILI9486](https://github.com/ImpulseAdventure/Waveshare_ILI9486)
-
-Arduino library for Waveshare ILI9486 supporting the Waveshare 3.5" & 4" TFT Touch Shields for Arduino. Includes GFX-compatible API and touchscreen driver
-
-[ILI9486 LCD with SPI interface [Solved] Big thanks to Cal from ImpulseAdventure!](https://forum.arduino.cc/t/ili9486-lcd-with-spi-interface-solved-big-thanks-to-cal-from-impulseadventure/600239/5)
-
- I would be reluctant to adapt their Waveshare driver into the mainline code as it isn't really packaged as a library, the API doesn't follow common convention, nor does it provide much applicability outside of this specific display — hence the interest in identifying a suitable alternate library.
-
-[Why ili9486 LCD need 74HC4094 to make spi to parallel](https://forums.raspberrypi.com/viewtopic.php?t=158640)
-
-- [ ] [Question: Pin Setup Kuman 3.5 Inch](https://github.com/Bodmer/TFT_eSPI/issues/11)
-
-<img src='https://camo.githubusercontent.com/84a047c16778056a999f05964e0740ab0c4e993d207826c6130ecb74b603f9c6/687474703a2f2f692e696d6775722e636f6d2f514231706838732e706e67' width='' height='' . </img>
 
 |  Func             |  PICO PORT :hash:  | Comments                         | ILI9486 PORT :hash: |
 |-------------------|-----|---------------------------------------------------|----|
@@ -31,8 +13,21 @@ Arduino library for Waveshare ILI9486 supporting the Waveshare 3.5" & 4" TFT Tou
 | #define TOUCH_CS  | 22  |                                                   | 26 |
 
 
+| PIN No. | Symbol | Description |
+|:--------|:-------|-------------|
+| 1       | 3v     | Power Positive (3V power input) |
+| 2,4     | 5v     | Power Positive (3V power input) |
+| 3,5-18  | NC     | NC |
+| 19      | MOSI   | SPI Bus Master Output/Slave Input |
+| 20, 25  | GND    | Ground | 
+
+
 ---
 
 # References
 
 - [ ] [ Raspberry Pi Pico with GC9A01 Round Display using Arduino IDE and TFT-eSPI Library](https://www.pcbway.com/project/shareproject/Raspberry_Pi_Pico_with_GC9A01_Round_Display_using_Arduino_IDE_and_TFT_eSPI_Library.html)
+- [ ] [Why ili9486 LCD need 74HC4094 to make spi to parallel](https://forums.raspberrypi.com/viewtopic.php?t=158640)
+- [ ] [Question: Pin Setup Kuman 3.5 Inch](https://github.com/Bodmer/TFT_eSPI/issues/11)
+- [ ] [Kuman 3.5" Inch 480x320 RGB TFT LCD Pixels Touch Screen with Touch Pen for Raspberry Pi 3 2 Model B B+ A+ A Module SPI Interface SC06](http://www.kumantech.com/kuman-35-inch-tft-lcd-display-480x320-rgb-pixels-touch-screen-monitor-for-raspberry-pi-3-2-model-b-b-a-a-module-spi-interface-with-touch-pen-sc06_p0014.html)
+
