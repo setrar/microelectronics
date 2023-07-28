@@ -33,6 +33,23 @@
 
 ### :b: Coding
 
+
+
+```
+vi User_Setups/Setup10_RPi_touch_ILI9486.h
+```
+
+```c
+#define TFT_MOSI  19  // Do not connect to SDO(MISO), only to T_DO!!!
+#define TFT_MISO  16
+#define TFT_SCLK  18
+#define TFT_CS    17  // Chip select control pin
+#define TFT_DC    20  // Data Command control pin
+#define TFT_RST   21  // Reset pin (could connect to Arduino RESET pin)
+
+#define TOUCH_CS  22
+```
+
 ```c
 /*  
  Test the tft.print() viz the libraries embedded write() function
