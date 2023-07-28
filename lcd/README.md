@@ -20,19 +20,3 @@ Arduino library for Waveshare ILI9486 supporting the Waveshare 3.5" & 4" TFT Tou
 # References
 
 - [ ] [ ](https://www.pcbway.com/project/shareproject/Raspberry_Pi_Pico_with_GC9A01_Round_Display_using_Arduino_IDE_and_TFT_eSPI_Library.html)
-
-- [ ] [Install Arduino IDE on Raspberry Pi](https://www.raspberrypi-spy.co.uk/2020/12/install-arduino-ide-on-raspberry-pi/)
-
-```
-apt install arduino
-```
-
- - [ ] Open the IDE
-
- > Menu > Electronics > Arduino IDE
-
- > Now under the “Tools” menu select “Board” followed by “Boards Manager”.
-
- > In the search box type “pico” and press “Enter”. The search result should present you with “Arduino Mbed OS RP2040 Boards” by the “Arduino”.
-
-  Click “Install”
