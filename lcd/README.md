@@ -32,3 +32,7 @@ apt install arduino
  > Menu > Electronics > Arduino IDE
 
  > Now under the “Tools” menu select “Board” followed by “Boards Manager”.
+
+ > In the search box type “pico” and press “Enter”. The search result should present you with “Arduino Mbed OS RP2040 Boards” by the “Arduino”.
+
+  Click “Install”
