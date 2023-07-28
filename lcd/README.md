@@ -37,14 +37,10 @@
 
 - [ ] Edit file  `~/Arduino/libraries/TFT_eSPI/User_Setup_Select.h`
 
-* Uncomment the below code
-
-```c
-#include <User_Setups/Setup10_RPi_touch_ILI9486.h> // Setup file for ESP8266 configured for ESP8266 and RPi TFT with touch
-```
+* Uncomment the below code as follows
 
 ```
-diff TFT_eSPI/User_Setup_Select.h ~/Developer/TFT_eSPI-Arduino/User_Setup_Select.h
+diff TFT_eSPI/User_Setup_Select.h ~/Developer/TFT_eSPI-updated/User_Setup_Select.h
 ```
 > Response:
 ```diff 
@@ -74,7 +70,7 @@ diff TFT_eSPI/User_Setup_Select.h ~/Developer/TFT_eSPI-Arduino/User_Setup_Select
 ```
 
 ```
-diff TFT_eSPI/User_Setups/Setup10_RPi_touch_ILI9486.h ~/Developer/TFT_eSPI-Arduino/User_Setups/Setup10_RPi_touch_ILI9486.h 
+diff TFT_eSPI/User_Setups/Setup10_RPi_touch_ILI9486.h ~/Developer/TFT_eSPI-updated/User_Setups/Setup10_RPi_touch_ILI9486.h 
 ```
 > Response:
 ```diff
