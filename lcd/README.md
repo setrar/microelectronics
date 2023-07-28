@@ -19,4 +19,4 @@ Arduino library for Waveshare ILI9486 supporting the Waveshare 3.5" & 4" TFT Tou
 
 # References
 
-- [ ] [ ](https://www.pcbway.com/project/shareproject/Raspberry_Pi_Pico_with_GC9A01_Round_Display_using_Arduino_IDE_and_TFT_eSPI_Library.html)
+- [ ] [ Raspberry Pi Pico with GC9A01 Round Display using Arduino IDE and TFT-eSPI Library](https://www.pcbway.com/project/shareproject/Raspberry_Pi_Pico_with_GC9A01_Round_Display_using_Arduino_IDE_and_TFT_eSPI_Library.html)
