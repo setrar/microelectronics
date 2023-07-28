@@ -26,3 +26,15 @@ sudo apt install arduino
   > In the search box type “pico” and press “Enter”. The search result should present you with “Arduino Mbed OS RP2040 Boards” by the “Arduino”.
   > Click “Install”
 ```
+
+- [ ] Post Install
+
+```
+sudo ~/.arduino15/packages/arduino/hardware/mbed_rp2040/4.0.4/post_install.sh
+```
+> Reload rules...
+
+
+# References
+
+- [ ] [Can not upload to Raspberry Pi Pico](https://forum.arduino.cc/t/can-not-upload-to-raspberry-pi-pico/882573/2)
