@@ -15,6 +15,8 @@ Arduino library for Waveshare ILI9486 supporting the Waveshare 3.5" & 4" TFT Tou
 
 [Why ili9486 LCD need 74HC4094 to make spi to parallel](https://forums.raspberrypi.com/viewtopic.php?t=158640)
 
+- [ ] [Question: Pin Setup Kuman 3.5 Inch](https://github.com/Bodmer/TFT_eSPI/issues/11)
+
 ---
 
 # References
