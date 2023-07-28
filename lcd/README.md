@@ -33,7 +33,7 @@
 
 ### :b: Coding
 
-```arduino
+```c
 /*  
  Test the tft.print() viz the libraries embedded write() function
 
