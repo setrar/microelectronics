@@ -12,6 +12,8 @@
 | | | |
 | #define TOUCH_CS  | 22  |                                                   | 26 |
 
+- [ ] [Kuman 3.5" Inch 480x320 RGB TFT LCD Pixels Touch Screen with Touch Pen for Raspberry Pi 3 2 Model B B+ A+ A Module SPI Interface SC06](http://www.kumantech.com/kuman-35-inch-tft-lcd-display-480x320-rgb-pixels-touch-screen-monitor-for-raspberry-pi-3-2-model-b-b-a-a-module-spi-interface-with-touch-pen-sc06_p0014.html)
+
 
 | PIN No. | Symbol | Description                                                             |
 |:--------|:-------|-------------------------------------------------------------------------|
@@ -34,5 +36,4 @@
 - [ ] [ Raspberry Pi Pico with GC9A01 Round Display using Arduino IDE and TFT-eSPI Library](https://www.pcbway.com/project/shareproject/Raspberry_Pi_Pico_with_GC9A01_Round_Display_using_Arduino_IDE_and_TFT_eSPI_Library.html)
 - [ ] [Why ili9486 LCD need 74HC4094 to make spi to parallel](https://forums.raspberrypi.com/viewtopic.php?t=158640)
 - [ ] [Question: Pin Setup Kuman 3.5 Inch](https://github.com/Bodmer/TFT_eSPI/issues/11)
-- [ ] [Kuman 3.5" Inch 480x320 RGB TFT LCD Pixels Touch Screen with Touch Pen for Raspberry Pi 3 2 Model B B+ A+ A Module SPI Interface SC06](http://www.kumantech.com/kuman-35-inch-tft-lcd-display-480x320-rgb-pixels-touch-screen-monitor-for-raspberry-pi-3-2-model-b-b-a-a-module-spi-interface-with-touch-pen-sc06_p0014.html)
 
