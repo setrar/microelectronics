@@ -28,7 +28,7 @@
 | 24      | TP_CS  | touch Panel chip selection, Low active                                  |
 | 26      | LCD_CS | LCD chip selection, low active                                          |
 
-<img src=https://ueeshop.ly200-cdn.com/u_file/UPAB/UPAB620/1704/products/25/436066c712.jpg width='' height='' > </img>
+<img src=https://ueeshop.ly200-cdn.com/u_file/UPAB/UPAB620/1704/products/25/436066c712.jpg width=50% height=50% > </img>
 
 ---
 
