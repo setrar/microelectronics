@@ -35,9 +35,17 @@
 
 
 
+- [ ] Edit file  `~/Arduino/libraries/TFT_eSPI/User_Setup_Select.h`
+
+* Uncomment the below code
+
+```c
+#include <User_Setups/Setup10_RPi_touch_ILI9486.h> // Setup file for ESP8266 configured for ESP8266 and RPi TFT with touch
 ```
-vi User_Setups/Setup10_RPi_touch_ILI9486.h
-```
+
+- [ ] Edit file  `~/Arduino/libraries/TFT_eSPI/User_Setups/Setup10_RPi_touch_ILI9486.h`
+
+* Add the below pin section for the RPI Pico
 
 ```c
 #define TFT_MOSI  19  // Do not connect to SDO(MISO), only to T_DO!!!
@@ -49,6 +57,8 @@ vi User_Setups/Setup10_RPi_touch_ILI9486.h
 
 #define TOUCH_CS  22
 ```
+
+- [ ] Test with the `Color` Code
 
 ```c
 /*  
