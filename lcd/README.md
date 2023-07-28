@@ -43,6 +43,21 @@
 #include <User_Setups/Setup10_RPi_touch_ILI9486.h> // Setup file for ESP8266 configured for ESP8266 and RPi TFT with touch
 ```
 
+```
+diff TFT_eSPI/User_Setup_Select.h ~/Developer/TFT_eSPI-Arduino/User_Setup_Select.h
+```
+> Response:
+```diff 
+30c30
+< #include <User_Setup.h>           // Default setup is root library folder
+---
+> //#include <User_Setup.h>           // Default setup is root library folder
+41c41
+< //#include <User_Setups/Setup10_RPi_touch_ILI9486.h> // Setup file for ESP8266 configured for ESP8266 and RPi TFT with touch
+---
+> #include <User_Setups/Setup10_RPi_touch_ILI9486.h> // Setup file for ESP8266 configured for ESP8266 and RPi TFT with touch
+```
+
 - [ ] Edit file  `~/Arduino/libraries/TFT_eSPI/User_Setups/Setup10_RPi_touch_ILI9486.h`
 
 * Add the below pin section for the RPI Pico
