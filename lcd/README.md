@@ -21,10 +21,10 @@ Arduino library for Waveshare ILI9486 supporting the Waveshare 3.5" & 4" TFT Tou
 
 |  Func             |  PICO PORT :hash:  | Comments                         | ILI9486 PORT :hash: |
 |-------------------|-----|---------------------------------------------------|----|
-| #define TFT_MOSI  | 19  | // Do not connect to SDO(MISO), only to T_DO!!!   | 19 |
 | #define TFT_MISO  | 16  |                                                   | 21 | 
-| #define TFT_SCLK  | 18  |                                                   | 23 |
 | #define TFT_CS    | 17  | // Chip select control pin                        | 24 |
+| #define TFT_SCLK  | 18  |                                                   | 23 |
+| #define TFT_MOSI  | 19  | // Do not connect to SDO(MISO), only to T_DO!!!   | 19 |
 | #define TFT_DC    | 20  | // Data Command control pin                       | 18 |
 | #define TFT_RST   | 21  | // Reset pin (could connect to Arduino RESET pin) | 22 |
 | | | |
