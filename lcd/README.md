@@ -13,13 +13,18 @@
 | #define TOUCH_CS  | 22  |                                                   | 26 |
 
 
-| PIN No. | Symbol | Description |
-|:--------|:-------|-------------|
-| 1       | 3v     | Power Positive (3V power input) |
-| 2,4     | 5v     | Power Positive (3V power input) |
-| 3,5-18  | NC     | NC |
-| 19      | MOSI   | SPI Bus Master Output/Slave Input |
-| 20, 25  | GND    | Ground | 
+| PIN No. | Symbol | Description                                                             |
+|:--------|:-------|-------------------------------------------------------------------------|
+| 1       | 3v     | Power Positive (3V power input)                                         |
+| 2,4     | 5v     | Power Positive (3V power input)                                         |
+| 3,5-18  | NC     | NC                                                                      |
+| 19      | MOSI   | SPI Bus Master Output/Slave Input                                       |
+| 20, 25  | GND    | Ground                                                                  | 
+| 21      | MISO   | SPI Bus Master Input/Slave Output                                       |
+| 22      | TP_IRQ | Touch Panel interrupt, Low Level while the touch Panel detects touching |
+| 23      | SLCK   | SPI clock of LCD/Touch Panel                                            |
+| 24      | TP_CS  | touch Panel chip selection, Low active                                  |
+| 26      | LCD_CS | LCD chip selection, low active                                          |
 
 
 ---
