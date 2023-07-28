@@ -1,10 +1,7 @@
 # IDE
 
 
-# References
-
-
-- [ ] [Visual Studio Code on Raspberry Pi](https://code.visualstudio.com/docs/setup/raspberry-pi)
+#### :a: [Visual Studio Code on Raspberry Pi](https://code.visualstudio.com/docs/setup/raspberry-pi)
 
 ```
 sudo apt update
@@ -12,7 +9,8 @@ sudo apt install code
 ```
 
 - [ ] [Setup Rust Dev Environment with VS Code in Raspberry Pi 3 B+](https://www.youtube.com/watch?v=O9d8kiZQUT4)
-- [ ] [Install Arduino IDE on Raspberry Pi](https://www.raspberrypi-spy.co.uk/2020/12/install-arduino-ide-on-raspberry-pi/)
+
+#### :b: [Install Arduino IDE on Raspberry Pi](https://www.raspberrypi-spy.co.uk/2020/12/install-arduino-ide-on-raspberry-pi/)
 
 ```
 sudo apt update
@@ -38,3 +36,4 @@ sudo ~/.arduino15/packages/arduino/hardware/mbed_rp2040/4.0.4/post_install.sh
 # References
 
 - [ ] [Can not upload to Raspberry Pi Pico](https://forum.arduino.cc/t/can-not-upload-to-raspberry-pi-pico/882573/2)
+- [ ] [How to Program Raspberry Pi Pico With the Arduino IDE](https://www.tomshardware.com/how-to/program-raspberry-pi-pico-with-arduino-ide)
