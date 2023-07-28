@@ -5,11 +5,18 @@
 
 
 - [ ] [Visual Studio Code on Raspberry Pi](https://code.visualstudio.com/docs/setup/raspberry-pi)
+
+```
+sudo apt update
+sudo apt install code
+```
+
 - [ ] [Setup Rust Dev Environment with VS Code in Raspberry Pi 3 B+](https://www.youtube.com/watch?v=O9d8kiZQUT4)
 - [ ] [Install Arduino IDE on Raspberry Pi](https://www.raspberrypi-spy.co.uk/2020/12/install-arduino-ide-on-raspberry-pi/)
 
 ```
-apt install arduino
+sudo apt update
+sudo apt install arduino
 ```
 
  - [ ] Open the IDE
