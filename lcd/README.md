@@ -40,7 +40,7 @@
 * Uncomment the below code as follows:
 
 ```diff
-- Red being tthe original code
+- Red being the original code
 + Green the desired code
 ```
 
@@ -61,17 +61,13 @@ diff TFT_eSPI/User_Setup_Select.h ~/Developer/TFT_eSPI-updated/User_Setup_Select
 
 - [ ] Edit file  `~/Arduino/libraries/TFT_eSPI/User_Setups/Setup10_RPi_touch_ILI9486.h`
 
-* Add the below pin section for the RPI Pico
+* Add the below pin section for the RPI Pico as follows:
 
-```c
-#define TFT_MOSI  19  // Do not connect to SDO(MISO), only to T_DO!!!
-#define TFT_MISO  16
-#define TFT_SCLK  18
-#define TFT_CS    17  // Chip select control pin
-#define TFT_DC    20  // Data Command control pin
-#define TFT_RST   21  // Reset pin (could connect to Arduino RESET pin)
+* Uncomment the below code as follows:
 
-#define TOUCH_CS  22
+```diff
+- Red being the original code
++ Green the desired code
 ```
 
 ```
