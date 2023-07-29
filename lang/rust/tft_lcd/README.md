@@ -41,3 +41,4 @@ cargo add embedded-graphics ; cargo add display-interface-spi ; cargo add mipids
 
 - [ ] [Displaying Images on ESP32 with Rust!](https://lilymara.xyz/posts/images-esp32/)
 - [ ] [Rust LILYGO T-Display with RP2040](https://circuit4us.medium.com/rust-lilygo-t-display-with-rp2040-a93635240d7b)
+- [ ] [Anyone have a working example of SPI on Raspberry Pi Pico?](https://www.reddit.com/r/rust/comments/ugbuvz/anyone_have_a_working_example_of_spi_on_raspberry/)
