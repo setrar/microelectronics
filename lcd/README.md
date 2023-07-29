@@ -2,7 +2,7 @@
 
 ### :a: Wiring
 
-|  Func             |  PICO PORT :hash:  | Comments                         | ILI9486 PORT :hash: | Color |
+|  Func             |  PICO PORT :hash:  | Comments                         | ILI9486 PORT :hash: | Wiring Colors |
 |-------------------|-----|---------------------------------------------------|----|-|
 | #define TFT_MISO  | 16  |                                                   | 21 |  ![#fffc50](https://placehold.co/15x15/fffc50/fffc50.png) `Yellow` |
 | #define TFT_CS    | 17  | // Chip select control pin                        | 24 |  ![#ffc300](https://placehold.co/15x15/ffc300/ffc300.png) `Orange` |
