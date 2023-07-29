@@ -4,8 +4,8 @@
 
 |  Func             |  PICO PORT :hash:  | Comments                         | ILI9486 PORT :hash: | Wiring Colors |
 |-------------------|-----|---------------------------------------------------|----|-|
-| #define TFT_MISO  | 16  |                                                   | 21 | ![#fffc50](https://placehold.co/15x15/fffc50/fffc50.png) `Yellow` |
-| #define TFT_CS    | 17  | // Chip select control pin                        | 24 | ![#ffa500](https://placehold.co/15x15/ffc300/ffa500.png) `Orange` |
+| #define TFT_MISO  | 16  |                                                   | 21 | ![#ffff00](https://placehold.co/15x15/ffff00/ffff00.png) `Yellow` |
+| #define TFT_CS    | 17  | // Chip select control pin                        | 24 | ![#ffa500](https://placehold.co/15x15/ffa500/ffa500.png) `Orange` |
 | #define TFT_SCLK  | 18  |                                                   | 23 | ![#ffffff](https://placehold.co/15x15/ffffff/ffffff.png) `White`  |
 | #define TFT_MOSI  | 19  | // Do not connect to SDO(MISO), only to T_DO!!!   | 19 | ![#008000](https://placehold.co/15x15/008000/008000.png) `Green`  |
 | #define TFT_DC    | 20  | // Data Command control pin                       | 18 | ![#0000ff](https://placehold.co/15x15/0000ff/0000ff.png) `Blue`  |
