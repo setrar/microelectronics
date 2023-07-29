@@ -87,8 +87,7 @@ diff TFT_eSPI/User_Setups/Setup10_RPi_touch_ILI9486.h ~/Developer/TFT_eSPI-updat
 14c14,23
 < #define TOUCH_CS PIN_D1     // Chip select pin (T_CS) of touch screen
 ---
-> //#define TOUCH_CS PIN_D1     // Chip select pin (T_CS) of touch screen
-> #define TOUCH_CS  22
+> #define TOUCH_CS  22  // Chip select pin (T_CS) of touch screen
 > 
 > #define TFT_MOSI  19  // Do not connect to SDO(MISO), only to T_DO!!!
 > #define TFT_MISO  16
