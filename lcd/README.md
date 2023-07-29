@@ -3,9 +3,9 @@
 ### :a: Wiring
 
 |  Func             |  PICO PORT :hash:  | Comments                         | ILI9486 PORT :hash: | Wiring Colors |
-|-------------------|-----|---------------------------------------------------|----|-|
-|                   | 1   |                                                   | 2  | ![#ff0000](https://placehold.co/15x15/ff0000/ff0000.png) `Red`    |
-|                   | 5   |                                                   | 4  | ![#000000](https://placehold.co/15x15/000000/000000.png) `Black`  |
+|-------------------|------|---------------------------------------------------|----|-|
+|                   | VBUS |                                                   | 2  | ![#ff0000](https://placehold.co/15x15/ff0000/ff0000.png) `Red`    |
+|                   | GND  |                                                   | 6  | ![#000000](https://placehold.co/15x15/000000/000000.png) `Black`  |
 | | | |
 | #define TFT_MISO  | 16  |                                                   | 21 | ![#ffff00](https://placehold.co/15x15/ffff00/ffff00.png) `Yellow` |
 | #define TFT_CS    | 17  | // Chip select control pin                        | 24 | ![#ffa500](https://placehold.co/15x15/ffa500/ffa500.png) `Orange` |
