@@ -4,15 +4,17 @@ import time
 import os
 
 # PICO PORT     # ILI9486 PORT
-LCD_DC   = 8    # 
-LCD_CS   = 9    # 24
-LCD_SCK  = 10   # 23
-LCD_MOSI = 11   # 21 TP_SO 
-LCD_MISO = 12   # 19 LCD_SI
-LCD_BL   = 13   # 
-LCD_RST  = 15   # 18
-TP_CS    = 16   # 26
-TP_IRQ   = 17   # 11
+LCD_MISO = 16   # 19 LCD_SI
+LCD_CS   = 17    # 24
+LCD_SCK  = 18   # 23
+LCD_MOSI = 19   # 21 TP_SO 
+LCD_DC   = 20    # 
+LCD_RST  = 21   # 18
+
+TP_CS    = 22   # 26
+
+#LCD_BL   = 13   # 
+TP_IRQ   = 11   # 11
 
 class LCD():
 
@@ -30,14 +32,14 @@ class LCD():
         self.rst = Pin(LCD_RST,Pin.OUT)
         self.dc = Pin(LCD_DC,Pin.OUT)
         
-        self.tp_cs =Pin(TP_CS,Pin.OUT)
-        self.irq = Pin(TP_IRQ,Pin.IN)
+        #self.tp_cs =Pin(TP_CS,Pin.OUT)
+        #self.irq = Pin(TP_IRQ,Pin.IN)
         
         self.cs(1)
         self.dc(1)
         self.rst(1)
-        self.tp_cs(1)
-        self.spi = SPI(1,60_000_000,sck=Pin(LCD_SCK),mosi=Pin(LCD_MOSI),miso=Pin(LCD_MISO))
+        #self.tp_cs(1)
+        self.spi = SPI(1,20_000_000,sck=Pin(LCD_SCK),mosi=Pin(LCD_MOSI),miso=Pin(LCD_MISO))
               
         self.init_display()
 

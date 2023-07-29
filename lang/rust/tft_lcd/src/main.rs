@@ -82,32 +82,22 @@ fn main() -> ! {
     
     // Define the reset and write enable pins as digital outputs and make them high
     let reset = pins
-        .gpio14
+        .gpio21
         .into_push_pull_output_in_state(gpio::PinState::High);
 
     // Define the Data/Command select pin as a digital output
     let dc = pins
-            .gpio15
+            .gpio20
             .into_push_pull_output_in_state(gpio::PinState::High);
 //            .into_push_pull_output();
     
     // Define the SPI pins and create the SPI interface
-    let _miso = pins.gpio16;
-    let _cs   = pins.gpio17;
-    let _sck  = pins.gpio18;
-    let _mosi = pins.gpio19;
+    let _miso = pins.gpio16.into_mode::<gpio::FunctionSpi>();
+    let _cs   = pins.gpio17.into_mode::<gpio::FunctionSpi>();
+    let _sck  = pins.gpio18.into_mode::<gpio::FunctionSpi>();
+    let _mosi = pins.gpio19.into_mode::<gpio::FunctionSpi>();
  
     let spi = Spi::<_, _, 8>::new(pac.SPI0);
-//    let spi = spi.init(
-//        sck,
-//        mosi,
-//        miso,
-//        cs,
-//        100.kHz(),
-//        &embedded_hal::spi::MODE_0,
-//        clocks.peripheral_clock.freq(),
-//        &clocks,
-//   );
     
     let spi = spi.init(
         &mut pac.RESETS,
