@@ -11,7 +11,7 @@
 | #define TFT_DC    | 20  | // Data Command control pin                       | 18 | ![#0000ff](https://placehold.co/15x15/0000ff/0000ff.png) `Blue`   |
 | #define TFT_RST   | 21  | // Reset pin (could connect to Arduino RESET pin) | 22 | ![#808080](https://placehold.co/15x15/808080/808080.png) `Grey`   |
 | | | |
-| #define TOUCH_CS  | 22  |                                                   | 26 |
+| #define TOUCH_CS  | 22  |                                                   | 26 | ![#964b00](https://placehold.co/15x15/964b00/964b00.png) `Brown`  |
 
 - [ ] [Kuman 3.5" Inch 480x320 RGB TFT LCD Pixels Touch Screen with Touch Pen for Raspberry Pi 3 2 Model B B+ A+ A Module SPI Interface SC06](http://www.kumantech.com/kuman-35-inch-tft-lcd-display-480x320-rgb-pixels-touch-screen-monitor-for-raspberry-pi-3-2-model-b-b-a-a-module-spi-interface-with-touch-pen-sc06_p0014.html)
 
