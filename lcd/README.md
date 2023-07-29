@@ -6,7 +6,7 @@
 |-------------------|-----|---------------------------------------------------|----|-|
 | #define TFT_MISO  | 16  |                                                   | 21 |  ![#fffc50](https://placehold.co/15x15/fffc50/fffc50.png) `Yellow` |
 | #define TFT_CS    | 17  | // Chip select control pin                        | 24 |  ![#ffc300](https://placehold.co/15x15/ffc300/ffc300.png) `Orange` |
-| #define TFT_SCLK  | 18  |                                                   | 23 |
+| #define TFT_SCLK  | 18  |                                                   | 23 |  ![#ffffff](https://placehold.co/15x15/ffffff/ffffff.png) `White` |
 | #define TFT_MOSI  | 19  | // Do not connect to SDO(MISO), only to T_DO!!!   | 19 |
 | #define TFT_DC    | 20  | // Data Command control pin                       | 18 |
 | #define TFT_RST   | 21  | // Reset pin (could connect to Arduino RESET pin) | 22 |
