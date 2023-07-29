@@ -1,0 +1,7 @@
+README.md
+setup.py
+Python_ILI9486.egg-info/PKG-INFO
+Python_ILI9486.egg-info/SOURCES.txt
+Python_ILI9486.egg-info/dependency_links.txt
+Python_ILI9486.egg-info/requires.txt
+Python_ILI9486.egg-info/top_level.txt
