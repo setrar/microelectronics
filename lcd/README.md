@@ -1,5 +1,6 @@
 # LCD (Liquid Crystal Display)
 
+### :a: Wiring
 
 |  Func             |  PICO PORT :hash:  | Comments                         | ILI9486 PORT :hash: |
 |-------------------|-----|---------------------------------------------------|----|
