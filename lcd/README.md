@@ -88,6 +88,7 @@ diff TFT_eSPI/User_Setups/Setup10_RPi_touch_ILI9486.h ~/Developer/TFT_eSPI-updat
 < #define TOUCH_CS PIN_D1     // Chip select pin (T_CS) of touch screen
 ---
 > //#define TOUCH_CS PIN_D1     // Chip select pin (T_CS) of touch screen
+> #define TOUCH_CS  22
 > 
 > #define TFT_MOSI  19  // Do not connect to SDO(MISO), only to T_DO!!!
 > #define TFT_MISO  16
@@ -95,8 +96,6 @@ diff TFT_eSPI/User_Setups/Setup10_RPi_touch_ILI9486.h ~/Developer/TFT_eSPI-updat
 > #define TFT_CS    17  // Chip select control pin
 > #define TFT_DC    20  // Data Command control pin
 > #define TFT_RST   21  // Reset pin (could connect to Arduino RESET pin)
-> 
-> #define TOUCH_CS  22 
 ```
 
 - [ ] Test with the `Color` Code
