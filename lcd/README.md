@@ -22,7 +22,7 @@
 | PIN No. | Symbol | Description                                                             |
 |:--------|:-------|-------------------------------------------------------------------------|
 | 1       | 3v     | Power Positive (3V power input)                                         |
-| 2,4     | 5v     | Power Positive (3V power input)                                         |
+| 2,4     | 5v     | Power Positive (5V power input)                                         |
 | 3,5-18  | NC     | NC                                                                      |
 | 19      | MOSI   | SPI Bus Master Output/Slave Input                                       |
 | 20, 25  | GND    | Ground                                                                  | 
