@@ -37,7 +37,12 @@
 
 - [ ] Edit file  `~/Arduino/libraries/TFT_eSPI/User_Setup_Select.h`
 
-* Uncomment the below code as follows
+* Uncomment the below code as follows:
+
+```diff
+- Red being tthe original code
++ Green the desired code
+```
 
 ```
 diff TFT_eSPI/User_Setup_Select.h ~/Developer/TFT_eSPI-updated/User_Setup_Select.h
