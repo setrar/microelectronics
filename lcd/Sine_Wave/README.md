@@ -56,3 +56,5 @@ int col = 0;
 
 }
 ```
+
+<img src/images/SineWave.png width=50% height=50% > </img>
