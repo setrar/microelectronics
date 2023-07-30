@@ -99,7 +99,7 @@ diff TFT_eSPI/User_Setups/Setup10_RPi_touch_ILI9486.h ~/Developer/TFT_eSPI-updat
 > #define TFT_RST   21  // Reset pin (could connect to Arduino RESET pin)
 ```
 
-:round_pushpin: When using SPI Port 1
+:round_pushpin: [How to setup display on SPI1 in raspberry pi pico](https://github.com/Bodmer/TFT_eSPI/discussions/1242)
 
 ```c
 #define TOUCH_CS 22   // Chip select pin (T_CS) of touch screen
