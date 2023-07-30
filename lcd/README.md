@@ -100,7 +100,7 @@ diff TFT_eSPI/User_Setups/Setup10_RPi_touch_ILI9486.h ~/Developer/TFT_eSPI-updat
 ```
 
 
-- [ ] Test with the `Color` Code
+#### :ab:  Test with the `Color` Code
 
 ```c
 /*  
