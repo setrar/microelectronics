@@ -4,6 +4,18 @@
 
 [uf2-utils](https://github.com/tinyvision-ai-inc/uf2-utils)
 
+- [ ] Install UF2 Utils
+
+```
+git clone https://github.com/tinyvision-ai-inc/uf2-utils.git && cd uf2-utils
+```
+
+- [ ] Make and put in `/usr/local/bin`
+
+```
+make && sudo make install
+```
+
 
 
 # Hardware Related Stuff
