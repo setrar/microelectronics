@@ -21,6 +21,8 @@ make && sudo make install
 :round_pushpin: [programming_the_fpga](https://pico-ice.tinyvision.ai/programming_the_fpga.html)
 
 
+- [ ] [Programming the Raspberry Pi Pico in Arduino IDE on a Mac](https://jaygould.co.uk/2023-06-01-using-raspberry-pi-pico-arduino-ide/)
+
 # Hardware Related Stuff
 
 - [ ] [Ettus Research USRP FPGA HDL Source](https://github.com/EttusResearch/fpga)
