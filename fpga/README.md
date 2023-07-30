@@ -1,7 +1,7 @@
 # [tinyvision.ai](https://tinyvision.ai)
 
 
-## [Pico ICE](https://pico-ice.tinyvision.ai)
+## :shark: [Pico ICE](https://pico-ice.tinyvision.ai)
 
 :round_pushpin: [uf2-utils](https://github.com/tinyvision-ai-inc/uf2-utils)
 
