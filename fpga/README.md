@@ -2,7 +2,7 @@
 
 
 
-[uf2-utils](https://github.com/tinyvision-ai-inc/uf2-utils)
+:round_pushpin: [uf2-utils](https://github.com/tinyvision-ai-inc/uf2-utils)
 
 - [ ] Install UF2 Utils
 
@@ -16,6 +16,8 @@ git clone https://github.com/tinyvision-ai-inc/uf2-utils.git && cd uf2-utils
 make && sudo make install
 ```
 
+
+:round_pushpin: [programming_the_fpga](https://pico-ice.tinyvision.ai/programming_the_fpga.html)
 
 
 # Hardware Related Stuff
