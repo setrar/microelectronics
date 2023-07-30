@@ -91,7 +91,6 @@ diff TFT_eSPI/User_Setups/Setup10_RPi_touch_ILI9486.h ~/Developer/TFT_eSPI-updat
 < #define TOUCH_CS PIN_D1     // Chip select pin (T_CS) of touch screen
 ---
 > #define TOUCH_CS  22  // Chip select pin (T_CS) of touch screen
-> 
 > #define TFT_MOSI  19  // Do not connect to SDO(MISO), only to T_DO!!!
 > #define TFT_MISO  16
 > #define TFT_SCLK  18
@@ -99,6 +98,33 @@ diff TFT_eSPI/User_Setups/Setup10_RPi_touch_ILI9486.h ~/Developer/TFT_eSPI-updat
 > #define TFT_DC    20  // Data Command control pin
 > #define TFT_RST   21  // Reset pin (could connect to Arduino RESET pin)
 ```
+
+:round_pushpin: When using SPI Port 1
+
+```c
+#define TOUCH_CS 22   // Chip select pin (T_CS) of touch screen
+#define TFT_DC    8  // Data Command control pin
+#define TFT_CS    9  // Chip select control pin
+#define TFT_SCLK 10
+#define TFT_MOSI 11  // Do not connect to SDO(MISO), only to T_DO!!!
+#define TFT_MISO 12
+#define TFT_RST  15  // Reset pin (could connect to Arduino RESET pin)
+
+#define TFT_SPI_PORT 1
+```
+
+|  Func             |  PICO PORT :hash:  | Comments                         | ILI9486 PORT :hash: | Wiring Colors |
+|-------------------|------|--------------------------------------------------|----|-|
+|                   | VBUS |                                                  |  2 | ![#ff0000](https://placehold.co/15x15/ff0000/ff0000.png) `Red`    |
+|                   | GND  |                                                  |  6 | ![#000000](https://placehold.co/15x15/000000/000000.png) `Black`  |
+| | | |
+| #define TFT_DC    |  8  | // Data Command control pin                       | 18 | ![#008000](https://placehold.co/15x15/008000/008000.png) `Green`  |
+| #define TFT_CS    |  9  | // Chip select control pin                        | 24 | ![#ffff00](https://placehold.co/15x15/ffff00/ffff00.png) `Yellow` |
+| #define TFT_SCLK  | 10  |                                                   | 23 | ![#ffa500](https://placehold.co/15x15/ffa500/ffa500.png) `Orange` |
+| #define TFT_MOSI  | 11  | // Do not connect to SDO(MISO), only to T_DO!!!   | 19 | ![#0000ff](https://placehold.co/15x15/0000ff/0000ff.png) `Blue`   |
+| #define TFT_MISO  | 12  |                                                   | 21 | ![#0000ff](https://placehold.co/15x15/0000ff/0000ff.png) `Blue`   |
+| #define TFT_RST   | 15  | // Reset pin (could connect to Arduino RESET pin) | 22 | ![#ffffff](https://placehold.co/15x15/ffffff/ffffff.png) `White`  |
+
 
 - [ ] Test with the `Color` Code
 
