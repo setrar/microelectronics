@@ -35,9 +35,11 @@
 <img src=https://ueeshop.ly200-cdn.com/u_file/UPAB/UPAB620/1704/products/25/436066c712.jpg width=50% height=50% > </img>
 
 
-### :b: Coding
+### :b: Coding using arduino IDE
 
+- [ ] Install the TFT_eSPI Library first
 
+See below references
 
 - [ ] Edit file  `~/Arduino/libraries/TFT_eSPI/User_Setup_Select.h`
 
