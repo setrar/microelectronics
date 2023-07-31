@@ -131,3 +131,7 @@ void loop() {
 Note: The values read from the ADC will vary based on the sound level and noise in the environment. If you want to process the audio further or convert it to a more meaningful representation (like a spectrogram), you will need to implement additional signal processing or use external libraries for audio analysis.
 
 Always ensure that the voltage levels from the microphone are compatible with the Raspberry Pi Pico's ADC input voltage range (typically 0 to 3.3V). If necessary, add voltage dividers or other circuitry to match the levels.
+
+# references
+
+- [ ] [Adafruit Microphone Amplifier Breakout](https://learn.adafruit.com/adafruit-microphone-amplifier-breakout)
