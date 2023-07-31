@@ -132,6 +132,3 @@ Note: The values read from the ADC will vary based on the sound level and noise 
 
 Always ensure that the voltage levels from the microphone are compatible with the Raspberry Pi Pico's ADC input voltage range (typically 0 to 3.3V). If necessary, add voltage dividers or other circuitry to match the levels.
 
-# references
-
-- [ ] [Adafruit Microphone Amplifier Breakout](https://learn.adafruit.com/adafruit-microphone-amplifier-breakout)
