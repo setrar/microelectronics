@@ -99,7 +99,7 @@ To create an Arduino program for listening to the Adafruit Electret Microphone u
    Use the following code to read the analog values from the microphone connected to the ADC port and print them to the Serial Monitor:
 
 ```cpp
-#include <Adafruit_Pico.h>
+//#include <Adafruit_Pico.h>
 
 const int microphonePin = A0; // Analog input pin connected to the microphone (GP26)
 
