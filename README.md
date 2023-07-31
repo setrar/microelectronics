@@ -30,3 +30,4 @@ MicroElectronics Studies
 :round_pushpin: Literature
 
 - [ ] [SemiWiki: The open forum for semiconductor professionals](https://semiwiki.com)
+- [ ] [Home Semiconductor Manufacturing](https://www.instructables.com/Home-Semiconductor-Manufacturing/)
