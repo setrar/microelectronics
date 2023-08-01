@@ -1,4 +1,7 @@
 
+
+:round_pushpin: [DC Circuit Analysis](https://www.youtube.com/playlist?list=PL4F8106B5158CB89E) by [Darryl Morrell](https://www.youtube.com/@DarrylMorrell)
+
 | | | |
 |-|-|-|
 | Lecture[(1)](1) | Fundamental Circuit Analysis Concepts                      |    |
