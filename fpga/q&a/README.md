@@ -87,3 +87,31 @@ Key features and benefits of the Edge AI market include:
 The Edge AI market has witnessed significant growth due to advancements in hardware technology, the proliferation of IoT devices, and the demand for intelligent solutions in various industries, including healthcare, automotive, manufacturing, agriculture, and consumer electronics.
 
 Companies in the Edge AI market develop and provide specialized hardware (e.g., AI-enabled chips and edge computing devices) and software (e.g., AI frameworks, libraries, and development tools) to enable efficient and effective AI processing at the edge. As the ecosystem continues to mature, we can expect to see even more innovative applications and solutions leveraging the power of Edge AI.
+
+> are FPGAs becoming relevant ?
+
+Yes, FPGAs (Field-Programmable Gate Arrays) are becoming increasingly relevant in various fields and industries. FPGAs are semiconductor devices that can be reprogrammed after manufacturing, allowing for flexible and customizable digital circuit designs. Here are some reasons why FPGAs are gaining importance:
+
+1. Acceleration and Performance: FPGAs can be used to accelerate specific tasks and algorithms, providing significant performance improvements over traditional CPUs and GPUs in certain applications. They are increasingly used in data centers for tasks like artificial intelligence, machine learning, cryptography, and data processing.
+
+2. Energy Efficiency: FPGAs can be more energy-efficient than CPUs and GPUs for specific workloads since they can be tailored to execute specific operations with less power consumption.
+
+3. Customization: FPGAs offer high levels of customization, allowing developers to create hardware that is optimized for their specific application, leading to improved performance and reduced latency.
+
+4. Real-Time Processing: FPGAs are suitable for real-time processing tasks due to their parallel processing capabilities, making them ideal for applications like high-frequency trading, video processing, and telecommunications.
+
+5. IoT and Edge Computing: With the rise of IoT devices and edge computing, FPGAs are being used to perform processing tasks locally at the edge of the network, reducing the need for data transmission to central servers and enhancing privacy and latency.
+
+6. Prototyping and Development: FPGAs are widely used for prototyping and development of digital systems, allowing engineers to test and verify their designs before committing to ASIC (Application-Specific Integrated Circuit) manufacturing.
+
+7. Post-Silicon Updates: FPGAs offer the advantage of post-silicon updates, enabling bug fixes, feature enhancements, and performance improvements without the need for a complete hardware redesign.
+
+8. Aerospace and Defense: FPGAs are widely used in aerospace and defense applications due to their reconfigurability, security features, and reliability.
+
+9. Automotive: FPGAs are increasingly used in advanced driver-assistance systems (ADAS) and autonomous vehicles for real-time processing of sensor data and decision-making tasks.
+
+Overall, FPGAs are becoming relevant in various industries due to their versatility, performance, and ability to adapt to changing requirements. As technology advances, FPGAs are expected to continue playing a significant role in a wide range of applications and domains.
+
+# References
+
+- [ ] [Transitioning from Software Engineer to FPGA Dev](https://www.reddit.com/r/FPGA/comments/oet569/transitioning_from_software_engineer_to_fpga_dev)
