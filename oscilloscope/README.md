@@ -14,6 +14,8 @@
 brew install oscilloscope
 ```
 
+- [ ] [ :tv: EEVblog 1552 - Digilent Analog Discovery 3](https://www.youtube.com/watch?v=5SbNnaMM1tQ)
+
 - [ ] [:tv: How to use an oscilloscope / What is an oscilloscope / Oscilloscope tutorial](https://www.youtube.com/watch?v=CzY2abWCVTY)
 
       "The oscilloscope, it's a time machine" [@mjlorton](https://www.youtube.com/@mjlorton)
