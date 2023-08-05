@@ -22,8 +22,9 @@ make && sudo make install
 
 
 - [ ] [Programming the Raspberry Pi Pico in Arduino IDE on a Mac](https://jaygould.co.uk/2023-06-01-using-raspberry-pi-pico-arduino-ide/)
+- [ ] [PICO-ICE FEATURES RASPBERRY PI RP2040 WITH A LATTICE ICE40 FPGA](https://www.electronics-lab.com/pico-ice-features-raspberry-pi-rp2040-with-a-lattice-ice40-fpga/)
 
-# Hardware Related Stuff
+## Hardware Related Stuff
 
 - [ ] [Ettus Research USRP FPGA HDL Source](https://github.com/EttusResearch/fpga)
 - [ ] [myriadrf](https://myriadrf.org)
