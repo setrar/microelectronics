@@ -3,7 +3,7 @@
 | Languages |
 |-|
 | [:cl:](c) C Language |
-| [:snake](pytthon) Python |
+| [:snake:](pytthon) Python |
 
 # References
 
