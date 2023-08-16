@@ -11,6 +11,10 @@
 [<img src=https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi/blob/master/List_Ultimate_RPi_Kit.jpg width=50% height=50% > </img>](https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi/blob/master/List_Ultimate_RPi_Kit.jpg)
 
 
+## [Freenove Ultimate Starter Kit for Raspberry Pi](https://github.com/Freenove/Freenove_Ultimate_Starter_Kit_for_Raspberry_Pi)
+
+> A kit for learning Raspberry Pi with C, Python and Java code.
+
 ```
 cd ~/Developer
 ```
