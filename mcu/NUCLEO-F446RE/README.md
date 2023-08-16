@@ -13,3 +13,8 @@
 - [ ] Circuit Diagram 
 
 <img src=images/stm32f446re-circuit-diagram.png width=50% height=50% > </img>
+
+
+- [ ] :round_pushpin: IDE
+
+[How to install STM32CubeMX on macOS](https://www.youtube.com/watch?v=NuYNmxmJKjU)
