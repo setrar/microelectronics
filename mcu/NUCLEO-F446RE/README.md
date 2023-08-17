@@ -22,7 +22,7 @@
 ```
 sdk install java 17.0.8-tem
 ```
->
+> Response:
 ```python
 Downloading: java 17.0.8-tem
 
