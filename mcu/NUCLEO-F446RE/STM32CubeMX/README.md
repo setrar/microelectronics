@@ -1,14 +1,6 @@
 # [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)
 
-- [ ] [Get Software](https://www.st.com/en/development-tools/stm32cubemx.html#get-software)
-
-
-```
-unzip ~/Downloads/en.stm32cubemx-mac-v6-9-1.zip
-```
-
-
-- [ ] :round_pushpin: IDE
+- [ ] :round_pushpin: :ice_cube:MX
 
 [How to install STM32CubeMX on macOS](https://www.youtube.com/watch?v=NuYNmxmJKjU)
 
@@ -35,6 +27,17 @@ Do you want java 17.0.8-tem to be set as default? (Y/n): y
 
 Setting java 17.0.8-tem as default.
 
+```
+
+- [ ] [Get Software](https://www.st.com/en/development-tools/stm32cubemx.html#get-software)
+
+
+```
+unzip ~/Downloads/en.stm32cubemx-mac-v6-9-1.zip
+```
+
+```
+cd ~/Downloads/SetupSTM32CubeMX-6.9.1.app/Contents/MacOs/
 ```
 
 ```
