@@ -1,5 +1,12 @@
 # [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)
 
+- [ ] [Get Software](https://www.st.com/en/development-tools/stm32cubemx.html#get-software)
+
+
+```
+unzip ~/Downloads/en.stm32cubemx-mac-v6-9-1.zip
+```
+
 
 - [ ] :round_pushpin: IDE
 
