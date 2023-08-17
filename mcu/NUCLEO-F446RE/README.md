@@ -55,4 +55,6 @@ Installation started
 Framework: 5.2.0.M2-33d5a (IzPack)
 Platform: mac_osx,version=13.4.1,arch=x86,symbolicName=null,javaVersion=17.0.8
 Installation finished
+
+[ Writing the uninstaller data ... ]
 ```
