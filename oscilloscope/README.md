@@ -1,5 +1,10 @@
 
 
+#### :b: [Analog Discovery 3:](https://digilent.com/shop/analog-discovery-3/)
+
+- [ ] [ :tv: EEVblog 1552 - Digilent Analog Discovery 3](https://www.youtube.com/watch?v=5SbNnaMM1tQ)
+- [ ] [Spying on SPI with the Analog Discovery 3](https://www.hackster.io/whitney-knitter/spying-on-spi-with-the-analog-discovery-3-e26c43)
+
 
 # References
 
@@ -30,12 +35,6 @@ brew install oscilloscope
 
 ---
 
-#### :b: [Analog Discovery 3:](https://digilent.com/shop/analog-discovery-3/)
-
-- [ ] [ :tv: EEVblog 1552 - Digilent Analog Discovery 3](https://www.youtube.com/watch?v=5SbNnaMM1tQ)
-- [ ] [Spying on SPI with the Analog Discovery 3](https://www.hackster.io/whitney-knitter/spying-on-spi-with-the-analog-discovery-3-e26c43)
-
----
 
 - [ ] [Multimeter](https://en.wikipedia.org/wiki/Multimeter)
 * Measuring Volts (i.e. 117V at an expected 110V AC) 
