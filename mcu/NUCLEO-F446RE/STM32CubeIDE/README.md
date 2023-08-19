@@ -1,0 +1,50 @@
+# [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
+
+
+
+- [ ] :round_pushpin: :ice_cube:IDE
+
+```
+sdk install java 17.0.8-tem
+```
+> Response:
+```python
+Downloading: java 17.0.8-tem
+
+In progress...
+
+########################################################################################################################################################################################################################### 100.0%
+
+Repackaging Java 17.0.8-tem...
+
+Done repackaging...
+Cleaning up residual files...
+
+Installing: java 17.0.8-tem
+Done installing!
+
+Do you want java 17.0.8-tem to be set as default? (Y/n): y
+
+Setting java 17.0.8-tem as default.
+
+```
+
+- [ ] [STM32CubeIDE get-software](https://www.st.com/en/development-tools/stm32cubeide.html#st-get-software)
+
+* Unzip file
+
+```
+unzip ~/Downloads/en.st-stm32cubeide_1.13.1_17479_20230728_0839_x86_64.dmg.zip
+```
+> Response:
+```powershell
+Archive:  /Users/valiha/Downloads/en.st-stm32cubeide_1.13.1_17479_20230728_0839_x86_64.dmg.zip
+  inflating: st-stm32cubeide_1.13.1_17479_20230728_0839_x86_64.dmg  
+```
+
+* Open File
+
+```
+open st-stm32cubeide_1.13.1_17479_20230728_0839_x86_64.dmg
+```
+
