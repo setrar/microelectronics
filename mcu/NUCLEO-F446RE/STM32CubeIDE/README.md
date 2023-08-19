@@ -48,3 +48,4 @@ Archive:  /Users/valiha/Downloads/en.st-stm32cubeide_1.13.1_17479_20230728_0839_
 open st-stm32cubeide_1.13.1_17479_20230728_0839_x86_64.dmg
 ```
 
+<img src=../images/STM32CubeIDE-Install.png width='' height='' > <img>
