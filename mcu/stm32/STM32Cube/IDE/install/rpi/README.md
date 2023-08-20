@@ -109,3 +109,20 @@ Enjoy!!!
 sdk install java 17.0.8-tem
 ```
 > Response:
+```powershell
+Downloading: java 17.0.8-tem
+
+In progress...
+
+################################################################################################# 100.0%
+
+Repackaging Java 17.0.8-tem...
+
+Done repackaging...
+
+Installing: java 17.0.8-tem
+Done installing!
+
+
+Setting java 17.0.8-tem as default.
+```
