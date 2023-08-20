@@ -126,3 +126,8 @@ Done installing!
 
 Setting java 17.0.8-tem as default.
 ```
+
+
+- [ ] [STM32CubeIDE get-software](https://www.st.com/en/development-tools/stm32cubeide.html#st-get-software)
+
+
