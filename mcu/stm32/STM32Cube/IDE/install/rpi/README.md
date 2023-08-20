@@ -1,5 +1,5 @@
 
-
+## Install [sdkman](https://sdkman.io/)
 
 ```
 curl -s "https://get.sdkman.io" | bash
@@ -98,3 +98,14 @@ Then issue the following command:
 
 Enjoy!!!
 ```
+
+# [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html)
+
+
+
+- [ ] :round_pushpin: :ice_cube:IDE
+
+```
+sdk install java 17.0.8-tem
+```
+> Response:
