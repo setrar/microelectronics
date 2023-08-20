@@ -1,5 +1,5 @@
 # IDE
 
-### :o: Insstall
+### :o: Install
 
-[:point_right: install](install)
+Follow the [:point_right: install](install) on :apple: Mac 
