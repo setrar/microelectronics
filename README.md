@@ -27,7 +27,7 @@ MicroElectronics Studies
 - [ ] [Microelectronics Market Size USD 677.92 Billion by 2030](https://www.vantagemarketresearch.com/industry-report/microelectronics-market-1579)
 - [ ] [Edge AI Market Size By Component (Hardware \[GPU, ASIC, CPU, FPGA\], Software, Services), By Application (Video Surveillance, Remote Monitoring, Predictive Maintenance) By End-use, & Forecast, 2023 – 2032](https://www.gminsights.com/industry-analysis/edge-ai-market)
 - [ ] [Edge Computing Market Size & Share Analysis - Growth Trends & Forecasts (2023 - 2028)](https://www.globenewswire.com/news-release/2023/08/16/2726720/0/en/Edge-Computing-Market-Size-Share-Analysis-Growth-Trends-Forecasts-2023-2028.html)
-The Edge Computing Market size is estimated at USD 9.17 billion in 2023, and is expected to reach USD `58.60 billion by 2028`, growing at a CAGR of 44.90% during the forecast period (2023-2028). The increasing adoption of IoT is augmented by 5G operations, primarily driving the growth of the market studied.
+The Edge Computing Market size is estimated at USD 9.17 billion in 2023, and is expected to reach USD `58.60 billion by 2028`, growing at a [CAGR](https://www.investopedia.com/terms/c/cagr.asp) of 44.90% during the forecast period (2023-2028). The increasing adoption of IoT is augmented by 5G operations, primarily driving the growth of the market studied.
 
 :round_pushpin: Literature
 
