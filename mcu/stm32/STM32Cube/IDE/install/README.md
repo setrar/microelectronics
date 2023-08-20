@@ -52,12 +52,12 @@ open st-stm32cubeide_1.13.1_17479_20230728_0839_x86_64.dmg
 
 * Install STLink 1st
 
-<img src=images/STM32CubeIDE-Install-stlink.png width='' height='' > <img>
+<img src=../images/STM32CubeIDE-Install-stlink.png width='' height='' > <img>
 
 * Drag and drop the Application
 
-<img src=images/STM32CubeIDE-Install.png width='' height='' > <img>
+<img src=../images/STM32CubeIDE-Install.png width='' height='' > <img>
 
 * Choose WorkSpace
 
-<img src=images/STM32CubeIDE-workspace.png width='' height='' > <img>
+<img src=../images/STM32CubeIDE-workspace.png width='' height='' > <img>
