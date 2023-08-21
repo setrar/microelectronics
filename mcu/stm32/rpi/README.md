@@ -8,6 +8,8 @@
 
 * Position on the Connector (CN) PINS
 
+Pin A13 and Pin A14 are connected on the Connector 7 (CN7)
+
 <img src=images/STM32-JTAG-PinOut-View.png	width=50% height=50% > </img>
 
 - [ ] Step 2: Take a Look on Raspberry Pi Pinout
