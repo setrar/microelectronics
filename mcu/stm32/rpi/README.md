@@ -1,6 +1,15 @@
 # Running on the Raspberry Pi
 
-- [ ] Step 1: Check SWD Pins of Microcontroller
+- [ ] Step 1: Check SWD Pins of Microcontroller [ST-Nucleo-F446RE](https://os.mbed.com/platforms/ST-Nucleo-F446RE/)
+
+<img src=images/STM32-MX-PinOut-View.png	width=90% height=90% > </img>
+<img src=images/STM32-JTAG-PinOut-View.png	width=90% height=90% > </img>
+
+- [ ] Step 2: Take a Look on Raspberry Pi Pinout
+
+<img src=images/FUI1HTGJ6MGF3EM.jpg	width=90% height=90% > </img>
+
+- [ ] Step 4: Install OpenOCD on Raspberry Pi
 
 ```
 sudo apt install openocd
