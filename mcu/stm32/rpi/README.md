@@ -2,8 +2,8 @@
 
 - [ ] Step 1: Check SWD Pins of Microcontroller [ST-Nucleo-F446RE](https://os.mbed.com/platforms/ST-Nucleo-F446RE/)
 
-<img src=images/STM32-MX-PinOut-View.png	width=90% height=90% > </img>
-<img src=images/STM32-JTAG-PinOut-View.png	width=90% height=90% > </img>
+<img src=images/STM32-MX-PinOut-View.png	width=50% height=50% > </img>
+<img src=images/STM32-JTAG-PinOut-View.png	width=50% height=50% > </img>
 
 - [ ] Step 2: Take a Look on Raspberry Pi Pinout
 
