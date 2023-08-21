@@ -6,7 +6,7 @@
 
 <img src=images/STM32-MX-PinOut-View.png	width=50% height=50% > </img>
 
-* Position on the PINS
+* Position on the Connector (CN) PINS
 
 <img src=images/STM32-JTAG-PinOut-View.png	width=50% height=50% > </img>
 
