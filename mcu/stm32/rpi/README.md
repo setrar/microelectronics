@@ -1,5 +1,7 @@
 # Running on the Raspberry Pi
 
+- [ ] Step 1: Check SWD Pins of Microcontroller
+
 ```
 sudo apt install openocd
 ```
