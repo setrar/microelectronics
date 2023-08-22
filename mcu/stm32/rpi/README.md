@@ -79,6 +79,20 @@ Processing triggers for man-db (2.9.4-2) ...
 Processing triggers for libc-bin (2.31-13+rpt2+rpi1+deb11u5) ...
 ```
 
+- [ ] Step 5: Find Interface and Target
+
+* `Interface` describes our programmer - in our case Raspberry Pi. Let's type in Raspberry's console:
+
+```
+ls /usr/share/openocd/scripts/interface
+```
+
+* `Target` describes a microcontroller which we want to program. Let's see the supported ones:
+
+```
+ls /usr/share/openocd/scripts/target/
+```
+
 - [ ] Step 6: Prepare OpenOCD Configuration File
 
 ```
