@@ -79,6 +79,24 @@ Processing triggers for man-db (2.9.4-2) ...
 Processing triggers for libc-bin (2.31-13+rpt2+rpi1+deb11u5) ...
 ```
 
+- [ ] Step 6: Prepare OpenOCD Configuration File
+
+```
+cat /usr/share/openocd/scripts/openocd.cfg
+```
+> Response:
+```powershell
+source [find interface/raspberrypi2-native.cfg]
+transport select swd
+set WORKAREASIZE 0x2000 
+source [find target/stm32f4x.cfg]
+reset_config srst_only srst_nogate
+adapter srst delay 100
+adapter srst pulse_width 100
+init
+targets
+reset halt
+```
 
 # References
 
