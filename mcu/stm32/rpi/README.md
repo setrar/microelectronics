@@ -16,6 +16,10 @@ Pin A13 and Pin A14 are connected on the Connector 7 (CN7)
 
 <img src=images/FUI1HTGJ6MGF3EM.jpg	width=90% height=90% > </img>
 
+- [ ] Step 3: Adapt Your Circuit
+
+
+
 - [ ] Step 4: Install OpenOCD on Raspberry Pi
 
 ```
