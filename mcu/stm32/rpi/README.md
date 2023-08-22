@@ -22,8 +22,8 @@ Now, when you know which PINs are SWD compliant, adapt your circuit diagram to h
 
 | STM32 | RPI |
 |-|-|
-| | |
-| | |
+| CN7 :one::three:| |
+| CN7 :one::four: | |
 
 - [ ] Step 4: Install OpenOCD on Raspberry Pi
 
