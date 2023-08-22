@@ -112,6 +112,27 @@ targets
 reset halt
 ```
 
+- [ ] Step 7: Verify Electronics
+
+```
+sudo openocd
+```
+> Response:
+```powershell
+Open On-Chip Debugger 0.12.0
+Licensed under GNU GPL v2
+For bug reports, read
+	http://openocd.org/doc/doxygen/bugs.html
+Info : BCM2835 GPIO JTAG/SWD bitbang driver
+Info : clock speed 2008 kHz
+Info : SWD DPIDR 0x00000000
+
+
+Info : Listening on port 6666 for tcl connections
+Info : Listening on port 4444 for telnet connections
+```
+
+
 # References
 
 - [ ] [Wireless Programming and Debugging With STM32 and RPi](https://www.instructables.com/Wireless-Programming-and-Debugging-With-STM32-and-)
