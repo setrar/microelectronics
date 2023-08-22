@@ -18,7 +18,12 @@ Pin A13 and Pin A14 are connected on the Connector 7 (CN7)
 
 - [ ] Step 3: Adapt Your Circuit
 
+Now, when you know which PINs are SWD compliant, adapt your circuit diagram to have needed connections.
 
+| STM32 | RPI |
+|-|-|
+| | |
+| | |
 
 - [ ] Step 4: Install OpenOCD on Raspberry Pi
 
