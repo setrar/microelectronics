@@ -1,6 +1,7 @@
 # Testing Instruments
 
-      - The multimeter is the still picture
-      - The oscilloscope is the video of it
+- The [multimeter](multimeter) is the still picture
+
+- The [oscilloscope](oscilloscope) is the video of it
 
 
