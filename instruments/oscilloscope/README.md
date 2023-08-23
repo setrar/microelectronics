@@ -1,4 +1,6 @@
+# Oscilloscope
 
+[Digilent: Analog Discovery 3](ad3)
 
 
 # References
