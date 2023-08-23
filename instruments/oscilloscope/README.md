@@ -1,0 +1,30 @@
+
+
+#### :b: [Analog Discovery 3:](https://digilent.com/shop/analog-discovery-3/)
+
+- [ ] [ :tv: EEVblog 1552 - Digilent Analog Discovery 3](https://www.youtube.com/watch?v=5SbNnaMM1tQ)
+- [ ] [Spying on SPI with the Analog Discovery 3](https://www.hackster.io/whitney-knitter/spying-on-spi-with-the-analog-discovery-3-e26c43)
+
+
+# References
+
+---
+
+- [ ] [Oscilloscope Music - Pictures from Sound](https://www.youtube.com/watch?v=ZaTuFB5QXHo)
+- [ ] [oscilloscopemusic.com](https://oscilloscopemusic.com/)
+- [ ] [What is Osci Music???](https://www.youtube.com/watch?v=qUOAYvdiHFk) (With Audacity explanation)
+- [ ] [Oscilloscope! by Hansi Raber](https://oscilloscopemusic.com/software/oscilloscope/)
+
+```
+brew install oscilloscope
+```
+
+---
+
+- [ ] [#1099 How I learned electronics](https://www.youtube.com/watch?v=Bgrubw6B_us)
+
+- [ ] [Tektronix](https://www.tek.com/)
+- [ ] [10 Reasons Every Hobbyist needs an Oscilloscope](https://www.hackster.io/news/10-reasons-every-hobbyist-needs-an-oscilloscope-507df34f38d9)
+
+- [ ] [:tv: How to use an oscilloscope / What is an oscilloscope / Oscilloscope tutorial](https://www.youtube.com/watch?v=CzY2abWCVTY)
+
