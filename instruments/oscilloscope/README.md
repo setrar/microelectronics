@@ -9,9 +9,9 @@
 
 > What is an oscilloscope?
 
-. Bandwith: 
-. Range of frequencies tha can be measured
-. 10 MHz to 100 MHz recommended
+* Bandwith: 
+- Range of frequencies tha can be measured
+- 10 MHz to 100 MHz recommended
 
   
 ---
