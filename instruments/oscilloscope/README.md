@@ -27,8 +27,8 @@ What is an oscilloscope?
 [MS/s](https://www.analog.com/en/design-center/glossary/msps.html) 
 ```math
 \begin{gather}
-  \text{MS/S Mega Sample per Seconds} \\
-  1 * 10^6
+  \text{MS/s -> Mega Sample per Seconds} \to 1 * 10^6
+  
 \end{gather}
 ```
 
