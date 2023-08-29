@@ -1,4 +1,4 @@
-# PCB
+# [:eletric_plug: PCB](https://en.wikipedia.org/wiki/Printed_circuit_board)
 
 
 # References
