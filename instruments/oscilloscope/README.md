@@ -8,8 +8,8 @@
 - [ ] [Electronics Foundations: Basic Circuits](https://www.linkedin.com/learning/electronics-foundations-basic-circuits/what-is-an-oscilloscope-14154695?u=56968449)
 
 What is an oscilloscope?
-. Bandwith: 
-  . Range of frequencies tha can be measured 
+> Bandwith: 
+. Range of frequencies tha can be measured 
 
   
 ---
