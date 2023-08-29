@@ -22,7 +22,9 @@ What is an oscilloscope?
 - Bandwidth
 - Flatness
 - Resolution
-- Sample Rate
+- [Sample Rate](https://www.ni.com/docs/en-US/bundle/ni-scope/page/digitizers/sample_rate.html)
+
+
 - Record Length
 - Vertical Range and Offset
 - Input Coupling
