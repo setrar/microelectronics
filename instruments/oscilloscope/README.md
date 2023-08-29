@@ -13,7 +13,7 @@ What is an oscilloscope?
 - Range of frequencies that can be measured
 - 10 MHz to 100 MHz recommended
 
-> Sample Rate: (for Digital Oscilloscope)
+> Sampling Rate: (for Digital Oscilloscope)
 - Home many times per second the signal is measured
 - Recommended at least 100 MS/s
   
