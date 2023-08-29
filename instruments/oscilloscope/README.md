@@ -15,7 +15,7 @@ What is an oscilloscope?
 
 > Sampling Rate: (for Digital Oscilloscope)
 - Home many times per second the signal is measured
-- Recommended at least 100 MS/s
+- Recommended at least 100 MS/s (Mega Samples per seconds)
   
 ---
 
