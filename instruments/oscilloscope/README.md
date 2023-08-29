@@ -16,6 +16,24 @@ What is an oscilloscope?
 > Sampling Rate: (for Digital Oscilloscope)
 - Home many times per second the signal is measured
 - Recommended at least 100 MS/s (Mega Samples per seconds)
+
+- [ ] [Expand this book for more information on digitizer fundamentals.](https://www.ni.com/docs/en-US/bundle/ni-scope/page/digitizers/fundamentals.html)
+
+- Bandwidth
+- Flatness
+- Resolution
+- Sample Rate
+- Record Length
+- Vertical Range and Offset
+- Input Coupling
+- Impedance and Impedance Matching
+- Probes and Their Effects
+- Accuracy
+- Noise
+- Thermal Shutdown
+- Triggering
+- Clocking
+- Time Stamping
   
 ---
 
