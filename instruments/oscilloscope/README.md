@@ -24,7 +24,10 @@ What is an oscilloscope?
 - Resolution
 - [Sample Rate](https://www.ni.com/docs/en-US/bundle/ni-scope/page/digitizers/sample_rate.html)
 
-[MS/s](https://www.analog.com/en/design-center/glossary/msps.html) = 1 * 10^6
+[MS/s](https://www.analog.com/en/design-center/glossary/msps.html) 
+```math
+1 * 10^6
+```
 
 - Record Length
 - Vertical Range and Offset
