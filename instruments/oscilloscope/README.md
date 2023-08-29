@@ -32,6 +32,8 @@ What is an oscilloscope?
   
 \end{gather}
 ```
+
+The following figure illustrates a 1 MHz sine wave sampled by a 2 MS/s ADC and a 20 MS/s ADC. The faster ADC digitizes 20 points per cycle of the input signal compared with 2 points per cycle with the slower ADC. 
 <img src=images/loc_eps_sample_rate.gif width=50% height=50% > <img>
 
 - Record Length
