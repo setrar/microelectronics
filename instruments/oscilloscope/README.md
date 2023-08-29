@@ -26,7 +26,10 @@ What is an oscilloscope?
 
 [MS/s](https://www.analog.com/en/design-center/glossary/msps.html) 
 ```math
-1 * 10^6
+\begin{gather}
+  \text{MS/S Mega Sample per Seconds} \\
+  1 * 10^6
+\end{gather}
 ```
 
 - Record Length
