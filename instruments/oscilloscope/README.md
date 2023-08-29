@@ -28,7 +28,7 @@ What is an oscilloscope?
 ```math
 \begin{gather}
   \text{MS/s (Mega [Million] Sample per Seconds) } \to 1 * 10^6 \\
-  1 \mu (micro seconds) -> 1 * 10^-6 seconds
+  1 \mu (micro seconds) -> 1 * 10^{-6} seconds
   
 \end{gather}
 ```
