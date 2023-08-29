@@ -15,7 +15,7 @@ What is an oscilloscope?
 
 > Sampling Rate: (for Digital Oscilloscope)
 - Home many times per second the signal is measured
-- Recommended at least 100 MS/s (Mega Samples per seconds)
+- Recommended at least 100 [MS/s](https://www.analog.com/en/design-center/glossary/msps.html)  (Mega [Million] Samples per seconds)
 
 - [ ] [Expand this book for more information on digitizer fundamentals.](https://www.ni.com/docs/en-US/bundle/ni-scope/page/digitizers/fundamentals.html)
 
@@ -24,7 +24,7 @@ What is an oscilloscope?
 - Resolution
 - [Sample Rate](https://www.ni.com/docs/en-US/bundle/ni-scope/page/digitizers/sample_rate.html)
 
-[MS/s](https://www.analog.com/en/design-center/glossary/msps.html) 
+
 ```math
 \begin{gather}
   \text{MS/s (Mega [Million] Sample per Seconds) } \to 1 * 10^6 \text{ Samples per seconds} \\
