@@ -32,6 +32,7 @@ What is an oscilloscope?
   
 \end{gather}
 ```
+<img src=images/loc_eps_sample_rate.gif width=50% height=50% > <img>
 
 - Record Length
 - Vertical Range and Offset
