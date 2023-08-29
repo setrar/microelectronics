@@ -10,9 +10,12 @@
 What is an oscilloscope?
 
 > Bandwith: 
-- Range of frequencies tha can be measured
+- Range of frequencies that can be measured
 - 10 MHz to 100 MHz recommended
 
+> Sample Rate: (for Digital Oscilloscope)
+- Home many times per second the signal is measured
+- Recommended at least 100 MS/s
   
 ---
 
