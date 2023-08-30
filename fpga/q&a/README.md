@@ -87,3 +87,63 @@ Key features and benefits of the Edge AI market include:
 The Edge AI market has witnessed significant growth due to advancements in hardware technology, the proliferation of IoT devices, and the demand for intelligent solutions in various industries, including healthcare, automotive, manufacturing, agriculture, and consumer electronics.
 
 Companies in the Edge AI market develop and provide specialized hardware (e.g., AI-enabled chips and edge computing devices) and software (e.g., AI frameworks, libraries, and development tools) to enable efficient and effective AI processing at the edge. As the ecosystem continues to mature, we can expect to see even more innovative applications and solutions leveraging the power of Edge AI.
+
+> are FPGAs becoming relevant ?
+
+Yes, FPGAs (Field-Programmable Gate Arrays) are becoming increasingly relevant in various fields and industries. FPGAs are semiconductor devices that can be reprogrammed after manufacturing, allowing for flexible and customizable digital circuit designs. Here are some reasons why FPGAs are gaining importance:
+
+1. Acceleration and Performance: FPGAs can be used to accelerate specific tasks and algorithms, providing significant performance improvements over traditional CPUs and GPUs in certain applications. They are increasingly used in data centers for tasks like artificial intelligence, machine learning, cryptography, and data processing.
+
+2. Energy Efficiency: FPGAs can be more energy-efficient than CPUs and GPUs for specific workloads since they can be tailored to execute specific operations with less power consumption.
+
+3. Customization: FPGAs offer high levels of customization, allowing developers to create hardware that is optimized for their specific application, leading to improved performance and reduced latency.
+
+4. Real-Time Processing: FPGAs are suitable for real-time processing tasks due to their parallel processing capabilities, making them ideal for applications like high-frequency trading, video processing, and telecommunications.
+
+5. IoT and Edge Computing: With the rise of IoT devices and edge computing, FPGAs are being used to perform processing tasks locally at the edge of the network, reducing the need for data transmission to central servers and enhancing privacy and latency.
+
+6. Prototyping and Development: FPGAs are widely used for prototyping and development of digital systems, allowing engineers to test and verify their designs before committing to ASIC (Application-Specific Integrated Circuit) manufacturing.
+
+7. Post-Silicon Updates: FPGAs offer the advantage of post-silicon updates, enabling bug fixes, feature enhancements, and performance improvements without the need for a complete hardware redesign.
+
+8. Aerospace and Defense: FPGAs are widely used in aerospace and defense applications due to their reconfigurability, security features, and reliability.
+
+9. Automotive: FPGAs are increasingly used in advanced driver-assistance systems (ADAS) and autonomous vehicles for real-time processing of sensor data and decision-making tasks.
+
+Overall, FPGAs are becoming relevant in various industries due to their versatility, performance, and ability to adapt to changing requirements. As technology advances, FPGAs are expected to continue playing a significant role in a wide range of applications and domains.
+
+> is it easy to program coming from IT background ?
+
+The ease of programming FPGAs depends on your specific IT background and prior experience with hardware design and digital logic. If you have a strong background in software programming, it can be a bit challenging to transition to FPGA programming initially. FPGA development requires a different mindset and understanding of hardware design principles.
+
+Here are some factors to consider when transitioning from an IT background to FPGA programming:
+
+1. Hardware Description Languages (HDLs): FPGA programming is typically done using hardware description languages like VHDL or Verilog. These languages are different from traditional software programming languages like Java, Python, or C++. Learning HDLs and understanding the hardware paradigm can be a bit challenging at first.
+
+2. Digital Logic Concepts: FPGAs involve designing and implementing digital circuits using logic gates. If you have no prior experience with digital logic concepts, it might take some time to grasp the fundamentals.
+
+3. Parallelism: FPGAs are inherently parallel devices, and programming them requires thinking in terms of parallelism and concurrency. This can be a different way of thinking compared to sequential programming in software development.
+
+4. Development Tools: FPGA development often requires specialized software tools provided by FPGA vendors. Learning and using these tools efficiently might require some time and effort.
+
+5. Hardware Constraints: FPGA designs need to consider hardware constraints such as timing, resource utilization, and power consumption, which are not typically a concern in software development.
+
+6. Debugging: Debugging FPGA designs can be more complex than debugging software. Traditional debugging techniques may not be directly applicable, and you may need to use hardware debugging tools and techniques.
+
+However, with dedication, practice, and a willingness to learn, you can overcome these challenges and become proficient in FPGA programming. Many IT professionals successfully transition to FPGA development and find it rewarding, especially when working on projects that require high performance and real-time processing.
+
+To get started, consider taking online courses or tutorials on FPGA programming, learning HDLs, and working on small FPGA projects to gain hands-on experience. Additionally, FPGA vendor websites and communities often provide resources and support for beginners, making it easier to start your FPGA programming journey.
+
+> what is its market size ?
+
+As of my last knowledge update in September 2021, the global FPGA (Field-Programmable Gate Array) market size was estimated to be around $6.5 billion USD. However, please note that the market size for FPGAs can fluctuate over time due to factors such as technological advancements, industry demand, and economic conditions.
+
+FPGAs have been increasingly adopted in various industries due to their versatility, reconfigurability, and ability to accelerate certain computing tasks. They are commonly used in applications such as data centers, telecommunications, automotive, aerospace, industrial automation, and IoT devices.
+
+The market for FPGAs is expected to continue growing in the coming years, driven by the increasing demand for high-performance computing, artificial intelligence, machine learning, and other data-intensive applications. Moreover, the ongoing development of advanced FPGA technologies and the integration of FPGA capabilities with other semiconductor devices contribute to the growth of this market.
+
+For the most up-to-date information on the current market size and trends for FPGAs, I recommend consulting market research reports, industry analyses, and technology news sources.
+
+# References
+
+- [ ] [Transitioning from Software Engineer to FPGA Dev](https://www.reddit.com/r/FPGA/comments/oet569/transitioning_from_software_engineer_to_fpga_dev)
