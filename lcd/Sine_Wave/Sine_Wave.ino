@@ -1,55 +1,43 @@
-#include <TFT_eSPI.h> // Hardware-specific library
-#include <SPI.h>
+/****************************************
+Example Sound Level Sketch for the 
+Adafruit Microphone Amplifier
+****************************************/
 
-TFT_eSPI tft = TFT_eSPI();                   // Invoke custom library with default width and height
+const int sampleWindow = 50; // Sample window width in mS (50 mS = 20Hz)
+unsigned int sample;
 
-#define TFT_GREY 0x7BEF
-
-uint32_t runTime = 0;
-
-void setup()
+void setup() 
 {
-  randomSeed(analogRead(0));
-  Serial.begin(38400);
-// Setup the LCD
-  tft.init();
-  tft.setRotation(1);
+   Serial.begin(115200);
 }
 
 
-void loop() {
-  int buf[478];
-  int x, x2;
-  int y, y2;
-  int r;
+void loop() 
+{
+   unsigned long startMillis= millis();  // Start of sample window
+   unsigned int peakToPeak = 0;   // peak-to-peak level
 
-  runTime = millis();
-// Clear the screen and draw the frame
-  tft.fillScreen(TFT_BLACK);
+   unsigned int signalMax = 0;
+   unsigned int signalMin = 1024;
 
-    tft.fillRect(1,15,478-1,304-15,TFT_BLACK);
-  tft.drawLine(239, 15, 239, 304,TFT_BLUE);
-  tft.drawLine(1, 159, 478, 159,TFT_BLUE);
+   // collect data for 50 mS
+   while (millis() - startMillis < sampleWindow)
+   {
+      sample = analogRead(26);
+      if (sample < 1024)  // toss out spurious readings
+      {
+         if (sample > signalMax)
+         {
+            signalMax = sample;  // save just the max levels
+         }
+         else if (sample < signalMin)
+         {
+            signalMin = sample;  // save just the min levels
+         }
+      }
+   }
+   peakToPeak = signalMax - signalMin;  // max - min = peak-peak amplitude
+   double volts = (peakToPeak * 5.0) / 1024;  // convert to volts
 
-// Draw a moving sinewave
-int col = 0;
-  x=1;
-  for (int i=1; i<(477*15); i++) 
-  {
-    x++;
-    if (x==478)
-      x=1;
-    if (i>478)
-    {
-      if ((x==239)||(buf[x-1]==159))
-        col = TFT_BLUE;
-      else
-        tft.drawPixel(x,buf[x-1],TFT_BLACK);
-    }
-    y=159+(sin(((i*0.7)*3.14)/180)*(90-(i / 100)));
-    tft.drawPixel(x,y, TFT_BLUE);
-    buf[x-1]=y;
-  }
-
-
+   Serial.println(volts);
 }
