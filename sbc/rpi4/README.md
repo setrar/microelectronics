@@ -33,3 +33,7 @@ Learning objectives:
 - Accepting input
 - Controlling output
 - Using specialty pins: UART and I2C
+
+# References
+
+- [ ] [How to Fix SSH Not Working on MacOS Ventura](https://osxdaily.com/2022/12/22/fix-ssh-not-working-macos-rsa-issue)
