@@ -5,4 +5,6 @@
 
 # References
 
-- [ ] [ThunderScope: An Open Source Software Defined Oscilloscope](https://hackaday.io/project/180090-thunderscope)
+- [ ] Thunderscope
+  - [ ] [EEVengers/ThunderScope](https://github.com/EEVengers/ThunderScope)
+  - [ ] [ThunderScope: An Open Source Software Defined Oscilloscope](https://hackaday.io/project/180090-thunderscope)
