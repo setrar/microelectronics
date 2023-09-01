@@ -10,6 +10,8 @@
 | [How much does the TWINSCAN XT:1900i lithography system from ASML cost?](#catgpt-how-much-does-the-twinscan-xt1900i-lithography-system-from-asml-cost) | 40 to 100 Millions |
 | [Photolithography \| Its Importance in Semiconductor Manufacturing](#photolithography--its-importance-in-semiconductor-manufacturing) |
 | [What is the Photolithography Process?](#catgpt-what-is-the-photolithography-process) |
+| |
+| [How to make its own RISC-V chipset?](#catgpt-how-to-make-its-own-risc-v-chipset) |
  
 #### :cat:GPT how can I build my own semiconductor company?
 
