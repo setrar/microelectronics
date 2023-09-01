@@ -5,7 +5,7 @@
 
 # References
 
-- [ ] [Electronics Foundations: Basic Circuits](https://www.linkedin.com/learning/electronics-foundations-basic-circuits/what-is-an-oscilloscope-14154695?u=56968449)
+- [ ] [Electronics Foundations: Basic Circuits](https://www.linkedin.com/learning/electronics-foundations-basic-circuits/what-is-an-oscilloscope-14154695)
 
 What is an oscilloscope?
 
