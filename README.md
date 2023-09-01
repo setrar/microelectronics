@@ -11,6 +11,9 @@ MicroElectronics Studies
 - [ ] [‘Embarrassingly behind’: Is Canada doing enough on semiconductors?](https://globalnews.ca/news/9787308/canada-semiconductors-taiwan-china/)
 - [ ] [CHIPS and Science Act Will Lower Costs, Create Jobs, Strengthen Supply Chains, and Counter China](https://www.whitehouse.gov/briefing-room/statements-releases/2022/08/09/fact-sheet-chips-and-science-act-will-lower-costs-create-jobs-strengthen-supply-chains-and-counter-china/)
 - [ ] [European Chips Act](https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/europe-fit-digital-age/european-chips-act_en)
+- [ ] [RISC-V vs ARM: A Comprehensive Comparison of Processor Architectures](https://www.wevolver.com/article/risc-v-vs-arm-a-comprehensive-comparison-of-processor-architectures)
+
+RISC-V and ARM are two processor architectures that have gained significant attention in recent years. RISC-V is an `open-source` Instruction Set Architecture `(ISA)` based on the Reduced Instruction Set Computing (RISC) principles, while ARM is a `proprietary` ISA that has become the dominant choice for embedded systems and mobile devices due to its longstanding presence in the market, as well as years of trust and expertise cultivated resulting in widespread reputation. 
 
 
 :round_pushpin: Technology
