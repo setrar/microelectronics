@@ -24,6 +24,7 @@ RISC-V and ARM are two processor architectures that have gained significant atte
 > As a fundamental part of the lithography puzzle, the photomask has a fascinating history that goes all the way back to the very beginning.
 - [ ] [How VLSI Revolutionized Semiconductor Design](https://www.youtube.com/watch?v=XgbxFVyKMMo)
 - [ ] [How are microchips made?](https://www.youtube.com/watch?v=g8Qav3vIv9s)
+- [ ] [Open-source high-performance RISC-V processor](https://github.com/OpenXiangShan/XiangShan)
 
 
 :round_pushpin: Trends
