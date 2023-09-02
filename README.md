@@ -15,6 +15,8 @@ MicroElectronics Studies
 
 RISC-V and ARM are two processor architectures that have gained significant attention in recent years. RISC-V is an `open-source` Instruction Set Architecture `(ISA)` based on the Reduced Instruction Set Computing (RISC) principles, while ARM is a `proprietary` ISA that has become the dominant choice for embedded systems and mobile devices due to its longstanding presence in the market, as well as years of trust and expertise cultivated resulting in widespread reputation. 
 
+- [ ] [How China is Building an Open National Chip Plan Around RISC-V?](https://www.hpcwire.com/2023/07/19/how-china-is-building-an-open-national-chip-plan-around-risc-v)
+
 
 :round_pushpin: Technology
 
@@ -32,6 +34,7 @@ RISC-V and ARM are two processor architectures that have gained significant atte
 - [ ] [Edge Computing Market Size & Share Analysis - Growth Trends & Forecasts (2023 - 2028)](https://www.globenewswire.com/news-release/2023/08/16/2726720/0/en/Edge-Computing-Market-Size-Share-Analysis-Growth-Trends-Forecasts-2023-2028.html)
 The Edge Computing Market size is estimated at USD 9.17 billion in 2023, and is expected to reach USD `58.60 billion by 2028`, growing at a [CAGR](https://www.investopedia.com/terms/c/cagr.asp) of 44.90% during the forecast period (2023-2028). The increasing adoption of IoT is augmented by 5G operations, primarily driving the growth of the market studied.
 - [ ] [The Semiconductor Shortage: How RISC-V & Other Technologies are Taking Advantage](https://www.electropages.com/blog/2023/01/semiconductor-shortage-how-risc-v-and-other-technologies-are-taking-advantage)
+- [ ] [Education Costs, Lack of Engineering Interest Hurting Semiconductor Industry](https://www.hpcwire.com/2023/05/02/education-costs-lack-of-engineering-interest-hurting-semiconductor-industry/)
 
 :round_pushpin: Literature
 
