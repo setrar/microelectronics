@@ -6,6 +6,7 @@
 # References
 
 - [ ] [Electronics Foundations: Basic Circuits](https://www.linkedin.com/learning/electronics-foundations-basic-circuits/what-is-an-oscilloscope-14154695)
+- [ ] [Nyquist Sampling Theorem: Conserving Signal Characteristics](https://resources.ema-eda.com/home/2023-nyquist-sampling-theorem-conserving-signal-characteristics)
 
 What is an oscilloscope?
 
