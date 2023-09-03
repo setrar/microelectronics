@@ -36,6 +36,7 @@ RISC-V and ARM are two processor architectures that have gained significant atte
 The Edge Computing Market size is estimated at USD 9.17 billion in 2023, and is expected to reach USD `58.60 billion by 2028`, growing at a [CAGR](https://www.investopedia.com/terms/c/cagr.asp) of 44.90% during the forecast period (2023-2028). The increasing adoption of IoT is augmented by 5G operations, primarily driving the growth of the market studied.
 - [ ] [The Semiconductor Shortage: How RISC-V & Other Technologies are Taking Advantage](https://www.electropages.com/blog/2023/01/semiconductor-shortage-how-risc-v-and-other-technologies-are-taking-advantage)
 - [ ] [Education Costs, Lack of Engineering Interest Hurting Semiconductor Industry](https://www.hpcwire.com/2023/05/02/education-costs-lack-of-engineering-interest-hurting-semiconductor-industry/)
+- [ ] [Why are Canadians' cellphone bills higher than other countries?](https://www.cbc.ca/news/business/marketplace-high-cell-phone-bills-1.6711205)
 
 :round_pushpin: Literature
 
