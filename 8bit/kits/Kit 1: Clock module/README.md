@@ -1,4 +1,5 @@
-Kit 1: Clock module
+Kit :one:: Clock module
+
 Regular price $39.99
 1
 ADD TO CART
@@ -30,3 +31,8 @@ LM-555 Timer ICs
  
 
 Note: Full assembly instructions are provided through the YouTube videos. There is no additional material included with the kit.
+
+
+# References
+
+- [ ] [555 Timer Circuits or Projects Ideas for Engineers](https://www.elprocus.com/555-timer-circuits-for-engineering-students)
