@@ -1,9 +1,9 @@
 # Astable 555 timer - 8-bit computer clock - part 1
 
 
-| :hash: | Complete parts list (everything in this video): |
-|-|-|
-| 1x | 555 timer IC |
+| :hash: | Complete parts list (everything in this video): | |
+|-|-|-|
+| 1x | 555 timer IC | :heavy_check_mark: |
 | 1x | 1MΩ potentiometer |
 | 2x | 1kΩ resistors |
 | 1x | 100kΩ resistor |
