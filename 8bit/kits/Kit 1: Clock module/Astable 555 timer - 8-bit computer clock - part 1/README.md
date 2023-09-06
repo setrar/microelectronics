@@ -9,6 +9,8 @@
 
 <img src=images/BB_Intro.png width=50% height=50% > </img>
 
+<img src=images/BB_Intro_Schematics.png width=50% height=50% > </img>
+
 | :hash: | Complete parts list (everything in this video): | |
 |-|-|-|
 | 1x | 555 timer IC | :heavy_check_mark: |
