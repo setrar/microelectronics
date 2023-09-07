@@ -6,7 +6,7 @@
 
 | :hash: | Complete parts list: | |
 |-|-|-|
-| ➖ | Resistors                         |
+| ➖ | IC                         |
 | 1x | 555 timer IC      | :heavy_check_mark: |
 | ➖ | Resistors                         |
 | 1x | 100kΩ resistor                    |
