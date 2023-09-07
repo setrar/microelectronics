@@ -24,7 +24,7 @@
 | 2	| 74LS86 (Quad XOR gate) | $0.55	| $1.10	| Jameco | 
 | 1	| 74LS138 (3-to-8 line decoder) | $0.69	| $0.69	| Jameco |
 | 1	| 74LS139 (Dual 2-line to 4-line decoder) | $0.69	| $0.69	| Jameco | 
-| 4	| 74LS157 (Quad 2-to-1 line data selector)| $0.69	| $2.76	| Jameco | :?: |
+| 4	| 74LS157 (Quad 2-to-1 line data selector)| $0.69	| $2.76	| Jameco | -1 |
 | 2	| 74LS161 (4-bit synchronous binary counter)| $0.79	| $1.58	| Jameco |
 | 8	| 74LS173 (4-bit D-type register) | $1.39	| $11.12	| Jameco | 
 | 2	| 74189 (64-bit random access memory) | $4.95	| $9.90	| Jameco | 
