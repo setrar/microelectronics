@@ -40,7 +40,7 @@
 | 8	| Yellow LED | $0.09	| $0.90	| Amazon, Jameco | 
 | 12	| Green LED | $0.10	| $2.00	| Amazon, Jameco | 
 | 21	| Blue LED | $0.59	| $12.39	| Amazon, Jameco | 
-| 4	| Common cathode 7-segment display | $1.09	| $4.36	| Jameco, Amazon | 
+| 4	| Common cathode 7-segment display | $1.09	| $4.36	| Jameco, Amazon | :heavy_check_mark: |
 
 #### (1)
 > Note: The videos use the 74LS76 which is extremely difficult to find. The 74LS107 is functionally equivalent but be careful: it has a different pinout.
