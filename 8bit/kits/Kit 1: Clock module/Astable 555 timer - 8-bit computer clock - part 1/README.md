@@ -35,3 +35,5 @@
 # References
 
 - [ ] [Astable 555 timer - 8-bit computer clock - part 1](https://youtu.be/kRlSFm519Bo?si=xiqyJRyITyVJ3dw3)
+- [ ] [How to read Capacitor Codes](http://www.ece.iit.edu/~ece312/Capcitor%20Value%20Codes.htm)
+ > Now for an example: A capacitor marked 104 is 10 with 4 more zeros or 100,000pF which is otherwise referred to as a .1 uF capacitor.
