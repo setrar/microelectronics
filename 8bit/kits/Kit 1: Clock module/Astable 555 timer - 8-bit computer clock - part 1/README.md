@@ -13,15 +13,15 @@
 | 1x |   1kΩ resistors                   | :heavy_check_mark: |
 | 1x |  220Ω resistor                    | :heavy_check_mark: |
 | ➕ | Capacitors                        |
-| 1x | 2µF capacitor                     |
+| 1x | 2µF capacitor                     | :x:
 | 1x | 0.1µF capacitor                   | :heavy_check_mark: |
-| 1x | 0.01µF capacitor                  |
+| 1x | 0.01µF capacitor                  | :x:
 | ➕ | LEDs                              |
 | 1x | Yellow LED                        | :heavy_check_mark: |
 | ➕ |  |
-|    | Solderless breadboard |
-|    | 22 gauge wire |
-|    | USB charger and cable or some other 5v power source |
+|    | Solderless breadboard             | :heavy_check_mark: |
+|    | 22 gauge wire |  :heavy_check_mark: |
+|    | USB charger and cable or some other 5v power source |  :heavy_check_mark: |
 
 <img src=images/BB_Intro_schematics.png width=50% height=50% > </img>
 
