@@ -27,11 +27,8 @@
 
 | :hash: | Complete parts list (everything in this video): | |
 |-|-|-|
-| 1x | 555 timer IC | :heavy_check_mark: |
 | 1x | 1MΩ potentiometer |
-| 2x | 1kΩ resistors |
-| 1x | 100kΩ resistor |
-| 1x | 330Ω resistor |
+| 1x | 1kΩ resistors |
 
 # References
 
