@@ -4,7 +4,7 @@
 
 <img src=images/BB_Intro.png width=50% height=50% > </img>
 
-| :hash: | Complete parts list: | |
+| :hash: | Complete parts list (everything in this video): | |
 |-|-|-|
 | ➕ | ICs                         |
 | 1x | 555 timer IC                      | :heavy_check_mark: |
@@ -26,9 +26,6 @@
 |    | USB charger and cable or some other 5v power source |  :heavy_check_mark: |
 
 <img src=images/BB_Intro_schematics.png width=50% height=50% > </img>
-
-| :hash: | Complete parts list (everything in this video): | |
-|-|-|-|
 
 # References
 
