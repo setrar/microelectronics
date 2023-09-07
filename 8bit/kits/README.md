@@ -11,9 +11,9 @@
 | 24	| 470Ω resistor | $0.06	| $1.80	| Jameco, Amazon | 
 | 1	| 1MΩ resistor | $0.06	| $0.60	| Jameco, Amazon | :heavy_check_mark: |
 | 1	| 1MΩ potentiometer | $1.39	| $1.39	| Jameco, Amazon | :heavy_check_mark: |
-| 6	| 0.01µF capacitor | $0.12	| $1.20	| Jameco, Amazon | 
-| 16	| 0.1µF capacitor | $0.15	| $3.00	| Jameco, Amazon | 
-| 1	| 1µF capacitor | $0.15	| $0.15	| Jameco, Amazon | 
+| 6	| 0.01µF capacitor | $0.12	| $1.20	| Jameco, Amazon | :heavy_check_mark: |
+| 16	| 0.1µF capacitor | $0.15	| $3.00	| Jameco, Amazon | :heavy_check_mark: |
+| 1	| 1µF capacitor | $0.15	| $0.15	| Jameco, Amazon | :heavy_check_mark: |
 | 4	| 555 timer IC | $0.35	| $1.40	| Jameco | :heavy_check_mark: |
 | 2	| 74LS00 (Quad NAND gate) | $0.79	| $1.58	| Jameco | 
 | 1	| 74LS02 (Quad NOR gate) | $0.55	| $0.55	| Jameco | 
@@ -36,10 +36,10 @@
 | 3	| Momentary 6mm tact switch | $0.35	| $1.05	| Amazon, Jameco | 
 | 1	| 8-position DIP switch | $0.79	| $0.79	| Jameco, Amazon | 
 | 1	| 4-position DIP switch | $0.89	| $0.89	| Jameco, Amazon | 
-| 44	| Red LED | $0.12	| $6.00	| Amazon, Jameco | 
-| 8	| Yellow LED | $0.09	| $0.90	| Amazon, Jameco | 
-| 12	| Green LED | $0.10	| $2.00	| Amazon, Jameco | 
-| 21	| Blue LED | $0.59	| $12.39	| Amazon, Jameco | 
+| 44	| Red LED | $0.12	| $6.00	| Amazon, Jameco | :heavy_check_mark: |
+| 8	| Yellow LED | $0.09	| $0.90	| Amazon, Jameco | :heavy_check_mark: |
+| 12	| Green LED | $0.10	| $2.00	| Amazon, Jameco | :heavy_check_mark: |
+| 21	| Blue LED | $0.59	| $12.39	| Amazon, Jameco | :heavy_check_mark: |
 | 4	| Common cathode 7-segment display | $1.09	| $4.36	| Jameco, Amazon | :heavy_check_mark: |
 
 #### (1)
