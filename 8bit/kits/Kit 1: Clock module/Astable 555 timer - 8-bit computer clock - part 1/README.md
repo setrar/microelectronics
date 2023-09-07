@@ -14,6 +14,8 @@
 | 1x |  220Ω resistor                    | :heavy_check_mark: |
 | ➕ | Capacitors                        |
 | 1x | 2µF capacitor                     |
+| ➕ | LEDs                        |
+| 1x | Yellow LED                        | :heavy_check_mark: |
 
 <img src=images/BB_Intro_schematics.png width=50% height=50% > </img>
 
@@ -26,7 +28,6 @@
 | 1x | 330Ω resistor |
 | 1x | 0.1µF capacitor |
 | 1x | 0.01µF capacitor |
-| 1x | LED |
 |    | Solderless breadboard |
 |    | 22 gauge wire |
 |    | USB charger and cable or some other 5v power source |
