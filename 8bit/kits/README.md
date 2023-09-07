@@ -42,7 +42,7 @@
 | 21	| Blue LED | $0.59	| $12.39	| Amazon, Jameco | 
 | 4	| Common cathode 7-segment display | $1.09	| $4.36	| Jameco, Amazon | 
 
-#### (*)
+#### (1)
 Note: The videos use the 74LS76 which is extremely difficult to find. The 74LS107 is functionally equivalent but be careful: it has a different pinout.
 
 # References
