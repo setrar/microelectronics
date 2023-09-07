@@ -7,10 +7,12 @@
 | :hash: | Complete parts list: | |
 |-|-|-|
 | ➕ | ICs                         |
-| 1x | 555 timer IC      | :heavy_check_mark: |
+| 1x | 555 timer IC                      | :heavy_check_mark: |
+| ➕ | Potentiometers                    |
+| 1x | 1MΩ potentiometer                 | :heavy_check_mark: |
 | ➕ | Resistors                         |
 | 1x | 100kΩ resistor                    | :heavy_check_mark: |
-| 1x |   1kΩ resistors                   | :heavy_check_mark: |
+| 2x |   1kΩ resistors                   | :heavy_check_mark: |
 | 1x |  220Ω resistor                    | :heavy_check_mark: |
 | ➕ | Capacitors                        |
 | 1x | 2µF capacitor                     | :x:
@@ -27,8 +29,6 @@
 
 | :hash: | Complete parts list (everything in this video): | |
 |-|-|-|
-| 1x | 1MΩ potentiometer |
-| 1x | 1kΩ resistors |
 
 # References
 
