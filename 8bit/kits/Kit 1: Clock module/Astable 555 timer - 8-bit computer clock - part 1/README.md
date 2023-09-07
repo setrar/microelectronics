@@ -6,12 +6,13 @@
 
 | :hash: | Complete parts list: | |
 |-|-|-|
-| ➕ | IC                         |
+| ➕ | ICs                         |
 | 1x | 555 timer IC      | :heavy_check_mark: |
 | ➕ | Resistors                         |
-| 1x | 100kΩ resistor                    |
-| 1x |   1kΩ resistors                   |
-| 1x |  220Ω resistor                    |
+| 1x | 100kΩ resistor                    | :heavy_check_mark: |
+| 1x |   1kΩ resistors                   | :heavy_check_mark: |
+| 1x |  220Ω resistor                    | :heavy_check_mark: |
+| ➕ | Capacitors                        |
 | 1x | 2µF capacitor                     |
 
 <img src=images/BB_Intro_schematics.png width=50% height=50% > </img>
