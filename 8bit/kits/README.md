@@ -1,7 +1,7 @@
 # IC Projects
 
 
-| Qty.	| Description	Approx. | cost each	Approx. | cost total	| Sources |
+| Qty.	| Description	Approx. | cost each	Approx. | cost total	| Sources | Note |
 |-|-|-|-|-|
 |14	|Breadboard |$4 – $9	| $56 – $126	| Amazon |
 | 1	| 22 AWG Solid Tinned-Copper Hook-Up Wire |  $16.00	| $16.00	| Jameco, Amazon |
@@ -20,7 +20,7 @@
 | 5	| 74LS04 (Hex inverter) | $0.59	| $2.95	| Jameco | 
 | 3	| 74LS08 (Quad AND gate) | $0.69	| $2.07	| Jameco | 
 | 1	| 74LS32 (Quad OR gate) | $0.49	| $0.49	| Jameco | 
-| 1	| 74LS107 (Dual JK flip-flop) | [](Note: The videos use the 74LS76 which is extremely difficult to find. The 74LS107 is functionally equivalent but be careful: it has a different pinout.) | $1.75	| $1.75	| Jameco | 
+| 1	| 74LS107 (Dual JK flip-flop) |  $1.75	| $1.75	| Jameco |  Note: The videos use the 74LS76 which is extremely difficult to find. The 74LS107 is functionally equivalent but be careful: it has a different pinout. |
 2	74LS86 (Quad XOR gate)
 $0.55	$1.10	Jameco
 1	74LS138 (3-to-8 line decoder)
