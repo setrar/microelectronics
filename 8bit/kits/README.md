@@ -10,29 +10,17 @@
 | 1	| 100kΩ resistor | $0.06	| $0.60	| Jameco, Amazon | 
 | 24	| 470Ω resistor | $0.06	| $1.80	| Jameco, Amazon | 
 | 1	| 1MΩ resistor | $0.06	| $0.60	| Jameco, Amazon | 
-1	1MΩ potentiometer
-$1.39	$1.39	Jameco, Amazon
-6	0.01µF capacitor
-$0.12	$1.20	Jameco, Amazon
-16	0.1µF capacitor
-$0.15	$3.00	Jameco, Amazon
-1	1µF capacitor
-$0.15	$0.15	Jameco, Amazon
-4	555 timer IC
-$0.35	$1.40	Jameco
-2	74LS00 (Quad NAND gate)
-$0.79	$1.58	Jameco
-1	74LS02 (Quad NOR gate)
-$0.55	$0.55	Jameco
-5	74LS04 (Hex inverter)
-$0.59	$2.95	Jameco
-3	74LS08 (Quad AND gate)
-$0.69	$2.07	Jameco
-1	74LS32 (Quad OR gate)
-$0.49	$0.49	Jameco
-1	74LS107 (Dual JK flip-flop)
-Note: The videos use the 74LS76 which is extremely difficult to find. The 74LS107 is functionally equivalent but be careful: it has a different pinout.
-$1.75	$1.75	Jameco
+| 1	| 1MΩ potentiometer | $1.39	| $1.39	| Jameco, Amazon | 
+| 6	| 0.01µF capacitor | $0.12	| $1.20	| Jameco, Amazon | 
+| 16	| 0.1µF capacitor | $0.15	| $3.00	| Jameco, Amazon | 
+| 1	| 1µF capacitor | $0.15	| $0.15	| Jameco, Amazon | 
+| 4	| 555 timer IC | $0.35	| $1.40	| Jameco | 
+| 2	| 74LS00 (Quad NAND gate) | $0.79	| $1.58	| Jameco | 
+| 1	| 74LS02 (Quad NOR gate) | $0.55	| $0.55	| Jameco | 
+| 5	| 74LS04 (Hex inverter) | $0.59	| $2.95	| Jameco | 
+| 3	| 74LS08 (Quad AND gate) | $0.69	| $2.07	| Jameco | 
+| 1	| 74LS32 (Quad OR gate) | $0.49	| $0.49	| Jameco | 
+| 1	| 74LS107 (Dual JK flip-flop) | [](Note: The videos use the 74LS76 which is extremely difficult to find. The 74LS107 is functionally equivalent but be careful: it has a different pinout.) | $1.75	| $1.75	| Jameco | 
 2	74LS86 (Quad XOR gate)
 $0.55	$1.10	Jameco
 1	74LS138 (3-to-8 line decoder)
