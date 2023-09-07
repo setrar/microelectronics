@@ -14,7 +14,7 @@
 | 6	| 0.01µF capacitor | $0.12	| $1.20	| Jameco, Amazon | 
 | 16	| 0.1µF capacitor | $0.15	| $3.00	| Jameco, Amazon | 
 | 1	| 1µF capacitor | $0.15	| $0.15	| Jameco, Amazon | 
-| 4	| 555 timer IC | $0.35	| $1.40	| Jameco | 
+| 4	| 555 timer IC | $0.35	| $1.40	| Jameco | :heavy_check_mark: |
 | 2	| 74LS00 (Quad NAND gate) | $0.79	| $1.58	| Jameco | 
 | 1	| 74LS02 (Quad NOR gate) | $0.55	| $0.55	| Jameco | 
 | 5	| 74LS04 (Hex inverter) | $0.59	| $2.95	| Jameco | 
