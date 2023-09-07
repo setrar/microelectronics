@@ -3,7 +3,7 @@
 
 | Qty.	| Description	Approx. | cost each	Approx. | cost total	| Sources | check | Note |
 |-|-|-|-|-|-|-|
-|14	|Breadboard |$4 – $9	| $56 – $126	| Amazon |
+|14	|Breadboard |$4 – $9	| $56 – $126	| :heavy_check_mark: | Amazon |
 | 1	| 22 AWG Solid Tinned-Copper Hook-Up Wire |  $16.00	| $16.00	| Jameco, Amazon |
 | 10	| 1kΩ resistor | $0.06	| $0.60	| Jameco, Amazon| 
 | 9	| 10kΩ resistor | $0.06	| $0.60	| Jameco, Amazon | 
