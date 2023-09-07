@@ -25,6 +25,8 @@
 |    | 22 gauge wire |  :heavy_check_mark: |
 |    | USB charger and cable or some other 5v power source |  :heavy_check_mark: |
 
+- [ ] Schematics
+
 <img src=images/BB_Intro_schematics.png width=50% height=50% > </img>
 
 # References
