@@ -5,12 +5,12 @@
 |-|-|-|-|-|-|
 |14	|Breadboard |$4 – $9	| $56 – $126	|  Amazon | :heavy_check_mark: |
 | 1	| 22 AWG Solid Tinned-Copper Hook-Up Wire |  $16.00	| $16.00	| Jameco, Amazon |
-| 10	| 1kΩ resistor | $0.06	| $0.60	| Jameco, Amazon| 
-| 9	| 10kΩ resistor | $0.06	| $0.60	| Jameco, Amazon | 
-| 1	| 100kΩ resistor | $0.06	| $0.60	| Jameco, Amazon | 
+| 10	| 1kΩ resistor | $0.06	| $0.60	| Jameco, Amazon| :heavy_check_mark: |
+| 9	| 10kΩ resistor | $0.06	| $0.60	| Jameco, Amazon | :heavy_check_mark: |
+| 1	| 100kΩ resistor | $0.06	| $0.60	| Jameco, Amazon | :heavy_check_mark: |
 | 24	| 470Ω resistor | $0.06	| $1.80	| Jameco, Amazon | 
-| 1	| 1MΩ resistor | $0.06	| $0.60	| Jameco, Amazon | 
-| 1	| 1MΩ potentiometer | $1.39	| $1.39	| Jameco, Amazon | 
+| 1	| 1MΩ resistor | $0.06	| $0.60	| Jameco, Amazon | :heavy_check_mark: |
+| 1	| 1MΩ potentiometer | $1.39	| $1.39	| Jameco, Amazon | :heavy_check_mark: |
 | 6	| 0.01µF capacitor | $0.12	| $1.20	| Jameco, Amazon | 
 | 16	| 0.1µF capacitor | $0.15	| $3.00	| Jameco, Amazon | 
 | 1	| 1µF capacitor | $0.15	| $0.15	| Jameco, Amazon | 
