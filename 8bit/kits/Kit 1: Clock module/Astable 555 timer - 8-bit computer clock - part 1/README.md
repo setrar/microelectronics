@@ -4,8 +4,8 @@
 
 <img src=images/BB_Intro.png width=50% height=50% > </img>
 
-| :hash: | Complete parts list (everything in this video): | |
-|-|-|-|
+| :hash: | Complete parts list (everything in this video): | | CreatronInc |
+|-|-|-|-|
 | ➕ | ICs                         |
 | 1x | 555 timer IC                      | :heavy_check_mark: |
 | ➕ | Potentiometers                    |
@@ -22,7 +22,9 @@
 | 1x | Yellow LED                        | :heavy_check_mark: |
 | ➕ |  |
 |    | Solderless breadboard             | :heavy_check_mark: |
-|    | 22 gauge wire |  :heavy_check_mark: |
+|    | 22AWG Stranded Wire Assortment    |  :heavy_check_mark: | WIRES-711375 |
+
+
 |    | USB charger and cable or some other 5v power source |  :heavy_check_mark: |
 
 - [ ] Schematics
