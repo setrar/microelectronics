@@ -10,6 +10,7 @@
 | 1x | 100kΩ resistor                    |
 | 1x |   1kΩ resistors                   |
 | 1x |  330Ω resistor                    |
+| 1x | 2µF capacitor |
 
 <img src=images/BB_Intro_schematics.png width=50% height=50% > </img>
 
@@ -20,7 +21,6 @@
 | 2x | 1kΩ resistors |
 | 1x | 100kΩ resistor |
 | 1x | 330Ω resistor |
-| 1x | 2µF capacitor |
 | 1x | 0.1µF capacitor |
 | 1x | 0.01µF capacitor |
 | 1x | LED |
