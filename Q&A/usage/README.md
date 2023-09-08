@@ -2,7 +2,7 @@
 
 | TOC | Comments |
 |-|-|
-| [can a 5v outlet with 10amp burn components?](#catgpt-how-can-i-build-my-own-semiconductor-company) |
+| [can a 5v outlet with 10amp burn components?](#catgpt-can-a-5v-outlet-with-10amp-burn-components) |
 
 
 ### :cat:GPT can a 5v outlet with 10amp burn components?
