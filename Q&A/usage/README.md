@@ -1,5 +1,10 @@
 # Q&A
 
+| TOC | Comments |
+|-|-|
+| [can a 5v outlet with 10amp burn components?](#catgpt-how-can-i-build-my-own-semiconductor-company) |
+
+
 ### :cat:GPT can a 5v outlet with 10amp burn components?
 
 A 5V outlet with a 10-amp rating, by itself, should not burn components. The voltage (5V) is well within the safe operating range for most electronic components that use low-voltage DC power, such as USB devices, microcontrollers, and many consumer electronics.
