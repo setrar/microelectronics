@@ -2,7 +2,7 @@
 
 | | |
 |-|-|
-| <img src=images/BB_Intro.png width=50% height=50% > </img> | <img src=images/IMG_0529.png width=50% height=50% > </img>
+| <img src=images/BB_Intro.png width='' height='' > </img> | <img src=images/IMG_0529.png width='' height='' > </img>
 
 | :hash: | Complete parts list (everything in this video): | | CreatronInc |
 |-|-|-|-|
