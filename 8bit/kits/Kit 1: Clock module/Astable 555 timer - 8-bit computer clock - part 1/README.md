@@ -1,8 +1,8 @@
 # Astable 555 timer - 8-bit computer clock - part 1
 
-
-
-<img src=images/BB_Intro.png width=50% height=50% > </img>
+| | |
+|-|-|
+| <img src=images/BB_Intro.png width=50% height=50% > </img> | <img src=images/IMG_0529.png width=50% height=50% > </img>
 
 | :hash: | Complete parts list (everything in this video): | | CreatronInc |
 |-|-|-|-|
