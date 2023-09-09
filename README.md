@@ -15,17 +15,10 @@ MicroElectronics Studies
 | 1	| 8-position DIP switch | $0.79	| $0.79	| Jameco, Amazon | :heavy_check_mark: |
 | 1	| 4-position DIP switch | $0.89	| $0.89	| Jameco, Amazon | :heavy_check_mark: |
 | | | | | |
-| 2	| 74LS00 (Quad NAND gate) | $0.79	| $1.58	| Jameco | :heavy_check_mark: |
-| 1	| 74LS02 (Quad NOR gate) | $0.55	| $0.55	| Jameco | :x: ICTTL-048002 74HC02 Quad 2 Input NOR Gate | 
-| 5	| 74LS04 (Hex inverter) | $0.59	| $2.95	| Jameco | :heavy_check_mark: |
-| 2	| 74LS86 (Quad XOR gate) | $0.55	| $1.10	| Jameco | 
-| 1	| 74LS138 (3-to-8 line decoder) | $0.69	| $0.69	| Jameco |
-| 1	| 74LS139 (Dual 2-line to 4-line decoder) | $0.69	| $0.69	| Jameco | 
-| 1	| 74LS157 (Quad 2-to-1 line data selector)| $0.69	| $2.76	| Jameco |  |
-| 8	| 74LS173 (4-bit D-type register) | $1.39	| $11.12	| Jameco | 
-| 6	| 74LS245 (Octal bus transceiver) | $0.79	| $4.74	| Jameco | 
-| 1	| 74LS273 (Octal D flip-flop) | $0.75	| $0.75	| Jameco | 
-| 2	| 74LS283 (4-bit binary full adder) | $1.49	| $2.98	| Jameco | 
+| 2	| 74LS86 (Quad XOR gate) | $0.55	| $1.10	| Jameco | :heavy_check_mark: |
+| 1	| 74LS138 (3-to-8 line decoder) | $0.69	| $0.69	| Jameco | :x: |
+| 1	| 74LS157 (Quad 2-to-1 line data selector)| $0.69	| $2.76	| Jameco | :x: |
+| 6	| 74LS245 (Octal bus transceiver) | $0.79	| $4.74	| Jameco | :x: |
 | | | | | |
 | 2	| 74189 (64-bit random access memory) | $4.95	| $9.90	| Jameco | 
 | 3	| 28C16 EEPROM | $3.95	| $11.85	| Jameco | 
