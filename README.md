@@ -1,6 +1,40 @@
 # microelectronics
 MicroElectronics Studies
 
+# IC Projects
+
+
+| Qty.	| Description	Approx. | cost each	Approx. | cost total	| Sources | check |
+|-|-|-|-|-|-|
+| 1	| 22 AWG Solid Tinned-Copper Hook-Up Wire |  $16.00	| $16.00	| Jameco, Amazon |
+|-|-|-|-|-|
+| 24	| 470Ω resistor | $0.06	| $1.80	| Jameco, Amazon | 
+|-|-|-|-|-|
+| 2	| 2µF capacitor | $0.15	| $0.15	| Jameco, Amazon |  |
+|-|-|-|-|-|
+| 2	| 74LS00 (Quad NAND gate) | $0.79	| $1.58	| Jameco | 
+| 1	| 74LS02 (Quad NOR gate) | $0.55	| $0.55	| Jameco | 
+| 5	| 74LS04 (Hex inverter) | $0.59	| $2.95	| Jameco | 
+| 2	| 74LS86 (Quad XOR gate) | $0.55	| $1.10	| Jameco | 
+| 1	| 74LS138 (3-to-8 line decoder) | $0.69	| $0.69	| Jameco |
+| 1	| 74LS139 (Dual 2-line to 4-line decoder) | $0.69	| $0.69	| Jameco | 
+| 1	| 74LS157 (Quad 2-to-1 line data selector)| $0.69	| $2.76	| Jameco |  |
+| 8	| 74LS173 (4-bit D-type register) | $1.39	| $11.12	| Jameco | 
+| 6	| 74LS245 (Octal bus transceiver) | $0.79	| $4.74	| Jameco | 
+| 1	| 74LS273 (Octal D flip-flop) | $0.75	| $0.75	| Jameco | 
+| 2	| 74LS283 (4-bit binary full adder) | $1.49	| $2.98	| Jameco | 
+|-|-|-|-|-|
+| 2	| 74189 (64-bit random access memory) | $4.95	| $9.90	| Jameco | 
+| 3	| 28C16 EEPROM | $3.95	| $11.85	| Jameco | 
+|-|-|-|-|-|
+| 3	| Double-throw toggle switch | $0.99	| $2.97	| Jameco, Amazon | 
+| 3	| Momentary 6mm tact switch | $0.35	| $1.05	| Amazon, Jameco | 
+|-|-|-|-|-|
+| 1	| 8-position DIP switch | $0.79	| $0.79	| Jameco, Amazon | 
+| 1	| 4-position DIP switch | $0.89	| $0.89	| Jameco, Amazon | 
+
+
+
 [tools](tools)
 
 # References
