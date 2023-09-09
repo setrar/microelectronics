@@ -16,7 +16,7 @@ MicroElectronics Studies
 | 1	| 4-position DIP switch | $0.89	| $0.89	| Jameco, Amazon | :heavy_check_mark: |
 | | | | | |
 | 2	| 74LS00 (Quad NAND gate) | $0.79	| $1.58	| Jameco | :heavy_check_mark: |
-| 1	| 74LS02 (Quad NOR gate) | $0.55	| $0.55	| Jameco | :x: ICTTL-048002 | 
+| 1	| 74LS02 (Quad NOR gate) | $0.55	| $0.55	| Jameco | :x: ICTTL-048002 74HC02 Quad 2 Input NOR Gate | 
 | 5	| 74LS04 (Hex inverter) | $0.59	| $2.95	| Jameco | :heavy_check_mark: |
 | 2	| 74LS86 (Quad XOR gate) | $0.55	| $1.10	| Jameco | 
 | 1	| 74LS138 (3-to-8 line decoder) | $0.69	| $0.69	| Jameco |
