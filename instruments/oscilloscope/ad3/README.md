@@ -5,7 +5,18 @@
 | MyProduct Waveforms Binary Download Link |
 |-|
 | [MacOS: digilent.waveforms_v3.20.1.dmg](https://digilent.s3.us-west-2.amazonaws.com/Software/Waveforms2015/3.20.1/digilent.waveforms_v3.20.1.dmg) |
+| [Adept for Linux Runtime](https://digilent.s3.us-west-2.amazonaws.com/Software/Adept2+Runtime/2.27.9/digilent.adept.runtime_2.27.9-armhf.deb)
 | [Debian: digilent.waveforms_3.20.1_arm64.deb](https://digilent.s3.us-west-2.amazonaws.com/Software/Waveforms2015/3.20.1/digilent.waveforms_3.20.1_arm64.deb) |
+
+- [ ] [adept-runtime-download](https://lp.digilent.com/complete-adept-runtime-download)
+
+```
+wget https://digilent.s3.us-west-2.amazonaws.com/Software/Adept2+Runtime/2.27.9/digilent.adept.runtime_2.27.9-armhf.deb
+```
+
+```
+sudo dpkg --install digilent.adept.runtime_2.27.9-armhf.deb
+```
 
 ```
 wget https://digilent.s3.us-west-2.amazonaws.com/Software/Waveforms2015/3.20.1/digilent.waveforms_3.20.1_arm64.deb
