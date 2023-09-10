@@ -17,7 +17,7 @@
 | 4	| 555 timer IC | $0.35	| $1.40	| Jameco | :heavy_check_mark: |
 | 2	| 74LS00 (Quad NAND gate) | $0.79	| $1.58	| Jameco | 
 | 1	| 74LS02 (Quad NOR gate) | $0.55	| $0.55	| Jameco | 
-| 5	| 74LS04 (Hex inverter) | $0.59	| $2.95	| Jameco | [SN74LS04 | NOT gate IC 7404 | Practical explanation of truth table](https://youtu.be/8snfOAoNsv8?si=Ixr30WVLdkAHD_zS) |
+| 5	| 74LS04 (Hex inverter) | $0.59	| $2.95	| Jameco | [SN74LS04 \| NOT gate IC 7404 \| Practical explanation of truth table](https://youtu.be/8snfOAoNsv8?si=Ixr30WVLdkAHD_zS) |
 | 3	| 74LS08 (Quad AND gate) | $0.69	| $2.07	| Jameco | :heavy_check_mark: |
 | 1	| 74LS32 (Quad OR gate) | $0.49	| $0.49	| Jameco | :heavy_check_mark: |
 | 1	| 74LS107 (Dual JK flip-flop) |  $1.75	| $1.75	| Jameco |  :heavy_check_mark: |
