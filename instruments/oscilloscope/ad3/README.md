@@ -66,3 +66,58 @@ Processing triggers for shared-mime-info (2.0-1) ...
 Errors were encountered while processing:
  digilent.waveforms
 ```
+
+```
+wget https://digilent.s3.us-west-2.amazonaws.com/Software/Adept2+Runtime/2.27.9/digilent.adept.runtime_2.27.9-arm64.deb
+```
+> Returns:
+```
+--2023-09-10 19:32:40--  https://digilent.s3.us-west-2.amazonaws.com/Software/Adept2+Runtime/2.27.9/digilent.adept.runtime_2.27.9-arm64.deb
+Resolving digilent.s3.us-west-2.amazonaws.com (digilent.s3.us-west-2.amazonaws.com)... 52.218.243.97, 3.5.77.137, 52.218.144.89, ...
+Connecting to digilent.s3.us-west-2.amazonaws.com (digilent.s3.us-west-2.amazonaws.com)|52.218.243.97|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2174336 (2.1M) [binary/octet-stream]
+Saving to: ‘digilent.adept.runtime_2.27.9-arm64.deb’
+
+digilent.adept.runt 100%[===================>]   2.07M  4.21MB/s    in 0.5s    
+
+2023-09-10 19:32:41 (4.21 MB/s) - ‘digilent.adept.runtime_2.27.9-arm64.deb’ saved [2174336/2174336]
+
+```
+
+```
+sudo dpkg --install digilent.adept.runtime_2.27.9-arm64.deb
+```
+> Returns:
+```
+(Reading database ... 97052 files and directories currently installed.)
+Preparing to unpack digilent.adept.runtime_2.27.9-arm64.deb ...
+Unpacking digilent.adept.runtime (2.27.9) over (2.27.9) ...
+Setting up digilent.adept.runtime (2.27.9) ...
+```
+
+```
+sudo dpkg --install digilent.waveforms_3.20.1_arm64.deb 
+```
+> Returns:
+```
+Selecting previously unselected package digilent.waveforms.
+(Reading database ... 97052 files and directories currently installed.)
+Preparing to unpack digilent.waveforms_3.20.1_arm64.deb ...
+Unpacking digilent.waveforms (3.20.1) ...
+dpkg: dependency problems prevent configuration of digilent.waveforms:
+ digilent.waveforms depends on libqt5multimedia5-plugins; however:
+  Package libqt5multimedia5-plugins is not installed.
+ digilent.waveforms depends on libqt5scripttools5; however:
+  Package libqt5scripttools5 is not installed.
+
+dpkg: error processing package digilent.waveforms (--install):
+ dependency problems - leaving unconfigured
+Processing triggers for gnome-menus (3.36.0-1) ...
+Processing triggers for desktop-file-utils (0.26-1) ...
+Processing triggers for mailcap (3.69) ...
+Processing triggers for man-db (2.9.4-2) ...
+Processing triggers for shared-mime-info (2.0-1) ...
+Errors were encountered while processing:
+ digilent.waveforms
+```
