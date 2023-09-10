@@ -8,19 +8,58 @@
 | [Adept for Linux Runtime](https://digilent.s3.us-west-2.amazonaws.com/Software/Adept2+Runtime/2.27.9/digilent.adept.runtime_2.27.9-armhf.deb)
 | [Debian: digilent.waveforms_3.20.1_arm64.deb](https://digilent.s3.us-west-2.amazonaws.com/Software/Waveforms2015/3.20.1/digilent.waveforms_3.20.1_arm64.deb) |
 
-- [ ] [adept-runtime-download](https://lp.digilent.com/complete-adept-runtime-download)
+- [ ] [Download Adept-Runtime](https://lp.digilent.com/complete-adept-runtime-download)
 
 ```
-wget https://digilent.s3.us-west-2.amazonaws.com/Software/Adept2+Runtime/2.27.9/digilent.adept.runtime_2.27.9-armhf.deb
+wget https://digilent.s3.us-west-2.amazonaws.com/Software/Adept2+Runtime/2.27.9/digilent.adept.runtime_2.27.9-arm64.deb
+```
+> Returns:
+```
+--2023-09-10 19:32:40--  https://digilent.s3.us-west-2.amazonaws.com/Software/Adept2+Runtime/2.27.9/digilent.adept.runtime_2.27.9-arm64.deb
+Resolving digilent.s3.us-west-2.amazonaws.com (digilent.s3.us-west-2.amazonaws.com)... 52.218.243.97, 3.5.77.137, 52.218.144.89, ...
+Connecting to digilent.s3.us-west-2.amazonaws.com (digilent.s3.us-west-2.amazonaws.com)|52.218.243.97|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2174336 (2.1M) [binary/octet-stream]
+Saving to: ‘digilent.adept.runtime_2.27.9-arm64.deb’
+
+digilent.adept.runt 100%[===================>]   2.07M  4.21MB/s    in 0.5s    
+
+2023-09-10 19:32:41 (4.21 MB/s) - ‘digilent.adept.runtime_2.27.9-arm64.deb’ saved [2174336/2174336]
+
+```
+
+- [ ] Install Adept Runtime
+
+```
+sudo dpkg --install digilent.adept.runtime_2.27.9-arm64.deb
+```
+> Returns:
+```
+(Reading database ... 97052 files and directories currently installed.)
+Preparing to unpack digilent.adept.runtime_2.27.9-arm64.deb ...
+Unpacking digilent.adept.runtime (2.27.9) over (2.27.9) ...
+Setting up digilent.adept.runtime (2.27.9) ...
+```
+
+- [ ] Install QT5
+
+```
+sudo apt-get install libqt5multimedia5
 ```
 
 ```
-sudo dpkg --install digilent.adept.runtime_2.27.9-armhf.deb
+sudo apt-get install libqt5multimedia5-plugins
 ```
+
+- [ ] Download and Install WaveForms
+
+* Download
 
 ```
 wget https://digilent.s3.us-west-2.amazonaws.com/Software/Waveforms2015/3.20.1/digilent.waveforms_3.20.1_arm64.deb
 ```
+
+* Install
 
 ```
 sudo dpkg --install digilent.waveforms_3.20.1_arm64.deb
@@ -67,34 +106,6 @@ Errors were encountered while processing:
  digilent.waveforms
 ```
 
-```
-wget https://digilent.s3.us-west-2.amazonaws.com/Software/Adept2+Runtime/2.27.9/digilent.adept.runtime_2.27.9-arm64.deb
-```
-> Returns:
-```
---2023-09-10 19:32:40--  https://digilent.s3.us-west-2.amazonaws.com/Software/Adept2+Runtime/2.27.9/digilent.adept.runtime_2.27.9-arm64.deb
-Resolving digilent.s3.us-west-2.amazonaws.com (digilent.s3.us-west-2.amazonaws.com)... 52.218.243.97, 3.5.77.137, 52.218.144.89, ...
-Connecting to digilent.s3.us-west-2.amazonaws.com (digilent.s3.us-west-2.amazonaws.com)|52.218.243.97|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 2174336 (2.1M) [binary/octet-stream]
-Saving to: ‘digilent.adept.runtime_2.27.9-arm64.deb’
-
-digilent.adept.runt 100%[===================>]   2.07M  4.21MB/s    in 0.5s    
-
-2023-09-10 19:32:41 (4.21 MB/s) - ‘digilent.adept.runtime_2.27.9-arm64.deb’ saved [2174336/2174336]
-
-```
-
-```
-sudo dpkg --install digilent.adept.runtime_2.27.9-arm64.deb
-```
-> Returns:
-```
-(Reading database ... 97052 files and directories currently installed.)
-Preparing to unpack digilent.adept.runtime_2.27.9-arm64.deb ...
-Unpacking digilent.adept.runtime (2.27.9) over (2.27.9) ...
-Setting up digilent.adept.runtime (2.27.9) ...
-```
 
 ```
 sudo dpkg --install digilent.waveforms_3.20.1_arm64.deb 
@@ -121,3 +132,5 @@ Processing triggers for shared-mime-info (2.0-1) ...
 Errors were encountered while processing:
  digilent.waveforms
 ```
+
+- [ ] Package libqt5multimedia5-plugins is not installed.
