@@ -2,7 +2,7 @@
 
 #### [MyProduct Waveforms Download Link](https://cloud.digilent.com/myproducts/waveform?pc=1&tab=2)
 
-| |
+| MyProduct Waveforms Binary Download Link |
 |-|
 | [MacOS: digilent.waveforms_v3.20.1.dmg](https://digilent.s3.us-west-2.amazonaws.com/Software/Waveforms2015/3.20.1/digilent.waveforms_v3.20.1.dmg) |
 | [Debian: digilent.waveforms_3.20.1_arm64.deb](https://digilent.s3.us-west-2.amazonaws.com/Software/Waveforms2015/3.20.1/digilent.waveforms_3.20.1_arm64.deb) |
