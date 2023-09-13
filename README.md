@@ -61,6 +61,7 @@ The Edge Computing Market size is estimated at USD 9.17 billion in 2023, and is 
 - [ ] [The Semiconductor Shortage: How RISC-V & Other Technologies are Taking Advantage](https://www.electropages.com/blog/2023/01/semiconductor-shortage-how-risc-v-and-other-technologies-are-taking-advantage)
 - [ ] [Education Costs, Lack of Engineering Interest Hurting Semiconductor Industry](https://www.hpcwire.com/2023/05/02/education-costs-lack-of-engineering-interest-hurting-semiconductor-industry/)
 - [ ] [Why are Canadians' cellphone bills higher than other countries?](https://www.cbc.ca/news/business/marketplace-high-cell-phone-bills-1.6711205)
+- [ ] [Chiplab: Igniting a Microelectronics Revolution in Africa Amid a Global Talent Shortage](https://techcabal.com/2023/06/26/chiplab-sparking-a-microelectronics-revolution-in-africa-amid-a-global-talent-shortage/)
 
 :round_pushpin: Literature
 
