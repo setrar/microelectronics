@@ -40,6 +40,7 @@ MicroElectronics Studies
 RISC-V and ARM are two processor architectures that have gained significant attention in recent years. RISC-V is an `open-source` Instruction Set Architecture `(ISA)` based on the Reduced Instruction Set Computing (RISC) principles, while ARM is a `proprietary` ISA that has become the dominant choice for embedded systems and mobile devices due to its longstanding presence in the market, as well as years of trust and expertise cultivated resulting in widespread reputation. 
 
 - [ ] [How China is Building an Open National Chip Plan Around RISC-V?](https://www.hpcwire.com/2023/07/19/how-china-is-building-an-open-national-chip-plan-around-risc-v)
+- [ ] [How RISC-V can usurp Arm as the Switzerland of computer chips](https://thenextweb.com/news/risc-v-chips-versus-arm)
 
 
 :round_pushpin: Technology
