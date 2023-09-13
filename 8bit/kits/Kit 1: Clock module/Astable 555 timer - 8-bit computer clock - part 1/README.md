@@ -31,6 +31,10 @@
 
 <img src=images/BB_Intro_schematics.png width=50% height=50% > </img>
 
+- [ ] Measurements
+
+<img src=images/ad3-measure.png width=50% height=50% > </img>
+
 # References
 
 - [ ] [Astable 555 timer - 8-bit computer clock - part 1](https://youtu.be/kRlSFm519Bo?si=xiqyJRyITyVJ3dw3)
