@@ -31,7 +31,9 @@
 
 - [ ] Measurements
 
-<img src=images/ad3-measure.png width=50% height=50% > </img>
+| | |
+|-|-|
+| <img src=images/ad3-measure.png width='' height='' > </img> | <img src=images/ad3-astable-measure.png width='' height='' > </img> |
 
 # References
 
