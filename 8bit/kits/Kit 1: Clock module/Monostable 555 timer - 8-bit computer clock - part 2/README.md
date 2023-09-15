@@ -23,7 +23,7 @@ Complete parts list (everything in this video):
 
 | |
 |-|
-| <img src=images/BB_Monostable_schematics.png width='' height='' > </img> |
+| <img src=images/BB_Monostable_schematics.png width=50% height=50% > </img> |
 
 # References
 
