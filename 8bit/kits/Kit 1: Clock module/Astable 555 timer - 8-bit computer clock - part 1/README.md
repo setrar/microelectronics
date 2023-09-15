@@ -31,9 +31,9 @@
 
 - [ ] Measurements
 
-| | |
-|-|-|
-| <img src=images/ad3-measure.png width='' height='' > </img> | <img src=images/ad3-astable-measure.png width='' height='' > </img> |
+| | | |
+|-|-|-|
+| <img src=images/ad3-measure.png width='' height='' > </img> | <img src=images/ad3-astable-measure.png width='' height='' > </img> | <img src=images/ad3-astable-measure-lower-spike.png width='' height='' > </img> | 
 
 # References
 
