@@ -25,6 +25,8 @@ Complete parts list (everything in this video):
 |-|
 | <img src=images/BB_Monostable_schematics.png width=50% height=50% > </img> |
 
+- [ ] Measurements
+
 # References
 
 - [ ] [Monostable 555 timer - 8-bit computer clock - part 2](https://youtu.be/81BgFhm2vz8?si=kGDB-hT2LloVY0hr)
