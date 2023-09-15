@@ -2,7 +2,7 @@
 
 | | |
 |-|-|
-| <img src=images/BB_monostable.png width=70% height=70% > </img> |  |
+| <img src=images/BB_Monostable.png width=70% height=70% > </img> |  |
 
 
 # References
