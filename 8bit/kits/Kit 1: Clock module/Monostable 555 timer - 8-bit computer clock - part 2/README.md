@@ -2,7 +2,7 @@
 
 | | |
 |-|-|
-| <img src=images/BB_Monostable.png width=70% height=70% > </img> |  |
+| <img src=images/BB_Monostable.png width='' height='' > </img> |  |
 
 Complete parts list (everything in this video):
 
