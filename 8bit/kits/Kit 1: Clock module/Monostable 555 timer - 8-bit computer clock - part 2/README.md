@@ -1,5 +1,9 @@
 # Monostable 555 timer - 8-bit computer clock - part 2 
 
+| | |
+|-|-|
+| <img src=images/BB_monostable.png width=70% height=70% > </img> |  |
+
 
 # References
 
