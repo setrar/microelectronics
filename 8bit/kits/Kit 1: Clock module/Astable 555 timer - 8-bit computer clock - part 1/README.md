@@ -15,7 +15,7 @@
 | 2x |   1kΩ resistors                   | :heavy_check_mark: |
 | 1x |  220Ω resistor                    | :heavy_check_mark: |
 | ➕ | Capacitors                        |
-| 1x | 2µF capacitor                     | :x:
+| 1x | 1µF capacitor                     | :heavy_check_mark:
 | 1x | 0.1µF capacitor                   | :heavy_check_mark: |
 | 1x | 0.01µF capacitor                  | :x:
 | ➕ | LEDs                              |
