@@ -34,18 +34,18 @@ Setting java 17.0.8-tem as default.
 * Unzip file
 
 ```
-unzip ~/Downloads/en.st-stm32cubeide_1.13.1_17479_20230728_0839_x86_64.dmg.zip
+unzip ~/Downloads/en.st-stm32cubeide_1.13.2_18220_20230914_1601_x86_64.dmg.zip
 ```
 > Response:
 ```powershell
-Archive:  /Users/valiha/Downloads/en.st-stm32cubeide_1.13.1_17479_20230728_0839_x86_64.dmg.zip
-  inflating: st-stm32cubeide_1.13.1_17479_20230728_0839_x86_64.dmg  
+Archive:  /Users/valiha/Downloads/en.st-stm32cubeide_1.13.2_18220_20230914_1601_x86_64.dmg.zip
+  inflating: st-stm32cubeide_1.13.2_18220_20230914_1601_x86_64.dmg
 ```
 
 * Open File
 
 ```
-open st-stm32cubeide_1.13.1_17479_20230728_0839_x86_64.dmg
+open st-stm32cubeide_1.13.2_18220_20230914_1601_x86_64.dmg
 ```
 
 - [ ] Install
