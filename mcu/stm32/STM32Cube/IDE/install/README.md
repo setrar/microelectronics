@@ -61,3 +61,9 @@ open st-stm32cubeide_1.13.2_18220_20230914_1601_x86_64.dmg
 * Choose WorkSpace
 
 <img src=../images/STM32CubeIDE-workspace.png width='' height='' > <img>
+
+## :round_pushpin: Cleaning up
+
+```
+rm st-stm32cubeide_1.13.2_18220_20230914_1601_x86_64.dmg
+```
