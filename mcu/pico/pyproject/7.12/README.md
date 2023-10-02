@@ -2,8 +2,6 @@
 
 <img src=images/IMG_0555.png width='' height='' > </img>
 
-<img src=images/Scope.png width='' height='' > </img>
-
 |||
 |-|-|
 | | <img src=images/Scope_X-Backward.png width='' height='' > </img> |
