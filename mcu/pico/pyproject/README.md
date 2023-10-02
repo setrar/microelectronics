@@ -54,4 +54,8 @@
 | 7.9 | Fruit Piano| |
 | 7.10 | Reversing Aid| |
 | 7.11 | Somatosensory Controller| |
-| 7.12 | Digital Bubble Level| |
+| [7.12](7.12) | Digital Bubble Level| |
+
+# References
+
+- [ ] [1.4 Download and Upload the Code](https://docs.sunfounder.com/projects/euler-kit/en/latest/pyproject/python_start/download_add.html)
