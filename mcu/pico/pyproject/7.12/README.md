@@ -4,6 +4,14 @@
 
 <img src=images/Scope.png width='' height='' > </img>
 
+|||
+|-|-|
+| | <img src=images/Scope_X-Backward.png width='' height='' > </img> |
+| | <img src=images/Scope_X-Center.png width='' height='' > </img> |
+| | <img src=images/Scope_X-Forward.png width='' height='' > </img> |
+| | <img src=images/Scope_Y-Backward.png width='' height='' > </img> |
+| | <img src=images/Scope_Y-Forward.png width='' height='' > </img> |
+
 ```python
 import machine
 from machine import I2C, Pin
