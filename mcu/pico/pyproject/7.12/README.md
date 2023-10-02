@@ -2,6 +2,8 @@
 
 <img src=images/IMG_0555.png width='' height='' > </img>
 
+<img src=images/Scope.png width='' height='' > </img>
+
 ```python
 import machine
 from machine import I2C, Pin
