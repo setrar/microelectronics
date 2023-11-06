@@ -171,6 +171,8 @@ Current system platform: macos-arm64
 Installing tools: xtensa-esp-elf-gdb, xtensa-esp-elf, riscv32-esp-elf, esp32ulp-elf, openocd-esp32, esp-rom-elfs
 Installing xtensa-esp-elf-gdb@12.1_20221002
 ...
+Installing riscv32-esp-elf@esp-13.2.0_20230928
+...
 ```
 
 # References
