@@ -87,6 +87,62 @@ Emacs Lisp files have been installed to:
   /opt/homebrew/share/emacs/site-lisp/ninja
 ```
 
+- [ ] ccache
+
+```
+brew install ccache
+```
+> Returns
+```powershell
+==> Downloading https://ghcr.io/v2/homebrew/core/ccache/manifests/4.8.3
+################################################################################################### 100.0%
+==> Fetching dependencies for ccache: hiredis
+==> Downloading https://ghcr.io/v2/homebrew/core/hiredis/manifests/1.2.0-1
+################################################################################################### 100.0%
+==> Fetching hiredis
+==> Downloading https://ghcr.io/v2/homebrew/core/hiredis/blobs/sha256:9970a5ff45d25be488b5f3e843fb777624b4
+################################################################################################### 100.0%
+==> Fetching ccache
+==> Downloading https://ghcr.io/v2/homebrew/core/ccache/blobs/sha256:371bd659fedf0bceefc9ef96c603dbd97b869
+################################################################################################### 100.0%
+==> Installing dependencies for ccache: hiredis
+==> Installing ccache dependency: hiredis
+==> Downloading https://ghcr.io/v2/homebrew/core/hiredis/manifests/1.2.0-1
+Already downloaded: /Users/valiha/Library/Caches/Homebrew/downloads/127a05c6ea8bbe081851bc3c059b6aa5fce19f2b7e9e467d50b914487eda7a4e--hiredis-1.2.0-1.bottle_manifest.json
+==> Pouring hiredis--1.2.0.arm64_ventura.bottle.1.tar.gz
+🍺  /opt/homebrew/Cellar/hiredis/1.2.0: 52 files, 490.2KB
+==> Installing ccache
+==> Pouring ccache--4.8.3.arm64_ventura.bottle.tar.gz
+==> Caveats
+To install symlinks for compilers that will automatically use
+ccache, prepend this directory to your PATH:
+  /opt/homebrew/opt/ccache/libexec
+
+If this is an upgrade and you have previously added the symlinks to
+your PATH, you may need to modify it to the path specified above so
+it points to the current version.
+
+NOTE: ccache can prevent some software from compiling.
+ALSO NOTE: The brew command, by design, will never use ccache.
+==> Summary
+🍺  /opt/homebrew/Cellar/ccache/4.8.3: 78 files, 1.3MB
+==> Running `brew cleanup ccache`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+==> Caveats
+==> ccache
+To install symlinks for compilers that will automatically use
+ccache, prepend this directory to your PATH:
+  /opt/homebrew/opt/ccache/libexec
+
+If this is an upgrade and you have previously added the symlinks to
+your PATH, you may need to modify it to the path specified above so
+it points to the current version.
+
+NOTE: ccache can prevent some software from compiling.
+ALSO NOTE: The brew command, by design, will never use ccache.
+```
+
 # References
 
 - [ ] [:octocat: ESP-IDF](https://github.com/espressif/esp-idf)
