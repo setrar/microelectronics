@@ -123,3 +123,14 @@ or
 or from the "/Users/valiha/Developer/esp/hello_world/build" directory
  python -m esptool --chip esp32s3 -b 460800 --before default_reset --after hard_reset write_flash "@flash_args"
 ```
+
+- [ ] Check ports
+
+```
+ls -l /dev/cu.*
+```
+> returns
+```
+crw-rw-rw-  1 root  wheel  0x9000001 18 Oct 18:53 /dev/cu.Bluetooth-Incoming-Port
+crw-rw-rw-  1 root  wheel  0x9000003  6 Nov 21:44 /dev/cu.usbmodemUiFlow2_1
+```
