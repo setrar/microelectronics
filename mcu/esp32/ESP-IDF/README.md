@@ -145,6 +145,12 @@ ALSO NOTE: The brew command, by design, will never use ccache.
 
 - [ ] [Step :two: get esp-idf](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/get-started/linux-macos-setup.html#step-2-get-esp-idf)
 
+```
+mkdir -p ~/Developer/esp
+cd ~/Developer/esp
+git clone --recursive https://github.com/espressif/esp-idf.git
+```
+
 # References
 
 - [ ] [:octocat: ESP-IDF](https://github.com/espressif/esp-idf)
