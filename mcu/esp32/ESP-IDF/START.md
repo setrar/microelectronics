@@ -262,7 +262,7 @@ I (306) main_task: Calling app_main()
 
 After startup and diagnostic logs scroll up, you should see “Hello world!” printed out by the application.
 
-```
+```powershell
 ...
 Hello world!
 This is esp32s3 chip with 2 CPU core(s), WiFi/BLE, silicon revision v0.2, 2MB external flash
