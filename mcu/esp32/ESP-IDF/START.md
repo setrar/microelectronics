@@ -1,0 +1,1 @@
+- [ ] [Start a Project](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/get-started/linux-macos-setup.html#start-a-project)
