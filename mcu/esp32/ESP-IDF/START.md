@@ -134,3 +134,5 @@ ls -l /dev/cu.*
 crw-rw-rw-  1 root  wheel  0x9000001 18 Oct 18:53 /dev/cu.Bluetooth-Incoming-Port
 crw-rw-rw-  1 root  wheel  0x9000003  6 Nov 21:44 /dev/cu.usbmodemUiFlow2_1
 ```
+
+- [ ] [Flash onto the device](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/get-started/linux-macos-setup.html#flash-onto-the-device)
