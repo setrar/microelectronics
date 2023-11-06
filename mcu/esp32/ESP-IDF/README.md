@@ -189,6 +189,79 @@ All done! You can now run:
   . ./export.sh
 ```
 
+- [ ] Running `export.sh`
+
+```
+. ./export.sh
+```
+> Returns
+```powershell
+Setting IDF_PATH to '/Users/valiha/Developer/esp/esp-idf'
+Detecting the Python interpreter
+Checking "python3" ...
+Python 3.11.6
+"python3" has been detected
+Checking Python compatibility
+Checking other ESP-IDF version.
+Adding ESP-IDF tools to PATH...
+Checking if Python packages are up to date...
+Constraint file: /Users/valiha/.espressif/espidf.constraints.v5.2.txt
+Requirement files:
+ - /Users/valiha/Developer/esp/esp-idf/tools/requirements/requirements.core.txt
+Python being checked: /Users/valiha/.espressif/python_env/idf5.2_py3.11_env/bin/python
+Python requirements are satisfied.
+Updated PATH variable:
+  /Users/valiha/Developer/esp/esp-idf/components/espcoredump:/Users/valiha/Developer/esp/esp-idf/components/partition_table:/Users/valiha/Developer/esp/esp-idf/components/app_update:/Users/valiha/.espressif/tools/xtensa-esp-elf-gdb/12.1_20221002/xtensa-esp-elf-gdb/bin:/Users/valiha/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/Users/valiha/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin:/Users/valiha/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/Users/valiha/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/bin:/Users/valiha/.espressif/python_env/idf5.2_py3.11_env/bin:/Users/valiha/Developer/esp/esp-idf/tools:/Users/valiha/.juliaup/bin:/Users/valiha/.sdkman/candidates/java/current/bin:/opt/homebrew/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/valiha/.docker/bin
+Done! You can now compile ESP-IDF projects.
+Go to the project directory and run:
+
+  idf.py build
+
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'click'
+```
+
+- fixing error
+
+```
+pip install click
+```
+> returns
+```powershell
+Collecting click
+  Using cached click-8.1.7-py3-none-any.whl.metadata (3.0 kB)
+Using cached click-8.1.7-py3-none-any.whl (97 kB)
+Installing collected packages: click
+Successfully installed click-8.1.7
+```
+
+```
+. ./export.sh
+```
+> Returns
+```powershell
+Detecting the Python interpreter
+Checking "python3" ...
+Python 3.11.6
+"python3" has been detected
+Checking Python compatibility
+Checking other ESP-IDF version.
+Adding ESP-IDF tools to PATH...
+Checking if Python packages are up to date...
+Constraint file: /Users/valiha/.espressif/espidf.constraints.v5.2.txt
+Requirement files:
+ - /Users/valiha/Developer/esp/esp-idf/tools/requirements/requirements.core.txt
+Python being checked: /Users/valiha/.espressif/python_env/idf5.2_py3.11_env/bin/python
+Python requirements are satisfied.
+Updated PATH variable:
+  /Users/valiha/Developer/esp/esp-idf/components/espcoredump:/Users/valiha/Developer/esp/esp-idf/components/partition_table:/Users/valiha/Developer/esp/esp-idf/components/app_update:/Users/valiha/Developer/esp/esp-idf/components/espcoredump:/Users/valiha/Developer/esp/esp-idf/components/partition_table:/Users/valiha/Developer/esp/esp-idf/components/app_update:/Users/valiha/.espressif/tools/xtensa-esp-elf-gdb/12.1_20221002/xtensa-esp-elf-gdb/bin:/Users/valiha/.espressif/tools/xtensa-esp-elf/esp-13.2.0_20230928/xtensa-esp-elf/bin:/Users/valiha/.espressif/tools/riscv32-esp-elf/esp-13.2.0_20230928/riscv32-esp-elf/bin:/Users/valiha/.espressif/tools/esp32ulp-elf/2.35_20220830/esp32ulp-elf/bin:/Users/valiha/.espressif/tools/openocd-esp32/v0.12.0-esp32-20230921/openocd-esp32/bin:/Users/valiha/.espressif/python_env/idf5.2_py3.11_env/bin:/Users/valiha/Developer/esp/esp-idf/tools:/Users/valiha/.juliaup/bin:/Users/valiha/.sdkman/candidates/java/current/bin:/opt/homebrew/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/valiha/.docker/bin
+Done! You can now compile ESP-IDF projects.
+Go to the project directory and run:
+
+  idf.py build
+```
+
 # References
 
 - [ ] [:octocat: ESP-IDF](https://github.com/espressif/esp-idf)
