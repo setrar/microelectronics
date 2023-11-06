@@ -257,9 +257,20 @@ I (282) sleep: Configure to isolate all GPIO pins in sleep state
 I (289) sleep: Enable automatic switching of GPIO sleep configuration
 I (296) main_task: Started on CPU0
 I (306) main_task: Calling app_main()
+...
+```
+
+After startup and diagnostic logs scroll up, you should see “Hello world!” printed out by the application.
+
+```
+...
 Hello world!
 This is esp32s3 chip with 2 CPU core(s), WiFi/BLE, silicon revision v0.2, 2MB external flash
 Minimum free heap size: 388440 bytes
 Restarting in 10 seconds...
 Restarting in 9 seconds...
 ```
+
+
+
+To exit IDF monitor use the shortcut `Ctrl+]`.
