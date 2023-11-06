@@ -157,6 +157,21 @@ git clone --recursive https://github.com/espressif/esp-idf.git
 cd ~/Developer/esp/esp-idf
 ./install.sh esp32s3
 ```
+> Returns
+```powershell
+Detecting the Python interpreter
+Checking "python3" ...
+Python 3.11.6
+"python3" has been detected
+Checking Python compatibility
+Installing ESP-IDF tools
+Updating /Users/valiha/.espressif/idf-env.json
+Selected targets are: esp32s3
+Current system platform: macos-arm64
+Installing tools: xtensa-esp-elf-gdb, xtensa-esp-elf, riscv32-esp-elf, esp32ulp-elf, openocd-esp32, esp-rom-elfs
+Installing xtensa-esp-elf-gdb@12.1_20221002
+...
+```
 
 # References
 
