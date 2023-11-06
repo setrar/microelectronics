@@ -186,3 +186,80 @@ Leaving...
 Hard resetting via RTS pin...
 Done
 ```
+
+- [ ] [Monitor the output](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/get-started/linux-macos-setup.html#monitor-the-output)
+
+```
+idf.py -p /dev/cu.usbmodem1101 monitor
+```
+> Returns
+```powershell
+Executing action: monitor
+Running idf_monitor in directory /Users/valiha/Developer/esp/hello_world
+Executing "/Users/valiha/.espressif/python_env/idf5.2_py3.11_env/bin/python /Users/valiha/Developer/esp/esp-idf/tools/idf_monitor.py -p /dev/cu.usbmodem1101 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 /Users/valiha/Developer/esp/hello_world/build/hello_world.elf -m '/Users/valiha/.espressif/python_env/idf5.2_py3.11_env/bin/python' '/Users/valiha/Developer/esp/esp-idf/tools/idf.py' '-p' '/dev/cu.usbmodem1101'"...
+--- esp-idf-monitor 1.3.3 on /dev/cu.usbmodem1101 115200 ---
+--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x2b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x40378282
+0x40378282: esp_cpu_wait_for_intr at /Users/valiha/Developer/esp/esp-idf/components/esp_hw_support/cpu.c:145
+
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3810,len:0x178c
+load:0x403c9700,len:0x4
+load:0x403c9704,len:0xcbc
+load:0x403cc700,len:0x2d94
+entry 0x403c9914
+I (26) boot: ESP-IDF v5.2-dev-3775-gb4268c874a 2nd stage bootloader
+I (27) boot: compile time Nov  6 2023 21:48:00
+I (27) boot: Multicore bootloader
+I (31) boot: chip revision: v0.2
+I (35) boot.esp32s3: Boot SPI Speed : 80MHz
+I (40) boot.esp32s3: SPI Mode       : DIO
+I (45) boot.esp32s3: SPI Flash Size : 2MB
+I (49) boot: Enabling RNG early entropy source...
+I (55) boot: Partition Table:
+I (58) boot: ## Label            Usage          Type ST Offset   Length
+I (66) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+I (73) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+I (81) boot:  2 factory          factory app      00 00 00010000 00100000
+I (88) boot: End of partition table
+I (92) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0cccch ( 52428) map
+I (110) esp_image: segment 1: paddr=0001ccf4 vaddr=3fc91800 size=028a8h ( 10408) load
+I (113) esp_image: segment 2: paddr=0001f5a4 vaddr=40374000 size=00a74h (  2676) load
+I (118) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=18660h ( 99936) map
+I (144) esp_image: segment 4: paddr=00038688 vaddr=40374a74 size=0cd58h ( 52568) load
+I (162) boot: Loaded app from partition at offset 0x10000
+I (162) boot: Disabling RNG early entropy source...
+I (173) cpu_start: Multicore app
+I (183) cpu_start: Pro cpu start user code
+I (183) cpu_start: cpu freq: 160000000 Hz
+I (184) cpu_start: Application information:
+I (186) cpu_start: Project name:     hello_world
+I (192) cpu_start: App version:      1
+I (196) cpu_start: Compile time:     Nov  6 2023 21:47:54
+I (202) cpu_start: ELF file SHA256:  a6392b013...
+I (208) cpu_start: ESP-IDF:          v5.2-dev-3775-gb4268c874a
+I (214) cpu_start: Min chip rev:     v0.0
+I (219) cpu_start: Max chip rev:     v0.99 
+I (224) cpu_start: Chip rev:         v0.2
+I (228) heap_init: Initializing. RAM available for dynamic allocation:
+I (236) heap_init: At 3FC94978 len 00054D98 (339 KiB): RAM
+I (242) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM
+I (248) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM
+I (254) heap_init: At 600FE010 len 00001FD8 (7 KiB): RTCRAM
+I (261) spi_flash: detected chip: generic
+I (265) spi_flash: flash io: dio
+W (269) spi_flash: Detected size(16384k) larger than the size in the binary image header(2048k). Using the size in the binary image header.
+I (282) sleep: Configure to isolate all GPIO pins in sleep state
+I (289) sleep: Enable automatic switching of GPIO sleep configuration
+I (296) main_task: Started on CPU0
+I (306) main_task: Calling app_main()
+Hello world!
+This is esp32s3 chip with 2 CPU core(s), WiFi/BLE, silicon revision v0.2, 2MB external flash
+Minimum free heap size: 388440 bytes
+Restarting in 10 seconds...
+Restarting in 9 seconds...
+```
