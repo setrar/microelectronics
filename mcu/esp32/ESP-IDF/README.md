@@ -143,12 +143,19 @@ NOTE: ccache can prevent some software from compiling.
 ALSO NOTE: The brew command, by design, will never use ccache.
 ```
 
-- [ ] [Step :two: get esp-idf](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/get-started/linux-macos-setup.html#step-2-get-esp-idf)
+- [ ] [Step :two:. Get esp-idf](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/get-started/linux-macos-setup.html#step-2-get-esp-idf)
 
 ```
 mkdir -p ~/Developer/esp
 cd ~/Developer/esp
 git clone --recursive https://github.com/espressif/esp-idf.git
+```
+
+- [ ] [Step :three:. Set up the Tools](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/get-started/linux-macos-setup.html#step-3-set-up-the-tools)
+
+```
+cd ~/Developer/esp/esp-idf
+./install.sh esp32s3
 ```
 
 # References
