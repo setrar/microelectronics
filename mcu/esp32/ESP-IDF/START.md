@@ -5,7 +5,6 @@ get_idf
 ```
 
 ```
-cd ~/Developer/esp
 cp -r $IDF_PATH/examples/get-started/hello_world .
 ```
 
