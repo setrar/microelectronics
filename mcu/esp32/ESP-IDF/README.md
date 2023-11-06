@@ -1,4 +1,6 @@
-# ESP-IDF (Espressif IoT Development Framework)
+# ESP-IDF 
+
+* `ESP`ressif `I`oT `D`evelopment `F`ramework
 
 
 # References
