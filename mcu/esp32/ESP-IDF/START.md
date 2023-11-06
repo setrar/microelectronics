@@ -126,13 +126,63 @@ or from the "/Users/valiha/Developer/esp/hello_world/build" directory
 
 - [ ] Check ports
 
+* you may need to reset the board to see the correct PORT name
+
 ```
 ls -l /dev/cu.*
 ```
 > returns
 ```
-crw-rw-rw-  1 root  wheel  0x9000001 18 Oct 18:53 /dev/cu.Bluetooth-Incoming-Port
-crw-rw-rw-  1 root  wheel  0x9000003  6 Nov 21:44 /dev/cu.usbmodemUiFlow2_1
+crw-rw-rw-  1 root  wheel  0x9000001  6 Nov 21:56 /dev/cu.Bluetooth-Incoming-Port
+crw-rw-rw-  1 root  wheel  0x9000003  6 Nov 22:01 /dev/cu.usbmodem1101
 ```
 
 - [ ] [Flash onto the device](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/get-started/linux-macos-setup.html#flash-onto-the-device)
+
+```
+idf.py -p /dev/cu.usbmodem1101 flash
+```
+> Returns
+```powershell
+Executing action: flash
+Running ninja in directory /Users/valiha/Developer/esp/hello_world/build
+Executing "ninja flash"...
+[1/5] cd /Users/valiha/Developer/esp/hello_world/bu...iha/Developer/esp/hello_world/build/hello_world.bin
+hello_world.bin binary size 0x35410 bytes. Smallest app partition is 0x100000 bytes. 0xcabf0 bytes (79%) free.
+[1/1] cd /Users/valiha/Developer/esp/hello_world/bu...per/esp/hello_world/build/bootloader/bootloader.bin
+Bootloader binary size 0x5240 bytes. 0x2dc0 bytes (36%) free.
+[4/5] cd /Users/valiha/Developer/esp/esp-idf/compon...esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32s3 -p /dev/cu.usbmodem1101 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 80m --flash_size 2MB 0x0 bootloader/bootloader.bin 0x10000 hello_world.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.dev2
+Serial port /dev/cu.usbmodem1101
+Connecting...
+Chip is ESP32-S3 (QFN56) (revision v0.2)
+Features: WiFi, BLE
+Crystal is 40MHz
+MAC: 48:27:e2:66:a5:88
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00000000 to 0x00005fff...
+Flash will be erased from 0x00010000 to 0x00045fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 21056 bytes to 13076...
+Writing at 0x00000000... (100 %)
+Wrote 21056 bytes (13076 compressed) at 0x00000000 in 0.4 seconds (effective 464.0 kbit/s)...
+Hash of data verified.
+Compressed 218128 bytes to 110750...
+Writing at 0x00040291... (100 %)
+Wrote 218128 bytes (110750 compressed) at 0x00010000 in 1.8 seconds (effective 958.8 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 390.1 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+Done
+```
