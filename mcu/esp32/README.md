@@ -27,3 +27,4 @@ open /Applications/M5Burner.app
 
 - [ ] [Download page for Software](https://docs.m5stack.com/en/download)
 - [ ] [CoreS3](https://docs.m5stack.com/en/core/CoreS3)
+- [ ] [esp32-s3_datasheet_en.pdf](https://www.espressif.com/sites/default/files/documentation/esp32-s3_datasheet_en.pdf)
