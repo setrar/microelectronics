@@ -7,3 +7,7 @@
 
 - [ ] [Xtensa® Instruction Set Architecture (ISA) Summary](https://www.cadence.com/content/dam/cadence-www/global/en_US/documents/tools/ip/tensilica-ip/isa-summary.pdf) [:roll_of_paper: isa-summary.pdf](docs/isa-summary.pdf)
 - [ ] [Xtensa® Instruction Set Architecture (ISA)](https://0x04.net/~mwk/doc/xtensa.pdf) [:roll_of_paper: isa-summary.pdf](docs/xtensa.pdf)
+
+## Assembly Code
+
+[xtensa_vectors.S](https://github.com/espressif/esp-idf/blob/master/components/xtensa/xtensa_vectors.S)
