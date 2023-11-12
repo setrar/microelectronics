@@ -82,4 +82,5 @@ HDL - Languages
 - [ ] [So what's the deal with CHISEL, and why is it so great?](https://www.reddit.com/r/FPGA/comments/wnnhb8/so_whats_the_deal_with_chisel_and_why_is_it_so/)
 - [ ] In computer science, [register transfer language (RTL)](https://en.wikipedia.org/wiki/Register_transfer_language)  is a kind of  [Intermediate Representation (IR)](https://en.wikipedia.org/wiki/Intermediate_representation) that is very close to assembly language, such as that which is used in a compiler.
 - [ ] [How Do I Get a Job in FPGA?](https://digilent.com/blog/how-do-i-get-a-job-in-fpga/)
+- [ ] [MEE10203 - Programmable Electronics](https://www.youtube.com/playlist?list=PL_N6Mn2-rIULhuVNHMpjmmKMYafQjaCZX)
 
