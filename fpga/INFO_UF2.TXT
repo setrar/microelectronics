@@ -1,0 +1,4 @@
+TinyUF2 Bootloader 0
+Model: pico-ice
+Board-ID: pico-ice-v2.0
+Date: May 30 2023
