@@ -1,0 +1,132 @@
+$date
+	Tue Apr 16 19:28:51 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module comparator_4bit_tb $end
+$var wire 1 ! w_lt $end
+$var wire 1 " w_gt $end
+$var wire 1 # w_eq $end
+$var reg 1 $ r_clk $end
+$var reg 4 % r_ta [3:0] $end
+$var reg 4 & r_tb [3:0] $end
+$scope module uut $end
+$var wire 4 ' i_a [3:0] $end
+$var wire 4 ( i_b [3:0] $end
+$var wire 1 # o_equal $end
+$var wire 1 ) w_bits_set $end
+$var wire 4 * w_diff [3:0] $end
+$var wire 1 ! o_less $end
+$var wire 1 " o_greater $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+bx *
+x)
+bx (
+bx '
+bx &
+bx %
+0$
+x#
+x"
+x!
+$end
+#5
+1"
+0#
+1)
+0!
+b111 *
+b0 &
+b0 (
+b111 %
+b111 '
+1$
+#10
+0$
+#15
+0"
+1!
+1$
+b111 &
+b111 (
+b1001 *
+b0 %
+b0 '
+#20
+0$
+#25
+1"
+0!
+1$
+b1 *
+b1111 &
+b1111 (
+#30
+0$
+#35
+1$
+#40
+0$
+#45
+0"
+1#
+0)
+1$
+b0 *
+b1111 %
+b1111 '
+#50
+0$
+#55
+1$
+#60
+0$
+#65
+1$
+#70
+0$
+#75
+1"
+0#
+1)
+1$
+b10 *
+b1 %
+b1 '
+#80
+0$
+#85
+1$
+#90
+0$
+#95
+1$
+#100
+0$
+#105
+1$
+#110
+0$
+#115
+0"
+1#
+0)
+1$
+b0 &
+b0 (
+b0 *
+b0 %
+b0 '
+#120
+0$
