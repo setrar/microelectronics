@@ -100,6 +100,10 @@ endmodule
 apio sim
 ```
 
+- [ ] Viewing
+
+<img src=images/gtkwave_compare4sbits.png width='' height='' > <img>
+
 
 # References
 
