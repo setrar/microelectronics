@@ -284,3 +284,10 @@ apio system --info
 ```
 > Platform: darwin_arm64
 
+# References
+
+- [ ] Install [`xdot`](https://github.com/jrfonseca/xdot.py)
+
+```
+brew install xdot
+```
