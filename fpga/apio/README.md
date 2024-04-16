@@ -1,6 +1,8 @@
 # APIO
 
 
+### :o: [Install](install)
+
 
 
 
