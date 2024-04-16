@@ -261,3 +261,20 @@ apio system --lsusb
 | 05e3:0749 (bus 1, device 3) path: 2.1 | Anker | [Anker 547 USB-C Hub (7-in-2, for MacBook)](https://www.anker.com/products/a8371?variant=37438484938902) |
 | 291a:0031 (bus 1, device 2) path: 2   |  |
 | 291a:0020 (bus 1, device 1) path: 1   |  |
+
+```
+apio system --lsserial
+```
+> Returns
+```powershell
+Number of Serial devices found: [{'port': '/dev/cu.usbmodem11201', 'description': 'pico-ice', 'hwid': 'USB VID:PID=1209:B1C0 SER=DE6268F863453F21 LOCATION=1-1.2'}, {'port': '/dev/cu.usbmodem11203', 'description': 'pico-ice', 'hwid': 'USB VID:PID=1209:B1C0 SER=DE6268F863453F21 LOCATION=1-1.2'}]
+
+/dev/cu.usbmodem11201
+Description: pico-ice
+Hardware info: USB VID:PID=1209:B1C0 SER=DE6268F863453F21 LOCATION=1-1.2
+
+/dev/cu.usbmodem11203
+Description: pico-ice
+Hardware info: USB VID:PID=1209:B1C0 SER=DE6268F863453F21 LOCATION=1-1.2
+
+```
