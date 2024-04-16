@@ -100,6 +100,8 @@ dfu-util --version
 ```
 > dfu-util 0.11
 
+<img src=images/picoice-apio-upload.png width='' height='' > </img>
+
 
 # References
 
