@@ -18,3 +18,7 @@ Cargo.lock
 
 # ESP32 builds
 build
+
+
+# apio
+.sconsign.dblite
