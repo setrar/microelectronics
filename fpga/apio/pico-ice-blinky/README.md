@@ -77,6 +77,11 @@ apio --version
 ```
 > apio, version 0.9.3
 
+```
+dfu-util --version
+```
+> dfu-util 0.11
+
 
 # References
 
