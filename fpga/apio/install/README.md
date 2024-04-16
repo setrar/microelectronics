@@ -284,6 +284,35 @@ apio system --info
 ```
 > Platform: darwin_arm64
 
+#### :x: DFU-UTIL
+
+```
+brew info dfu-util
+```
+> Returns
+```powershell
+==> dfu-util: stable 0.11 (bottled), HEAD
+USB programmer
+https://dfu-util.sourceforge.net/
+Installed
+/opt/homebrew/Cellar/dfu-util/0.11 (13 files, 285.9KB) *
+  Poured from bottle using the formulae.brew.sh API on 2023-11-06 at 21:06:13
+From: https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/d/dfu-util.rb
+License: GPL-2.0-or-later
+==> Dependencies
+Build: pkg-config ✔
+Required: libusb ✔
+==> Options
+--HEAD
+	Install HEAD version
+==> Analytics
+install: 745 (30 days), 2,475 (90 days), 9,351 (365 days)
+install-on-request: 644 (30 days), 2,126 (90 days), 7,671 (365 days)
+build-error: 0 (30 days)
+```
+
+- [ ] Testing
+
 ```
 dfu-util -l
 ```
