@@ -284,6 +284,23 @@ apio system --info
 ```
 > Platform: darwin_arm64
 
+```
+dfu-util -l
+```
+> Returns
+```powershell
+dfu-util 0.11
+
+Copyright 2005-2009 Weston Schmidt, Harald Welte and OpenMoko Inc.
+Copyright 2010-2021 Tormod Volden and Stefan Schmidt
+This program is Free Software and has ABSOLUTELY NO WARRANTY
+Please report bugs to http://sourceforge.net/p/dfu-util/tickets/
+
+Found DFU: [1209:b1c0] ver=0100, devnum=5, cfg=1, intf=5, path="1-1.2", alt=1, name="iCE40 DFU (CRAM)", serial="DE6268F863453F21"
+Found DFU: [1209:b1c0] ver=0100, devnum=5, cfg=1, intf=5, path="1-1.2", alt=0, name="iCE40 DFU (flash)", serial="DE6268F863453F21"
+```
+
+
 # References
 
 - [ ] Install [`xdot`](https://github.com/jrfonseca/xdot.py)
