@@ -278,3 +278,9 @@ Description: pico-ice
 Hardware info: USB VID:PID=1209:B1C0 SER=DE6268F863453F21 LOCATION=1-1.2
 
 ```
+
+```
+apio system --info
+```
+> Platform: darwin_arm64
+
