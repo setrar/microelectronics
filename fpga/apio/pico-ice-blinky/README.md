@@ -43,6 +43,19 @@ apio init --sayyes --board pico-ice --top-module rgb_test
 ```
 > Returns
 ```powershell
+Creating apio.ini file ...
+File 'apio.ini' has been successfully created!
+```
+
+
+
+- [ ] Build the project using yosys/nextpnr
+
+```
+apio build
+```
+> Returns
+```powershell
 [Tue Apr 16 22:00:17 2024] Processing pico-ice
 ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 yosys -p "synth_ice40 -top rgb_test -json hardware.json" -q blink.v
@@ -51,12 +64,6 @@ icepack hardware.asc hardware.bin
 ═════════════════════════════════════════════════════════════ [SUCCESS] Took 1.08 seconds ═════════════════════════════════════════════════════════════
 ```
 
-
-- [ ] Build the project using yosys/nextpnr
-
-```
-apio build
-```
 
 - [ ] Plug your pico-ice board and upload the blinky project to it
 
