@@ -107,3 +107,4 @@ dfu-util --version
 
 
 - [ ] [programming_the_fpga.md#using-apio](https://github.com/tinyvision-ai-inc/pico-ice/blob/main/Docs/programming_the_fpga.md#using-apio)
+- [ ] [pico_ice.pcf file](https://github.com/tinyvision-ai-inc/pico-ice-sdk/blob/main/rtl/pico_ice.pcf)
