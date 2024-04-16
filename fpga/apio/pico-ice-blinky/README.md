@@ -41,6 +41,16 @@ endmodule
 ```
 apio init --sayyes --board pico-ice --top-module rgb_test 
 ```
+> Returns
+```powershell
+[Tue Apr 16 22:00:17 2024] Processing pico-ice
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+yosys -p "synth_ice40 -top rgb_test -json hardware.json" -q blink.v
+nextpnr-ice40 --up5k --package sg48 --json hardware.json --asc hardware.asc --pcf up5k.pcf -q
+icepack hardware.asc hardware.bin
+═════════════════════════════════════════════════════════════ [SUCCESS] Took 1.08 seconds ═════════════════════════════════════════════════════════════
+```
+
 
 - [ ] Build the project using yosys/nextpnr
 
