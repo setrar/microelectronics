@@ -1,8 +1,9 @@
 # pico-ice-blinky
 
 
+- [ ]  Build a new directory with a "blinky" example project inside
+
 ```
-# Build a new directory with a "blinky" example project inside
 mkdir pico-ice-blinky; cd pico-ice-blinky
 ```
 
