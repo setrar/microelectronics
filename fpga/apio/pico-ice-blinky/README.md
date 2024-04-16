@@ -34,7 +34,7 @@ assign led_red = counter[N-2];
 endmodule
 ```
 
-# Set the board to "pico-ice" with `rgb_test` as top module
+- [ ] Set the board to "pico-ice" with `rgb_test` as top module
 
 
 ```
