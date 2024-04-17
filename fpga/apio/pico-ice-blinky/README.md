@@ -102,6 +102,14 @@ dfu-util --version
 
 <img src=images/picoice-apio-upload.png width='' height='' > </img>
 
+---
+
+### using `apio raw`
+
+```
+bash raw.sh
+```
+
 
 # References
 
