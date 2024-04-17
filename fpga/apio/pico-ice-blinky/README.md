@@ -104,7 +104,7 @@ dfu-util --version
 
 ---
 
-### using `apio raw`
+### using [`apio raw`](https://apiodoc.readthedocs.io/en/stable/source/user_guide/util_commands/cmd_raw.html)
 
 ```
 bash raw.sh
