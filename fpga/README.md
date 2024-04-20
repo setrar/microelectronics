@@ -31,6 +31,7 @@ HDL - Languages
 - [ ] [Digital Design with Chisel by Martin Schoeberl](https://github.com/schoeberl/chisel-book)
 - [ ] [Chisel Lab](https://github.com/schoeberl/chisel-lab)
 - [ ] [:octocat: Raspberry Pi PICO board + Lattice iCE40 FPGA's](https://github.com/tinyvision-ai-inc/pico-ice)
+- [ ] [Clash: A modern, functional, hardware description language](https://clash-lang.org/)
 
 :tv: Digi-Key
 
