@@ -44,6 +44,23 @@ HDL - Languages
 - [ ] [Cheap FPGA Development Boards](https://joelw.id.au/FPGA/CheapFPGADevelopmentBoards)
 - [ ] [An FPGA Developer's Guide to Cheap Development Boards](https://hackster.io/news/an-fpga-developer-s-guide-to-cheap-development-boards-8f1782bb271a)
 
+
+## 🥇 [Future prospects of the industry](https://www.reddit.com/r/FPGA/comments/1191ec0/future_prospects_of_the_industry)
+
+
+You are asking a question about economics, not technology. For traditional FPGAs, the trends are:
+
+1. High-end competition (ASICs) gets more expensive over time, and
+
+1. The capabilities of "midrange" or "low cost" FPGAs improve generation over generation, but
+
+1. Low-end competition (ARM SoCs) also get more capable over time.
+
+As long as (1) and (2) occur faster than (3), the ecosystem niche occupied by FPGAs keeps growing. As usual, this is a great read: [https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7086413]
+
+That's the view on traditional FPGAs - but all of the really interesting high-end action is heterogenous, i.e. SoC FPGAs, RFSoCs, datacentre accelerators, etc. We're seeing a Cambrian explosion of diversity in silicon, which means Intel/AMD have to make huge technological bets. For those of us who use the silicon that results, it's an exciting time to work in the sector.
+
+
 # References
 - [ ] [	LTESniffer – An Open-Source LTE Downlink/Uplink Eavesdropper (github.com/syssec-kaist)](https://news.ycombinator.com/item?id=35952206)
 - [ ] [USRP](https://www.ettus.com/sdr-software/uhd-usrp-hardware-driver)
@@ -61,4 +78,5 @@ HDL - Languages
 - [ ] In computer science, [register transfer language (RTL)](https://en.wikipedia.org/wiki/Register_transfer_language)  is a kind of  [Intermediate Representation (IR)](https://en.wikipedia.org/wiki/Intermediate_representation) that is very close to assembly language, such as that which is used in a compiler.
 - [ ] [How Do I Get a Job in FPGA?](https://digilent.com/blog/how-do-i-get-a-job-in-fpga/)
 - [ ] [MEE10203 - Programmable Electronics](https://www.youtube.com/playlist?list=PL_N6Mn2-rIULhuVNHMpjmmKMYafQjaCZX)
+- [ ] [Three Ages of FPGAs: A Retrospective on the First Thirty Years of FPGA Technology](https://ieeexplore.ieee.org/document/7086413)
 
