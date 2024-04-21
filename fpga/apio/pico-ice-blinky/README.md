@@ -117,3 +117,4 @@ bash raw.sh
 - [ ] [programming_the_fpga.md#using-apio](https://github.com/tinyvision-ai-inc/pico-ice/blob/main/Docs/programming_the_fpga.md#using-apio)
 - [ ] [pico_ice.pcf file](https://github.com/tinyvision-ai-inc/pico-ice-sdk/blob/main/rtl/pico_ice.pcf)
 - [ ] [pinout diagram](https://pico-ice.tinyvision.ai/md_pinout.html)
+- [ ] [Convertir du VHDL en Verilog librement avec Yosys et GHDL](https://www.fabienm.eu/flf/convertir-du-vhdl-en-verilog-librement-avec-yosys-et-ghdl/)
