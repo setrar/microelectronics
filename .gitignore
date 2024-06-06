@@ -23,3 +23,5 @@ build
 # apio
 .sconsign.dblite
 hardware.*
+
+.ipynb_checkpoints
