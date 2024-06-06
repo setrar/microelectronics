@@ -1,0 +1,33 @@
+$date
+  Thu Jun  6 22:26:07 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module mux_4 $end
+$var reg 8 ! a_data[7:0] $end
+$var reg 8 " b_data[7:0] $end
+$var reg 8 # c_data[7:0] $end
+$var reg 8 $ d_data[7:0] $end
+$var reg 1 % sel0 $end
+$var reg 1 & sel1 $end
+$var reg 8 ' data_out[7:0] $end
+$upscope $end
+$enddefinitions $end
+#0
+bUUUUUUUU !
+bUUUUUUUU "
+bUUUUUUUU #
+bUUUUUUUU $
+U%
+U&
+b00000000 '
