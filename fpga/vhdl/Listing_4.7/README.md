@@ -1,0 +1,1 @@
+Write the VHDL code to implement the function expressed by the following logic equation: $F3 = \bar{L} · \bar{M} · N + L · M$
