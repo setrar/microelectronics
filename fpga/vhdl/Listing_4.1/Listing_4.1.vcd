@@ -1,0 +1,37 @@
+$date
+  Sun Jun  9 20:45:02 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module textio $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module my_circuit $end
+$var reg 1 ! a_1 $end
+$var reg 1 " a_2 $end
+$var reg 1 # b_1 $end
+$var reg 1 $ b_2 $end
+$var reg 1 % d_1 $end
+$var reg 1 & e_out $end
+$var reg 1 ' a_out $end
+$var reg 1 ( b_out $end
+$var reg 1 ) c_out $end
+$upscope $end
+$enddefinitions $end
+#0
+U!
+U"
+U#
+U$
+U%
+U&
+U'
+U(
+U)

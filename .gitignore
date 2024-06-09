@@ -24,4 +24,8 @@ build
 .sconsign.dblite
 hardware.*
 
+# Jupyter NoteBooks
 .ipynb_checkpoints
+
+# VHDL
+work-obj08.cf
