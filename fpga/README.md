@@ -10,6 +10,8 @@
 
 FPGA
 
+* Lattice [Curated List](https://github.com/kelu124/awesome-latticeFPGAs)
+
 * LimeSDR - An open, full-duplex, USB stick software defined radio
   - [ ] [LimeSDR](https://www.crowdsupply.com/lime-micro/limesdr)
   - [ ] [LimeSDR Mini 2.0](https://www.crowdsupply.com/lime-micro/limesdr-mini-2)
