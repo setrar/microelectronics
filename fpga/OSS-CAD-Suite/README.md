@@ -43,3 +43,6 @@ export PATH="$extracted_location/oss-cad-suite/bin:$PATH"
 
 source $extracted_location/oss-cad-suite/environment
 
+# References
+
+- [ ] [Yosys+nextpnr: an Open Source Framework from Verilog to Bitstream for Commercial FPGAs](https://arxiv.org/pdf/1903.10407)
