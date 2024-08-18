@@ -70,7 +70,7 @@ Charles Papon is from Switzerland. He has been actively involved in the hardware
 
 # Where does he live?
 
-Charles Papon, the creator of SpinalHDL, lives in Lausanne, Switzerland. He has a background that combines hardware and software skills and has made significant contributions to open-source hardware projects since 2015. His notable projects include SpinalHDL, VexRiscv, and NaxRiscv [OpenedHardware](https://www.openedhardware.com/p/ep-06-a-new-verilog) [NLnet](https://nlnet.nl/events/20240411/index.html) [NGI](https://www.ngi.eu/event/webinar-open-source-cpu-and-soc-design/).
+Charles Papon, the creator of SpinalHDL, lives in Lausanne, Switzerland. He has a background that combines hardware and software skills and has made significant contributions to open-source hardware projects since 2015. His notable projects include SpinalHDL, VexRiscv, and NaxRiscv [(OpenedHardware)](https://www.openedhardware.com/p/ep-06-a-new-verilog)[NLnet](https://nlnet.nl/events/20240411/index.html) [NGI](https://www.ngi.eu/event/webinar-open-source-cpu-and-soc-design/).
 
 # References
 
