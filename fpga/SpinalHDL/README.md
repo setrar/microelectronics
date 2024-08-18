@@ -1,4 +1,6 @@
-# [SpinalHDL]()
+# [SpinalHDL](https://github.com/SpinalHDL/SpinalHDL) is a Scala Library
+
+- [ ] [SpinalHDL : Paradigm introduction](https://www.youtube.com/watch?v=XyDiz3SRogY)
 
 ## What is spinalHDL?
 
@@ -81,6 +83,7 @@ Charles Papon, the creator of SpinalHDL, lives in Lausanne, Switzerland. He has 
 - [ ] [Debug an FPGA with a tiny interpreter -- Christopher Lozinski -- 2024-06-22](https://www.youtube.com/watch?v=oyaqaAckQwU)
 The killer app for Forth is debugging FPGAs in both simulation and in hardware.
 - [ ] [DatenLord: The J1Sc Family](https://youtu.be/6kXC__VmdNI?si=e_VGaT9GrjvxFRK5)
+
 
 
 # References
