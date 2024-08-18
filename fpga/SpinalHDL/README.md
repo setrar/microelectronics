@@ -77,6 +77,9 @@ Charles Papon, the creator of SpinalHDL, lives in Lausanne, Switzerland. He has 
 > Scala was one of the lessons (courses) to follow in my Master Degree. I had one semester where I had lesson of (course on) Scala and it started from there
 
 - [ ] [Ep. 06: A New Verilog: An interview with Charles Papon, Creator of SpinalHDL](https://www.openedhardware.com/p/ep-06-a-new-verilog)
+
+- [ ] [Debug an FPGA with a tiny interpreter -- Christopher Lozinski -- 2024-06-22](https://www.youtube.com/watch?v=oyaqaAckQwU)
+The killer app for Forth is debugging FPGAs in both simulation and in hardware.
 - [ ] [DatenLord: The J1Sc Family](https://youtu.be/6kXC__VmdNI?si=e_VGaT9GrjvxFRK5)
 
 
