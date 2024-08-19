@@ -85,6 +85,9 @@ The killer app for Forth is debugging FPGAs in both simulation and in hardware.
 - [ ] [DatenLord: The J1Sc Family](https://youtu.be/6kXC__VmdNI?si=e_VGaT9GrjvxFRK5)
 
 
+## Videos
+
+- [ ] [SpinalHDL : Paradigm introduction](https://www.youtube.com/watch?v=XyDiz3SRogY)
 
 # References
 
