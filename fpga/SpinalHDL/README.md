@@ -1,7 +1,5 @@
 # [SpinalHDL](https://github.com/SpinalHDL/SpinalHDL) is a Scala Library
 
-- [ ] [SpinalHDL : Paradigm introduction](https://www.youtube.com/watch?v=XyDiz3SRogY)
-
 ## What is spinalHDL?
 
 SpinalHDL is a high-level hardware description language (HDL) designed for describing digital hardware systems. It is built on top of the Scala programming language and aims to provide a more expressive and flexible way to design complex digital circuits compared to traditional HDLs like VHDL or Verilog. Here are some key features and aspects of SpinalHDL:
