@@ -30,3 +30,7 @@ An **SoC FPGA** (System-on-Chip Field-Programmable Gate Array) is a type of FPGA
 - **Communications:** For implementing custom protocols or accelerating packet processing.
 
 In summary, SoC FPGAs offer a powerful combination of programmable logic and general-purpose processing, making them highly versatile and suitable for a wide range of complex applications.
+
+# References
+
+- [ ] [Introducing the Zybo Z7!](https://digilent.com/blog/introducing-the-zybo-z7/)
