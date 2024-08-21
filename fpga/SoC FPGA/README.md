@@ -34,3 +34,21 @@ In summary, SoC FPGAs offer a powerful combination of programmable logic and gen
 # References
 
 - [ ] [Introducing the Zybo Z7!](https://digilent.com/blog/introducing-the-zybo-z7/)
+
+- [ ] [Digilent](https://digilent.com/)
+
+No, Digilent is not a subsidiary of Analog Devices. 
+
+### Background on Digilent:
+- **Digilent Inc.** is a US-based company that specializes in producing educational and development tools for engineers and students. They are well-known for their FPGA and microcontroller development boards, particularly those that feature Xilinx FPGAs and SoCs, as well as other hardware and software products used in electronics education and research.
+
+### Relationship with Xilinx (now AMD):
+- Digilent has a close partnership with Xilinx (which is now part of AMD) and often produces development boards featuring Xilinx FPGAs and SoCs, like the Zybo Z7.
+
+### Analog Devices Connection:
+- **Analog Devices, Inc. (ADI)** is a separate company known for its wide range of analog, mixed-signal, and digital signal processing (DSP) integrated circuits. Analog Devices does work closely with companies like Xilinx (now AMD) to integrate their analog and RF solutions with FPGAs, particularly in applications requiring high-performance signal processing.
+
+- While Digilent and Analog Devices are not directly connected as subsidiaries or parent companies, they may collaborate on certain products or reference designs, given the intersection of their product offerings (e.g., combining Digilent development boards with Analog Devices' analog and RF components).
+
+### Summary:
+Digilent operates independently and is not a subsidiary of Analog Devices. The two companies have separate ownership and management structures, but they may work together on certain projects or products within the broader electronics ecosystem.
