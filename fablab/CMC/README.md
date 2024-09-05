@@ -20,4 +20,4 @@ Some of the universities that are part of the CMC Microsystems network include:
 
 These institutions host specialized labs and facilities that CMC Microsystems members can access for research and development purposes. The specific labs and services available can vary depending on the university and the field of study.
 
-## Using this webpage, [Scholarships & Funding](https://www.mie.utoronto.ca/programs/graduate/scholarships-funding] how much funding in total a PhD student can achieve?
+## Using this webpage, [Scholarships & Funding](https://www.mie.utoronto.ca/programs/graduate/scholarships-funding) how much funding in total a PhD student can achieve?
