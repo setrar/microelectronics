@@ -2,6 +2,21 @@
 
 - [ ] [Which are the best universities for FPGA related research](https://www.quora.com/Which-are-the-best-universities-for-FPGA-related-research)
 
+The University of Toronto has engaged in collaborations with EURECOM, a research and higher education institution based in France, particularly in areas related to telecommunications, signal processing, and network systems. While specific details on FPGA-related projects may vary, here are some general aspects of the collaboration:
+
+### Areas of Collaboration
+- **Telecommunications**: Joint research on optimizing FPGA implementations for communication protocols and network systems.
+- **Signal Processing**: Development of advanced algorithms for signal processing tasks that can be accelerated using FPGAs.
+- **Embedded Systems**: Collaborative projects focusing on the integration of FPGA technology in embedded system designs for various applications.
+
+### Research Outcomes
+- Collaborative publications in conferences and journals, showcasing advancements in FPGA architectures and applications.
+- Sharing of resources and expertise between the two institutions to enhance research quality and innovation.
+
+For more specific details or updates on ongoing projects, it is advisable to refer to the respective institutions' publications or announcements.
+
+
+
 - [ ] [[Pico ICE]](pico-ice) by :shark: [Pico ICE Tiny Vision](https://pico-ice.tinyvision.ai)
 
 ## Hardware Related Stuff
