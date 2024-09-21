@@ -15,7 +15,27 @@ The University of Toronto has engaged in collaborations with EURECOM, a research
 
 For more specific details or updates on ongoing projects, it is advisable to refer to the respective institutions' publications or announcements.
 
+While I can't provide real-time updates, here are some professors from the University of Toronto and EURECOM known for their work in areas likely to involve FPGA research and collaboration:
 
+### University of Toronto
+1. **Prof. Edward Yang**
+   - Focus: Computer architecture, including FPGA design and applications.
+   
+2. **Prof. J. Zico Kolter**
+   - Focus: Machine learning and optimization, often applying FPGAs for efficient computation.
+
+3. **Prof. Ali Farhadi**
+   - Focus: Computer vision and machine learning, with potential FPGA applications.
+
+### EURECOM
+1. **Prof. Hervé Sizun**
+   - Focus: Wireless communications and signal processing, often utilizing FPGAs.
+
+2. **Prof. Philippe Godlewski**
+   - Focus: Networking and communication systems, including hardware implementations.
+
+### Collaboration
+These professors might collaborate on projects involving FPGA technologies in telecommunications, embedded systems, and signal processing. For the most accurate and current information, checking their individual web pages or recent publications is recommended.
 
 - [ ] [[Pico ICE]](pico-ice) by :shark: [Pico ICE Tiny Vision](https://pico-ice.tinyvision.ai)
 
