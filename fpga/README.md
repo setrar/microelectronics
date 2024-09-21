@@ -1,5 +1,7 @@
 # FPGA
 
+- [ ] [Which-are-the-best-universities-for-FPGA-related-research](https://www.quora.com/Which-are-the-best-universities-for-FPGA-related-research)
+
 - [ ] [[Pico ICE]](pico-ice) by :shark: [Pico ICE Tiny Vision](https://pico-ice.tinyvision.ai)
 
 ## Hardware Related Stuff
