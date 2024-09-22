@@ -52,6 +52,8 @@ These professors might collaborate on projects involving FPGA technologies in te
 
 FPGA
 
+* [FPGA engineer salaries](https://www.reddit.com/r/FPGA/comments/vf9pmh/fpga_engineer_salaries/)
+
 * Lattice [Curated List](https://github.com/kelu124/awesome-latticeFPGAs)
 * [FPGA4Fun](https://www.fpga4fun.com/) 
 
