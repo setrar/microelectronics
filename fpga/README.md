@@ -48,6 +48,7 @@ These professors might collaborate on projects involving FPGA technologies in te
 ## OpenCL
 
 - [ ] [Efficient SIMD Vectorization for Hashing in OpenCL](https://openproceedings.org/2018/conf/edbt/paper-330.pdf)
+- [ ] [OpenCL RISC-V](https://carrv.github.io/2021/papers/CARRV2021_paper_36_Blaise.pdf)
 
 FPGA
 
