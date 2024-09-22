@@ -45,6 +45,10 @@ These professors might collaborate on projects involving FPGA technologies in te
 - [ ] [myriadrf](https://myriadrf.org)
 - [ ] [Welcome to the SoapySDR project](https://github.com/pothosware/SoapySDR/wiki)
 
+## OpenCL
+
+- [ ] [OpenCL vs Intrinsics](https://openproceedings.org/2018/conf/edbt/paper-330.pdf)
+
 FPGA
 
 * Lattice [Curated List](https://github.com/kelu124/awesome-latticeFPGAs)
