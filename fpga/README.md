@@ -47,7 +47,7 @@ These professors might collaborate on projects involving FPGA technologies in te
 
 ## OpenCL
 
-- [ ] [OpenCL vs Intrinsics](https://openproceedings.org/2018/conf/edbt/paper-330.pdf)
+- [ ] [Efficient SIMD Vectorization for Hashing in OpenCL](https://openproceedings.org/2018/conf/edbt/paper-330.pdf)
 
 FPGA
 
