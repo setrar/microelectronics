@@ -131,4 +131,5 @@ That's the view on traditional FPGAs - but all of the really interesting high-en
 - [ ] [How Do I Get a Job in FPGA?](https://digilent.com/blog/how-do-i-get-a-job-in-fpga/)
 - [ ] [MEE10203 - Programmable Electronics](https://www.youtube.com/playlist?list=PL_N6Mn2-rIULhuVNHMpjmmKMYafQjaCZX)
 - [ ] [Three Ages of FPGAs: A Retrospective on the First Thirty Years of FPGA Technology](https://ieeexplore.ieee.org/document/7086413)
+- [ ] [Future of FPGA](https://www.maven-silicon.com/blog/future-of-fpga/)
 
