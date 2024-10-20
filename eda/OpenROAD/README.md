@@ -8,11 +8,11 @@ The OpenROAD project focuses on developing a complete toolchain for integrated c
 
 Key Features:
 
-	•	End-to-end flow: It covers the entire digital ASIC design process from RTL to GDSII.
-	•	Autonomy: Designed to operate with minimal human intervention, making chip design more accessible to engineers and researchers.
-	•	Open-source: It leverages a collaborative development model, allowing users to contribute and modify the tool as needed.
-	•	Focus on PPA: It aims to optimize Power, Performance, and Area (PPA), which are critical metrics in semiconductor design.
-	•	Academic and industry support: The tool has widespread backing and adoption, making it a key player in the open-source EDA (Electronic Design Automation) ecosystem.
+	-	End-to-end flow: It covers the entire digital ASIC design process from RTL to GDSII.
+	-	Autonomy: Designed to operate with minimal human intervention, making chip design more accessible to engineers and researchers.
+	-	Open-source: It leverages a collaborative development model, allowing users to contribute and modify the tool as needed.
+	-	Focus on PPA: It aims to optimize Power, Performance, and Area (PPA), which are critical metrics in semiconductor design.
+	-	Academic and industry support: The tool has widespread backing and adoption, making it a key player in the open-source EDA (Electronic Design Automation) ecosystem.
 
 Components of OpenROAD:
 
