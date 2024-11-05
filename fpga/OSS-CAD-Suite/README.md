@@ -1,3 +1,5 @@
+# [OSS CAD Suite](https://github.com/YosysHQ/oss-cad-suite-build)
+
 The OSS CAD Suite is a comprehensive collection of open-source tools designed for digital logic design and verification. It encompasses a range of utilities for tasks such as RTL synthesis, formal hardware verification, place and route, FPGA programming, and testing. The suite supports various hardware description languages, including Verilog, Migen, and Amaranth. (GitHub)
 
 Key Components of the OSS CAD Suite:
