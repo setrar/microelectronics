@@ -110,6 +110,48 @@ dfu-util --version
 bash raw.sh
 ```
 
+```bash
+#!/bin/bash
+
+rm hardware.*
+apio raw 'yosys -p "synth_ice40 -top rgb_test -json hardware.json" -q blink.v' &&
+apio raw 'nextpnr-ice40 --up5k --package sg48 --json hardware.json --asc hardware.asc --pcf up5k.pcf -q' &&
+apio raw 'icepack hardware.asc hardware.bin'  &&
+dfu-util -d 1209:b1c0 -a 0 -D hardware.bin --reset
+```
+
+This Bash script is for building and deploying a hardware design for an FPGA, specifically targeting an iCE40 UP5K FPGA device. Here's a breakdown of what each line does:
+
+1. **`rm hardware.*`**:
+   - This command deletes any existing files with the name `hardware.*` (e.g., `hardware.json`, `hardware.asc`, `hardware.bin`) to ensure a clean start.
+
+2. **`apio raw 'yosys -p "synth_ice40 -top rgb_test -json hardware.json" -q blink.v'`**:
+   - Runs the `yosys` synthesis tool using `apio`, which synthesizes the `blink.v` Verilog design.
+   - The `-p` option passes a command to `yosys`, specifying that it should synthesize the design for an iCE40 FPGA, using `rgb_test` as the top module, and output the result in `hardware.json`.
+   - The `-q` option ensures that `yosys` runs quietly, suppressing most log output.
+
+3. **`apio raw 'nextpnr-ice40 --up5k --package sg48 --json hardware.json --asc hardware.asc --pcf up5k.pcf -q'`**:
+   - Runs the `nextpnr-ice40` place-and-route tool using `apio`.
+   - `--up5k` specifies the target FPGA is an iCE40 UP5K.
+   - `--package sg48` indicates the specific package type of the FPGA (48-pin SG package).
+   - `--json hardware.json` is the input JSON netlist from the previous synthesis step.
+   - `--asc hardware.asc` specifies the output ASCII file for the FPGA bitstream.
+   - `--pcf up5k.pcf` points to the pin constraint file, which maps logical pins to physical pins on the FPGA.
+   - The `-q` option runs `nextpnr-ice40` in quiet mode.
+
+4. **`apio raw 'icepack hardware.asc hardware.bin'`**:
+   - Runs the `icepack` tool using `apio` to convert the `hardware.asc` ASCII bitstream file into a binary bitstream file (`hardware.bin`) that can be programmed onto the FPGA.
+
+5. **`dfu-util -d 1209:b1c0 -a 0 -D hardware.bin --reset`**:
+   - Uses `dfu-util` to upload the `hardware.bin` binary to the FPGA.
+   - `-d 1209:b1c0` specifies the USB device ID of the target FPGA.
+   - `-a 0` selects the first DFU (Device Firmware Upgrade) interface.
+   - `-D hardware.bin` indicates the file to be downloaded.
+   - `--reset` resets the FPGA after programming, initiating the programmed bitstream.
+
+### Summary
+This script synthesizes a Verilog design (`blink.v`), places and routes it for an iCE40 UP5K FPGA, creates a bitstream file, and uploads it to the FPGA using `dfu-util`. The script ensures that the design is cleaned, synthesized, placed, routed, and flashed onto the FPGA in an automated process.
+
 
 # References
 
