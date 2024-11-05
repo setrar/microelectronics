@@ -284,7 +284,7 @@ apio system --info
 ```
 > Platform: darwin_arm64
 
-#### :x: DFU-UTIL
+#### :o: DFU-UTIL
 
 ```
 brew info dfu-util
