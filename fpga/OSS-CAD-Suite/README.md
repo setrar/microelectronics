@@ -45,20 +45,20 @@ APIO and the OSS CAD Suite are related in that both are used for developing and 
 
 APIO:
 
-	-	APIO is a command-line tool designed to simplify the development workflow for FPGA and embedded development projects. It acts as an interface or frontend that automates and integrates various FPGA tools, making it easier to run synthesis, place-and-route, and bitstream generation commands without dealing with the complexity of each tool individually.
-	-	APIO is particularly focused on being user-friendly and accessible to beginners or developers who want a streamlined workflow for their projects.
-	-	It can integrate with tools from the OSS CAD Suite (e.g., Yosys, nextpnr, icepack, etc.) to run synthesis and place-and-route processes.
+-	APIO is a command-line tool designed to simplify the development workflow for FPGA and embedded development projects. It acts as an interface or frontend that automates and integrates various FPGA tools, making it easier to run synthesis, place-and-route, and bitstream generation commands without dealing with the complexity of each tool individually.
+-	APIO is particularly focused on being user-friendly and accessible to beginners or developers who want a streamlined workflow for their projects.
+-	It can integrate with tools from the OSS CAD Suite (e.g., Yosys, nextpnr, icepack, etc.) to run synthesis and place-and-route processes.
 
 OSS CAD Suite:
 
-	-	OSS CAD Suite is a comprehensive collection of open-source tools for digital design and verification, including Yosys (for synthesis), nextpnr (for place-and-route), icepack (for bitstream packaging), and others.
-	-	This suite is designed for developers looking for an end-to-end set of tools to design, verify, and program FPGAs. It supports multiple FPGA families (e.g., Lattice iCE40, ECP5, etc.).
-	-	While APIO can call individual tools from the OSS CAD Suite to run specific tasks, the suite itself is a complete toolchain providing more granular control and capabilities for FPGA design and testing.
+-	OSS CAD Suite is a comprehensive collection of open-source tools for digital design and verification, including Yosys (for synthesis), nextpnr (for place-and-route), icepack (for bitstream packaging), and others.
+-	This suite is designed for developers looking for an end-to-end set of tools to design, verify, and program FPGAs. It supports multiple FPGA families (e.g., Lattice iCE40, ECP5, etc.).
+-	While APIO can call individual tools from the OSS CAD Suite to run specific tasks, the suite itself is a complete toolchain providing more granular control and capabilities for FPGA design and testing.
 
 Relationship:
 
-	-	Integration: APIO can use the OSS CAD Suite as part of its backend tools for handling synthesis, place-and-route, and bitstream generation. When you run commands in APIO, such as those in your Bash script (e.g., using apio raw to call yosys and nextpnr), APIO is acting as a higher-level interface to orchestrate the operations performed by the individual OSS CAD Suite tools.
-	-	Ease of Use: APIO simplifies the interaction with the OSS CAD Suite by providing a unified, easy-to-use command structure that abstracts the more complex commands of the suite’s tools.
+-	Integration: APIO can use the OSS CAD Suite as part of its backend tools for handling synthesis, place-and-route, and bitstream generation. When you run commands in APIO, such as those in your Bash script (e.g., using apio raw to call yosys and nextpnr), APIO is acting as a higher-level interface to orchestrate the operations performed by the individual OSS CAD Suite tools.
+-	Ease of Use: APIO simplifies the interaction with the OSS CAD Suite by providing a unified, easy-to-use command structure that abstracts the more complex commands of the suite’s tools.
 
 In essence, APIO acts as a convenient frontend for using tools in the OSS CAD Suite to help streamline the FPGA development workflow.
 
