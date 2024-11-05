@@ -118,3 +118,4 @@ bash raw.sh
 - [ ] [pico_ice.pcf file](https://github.com/tinyvision-ai-inc/pico-ice-sdk/blob/main/rtl/pico_ice.pcf)
 - [ ] [pinout diagram](https://pico-ice.tinyvision.ai/md_pinout.html)
 - [ ] [Convertir du VHDL en Verilog librement avec Yosys et GHDL](https://www.fabienm.eu/flf/convertir-du-vhdl-en-verilog-librement-avec-yosys-et-ghdl/)
+- [ ] [dfu-util - Device Firmware Upgrade Utilities](https://dfu-util.sourceforge.net/)
