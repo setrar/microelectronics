@@ -12,6 +12,10 @@
 - [ ] [APIO Wiki](https://github.com/FPGAwars/apio/wiki)
 - [ ] [introduction to FPGA DigiKey](https://www.youtube.com/playlist?list=PLEBQazB0HUyT1WmMONxRZn9NmQ_9CIKhb)
 
+- [ ] [Example project for APIO that has initial support for both VHDL and Verilog toolchains](https://github.com/FPGAwars/apio-examples/tree/master/TinyFPGA-BX/clock_divider)
+
+---
+
 - [ ] GTKWave issue
 
 ```
