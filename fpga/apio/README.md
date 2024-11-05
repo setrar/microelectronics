@@ -1,9 +1,9 @@
 # APIO
 
 
-### :o: [Install](install)
+### :o: [Install](install) APIO
 
-### Examples using the `pico-ice` device
+### :a: Examples using the `pico-ice` device
 
 | Examples |
 |-|
