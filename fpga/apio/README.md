@@ -3,8 +3,11 @@
 
 ### :o: [Install](install)
 
+### Examples using the `pico-ice` device
 
-
+[compare4sbits](compare4sbits)
+[leds](leds)
+[pico-ice-blinky](pico-ice-blinky)
 
 
 # References
