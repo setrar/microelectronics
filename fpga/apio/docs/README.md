@@ -245,3 +245,79 @@ Architecture specific options:
   --tmfuzz                              run path delay estimate fuzzer
   --pcf-allow-unconstrained             don't require PCF to constrain all IO
 ```
+
+
+
+```
+apio raw 'icepack -h'
+```
+> Returns
+```powershell
+Usage: /Users/valiha/.apio/packages/tools-oss-cad-suite/libexec/icepack [options] [input-file [output-file]]
+
+    -u
+        unpack mode (implied when called as 'iceunpack')
+
+    -v
+        verbose (repeat to increase verbosity)
+
+    -s
+        disable final deep-sleep SPI flash command after bitstream is loaded
+
+    -b
+        write cram bitmap as netpbm file
+
+    -f
+        write cram bitmap (fill tiles) as netpbm file
+
+    -c
+        write cram bitmap (checkerboard) as netpbm file
+        repeat to flip the selection of tiles
+
+    -r
+        write bram data, not cram, to the netpbm file
+
+    -B0, -B1, -B2, -B3
+        only include the specified bank in the netpbm file
+
+    -n
+        skip initializing BRAM
+```
+
+### Bitstream Conversion: `icepack`
+
+```
+apio raw 'icepack -h'
+```
+> Returns
+```powershell
+Usage: /Users/valiha/.apio/packages/tools-oss-cad-suite/libexec/icepack [options] [input-file [output-file]]
+
+    -u
+        unpack mode (implied when called as 'iceunpack')
+
+    -v
+        verbose (repeat to increase verbosity)
+
+    -s
+        disable final deep-sleep SPI flash command after bitstream is loaded
+
+    -b
+        write cram bitmap as netpbm file
+
+    -f
+        write cram bitmap (fill tiles) as netpbm file
+
+    -c
+        write cram bitmap (checkerboard) as netpbm file
+        repeat to flip the selection of tiles
+
+    -r
+        write bram data, not cram, to the netpbm file
+
+    -B0, -B1, -B2, -B3
+        only include the specified bank in the netpbm file
+
+    -n
+        skip initializing BRAM
+```
