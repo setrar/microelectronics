@@ -1,4 +1,11 @@
 
+In the typical FPGA development workflow:
+
+1.	Synthesis (yosys): Generates a netlist of the design.
+2.	Place-and-Route (nextpnr): Takes the netlist, maps it to the FPGA’s physical resources, and outputs an ASCII bitstream file (.asc).
+3.	Bitstream Conversion (icepack): Converts the ASCII bitstream (.asc) into a binary bitstream (.bin) that the FPGA hardware can read.
+
+
 ### RTL Synthesis: `Yosys`
 
 ```
@@ -246,45 +253,9 @@ Architecture specific options:
   --pcf-allow-unconstrained             don't require PCF to constrain all IO
 ```
 
-
-
-```
-apio raw 'icepack -h'
-```
-> Returns
-```powershell
-Usage: /Users/valiha/.apio/packages/tools-oss-cad-suite/libexec/icepack [options] [input-file [output-file]]
-
-    -u
-        unpack mode (implied when called as 'iceunpack')
-
-    -v
-        verbose (repeat to increase verbosity)
-
-    -s
-        disable final deep-sleep SPI flash command after bitstream is loaded
-
-    -b
-        write cram bitmap as netpbm file
-
-    -f
-        write cram bitmap (fill tiles) as netpbm file
-
-    -c
-        write cram bitmap (checkerboard) as netpbm file
-        repeat to flip the selection of tiles
-
-    -r
-        write bram data, not cram, to the netpbm file
-
-    -B0, -B1, -B2, -B3
-        only include the specified bank in the netpbm file
-
-    -n
-        skip initializing BRAM
-```
-
 ### Bitstream Conversion: `icepack`
+
+icepack is a tool used in the FPGA toolchain for Lattice iCE40 FPGAs (including the UP5K). Its primary function is to convert an ASCII-format bitstream file (with an .asc extension) into a binary-format bitstream file (with a .bin extension) that can be loaded onto an FPGA.
 
 ```
 apio raw 'icepack -h'
