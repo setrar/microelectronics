@@ -7,7 +7,7 @@ mkdir compare4sbits && cd compare4sbits
 - [ ] Init
 
 ```
-apio init -b pico-ice -p .
+apio init --board pico-ice -project-dir .
 ```
 
 - [ ] The following is a possible design for a comparator. It is stored in a file named `compare4sbits.v`
