@@ -10,6 +10,14 @@ mkdir compare4sbits && cd compare4sbits
 apio init --board pico-ice --project-dir .
 ```
 
+generates 
+
+```yaml
+[env]
+board = pico-ice
+top-module = main
+```
+
 - [ ] The following is a possible design for a comparator. It is stored in a file named `compare4sbits.v`
 
 ```verilog
