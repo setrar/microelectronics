@@ -107,6 +107,27 @@ endmodule
 ```
 apio sim
 ```
+> Returns
+```powershell
+
+---> WARNING: no PCF file found (.pcf)
+
+iverilog -B "/Users/valiha/.apio/packages/tools-oss-cad-suite/lib/ivl" -o compare4sbits_tb.out -D VCD_OUTPUT=compare4sbits_tb -D INTERACTIVE_SIM -D NO_ICE40_DEFAULT_ASSIGNMENTS "/Users/valiha/.apio/packages/tools-oss-cad-suite/share/yosys/ice40/cells_sim.v" compare4sbits.v compare4sbits_tb.v
+vvp -M "/Users/valiha/.apio/packages/tools-oss-cad-suite/lib/ivl" compare4sbits_tb.out
+VCD info: dumpfile compare4sbits_tb.vcd opened for output.
+compare4sbits_tb.v:56: $finish called at 120 (1ps)
+gtkwave --rcvar "splash_disable on" --rcvar "do_initial_zoom_fit 1" compare4sbits_tb.vcd compare4sbits_tb.gtkw
+GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+RCVAR   | 'splash_disable on' FOUND
+RCVAR   | 'do_initial_zoom_fit 1' FOUND
+[0] start time.
+[120] end time.
+** WARNING: Error opening save file 'compare4sbits_tb.gtkw', skipping.
+2024-11-06 11:10:53.603 gtkwave[30106:2365237] +[IMKClient subclass]: chose IMKClient_Modern
+2024-11-06 11:10:53.603 gtkwave[30106:2365237] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+
+══════════════════════════════════════════════════════════════════════════════ [SUCCESS] Took 19.17 seconds ══════════════════════════════════════════════════════════════════════════════
+```
 
 - [ ] Viewing
 
