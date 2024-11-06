@@ -362,3 +362,34 @@ Summary
 -	APIO is an open-source, user-friendly interface for coordinating open-source tools in FPGA development, especially for Lattice and other open-source-supported FPGAs, and is ideal for simpler, cost-effective FPGA projects.
 
 In short, Vivado is essential for advanced, Xilinx-specific projects, while APIO offers a lightweight and open-source alternative for less complex designs on open-source-compatible FPGAs.
+
+## Limitations
+
+Creating a Radio Unit (RU) for 5G (or similar applications) with an iCE40 UP5K FPGA and APIO might be technically challenging due to the hardware limitations of the UP5K and the feature set needed for an RU. Here’s a breakdown of why this is challenging and what might be possible:
+
+1. Limitations of the UP5K
+
+	-	The UP5K has limited resources (5,280 logic cells, 128 Kbits of RAM), which restricts the complexity of the designs it can support.
+	-	RUs typically involve complex DSP (Digital Signal Processing) for signal modulation/demodulation, filtering, and other signal processing tasks, which require significantly more resources than what the UP5K offers.
+	-	The UP5K does not include built-in DSP blocks or high-speed transceivers, which are common requirements for RF processing in an RU.
+	-	For a functional RU, you’d also need components for precise timing and synchronization, high-speed data interfaces, and often larger memory resources than the UP5K can provide.
+
+2. Scope of APIO and Open-Source Tools
+
+	-	APIO can simplify the workflow by allowing you to use open-source tools like Yosys for synthesis, nextpnr for place-and-route, and icepack for bitstream generation. However, these tools primarily handle the digital logic portion of the FPGA design.
+	-	RUs require significant RF (Radio Frequency) and analog front-end components, which aren’t something you can implement purely with digital tools. This means you’d typically need additional specialized RF components alongside the FPGA, which APIO and its associated tools do not support.
+
+3. Alternative FPGA Platforms
+
+	-	Building a fully functional RU typically requires a larger FPGA with specialized features for high-performance DSP and high-speed data handling, such as a Xilinx Zynq or Intel Arria FPGA.
+	-	Larger FPGAs provide more DSP slices, block RAM, high-speed transceivers, and support for soft-core or hard-core processors that help with handling complex protocols and signal processing.
+
+4. What Might Be Possible with the UP5K and APIO
+
+	-	Basic Prototyping: You could prototype simple parts of the RU’s control logic, like SPI, I2C interfaces, or GPIO, using the UP5K.
+	-	Test Modules: Some lightweight signal processing tasks, such as simple filters or modulation schemes, could be tested on the UP5K as small, isolated modules.
+	-	Educational Exploration: If your goal is to explore the principles of signal processing or digital design, the UP5K with APIO can be a useful platform to learn and experiment with simple concepts, even if it cannot fully support an RU.
+
+Summary
+
+Using the UP5K and APIO to create a fully functional 5G RU is limited by both the hardware capabilities of the UP5K and the scope of APIO as a tool. For a true RU implementation, consider an FPGA with more DSP capabilities and support for high-speed transceivers, along with tools like Vivado or Quartus for FPGA-specific DSP blocks. However, you could still use the UP5K for prototyping, experimenting, or controlling basic parts of the design.
