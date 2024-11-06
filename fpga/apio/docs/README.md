@@ -302,59 +302,59 @@ Vivado and APIO are both used in FPGA development, but they differ significantly
 
 1. Tool Type and Ecosystem
 
-	•	Vivado:
-	•	A proprietary software suite from Xilinx (now part of AMD), specifically for Xilinx FPGAs (such as the Zynq, Artix, Kintex, and Virtex families).
-	•	It’s a comprehensive, all-in-one solution that includes synthesis, simulation, place-and-route, bitstream generation, IP integration, and advanced debugging tools.
-	•	APIO:
-	•	An open-source tool that acts as a high-level interface to simplify and automate workflows for multiple FPGA platforms, especially open-source-friendly FPGAs like the Lattice iCE40 family.
-	•	APIO is designed to integrate various open-source tools (such as Yosys, nextpnr, and openFPGALoader) into a streamlined workflow, without performing any synthesis, place-and-route, or debugging directly.
+	-	Vivado:
+	-	A proprietary software suite from Xilinx (now part of AMD), specifically for Xilinx FPGAs (such as the Zynq, Artix, Kintex, and Virtex families).
+	-	It’s a comprehensive, all-in-one solution that includes synthesis, simulation, place-and-route, bitstream generation, IP integration, and advanced debugging tools.
+	-	APIO:
+	-	An open-source tool that acts as a high-level interface to simplify and automate workflows for multiple FPGA platforms, especially open-source-friendly FPGAs like the Lattice iCE40 family.
+	-	APIO is designed to integrate various open-source tools (such as Yosys, nextpnr, and openFPGALoader) into a streamlined workflow, without performing any synthesis, place-and-route, or debugging directly.
 
 2. Supported Hardware
 
-	•	Vivado:
-	•	Exclusively supports Xilinx FPGAs. It provides optimized workflows for these FPGAs and includes IP cores, block design tools, and optimized place-and-route algorithms tailored to Xilinx architectures.
-	•	Not compatible with non-Xilinx FPGAs.
-	•	APIO:
-	•	Primarily used with open-source-friendly FPGAs such as the Lattice iCE40 and ECP5 series, but also supports some other FPGAs that work with open-source tools.
-	•	Not specific to a particular vendor, as it relies on tools that support multiple architectures.
+	-	Vivado:
+	-	Exclusively supports Xilinx FPGAs. It provides optimized workflows for these FPGAs and includes IP cores, block design tools, and optimized place-and-route algorithms tailored to Xilinx architectures.
+	-	Not compatible with non-Xilinx FPGAs.
+	-	APIO:
+	-	Primarily used with open-source-friendly FPGAs such as the Lattice iCE40 and ECP5 series, but also supports some other FPGAs that work with open-source tools.
+	-	Not specific to a particular vendor, as it relies on tools that support multiple architectures.
 
 3. Feature Set
 
-	•	Vivado:
-	•	A feature-rich suite with synthesis, simulation, IP integration, high-level synthesis (HLS), block design, debugging, and power analysis.
-	•	Includes advanced features like system-level simulation (for SoCs), timing analysis, and constraint management.
-	•	Offers a graphical user interface (GUI) along with a command-line interface (CLI) for more advanced users.
-	•	APIO:
-	•	Provides a simplified command-line interface to organize and run open-source tools. APIO itself does not handle synthesis or simulation but coordinates with external open-source tools to perform these tasks.
-	•	Does not have a built-in GUI or advanced features like Vivado’s IP integrator or power analysis tools.
+	-	Vivado:
+	-	A feature-rich suite with synthesis, simulation, IP integration, high-level synthesis (HLS), block design, debugging, and power analysis.
+	-	Includes advanced features like system-level simulation (for SoCs), timing analysis, and constraint management.
+	-	Offers a graphical user interface (GUI) along with a command-line interface (CLI) for more advanced users.
+	-	APIO:
+	-	Provides a simplified command-line interface to organize and run open-source tools. APIO itself does not handle synthesis or simulation but coordinates with external open-source tools to perform these tasks.
+	-	Does not have a built-in GUI or advanced features like Vivado’s IP integrator or power analysis tools.
 
 4. Workflow and Usability
 
-	•	Vivado:
-	•	Provides a highly detailed and customizable workflow with significant control over every stage of FPGA design.
-	•	Best suited for professional, high-complexity designs where detailed timing and resource optimization are critical.
-	•	APIO:
-	•	Aimed at simplifying workflows for developers, hobbyists, and open-source hardware enthusiasts.
-	•	Primarily CLI-based and abstracts away many complexities of the individual tools in the open-source toolchain.
-	•	It’s ideal for simpler projects or users who want to leverage open-source tools without diving into the intricacies of each.
+	-	Vivado:
+	-	Provides a highly detailed and customizable workflow with significant control over every stage of FPGA design.
+	-	Best suited for professional, high-complexity designs where detailed timing and resource optimization are critical.
+	-	APIO:
+	-	Aimed at simplifying workflows for developers, hobbyists, and open-source hardware enthusiasts.
+	-	Primarily CLI-based and abstracts away many complexities of the individual tools in the open-source toolchain.
+	-	It’s ideal for simpler projects or users who want to leverage open-source tools without diving into the intricacies of each.
 
 5. Cost and Licensing
 
-	•	Vivado:
-	•	Proprietary and requires a license, which can be costly, although Xilinx provides a limited free version called Vivado WebPACK with reduced functionality.
-	•	The full-featured versions of Vivado require a paid license, which can be a significant expense.
-	•	APIO:
-	•	Completely free and open-source, supporting workflows that avoid licensing costs.
-	•	Compatible with free, open-source tools like Yosys, nextpnr, and Project IceStorm, making it accessible to anyone.
+	-	Vivado:
+	-	Proprietary and requires a license, which can be costly, although Xilinx provides a limited free version called Vivado WebPACK with reduced functionality.
+	-	The full-featured versions of Vivado require a paid license, which can be a significant expense.
+	-	APIO:
+	-	Completely free and open-source, supporting workflows that avoid licensing costs.
+	-	Compatible with free, open-source tools like Yosys, nextpnr, and Project IceStorm, making it accessible to anyone.
 
 6. Typical Users
 
-	•	Vivado:
-	•	Used by professional engineers, researchers, and companies working on commercial, high-performance FPGA designs, especially those requiring advanced verification, IP cores, and detailed optimization.
-	•	Essential for designs on Xilinx FPGAs, as it is the primary official toolchain.
-	•	APIO:
-	•	Geared toward hobbyists, students, and open-source FPGA developers.
-	•	Popular in the open hardware community for users who want to work on open-source-friendly FPGAs without requiring proprietary tools.
+	-	Vivado:
+	-	Used by professional engineers, researchers, and companies working on commercial, high-performance FPGA designs, especially those requiring advanced verification, IP cores, and detailed optimization.
+	-	Essential for designs on Xilinx FPGAs, as it is the primary official toolchain.
+	-	APIO:
+	-	Geared toward hobbyists, students, and open-source FPGA developers.
+	-	Popular in the open hardware community for users who want to work on open-source-friendly FPGAs without requiring proprietary tools.
 
 Summary
 
