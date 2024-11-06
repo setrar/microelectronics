@@ -20,3 +20,21 @@ The UP5K is often used for:
 -	Hobbyist FPGA projects due to its affordability and compatibility with open-source tools like Yosys, nextpnr, and icepack, which are part of the OSS CAD Suite.
 
 The UP5K’s support for open-source tools makes it especially popular in the open hardware community, as it allows users to fully develop and program designs without proprietary software.
+
+---
+
+The UP5K FPGA itself is not open-source hardware, but it is well-supported by open-source tools. Here’s how it breaks down:
+
+Proprietary Hardware
+
+-	UP5K FPGA: Like most FPGAs, the UP5K is a proprietary device created by Lattice Semiconductor. Its internal architecture, configuration details, and bitstream format are not openly documented by Lattice. This means the hardware design of the FPGA and its configuration are controlled by the company and are not open-source.
+-	Bitstream Format: The bitstream, which is the binary file used to program the FPGA, was reverse-engineered by the open-source community (specifically through Project IceStorm). However, Lattice has not officially provided documentation on this format.
+
+Open-Source Tool Support
+
+-	Project IceStorm: This is an open-source project that reverse-engineered the iCE40 FPGA series (including the UP5K) to make it compatible with open-source tools. It allows the creation of bitstreams that are compatible with iCE40 FPGAs without needing proprietary software.
+-	Open-source CAD Tools: Thanks to Project IceStorm and tools like Yosys (for synthesis), nextpnr (for place-and-route), and icepack (for bitstream packaging), developers can create, place, and route FPGA designs for the UP5K entirely with open-source software.
+
+Summary
+
+-	While the UP5K FPGA itself is not open-source, its compatibility with open-source tools (due to reverse engineering efforts) enables a mostly open-source development process. This makes it popular in the open hardware community, as it can be programmed and controlled without proprietary software.
