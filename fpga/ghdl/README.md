@@ -16,6 +16,8 @@ cd ~/Downloads
 xattr -d com.apple.quarantine gcc-14.2.0-3-aarch64-apple-darwin23.pkg
 ```
 
+<img src=images/gcc-installer.png width='50%' height='50%' > </img>
+
 ### :o: Install GHDL Manually on Mac M[?] using `homebrew`
 
 - [ ] [GHDL not properly compiling on MacOS 14.6 with command ghdl -a --ieee=synopsy command](https://github.com/ghdl/ghdl/issues/2711)
