@@ -22,6 +22,57 @@ Resolving deltas: 100% (829897/829897), done.
 Tapped 2 commands and 7188 casks (7,260 files, 444.4MB).
 ```
 
+```ruby
+cask "ghdl" do
+  version "4.2.0"
+
+  arch arm: "ARM64"
+  sha256 "3cd01ca86bcd6bb9ec0bdb086af1468c3c4f7a170fd003a879ffcbd567036c6b"
+  url "https://github.com/ghdl/ghdl/releases/download/nightly/ghdl-macos14-#{arch}-llvm.tgz"
+  name "ghdl"
+  desc "VHDL 2019/2008/93/87 simulator"
+  homepage "https://github.com/ghdl/ghdl/"
+
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
+  depends_on formula: "llvm@18"
+  ghdlbins = ["ghdl", "ghwdump", "ghdl1-llvm"]
+
+  ghdlbins.each { |_bin|
+    binary "bin/#{_bin}"
+  }
+
+  postflight do
+    puts "Creating symlink to libgcc_s.1.1.dylib"
+    File.symlink("#{HOMEBREW_PREFIX}/lib/gcc/current/libgcc_s.1.1.dylib", "#{staged_path}/bin/libgcc_s.1.1.dylib")
+    puts "Creating library symlinks in #{HOMEBREW_PREFIX}/include and #{HOMEBREW_PREFIX}/lib"
+    File.symlink("#{staged_path}/include/ghdl", "#{HOMEBREW_PREFIX}/include/ghdl")
+    File.symlink("#{staged_path}/lib/ghdl", "#{HOMEBREW_PREFIX}/lib/ghdl")
+    puts "⚠️  Relinking ghdl1-llvm to LLVM@18"
+    `install_name_tool -change \
+      #{HOMEBREW_PREFIX}/opt/llvm/lib/libLLVM.dylib \
+      #{HOMEBREW_PREFIX}/opt/llvm@18/lib/libLLVM.dylib \
+      #{HOMEBREW_PREFIX}/Caskroom/ghdl/4.2.0/bin/ghdl1-llvm`
+    puts "Setting files as being from a nice developer"
+    ghdlbins.each { |_bin|
+      `xattr -dr com.apple.quarantine #{HOMEBREW_PREFIX}/bin/#{_bin}`
+    }
+  end
+
+  uninstall_postflight do
+    puts "Removing symlink to libgcc_s.1.1.dylib"
+    File.unlink("#{staged_path}/bin/libgcc_s.1.1.dylib")
+    puts "Removing library symlinks in #{HOMEBREW_PREFIX}/include and #{HOMEBREW_PREFIX}/lib"
+    File.unlink("#{HOMEBREW_PREFIX}/include/ghdl", "#{HOMEBREW_PREFIX}/lib/ghdl")
+  end
+
+  # No zap stanza required
+end
+```
+
 ```
 export HOMEBREW_EDITOR=vi
 ```
