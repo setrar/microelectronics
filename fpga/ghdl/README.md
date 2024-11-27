@@ -1,4 +1,11 @@
 
+
+### [GCC 14.2.0-3 (aarch64)](https://github.com/simonjwright/distributing-gcc/releases)
+
+For notes on installation, paths etc see the [Wiki](https://github.com/simonjwright/distributing-gcc/wiki).
+
+
+
 ### :o: Install GHDL Manually on Mac M[?] using `homebrew`
 
 - [ ] [GHDL not properly compiling on MacOS 14.6 with command ghdl -a --ieee=synopsy command](https://github.com/ghdl/ghdl/issues/2711)
