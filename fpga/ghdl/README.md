@@ -125,3 +125,38 @@ Creating library symlinks in /opt/homebrew/include and /opt/homebrew/lib
 Setting files as being from a nice developer
 🍺  ghdl was successfully installed!
 ```
+
+- [ ] Testing
+
+```vhdl
+--  Hello world program
+use std.textio.all; -- Imports the standard textio package.
+
+--  Defines a design entity, without any ports.
+entity hello_world is
+end hello_world;
+
+architecture behaviour of hello_world is
+begin
+  process
+    variable l : line;
+  begin
+    write (l, String'("Hello world!"));
+    writeline (output, l);
+    wait;
+  end process;
+end behaviour;
+```
+
+```
+ghdl analyse  hello.vhd
+```
+
+```
+ghdl elaborate  hello_world
+```
+
+```
+ghdl run  hello_world
+```
+> Hello world!
