@@ -4,7 +4,17 @@
 
 For notes on installation, paths etc see the [Wiki](https://github.com/simonjwright/distributing-gcc/wiki).
 
+- [ ] Download the latest release
 
+- [ ] run
+
+```
+cd ~/Downloads
+```
+
+```
+xattr -d com.apple.quarantine gcc-14.2.0-3-aarch64-apple-darwin23.pkg
+```
 
 ### :o: Install GHDL Manually on Mac M[?] using `homebrew`
 
