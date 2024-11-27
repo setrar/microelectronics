@@ -20,6 +20,32 @@ xattr -d com.apple.quarantine gcc-14.2.0-3-aarch64-apple-darwin23.pkg
 |-|-|
 | <img src=images/gcc-installer.png width='' height='' > </img> | <img src=images/gcc-installer-final.png width='' height='' > </img> | 
 
+
+```
+ln -s /opt/gcc-14.2.0-3-aarch64/lib/gcc/aarch64-apple-darwin23/14.2.0/adalib/libgnat-14.dylib /opt/homebrew/Caskroom/ghdl/4.2.0/lib/libgnat-14.dylib
+```
+
+```
+ln -s /opt/gcc-14.2.0-3-aarch64/lib/libgcc_s.1.1.dylib /opt/homebrew/Caskroom/ghdl/4.2.0/lib/libgcc_s.1.1.dylib
+```
+
+```
+export GHDL_YOSYS_PLUGIN=/opt/homebrew/lib/libghdl-5_0_0_dev.dylib
+```
+
+```
+yosys -m $GHDL_YOSYS_PLUGIN                          
+```
+
+ /----------------------------------------------------------------------------\
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
+ |  Distributed under an ISC-like license, type "license" to see terms        |
+ \----------------------------------------------------------------------------/
+ Yosys 0.45 (git sha1 9ed031ddd, clang++ 15.0.0 -fPIC -O3)
+
+yosys>
+
 ### :o: Install GHDL Manually on Mac M[?] using `homebrew`
 
 - [ ] [GHDL not properly compiling on MacOS 14.6 with command ghdl -a --ieee=synopsy command](https://github.com/ghdl/ghdl/issues/2711)
