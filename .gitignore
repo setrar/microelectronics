@@ -29,3 +29,5 @@ hardware.*
 
 # VHDL
 work-obj08.cf
+
+*.out
