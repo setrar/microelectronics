@@ -74,6 +74,8 @@ C1 out 0 1u
 - At low frequencies, the output voltage will be close to the input voltage (0 dB attenuation).
 - At high frequencies, the output voltage will decrease, showing the filter’s cutoff frequency (around $f_c = \frac{1}{2\pi RC} \approx 159 Hz$).
 
+![image](images/fig_rc_filter.png)
+
 ---
 
 This is a basic example, but NGSPICE can handle much more complex circuits and analyses. Let me know if you'd like to explore more advanced examples!
