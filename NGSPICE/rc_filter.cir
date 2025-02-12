@@ -1,0 +1,29 @@
+* NGSPICE Script for RC Low-Pass Filter Simulation
+* Define the circuit components
+
+* Input voltage source (1V AC, frequency sweep)
+V1 in 0 AC 1
+
+* Resistor (1kΩ)
+R1 in out 1k
+
+* Capacitor (1µF)
+C1 out 0 1u
+
+* Simulation control
+.control
+  * Set up an AC analysis (frequency sweep from 1Hz to 1MHz, 10 points per decade)
+  ac dec 10 1 1Meg
+
+  * Run the simulation
+  run
+
+  * Plot the output voltage (magnitude in dB)
+  plot db(v(out))
+
+  * Optionally, plot the phase response
+  * plot ph(v(out))
+.endc
+
+* End of script
+.end
