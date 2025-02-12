@@ -72,7 +72,7 @@ C1 out 0 1u
 ### Expected Output
 - The plot will show the frequency response of the RC low-pass filter.
 - At low frequencies, the output voltage will be close to the input voltage (0 dB attenuation).
-- At high frequencies, the output voltage will decrease, showing the filter’s cutoff frequency (around \( f_c = \frac{1}{2\pi RC} \approx 159 Hz \)).
+- At high frequencies, the output voltage will decrease, showing the filter’s cutoff frequency (around $f_c = \frac{1}{2\pi RC} \approx 159 Hz$).
 
 ---
 
