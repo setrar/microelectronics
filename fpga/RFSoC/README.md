@@ -52,3 +52,7 @@ No, Digilent is not a subsidiary of Analog Devices.
 
 ### Summary:
 Digilent operates independently and is not a subsidiary of Analog Devices. The two companies have separate ownership and management structures, but they may work together on certain projects or products within the broader electronics ecosystem.
+
+# References
+
+- [Zynq UltraScale+ RFSoC Boards, Kits, and Modules](https://www.xilinx.com/products/boards-and-kits/device-family/nav-zynq-ultrascale-plus-rfsoc.html)
