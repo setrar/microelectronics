@@ -103,4 +103,39 @@ The **Zynq UltraScale+ RFSoC ZCU111 Evaluation Kit** is a powerful platform for 
    - Use **RF loopback or external antennas**.
    - Connect to **external SDRs (e.g., BladeRF, USRP)**.
 
-Would you like guidance on **specific FPGA designs or software setups** for these applications? 🚀
+# Are IP cores provided with the board?
+
+Yes, the **Zynq UltraScale+ RFSoC ZCU111 Evaluation Kit** comes with **pre-packaged IP cores** from AMD (Xilinx) to facilitate RF and signal processing applications. These IP cores are included in **Vivado, Vitis, and PetaLinux toolchains**.
+
+---
+
+## **1. Key IP Cores Available with the ZCU111**
+| **IP Core** | **Function** |
+|------------|-------------|
+| **RF Data Converter (RFDC)** | Manages the integrated **ADC/DACs** (direct RF sampling up to 5 GHz). |
+| **JESD204B/C PHY & Controller** | Interface for high-speed data transfer between FPGA fabric and ADC/DACs. |
+| **High-Speed AXI Interconnect** | Enables fast memory access and data streaming inside the FPGA. |
+| **DDC (Digital Down-Converter)** | Performs decimation and frequency conversion on received RF signals. |
+| **DUC (Digital Up-Converter)** | Performs interpolation and frequency conversion on transmitted signals. |
+| **CFR (Crest Factor Reduction)** | Reduces peak-to-average power ratio (PAPR) for power-efficient RF transmission. |
+| **DPD (Digital Pre-Distortion)** | Compensates for RF amplifier non-linearities (important for 5G). |
+| **FFT/iFFT Core** | Accelerates real-time frequency domain processing. |
+| **LDPC/Polar Code Decoders** | Implements **5G NR Forward Error Correction (FEC)** decoding. |
+| **Channel Estimation Core** | Used for MIMO and beamforming applications. |
+| **AI Engine (in newer RFSoCs)** | AI-based processing for real-time signal classification and adaptive RF systems. |
+
+---
+
+## **2. Licensing & Availability**
+- **Most RFSoC IP cores are included in Vivado Design Suite (Enterprise or System Edition)**.
+- Some **advanced cores (like CFR, DPD) require a separate license**.
+- You can generate **Bitstreams for free in Vivado 2022+ using a license provided with the board**.
+
+---
+
+## **3. Where to Find These IPs?**
+- **Vivado IP Integrator** → Add **RFDC, JESD204, DSP Cores**.
+- **Vitis HLS** → Customize DSP functions in C++/HLS.
+- **PetaLinux** → Integrate with embedded Linux applications.
+
+Would you like help setting up a **specific IP core** for your RFSoC project? 🚀
