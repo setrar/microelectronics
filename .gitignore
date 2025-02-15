@@ -31,3 +31,6 @@ hardware.*
 work-obj08.cf
 
 *.out
+
+# Kicad
+*-backups
