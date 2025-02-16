@@ -57,4 +57,6 @@
 | Lecture[(1)](1)    | 50 Small Signal Modeling of PMOS and pnp Transistors | |
 | Lecture[(1)](1)    | 51 Basic Transistor Amplifier Configurations | |
 
+# References
 
+- [ ] [Analog Integrated Circuit Design, 2nd Edition](https://www.wiley.com/en-us/Analog+Integrated+Circuit+Design%2C+2nd+Edition-p-9780470770108)
