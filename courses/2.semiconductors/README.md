@@ -16,9 +16,6 @@
 | [Transistor characteristics](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-transistor-characteristics) | |
 | [Transistor as a device](https://www.khanacademy.org/science/in-in-class-12th-physics-india/in-in-semiconductors#in-in-transistor-as-a-device) | |
 
-
-:round_pushpin: [DC Circuit Analysis](morrel) by [Darryl Morrell](https://www.youtube.com/@DarrylMorrell)
-
 :round_pushpin: [Op-Amps - Using Operational Amplifiers](https://www.youtube.com/watch?v=_HHxV-7alwE) by [:tv:@Dronebotworkshop](https://www.youtube.com/@Dronebotworkshop)
 
 | Time |  Episodes                                                                                |
