@@ -26,6 +26,7 @@ hardware.*
 
 # Jupyter NoteBooks
 .ipynb_checkpoints
+*.bak
 
 # VHDL
 work-obj08.cf
