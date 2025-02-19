@@ -1,0 +1,45 @@
+<Qucs Schematic 24.4.1>
+<Properties>
+  <View=104,17,1758,1030,0.810211,49,19>
+  <Grid=10,10,0>
+  <DataSet=SP_TestBench.dat>
+  <DataDisplay=SP_TestBench.sch>
+  <OpenDisplay=0>
+  <Script=SP_TestBench.m>
+  <RunScript=1>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 260 370 240 160 3 #c0c0c0 1 10 1 1000 1 1e+08 1 0.999244 5e-06 0.999251 1 -1 1 1 315 0 225 1 0 0 "Frequency" "S11" "">
+	<"ngspice/ac.v(ns11)" #ff0000 2 3 0 0 0>
+  </Rect>
+  <Rect 260 610 240 160 3 #c0c0c0 1 00 1 0 2e+07 1e+08 1 -1 1 1 1 -1 1 1 315 0 225 1 0 0 "Frequency" "S21" "">
+	<"ngspice/ac.v(ns21)" #00aa00 2 3 0 0 0>
+  </Rect>
+  <Rect 610 370 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 1 0 0 "Frequency" "S12" "">
+	<"ngspice/ac.v(ns12)" #0000ff 2 3 0 0 0>
+  </Rect>
+  <Rect 1020 380 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 1 0 0 "" "" "">
+	<"ngspice/ac.z22" #0000ff 0 3 0 0 0>
+	  <Mkr 398107 162 -208 3 0 0>
+  </Rect>
+  <Rect 610 610 240 160 3 #c0c0c0 1 00 1 0 2e+07 1e+08 1 0 0.5 1 1 -1 1 1 315 0 225 1 0 0 "Frequency" "S22" "">
+	<"ngspice/ac.v(ns22)" #ff00ff 2 3 0 0 0>
+  </Rect>
+  <Rect 1020 620 240 160 3 #c0c0c0 1 00 1 -1 0.5 1 1 -1 1 1 1 -1 1 1 315 0 225 1 0 0 "" "" "">
+	<"ngspice/ac.z11" #ff0000 0 3 0 0 0>
+	  <Mkr 473151 176 -174 3 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>

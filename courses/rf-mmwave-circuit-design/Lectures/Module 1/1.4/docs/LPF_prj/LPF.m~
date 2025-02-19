@@ -1,0 +1,68 @@
+%%% Post-processing Code for Qucs
+%%% Eindhoven Unversity of Technology
+%%% Authors: Prof. Dr. Peter Baltus
+%%%          Dr. Carlos Mendes Jr.
+%%% Circuit: LPF
+
+%%%   SYSTEM STARTUP   %%%
+
+% Initialize
+clear all; close all; clc;
+
+% Add path for Qucs handling functions (Use / instead of \)
+%addpath ("C:/Program Files (x86)/Qucs-S/share/qucs-s/octave");
+addpath ("/opt/homebrew/bin/octave");
+
+%%%   SIMULATION   %%%
+
+% Set and show available data
+File      = 'LPF';
+Data      = [File '.dat.ngspice']; 
+qdset     = loadQucsDataSet(Data);
+showQucsDataSet(qdset);
+
+% Extract variables from AC and Tran Simulations
+[freq]    = loadQucsVariable(Data,"frequency");
+[time]    = loadQucsVariable(Data,"time"); 
+[vt_out]  = loadQucsVariable(Data,"tran.v(out)");
+[vt_in]   = loadQucsVariable(Data,"tran.v(in)");
+[vf_out]  = loadQucsVariable(Data,"ac.v(out)");
+[vf_in]   = loadQucsVariable(Data,"ac.v(in)");
+
+% Post-Processing of Data
+TF        = 20*log10(abs(vf_out./vf_in));
+ind       = find(TF <= max(TF)-3,1); % Index of the cutoff frequency 
+fc        = freq(ind); % Cutoff frequency
+TF_fc     = TF(ind); % TF value at the cutoff frequency 
+
+%%% PLOTTING %%%
+
+% Load graphic toolkit
+available_graphics_toolkits();
+graphics_toolkit("gnuplot");
+
+% Plot TRAN data from Qucs into Octave
+figure
+plot(time,vt_out,"color","red", "linewidth", 1);
+hold on;
+plot(time,vt_in,"color","blue", "linewidth", 1);
+
+% Plot settings
+grid on;
+title ("Transient Plot");
+h1 = legend ("Out", "In");
+
+% Plot AC data from Qucs into Octave
+figure
+semilogx(freq,TF,"color","blue", "linewidth", 1);
+hold on;
+semilogx(fc,TF_fc,"color","red", "linewidth", 1);
+
+% Plot settings
+grid on;
+title ("AC Plot");
+h1 = legend ("TF", "fc");
+
+% Show the cutoff frequency value
+disp('The cutoff frequency is:');
+disp(fc);

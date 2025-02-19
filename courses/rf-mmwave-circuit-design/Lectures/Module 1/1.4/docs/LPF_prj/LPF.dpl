@@ -1,0 +1,33 @@
+<Qucs Schematic 0.0.22>
+<Properties>
+  <View=0,0,1095,800,1.4641,0,100>
+  <Grid=10,10,0>
+  <DataSet=LPF.dat>
+  <DataDisplay=LPF.sch>
+  <OpenDisplay=1>
+  <Script=LPF.m>
+  <RunScript=1>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 310 360 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"ngspice/tran.v(out)" #0000ff 0 3 0 0 0>
+	<"ngspice/tran.v(in)" #ff0000 0 3 0 0 0>
+  </Rect>
+  <Rect 640 360 240 160 3 #c0c0c0 1 10 1 0 2e+08 1e+09 1 -20 10 1.60722 1 -1 1 1 315 0 225 "" "" "">
+	<"ngspice/ac.tf" #0000ff 0 3 0 0 0>
+	  <Mkr 1.57065e+08 268 -186 3 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
