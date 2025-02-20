@@ -9,10 +9,8 @@ The students are required to provide <ins>a report</ins> containing the answers 
 Then, the students will be graded (and grade others) by following three aspects (as described in page 5 of the mentioned pdf):
 
 1. The report should contain enough details (equations, explanations to the answers)
-
-2. The answers to the 4 tasks of page 3 should be correct.
-
-3. The answers to the tasks should take into account the problems defined in the introduction of the assignment (in this case, the 6 problems defined in page 2).
+1. The answers to the 4 tasks of page 3 should be correct.
+1. The answers to the tasks should take into account the problems defined in the introduction of the assignment (in this case, the 6 problems defined in page 2).
 
 What is meant by not coping the values/solution is that we expect student to come up with slightly different solutions than the ones we presented. For example, the system architecture can be different (super-heterodyne instead of direct conversion), the circuits could be differential instead of single-ended, the required gains could be different, the filters bandwidth, and so on. We just would like the student to think about every single step of the way and justify why those values/decisions were used/made. 
 
