@@ -4,7 +4,7 @@
 
 Please, consider the following explanation for the assignments:
 
-The students are required to provide <ins>a report</ins> containing the answers for the tasks (page 3 of the assignment WTCT pdf file) and ___the simulation files___ used to get to those answers (e.g., the excel table and qucs systems files), so others can double check the design.
+The students are required to provide <ins>a report</ins> containing the answers for the tasks (page 3 of the assignment WTCT pdf file) and <ins>the simulation files</ins> used to get to those answers (e.g., the excel table and qucs systems files), so others can double check the design.
 
 Then, the students will be graded (and grade others) by following three aspects (as described in page 5 of the mentioned pdf):
 
