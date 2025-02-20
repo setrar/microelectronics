@@ -34,7 +34,13 @@ Please, find below the supporting material for the lecture about Wireless System
 
 [2 - RF Transceiver Design.pdf](docs/2%20-%20RF%20Transceiver%20Design.pdf)
 
-## 3 - Book Chapter
+## 3 - Online Resources
 
-- Razavi's book - Chapter 2 - Section 2.2 - Effects of Nonlinearity
+[Design Methodology for Industrial Internet-of-Things Wireless Systems - IEEE Journals & Magazine](https://ieeexplore.ieee.org/abstract/document/9233458)
+
+## 4 - Excel table with Wireless Tin Can Telephone System Calculation (Link Budget).
+
+[Link-Budget - RF & mmWave](docs/Link-Budget---RF-mmWave.xlsx)
+
+## 5 - Wireless Tin Can Telephone System Validation (Qucs-s Simulation files).
 
