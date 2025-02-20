@@ -44,3 +44,4 @@ Please, find below the supporting material for the lecture about Wireless System
 
 ## 5 - Wireless Tin Can Telephone System Validation (Qucs-s Simulation files).
 
+[Qucs_Ngspice_prj.zip](docs/Qucs_Ngspice_prj.zip)
