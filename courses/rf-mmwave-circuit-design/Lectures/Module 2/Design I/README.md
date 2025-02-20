@@ -20,4 +20,21 @@ We generally call this whole process a design review and it is a very common pra
 
 Have fun! :)
 
+# Supporting Material
+
+Dear Student,
+
+Please, find below the supporting material for the lecture about Wireless Systems.
+
+## 1 - Presentation Notes from the video on Wireless Systems Analysis.
+
+[1.1 - Wireless Systems](docs/1.1%20-%20Wireless%20Systems)
+
+## 2 - Presentation Notes from the video on RF Transceiver Design (calculation and validation).
+
+[2 - RF Transceiver Design.pdf](docs/2%20-%20RF%20Transceiver%20Design.pdf)
+
+## 3 - Book Chapter
+
+- Razavi's book - Chapter 2 - Section 2.2 - Effects of Nonlinearity
 
