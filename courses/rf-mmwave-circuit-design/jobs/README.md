@@ -1,10 +1,10 @@
 - [ ] [RFIC Design Engineer](https://jobs.apple.com/en-us/details/200573868/rfic-design-engineer)
 
 
-  Summary
-  Posted: Jan 11, 2025
-  Weekly Hours: 40
-  Role Number:200573868
+> Summary
+> Posted: Jan 11, 2025
+> Weekly Hours: 40
+> Role Number:200573868
 
 Do you have a passion for invention and self-challenge? Do you thrive with pushing the limits of what’s considered feasible? As part of an outstanding `team, you’ll craft sophisticated, groundbreaking projects that deliver more performance in our products than ever before. You’ll work across fields to transform improved hardware elements into a single, coordinated design. Join us, and you’ll help us innovate new technologies that continually outperform the previous iterations! By collaborating with other product development groups across Apple, you’ll push the industry boundaries of what wireless systems can do and improve the product experience for our customers worldwide.  
 
