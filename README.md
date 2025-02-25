@@ -1,28 +1,6 @@
 # microelectronics
 MicroElectronics Studies
 
-# IC Projects
-
-
-| Qty.	| Description	Approx. | cost each	Approx. | cost total	| Sources | check |
-|-|-|-|-|-|-|
-| 1	| 22 AWG Solid Tinned-Copper Hook-Up Wire |  $16.00	| $16.00	| Jameco, Amazon | WIRES-711367 |
-| | | | | |
-| 24	| 470Ω resistor | $0.06	| $1.80	| Jameco, Amazon | RESIS-590969 |
-| | | | | |
-| 2	| 2µF capacitor | $0.15	| $0.15	| Jameco, Amazon | Assorted Capacitor Kit $15 |
-| | | | | |
-| 1	| 8-position DIP switch | $0.79	| $0.79	| Jameco, Amazon | :heavy_check_mark: |
-| 1	| 4-position DIP switch | $0.89	| $0.89	| Jameco, Amazon | :heavy_check_mark: |
-| | | | | |
-| 2	| 74LS86 (Quad XOR gate) | $0.55	| $1.10	| Jameco | :heavy_check_mark: |
-| 1	| 74LS138 (3-to-8 line decoder) | $0.69	| $0.69	| Jameco | :x: |
-| 1	| 74LS157 (Quad 2-to-1 line data selector)| $0.69	| $2.76	| Jameco | :x: |
-| 6	| 74LS245 (Octal bus transceiver) | $0.79	| $4.74	| Jameco | :x: |
-| | | | | |
-| 2	| 74189 (64-bit random access memory) | $4.95	| $9.90	| Jameco | 
-| 3	| 28C16 EEPROM | $3.95	| $11.85	| Jameco | 
-
 
 
 [tools](tools)
