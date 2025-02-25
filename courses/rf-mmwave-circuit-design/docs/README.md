@@ -8,3 +8,4 @@
 | [Scherz](Scherz.pdf)
 | [The Art of Electronics 3rd ed [2015]](The Art of Electronics 3rd ed [2015].pdf)
 | [The Design of CMOS RF IC](The Design of CMOS RF IC.pdf)
+| [Practical SDR: Getting started with software-defined radio]() |
