@@ -3,7 +3,7 @@
 |-|
 | [Circuit Design for RF Transceivers](Circuit Design for RF Transceivers_text.pdf)
 | [Design-of-Analog-CMOS-Integrated-Circuit-2nd-Edition](Design-of-Analog-CMOS-Integrated-Circuit-2nd-Edition-ElectroVolt.ir_.pdf)
-| [Integrated60GHzRFBeamformingInCMOS](Integrated60GHzRFBeamformingInCMOS.pdf)
+| [Integrated 60GHz RF Beamforming In CMOS: Peter Baltus](Integrated60GHzRFBeamformingInCMOS.pdf)
 | [RF_microelectronics: Behzad_Razavi](RF_microelectronics__behzad_razavi.pdf)
 | [Practical Electronics for Inventors: Scherz](Scherz.pdf)
 | [The Art of Electronics 3rd ed [2015]](The%20Art%20of%20Electronics%203rd%20ed%20[2015].pdf)
