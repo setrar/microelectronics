@@ -1,6 +1,6 @@
 # Legal Organizations
 
-## **CMC Microsystems**
+## [**CMC Microsystems**](https://www.cmc.ca)
 
 **CMC Microsystems** is a Canadian notional organization that supports research, innovation, and education in **microelectronics, nanotechnology, and related advanced technologies**. Established in **1984** (originally as the Canadian Microelectronics Corporation), it plays a pivotal role in bridging academia, industry, and government by providing access to cutting-edge tools, expertise, and fabrication facilities that might otherwise be inaccessible due to cost or complexity.
 
