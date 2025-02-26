@@ -1,5 +1,6 @@
 # [Fabrication Labs](https://fablabs.io/)
 
 
-https://www.c2mi.ca/
+[Centre de Collaboration MiQro Innovation](https://www.c2mi.ca)
+[Advanced Micro Foundry](https://www.advmf.com)
 
