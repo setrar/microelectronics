@@ -1,0 +1,42 @@
+// Define things to make our lives easier
+
+// 8-Segment Displays (General)
+#define NUM_SEGS             8
+#define SEG_ON            HIGH
+#define SEG_OFF            LOW
+
+// Extras
+#define CYCLE_TIME        1000 
+
+
+// Declare pins driving the display
+int PinsSegs[NUM_SEGS] =
+  {2, 3, 4, 5, 6, 7, 8, 9};
+
+
+// Do this one time
+void setup () 
+{
+  // Initialize everything
+  {
+     for (int iSeg = 0; iSeg < NUM_SEGS; iSeg++)
+    {
+      pinMode(PinsSegs[iSeg], OUTPUT);
+      digitalWrite(PinsSegs[iSeg], SEG_OFF);
+    }
+  }
+
+  delay(1000); // Just because
+}
+
+
+// Do this over and over again
+void loop ()
+{
+    for (int iSeg = 0; iSeg < NUM_SEGS; iSeg++)
+    {
+      digitalWrite(PinsSegs[iSeg], random(0,2));
+    }
+  delay(CYCLE_TIME);  
+}
+
