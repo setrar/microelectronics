@@ -1,0 +1,159 @@
+// Define things to make our lives easier
+
+// 7-Segment Displays (General)
+#define NUM_DISPLAYS         4
+#define NUM_SEGS             8
+#define NUM_SEGS_ALL        32
+#define NUM_DIGITS          10
+
+// Common Cathode (CC) display
+#define SEG_ON            HIGH
+#define SEG_OFF            LOW
+
+// Shift Register
+#define RCLK_ACTIVE       HIGH
+#define RCLK_INACTIVE      LOW
+#define SRCLK_ACTIVE      HIGH
+#define SRCLK_INACTIVE     LOW
+#define SRCLR_ACTIVE       LOW
+#define SRCLR_INACTIVE    HIGH
+
+// Extras
+#define CYCLE_TIME        1000 
+
+
+// Instantiate the DS3231 RTC
+#include "RTClib.h"
+
+RTC_DS3231 rtc;
+
+
+// Declare pins driving Shift Register
+int PinSer   = 2;
+int PinRclk  = 3;
+int PinSrclk = 4;
+int PinSrclr = 5;
+
+
+// Declare global variables
+byte DigitSegs[NUM_DIGITS] =
+        {
+        // ABCDEFGDP         
+          B11111100, // 0
+          B01100000, // 1
+          B11011010, // 2
+          B11110010, // 3
+          B01100110, // 4
+          B10110110, // 5
+          B10111110, // 6
+          B11100000, // 7
+          B11111110, // 8
+          B11110110  // 9
+        };
+
+
+// Do this one time
+void setup () 
+{
+  // Initialize the RTC
+  rtc.begin();
+
+  // Initialize the Shift Register
+  {
+    // Initialize pins driving Shift register
+    pinMode(PinSer, OUTPUT);
+    digitalWrite(PinSer, LOW);
+
+    pinMode(PinRclk, OUTPUT);
+    digitalWrite(PinRclk, RCLK_INACTIVE);
+
+    pinMode(PinSrclk, OUTPUT);
+    digitalWrite(PinSrclk, SRCLK_INACTIVE);
+
+    pinMode(PinSrclr, OUTPUT);
+    digitalWrite(PinSrclr, SRCLR_INACTIVE);
+
+    // Clear the Shift register
+    digitalWrite(PinSrclr, SRCLR_ACTIVE);
+    digitalWrite(PinSrclr, SRCLR_INACTIVE);
+
+    // Load the output registers
+    digitalWrite(PinRclk, RCLK_ACTIVE);
+    digitalWrite(PinRclk, RCLK_INACTIVE);
+  }
+
+  delay(1000); // Just because
+}
+
+
+// Do this over and over again
+void loop ()
+{
+  int  hour, minute;
+  uint8_t   tmpData[NUM_DISPLAYS];
+  uint32_t dispData;
+
+  DateTime now = rtc.now();
+
+  hour   = now.hour();
+  minute = now.minute();
+  
+  // Convert to 12-hour format
+  if (hour == 0)
+    hour  = 12;
+  else if (hour > 12)
+    hour -= 12;
+
+  // Load HH:MM data into array
+  tmpData[0] =   hour / 10;
+  tmpData[1] =   hour % 10;
+  tmpData[2] = minute / 10;
+  tmpData[3] = minute % 10;
+
+  // Build 32-bit value to be shifted
+  dispData = 0;
+  for (int iDsp = 0; iDsp < NUM_DISPLAYS; iDsp++)
+  {
+    dispData |= ( (uint32_t)DigitSegs[tmpData[iDsp]] << (NUM_SEGS * iDsp) );
+  }
+
+  // Remove leading 0
+  if (tmpData[0] == 0)
+  {
+    dispData &= 0xFFFFFF00;
+  }
+
+  DisplayTime(dispData);  
+  delay(CYCLE_TIME);
+}
+
+
+// Load time into shift register and display it 
+void DisplayTime (uint32_t thisData)
+{
+  uint32_t mask = 0x00000001;
+
+  // Load time into shift register
+  for (int iSeg = 0; iSeg < NUM_SEGS_ALL; iSeg++)
+  {
+    // Place bit on serial input
+    if ( (mask & thisData) == 0 )
+    {
+      digitalWrite(PinSer, SEG_OFF);
+    }
+    else
+    {
+      digitalWrite(PinSer, SEG_ON);
+    }
+
+    // Clock bit into shift register 
+    digitalWrite(PinSrclk, SRCLK_ACTIVE);
+    digitalWrite(PinSrclk, SRCLK_INACTIVE);
+
+    mask = mask << 1;    
+  }
+
+  // Copy everything into the output registers
+  digitalWrite(PinRclk, RCLK_ACTIVE);
+  digitalWrite(PinRclk, RCLK_INACTIVE);
+}

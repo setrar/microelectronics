@@ -1,0 +1,86 @@
+// Define things to make our lives easier
+
+// 7-Segment Displays (General)
+#define NUM_DISPLAYS         4
+#define NUM_SEGS             8
+#define NUM_SEGS_ALL        32
+#define NUM_DIGITS          10
+
+// Common Cathode (CC) display
+#define SEG_ON            HIGH
+#define SEG_OFF            LOW
+
+// Shift Register
+#define RCLK_ACTIVE       HIGH
+#define RCLK_INACTIVE      LOW
+#define SRCLK_ACTIVE      HIGH
+#define SRCLK_INACTIVE     LOW
+#define SRCLR_ACTIVE       LOW
+#define SRCLR_INACTIVE    HIGH
+
+// Extras
+#define CYCLE_TIME        1000 
+
+
+// Declare pins driving Shift Register
+int PinSer   = 2;
+int PinRclk  = 3;
+int PinSrclk = 4;
+int PinSrclr = 5;
+
+
+// Do this one time
+void setup () 
+{
+  // Initialize the Shift Register
+  {
+    // Initialize pins driving Shift register
+    pinMode(PinSer, OUTPUT);
+    digitalWrite(PinSer, LOW);
+
+    pinMode(PinRclk, OUTPUT);
+    digitalWrite(PinRclk, RCLK_INACTIVE);
+
+    pinMode(PinSrclk, OUTPUT);
+    digitalWrite(PinSrclk, SRCLK_INACTIVE);
+
+    pinMode(PinSrclr, OUTPUT);
+    digitalWrite(PinSrclr, SRCLR_INACTIVE);
+
+    // Clear the Shift register
+    digitalWrite(PinSrclr, SRCLR_ACTIVE);
+    digitalWrite(PinSrclr, SRCLR_INACTIVE);
+
+    // Load the output registers
+    digitalWrite(PinRclk, RCLK_ACTIVE);
+    digitalWrite(PinRclk, RCLK_INACTIVE);
+  }
+
+  delay(1000); // Just because
+}
+
+
+// Do this over and over again
+void loop ()
+{
+  digitalWrite(PinSer, SEG_ON);
+  for (int i = 0; i < NUM_SEGS_ALL; i++)
+  {
+    digitalWrite(PinSrclk, SRCLK_ACTIVE);
+    digitalWrite(PinSrclk, SRCLK_INACTIVE);
+    digitalWrite(PinRclk, RCLK_ACTIVE);
+    digitalWrite(PinRclk, RCLK_INACTIVE);
+    delay(CYCLE_TIME);
+  }
+
+  digitalWrite(PinSer, SEG_OFF);
+  for (int i = 0; i < NUM_SEGS_ALL; i++)
+  {
+    digitalWrite(PinSrclk, SRCLK_ACTIVE);
+    digitalWrite(PinSrclk, SRCLK_INACTIVE);
+    digitalWrite(PinRclk, RCLK_ACTIVE);
+    digitalWrite(PinRclk, RCLK_INACTIVE);
+    delay(CYCLE_TIME);
+  }
+}
+
