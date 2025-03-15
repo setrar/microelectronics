@@ -1,17 +1,10 @@
 # Courses
 
 | :hash: | Topics |
-|-|-|
-| | ChanCarusone	
-| | KhanAcademy	
-| | VirtualBrain	
-| | element14
-| | CircuitBread
-| | dronebot	
-| | morrel
-| :zero: | [Loose](0.loose) |
-| :one: | [Transducers](1.transducers) |
-
+|---------|------------------------------|
+| :one:   | [Transducers](1.transducers) |
+| :two:   | [YouTube](YouTube)
+| :three: | [KhanAcademy](KhanAcademy)
 
 Reading *"Microelectronic Circuits" by Sedra and Smith* is an excellent starting point for self-educating in electronics, but whether it alone will fully educate you depends on your goals, background, and how you approach learning. Here's a breakdown of what to consider:
 
