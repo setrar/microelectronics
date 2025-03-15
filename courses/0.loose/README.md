@@ -11,13 +11,6 @@
 | [25:04](https://www.youtube.com/watch?v=6Maq5IyHSuc&t=1504s) | Ohm's Law and other formulae 
 | [32:59](https://www.youtube.com/watch?v=6Maq5IyHSuc&t=1979s) | Resistor colour codes
 
-:round_pushpin: loose videos by [Electrical Electronics Applications](https://www.youtube.com/@eeapplication)
-
-|  Episodes                              |
-|----------------------------------------|
-| [What is a MOSFET? How MOSFETs Work? (MOSFET Tutorial)](https://www.youtube.com/watch?v=DLd5dUychY8) |
-| [What are the Types of Transistors?](https://www.youtube.com/watch?v=HpicBoV9g_k&t=182s) |
-
 :round_pushpin: loose videos by [Electronic Applications](https://www.youtube.com/@eapplications)
 
 |  Episodes                              |
