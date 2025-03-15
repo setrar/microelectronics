@@ -2,7 +2,6 @@
 
 | :hash: | Topics |
 |---------|------------------------------|
-| :one:   | [Transducers](1.transducers) |
 | :two:   | [Coursera](2.Coursera)
 | :three: | [KhanAcademy](3.KhanAcademy)
 | :four:  | [YouTube](4.YouTube)
