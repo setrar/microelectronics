@@ -1,15 +1,16 @@
 # YouTube Courses
 
-| :hash: | Topics |
+| :hash: | Channels | Topics |
 |-|-|
-| | @CircuitBread | 
-| | @Dronebotworkshop | 
-| | @VirtualBrainENG | 
-| | @eapplications | 
-| | @element14presents | 
-| | @DarrylMorrell | 
-| | @Microelectronics-ChanCarusone | 
-| | @bigclivedotcom | 
-| | @eeapplications | 
+| | [@BenEater](@BenEater) | 8bit computer |
+| | [@CircuitBread](@CircuitBread)            |
+| | [@Dronebotworkshop](@Dronebotworkshop)            |
+| | [@VirtualBrainENG](@VirtualBrainENG)            |
+| | [@eapplications](@eapplications)            |
+| | [@element14presents](@element14presents)            |
+| | [@DarrylMorrell](@DarrylMorrell)            |
+| | [@Microelectronics-ChanCarusone](@Microelectronics-ChanCarusone)            |
+| | [@bigclivedotcom](@bigclivedotcom)            |
+| | [@eeapplications](@eeapplications)            |
 
 
