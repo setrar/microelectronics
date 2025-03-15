@@ -1,10 +1,4 @@
-# Courses
-
-| :hash: | Topics |
-|---------|------------------------------|
-| :two:   | [Coursera](2.Coursera)
-| :three: | [KhanAcademy](3.KhanAcademy)
-| :four:  | [YouTube](4.YouTube)
+# Books
 
 Reading *"Microelectronic Circuits" by Sedra and Smith* is an excellent starting point for self-educating in electronics, but whether it alone will fully educate you depends on your goals, background, and how you approach learning. Here's a breakdown of what to consider:
 
