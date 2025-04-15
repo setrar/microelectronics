@@ -36,7 +36,8 @@ export GHDL_YOSYS_PLUGIN=/opt/homebrew/lib/libghdl-5_0_0_dev.dylib
 ```
 yosys -m $GHDL_YOSYS_PLUGIN                          
 ```
-
+>
+```powershell
  /----------------------------------------------------------------------------\
  |  yosys -- Yosys Open SYnthesis Suite                                       |
  |  Copyright (C) 2012 - 2024  Claire Xenia Wolf <claire@yosyshq.com>         |
@@ -45,6 +46,7 @@ yosys -m $GHDL_YOSYS_PLUGIN
  Yosys 0.45 (git sha1 9ed031ddd, clang++ 15.0.0 -fPIC -O3)
 
 yosys>
+```
 
 ### :o: Install GHDL Manually on Mac M[?] using `homebrew`
 
