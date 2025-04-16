@@ -175,6 +175,20 @@ Setting files as being from a nice developer
 🍺  ghdl was successfully installed!
 ```
 
+- [ ] Make sure @llm18 is installed
+
+```sh
+ls -l /opt/homebrew/opt/llvm*
+```
+>
+```powershell
+lrwxr-xr-x  1 valiha  admin  23 Mar  5 15:31 /opt/homebrew/opt/llvm -> ../Cellar/llvm/19.1.7_1
+lrwxr-xr-x  1 valiha  admin  24 Mar 15  2024 /opt/homebrew/opt/llvm@15 -> ../Cellar/llvm@15/15.0.7
+lrwxr-xr-x  1 valiha  admin  23 Mar  5 15:31 /opt/homebrew/opt/llvm@17 -> ../Cellar/llvm/19.1.7_1
+lrwxr-xr-x  1 valiha  admin  24 Apr 16 16:02 /opt/homebrew/opt/llvm@18 -> ../Cellar/llvm@18/18.1.8
+lrwxr-xr-x  1 valiha  admin  23 Mar  5 15:31 /opt/homebrew/opt/llvm@19 -> ../Cellar/llvm/19.1.7_1
+```
+
 - [ ] Testing
 
 ```vhdl
@@ -198,7 +212,7 @@ end behaviour;
 ```
 
 ```
-ghdl analyse  hello.vhd
+ghdl analyse  hello.vhdl
 ```
 
 ```
