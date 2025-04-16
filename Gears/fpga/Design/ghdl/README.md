@@ -273,3 +273,66 @@ ghdl elaborate  hello_world
 ghdl run  hello_world
 ```
 > Hello world!
+
+# References
+
+The error persists because the `libghdl-5_0_0_dev.dylib` file has incorrect `LC_RPATH` entries (duplicate paths pointing to `/Users/runner/work/ghdl/ghdl/gnat/lib`, which doesn’t exist on your system). This happens when GHDL was built in a CI environment (like GitHub Actions) and the paths weren’t properly adjusted for local installation.
+
+### **Solution: Fix the Library’s RPATH**
+We need to remove the invalid `LC_RPATH` entries and set the correct ones.
+
+#### **Step 1: Check Current RPATH Entries**
+Run:
+```bash
+otool -l /opt/homebrew/lib/libghdl-5_0_0_dev.dylib | grep -A2 LC_RPATH
+```
+This will show the problematic paths (likely `/Users/runner/work/ghdl/ghdl/gnat/lib`).
+
+#### **Step 2: Remove Invalid RPATH Entries**
+Use `install_name_tool` to delete the incorrect paths:
+```bash
+sudo install_name_tool -delete_rpath "/Users/runner/work/ghdl/ghdl/gnat/lib" /opt/homebrew/lib/libghdl-5_0_0_dev.dylib
+```
+Repeat this command for each duplicate entry.
+
+#### **Step 3: Add Correct RPATH (Homebrew Library Path)**
+```bash
+sudo install_name_tool -add_rpath "/opt/homebrew/lib" /opt/homebrew/lib/libghdl-5_0_0_dev.dylib
+```
+
+#### **Step 4: Verify Changes**
+Check the corrected paths:
+```bash
+otool -l /opt/homebrew/lib/libghdl-5_0_0_dev.dylib | grep -A2 LC_RPATH
+```
+Now it should only show `/opt/homebrew/lib`.
+
+#### **Step 5: Retry Yosys**
+```bash
+export DYLD_LIBRARY_PATH=/opt/homebrew/lib:$DYLD_LIBRARY_PATH
+export GHDL_YOSYS_PLUGIN=/opt/homebrew/lib/libghdl-5_0_0_dev.dylib
+yosys -m $GHDL_YOSYS_PLUGIN
+```
+
+### **Alternative: Reinstall GHDL with Correct Paths**
+If manually fixing `LC_RPATH` doesn’t work:
+1. Uninstall the current GHDL:
+   ```bash
+   brew uninstall ghdl
+   ```
+2. Reinstall from source (to ensure proper paths):
+   ```bash
+   brew install --build-from-source ghdl
+   ```
+3. Try Yosys again.
+
+### **Debugging Further**
+If the issue persists:
+```bash
+# Check if the library loads manually
+dyld_load_check() {
+    DYLD_PRINT_LIBRARIES=1 yosys -m $GHDL_YOSYS_PLUGIN 2>&1 | grep -i ghdl
+}
+dyld_load_check
+```
+
