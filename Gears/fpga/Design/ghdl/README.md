@@ -185,8 +185,56 @@ ls -l /opt/homebrew/opt/llvm*
 lrwxr-xr-x  1 valiha  admin  23 Mar  5 15:31 /opt/homebrew/opt/llvm -> ../Cellar/llvm/19.1.7_1
 lrwxr-xr-x  1 valiha  admin  24 Mar 15  2024 /opt/homebrew/opt/llvm@15 -> ../Cellar/llvm@15/15.0.7
 lrwxr-xr-x  1 valiha  admin  23 Mar  5 15:31 /opt/homebrew/opt/llvm@17 -> ../Cellar/llvm/19.1.7_1
-lrwxr-xr-x  1 valiha  admin  24 Apr 16 16:02 /opt/homebrew/opt/llvm@18 -> ../Cellar/llvm@18/18.1.8
 lrwxr-xr-x  1 valiha  admin  23 Mar  5 15:31 /opt/homebrew/opt/llvm@19 -> ../Cellar/llvm/19.1.7_1
+```
+
+otherwise install
+
+```sh
+brew install llvm@18
+```
+>
+```powershell
+
+==> Auto-updating Homebrew...
+...
+You have 108 outdated formulae and 17 outdated casks installed.
+
+The 4.4.31 changelog can be found at:
+  https://github.com/Homebrew/brew/releases/tag/4.4.31
+==> Downloading https://ghcr.io/v2/homebrew/core/llvm/18/manifests/18.1.8
+Already downloaded: /Users/valiha/Library/Caches/Homebrew/downloads/453029f9b69aee9d1ef51458e6e1f8a79e8590ed167dca11d7c6888fc36c5766--llvm@18-18.1.8.bottle_manifest.json
+==> Fetching llvm@18
+==> Downloading https://ghcr.io/v2/homebrew/core/llvm/18/blobs/sha256:c7bb3e7186411468c2b7af59fb5abd5108805078280f8144f8cf53b9c0b93c
+Already downloaded: /Users/valiha/Library/Caches/Homebrew/downloads/02910801d6052916904ba57835378d27aada035e14628b61dd06a15d22ed6eb7--llvm@18--18.1.8.arm64_sequoia.bottle.tar.gz
+==> Pouring llvm@18--18.1.8.arm64_sequoia.bottle.tar.gz
+==> Caveats
+To use the bundled libc++ please add the following LDFLAGS:
+  LDFLAGS="-L/opt/homebrew/opt/llvm@18/lib/c++ -L/opt/homebrew/opt/llvm@18/lib -lunwind"
+
+llvm@18 is keg-only, which means it was not symlinked into /opt/homebrew,
+because this is an alternate version of another formula.
+
+If you need to have llvm@18 first in your PATH, run:
+  echo 'export PATH="/opt/homebrew/opt/llvm@18/bin:$PATH"' >> ~/.zshrc
+
+For compilers to find llvm@18 you may need to set:
+  export LDFLAGS="-L/opt/homebrew/opt/llvm@18/lib"
+  export CPPFLAGS="-I/opt/homebrew/opt/llvm@18/include"
+==> Summary
+🍺  /opt/homebrew/Cellar/llvm@18/18.1.8: 7,140 files, 1.7GB
+==> Running `brew cleanup llvm@18`...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /Users/valiha/Library/Caches/Homebrew/llvm@18_bottle_manifest--18.1.8... (26.6KB)
+Removing: /Users/valiha/Library/Caches/Homebrew/llvm@18--18.1.8... (405.3MB)
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting HOMEBREW_NO_INSTALL_CLEANUP.
+Hide these hints with HOMEBREW_NO_ENV_HINTS (see `man brew`).
+Removing: /Users/valiha/Library/Caches/Homebrew/aribb24_bottle_manifest--1.0.4... (11.9KB)
+...
+Removing: /opt/homebrew/lib/python3.10/site-packages/__pycache__/typing_extensions.cpython-310.pyc... (82.3KB)
+Pruned 2 symbolic links and 1 directories from /opt/homebrew
 ```
 
 - [ ] Testing
