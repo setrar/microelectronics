@@ -20,14 +20,16 @@ xattr -d com.apple.quarantine gcc-14.2.0-3-aarch64-apple-darwin23.pkg
 |-|-|
 | <img src=images/gcc-installer.png width='' height='' > </img> | <img src=images/gcc-installer-final.png width='' height='' > </img> | 
 
+- [ ] Link the dynamic libraries 
 
 ```
-ln -s /opt/gcc-14.2.0-3-aarch64/lib/gcc/aarch64-apple-darwin23/14.2.0/adalib/libgnat-14.dylib /opt/homebrew/Caskroom/ghdl/4.2.0/lib/libgnat-14.dylib
+ln -s /opt/gcc-14.2.0-3-aarch64/lib/gcc/aarch64-apple-darwin23/14.2.0/adalib/libgnat-14.dylib \
+      /opt/homebrew/Caskroom/ghdl/4.2.0/lib/libgnat-14.dylib
+ln -s /opt/gcc-14.2.0-3-aarch64/lib/libgcc_s.1.1.dylib \
+      /opt/homebrew/Caskroom/ghdl/4.2.0/lib/libgcc_s.1.1.dylib
 ```
 
-```
-ln -s /opt/gcc-14.2.0-3-aarch64/lib/libgcc_s.1.1.dylib /opt/homebrew/Caskroom/ghdl/4.2.0/lib/libgcc_s.1.1.dylib
-```
+- [ ] Text
 
 ```
 export GHDL_YOSYS_PLUGIN=/opt/homebrew/lib/libghdl-5_0_0_dev.dylib
