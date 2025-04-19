@@ -1,5 +1,81 @@
 # Digital Buble Level
 
+## TTL
+
+The **SN74HC595N** is a classic **8-bit serial-in, parallel-out shift register** from the 74HCxx logic family (High-speed CMOS, TTL-compatible). It’s extremely popular in electronics for expanding output pins — especially in microcontroller and FPGA projects.
+
+---
+
+### **Quick Summary:**
+
+| Feature           | Description                          |
+|------------------|--------------------------------------|
+| Function          | 8-bit shift register with storage latch |
+| Family            | 74HC — High-Speed CMOS               |
+| Package           | DIP-16 (for the `N` variant)         |
+| Logic Level       | 2V–6V operation (TTL-compatible)     |
+| Max Clock         | ~100+ MHz (at 5V)                    |
+| Common Use        | Driving LEDs, 7-segments, relays    |
+
+---
+
+### **Pinout (Top View):**
+
+```
+      +---+--+---+
+  Q1  |1      16| Vcc
+  Q2  |2      15| Q0
+  Q3  |3      14| SER (Serial Input)
+  Q4  |4      13| OE̅ (Output Enable)
+  Q5  |5      12| RCLK (Latch Clock)
+  Q6  |6      11| SRCLK (Shift Clock)
+  Q7  |7      10| SRCLR̅ (Shift Register Clear)
+ GND |8       9| Q7' (Cascade Output)
+      +--------+
+```
+
+---
+
+### **How It Works:**
+
+1. **Shift Clock (SRCLK)**:
+   - On rising edge, data from `SER` is shifted into the internal register
+2. **Latch Clock (RCLK)**:
+   - On rising edge, the register's contents are copied to the output latches
+3. **Output Enable (OE̅)**:
+   - Active LOW. Drives outputs when LOW
+4. **Cascade (Q7')**:
+   - Used to chain multiple 595s together for more outputs
+
+---
+
+### **Typical Use Case:**
+
+You can control **8 outputs** using just **3 pins** (SER, SRCLK, RCLK) from a microcontroller or FPGA.
+
+#### Example: Driving 8 LEDs
+```plaintext
+[MCU] ---SER---> 595
+      ---SRCLK--> 595
+      ---RCLK---> 595
+```
+- Shift in 8 bits serially
+- Toggle latch to output
+- Repeat as needed
+
+You can **daisy-chain** multiple chips to drive **16, 24, 32...** outputs.
+
+---
+
+### **Use Cases:**
+- LED matrix drivers
+- 7-segment displays
+- Multiplexed data buses
+- Relay banks
+- Expanding I/O for Arduino, Raspberry Pi, FPGAs
+
+## Application
+
 <img src=images/IMG_0555.png width='' height='' > </img>
 
 |||
