@@ -1,7 +1,7 @@
 # YouTube Courses
 
 | :hash: | Channels | Topics |
-|-|-|
+|-|-|-|
 | | [@BenEater](@BenEater) | 8bit computer |
 | | [@CircuitBread](@CircuitBread)            |
 | | [@Dronebotworkshop](@Dronebotworkshop)            |
@@ -12,5 +12,5 @@
 | | [@Microelectronics-ChanCarusone](@Microelectronics-ChanCarusone)            |
 | | [@bigclivedotcom](@bigclivedotcom)            |
 | | [@eeapplications](@eeapplications)            |
-
+| | [@GlobalScienceNetwork](@GlobalScienceNetwork) | 
 
