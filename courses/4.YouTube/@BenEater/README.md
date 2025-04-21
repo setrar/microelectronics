@@ -2,8 +2,8 @@
 
 | Topic | Description |
 |-|-|
-| [Making logic gates from transistors](https://www.youtube.com/watch?v=sTu3LwpF6XI) | 0:00 - basic transistor |
-| | 2:25 - inverter |
+| [Making logic gates from transistors](https://www.youtube.com/watch?v=sTu3LwpF6XI) | [0:00](https://www.youtube.com/watch?v=sTu3LwpF6XI) - basic transistor |
+| | [2:25](https://www.youtube.com/watch?v=sTu3LwpF6XI&145s) - inverter |
 | | 4:14 - and gate |
 | | 6:08 - or gate |
 | | 7:38 - NO gate😀 |
