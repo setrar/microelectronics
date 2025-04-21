@@ -1,8 +1,8 @@
 # YouTube Courses
 
-| :hash: | Channels | Topics |
+| :hash: | Video | Topics |
 |-|-|-|
-| | [@BenEater](@BenEater) | 8bit computer |
+| | [Making logic gates from transistors](https://www.youtube.com/watch?v=sTu3LwpF6XI) | 8bit computer |
 
 
 
