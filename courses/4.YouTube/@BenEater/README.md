@@ -21,7 +21,7 @@ Mastering FPGA development requires a strong foundation in several microelectron
 
 ### 🔧 **Core Microelectronic Concepts to Master for FPGA Development**
 
-#### [1. **Logic Gates](1.logic_gates) (AND, OR, NOT, NAND, NOR, XOR, XNOR)**
+#### [1. **Logic Gates**](1.logic_gates) (AND, OR, NOT, NAND, NOR, XOR, XNOR)**
 - **Why**: They’re the building blocks of all digital circuits. FPGAs synthesize HDL into a sea of logic gates.
 - **Mastery**: Know truth tables, timing behavior, and how to build complex logic from simpler gates.
 
