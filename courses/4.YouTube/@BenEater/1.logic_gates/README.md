@@ -39,9 +39,7 @@
 
 # References
 
-Sure! Here's a compact summary:
-
----
+## NPN vs PNP
 
 ### 🔄 **NPN vs PNP Transistor**
 
