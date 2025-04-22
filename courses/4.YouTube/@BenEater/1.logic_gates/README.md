@@ -17,7 +17,7 @@
 
 - [ ] Schematic
 
-<img src=images/npn1.png width='30%' height='30%' > </img>
+<img src=images/s8050_bjt_switch.png width='30%' height='30%' > </img>
 
 - [ ] Circuit
 
