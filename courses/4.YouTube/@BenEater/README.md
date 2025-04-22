@@ -2,7 +2,7 @@
 
 | Topic | Description |
 |-|-|
-| [Making logic gates from transistors](https://www.youtube.com/watch?v=sTu3LwpF6XI) [:books:](1.logic_gates) - logic_gates | This video demonstrates how to build logic gates using transistors. The presenter explains the basic operation of a transistor as a current switch and then builds several circuits, including an inverter, a NAND gate, an OR gate, and an XOR gate. The video concludes with a list of other logic gates that can be built using transistors. |
+| [Making logic gates from transistors](https://www.youtube.com/watch?v=sTu3LwpF6XI) | This video demonstrates how to build logic gates using transistors. The presenter explains the basic operation of a transistor as a current switch and then builds several circuits, including an inverter, a NAND gate, an OR gate, and an XOR gate. The video concludes with a list of other logic gates that can be built using transistors. |
 | [SR latch](https://www.youtube.com/watch?v=KM0DdEaY5sY) | Digital logic gets really interesting when we connect the output of gates back to an input. The SR latch is one of the most basic memory circuits that we can build on to make counters, registers, and all sorts of other interesting things. | 
 | [D latch](https://www.youtube.com/watch?v=peCh_859q7Q) | Building on the SR latch from the previous video (   • SR latch  ), the D latch  makes it easier to store a single bit of data. |
 | [D flip-flop](https://www.youtube.com/watch?v=YW-_GkUguMM) | Building on the D latch from the previous video (   • D latch  ), the D flip-flop has a "clock" input instead of an "enable" input and stores data just on the rising edge of the clock. |
@@ -21,7 +21,7 @@ Mastering FPGA development requires a strong foundation in several microelectron
 
 ### 🔧 **Core Microelectronic Concepts to Master for FPGA Development**
 
-#### 1. **Logic Gates (AND, OR, NOT, NAND, NOR, XOR, XNOR)**
+#### [1. **Logic Gates](1.logic_gates) (AND, OR, NOT, NAND, NOR, XOR, XNOR)**
 - **Why**: They’re the building blocks of all digital circuits. FPGAs synthesize HDL into a sea of logic gates.
 - **Mastery**: Know truth tables, timing behavior, and how to build complex logic from simpler gates.
 
