@@ -11,7 +11,9 @@
 | | [11:50](https://www.youtube.com/watch?v=sTu3LwpF6XI&t=710s)  - whole list |
 
 
-## Buffer (using NPN)
+## Buffer
+
+### Buffer (using NPN)
 
 - [ ] Schematic
 
@@ -21,11 +23,15 @@
 
 <img src=images/npn_circuit.png width='30%' height='30%' > </img>
 
-## Inverter (using NPN)
-
-<img src=images/npn_circuit2.png width='30%' height='30%' > </img>
-
-## Buffer (using PNP)
+### Buffer (using PNP)
 
 <img src=images/pnp_circuit.png width='30%' height='30%' > </img>
+
+
+
+## Inverter
+
+### Inverter (using NPN)
+
+<img src=images/npn_circuit2.png width='30%' height='30%' > </img>
 
