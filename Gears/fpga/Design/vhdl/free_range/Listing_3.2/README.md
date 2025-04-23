@@ -1,6 +1,6 @@
 # Listing 3.2
 
-<img src=Listing_3.2.png width='' height='' > </img>
+<img src=images/Listing_3.2.png width='' height='' > </img>
 
 ### ✅ Step-by-Step GHDL Flow
 
