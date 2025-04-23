@@ -1,1 +1,1 @@
-- [](https://youtu.be/3Lll9_-gYGg?si=HAaHK7lV19JQimxo)
+- [ ] [38C3 - The Design Decisions behind the first Open-Everything FABulous FPGA](https://youtu.be/3Lll9_-gYGg?si=HAaHK7lV19JQimxo)
