@@ -99,3 +99,4 @@ ghdl -r --std=08 tb_killer --vcd=wave.vcd
 gtkwave wave.vcd
 ```
 
+<img src=images/killer_test.png width='' height='' > </img>
