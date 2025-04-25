@@ -73,4 +73,72 @@ Both deal with **continuous-time voltages**, shaped by **capacitors, resistors, 
 
 ---
 
-Would you be interested in a visual block diagram showing the analogy side-by-side? It could be fun and pretty educational too.
+## **side-by-side block diagram** analogy between a **Minimoog signal path** and a **typical MMIC RF signal chain**:
+
+---
+
+### **Minimoog (Analog Synthesizer)**  
+**Audio signal flow:**
+
+```
+Keyboard Trigger
+      │
+      ▼
+  Voltage-Controlled Oscillator (VCO) ───────────────▶ [Audio Signal]
+      │
+      ▼
+  Voltage-Controlled Filter (VCF) ───────────────▶ [Tone Shaping]
+      │
+      ▼
+  Voltage-Controlled Amplifier (VCA) ─────────────▶ [Volume Envelope]
+      │
+      ▼
+      Output Jack (to speaker/mixer)
+```
+
+- **Control voltages** from the keyboard, knobs, and LFO modulate the behavior of VCO, VCF, and VCA.
+- Signal stays analog all the way.
+
+---
+
+### **MMIC RF Front-End (Receiver Chain)**  
+**RF signal flow:**
+
+```
+Antenna Input
+      │
+      ▼
+  Low-Noise Amplifier (LNA) ───────────────▶ [Boost weak RF signal]
+      │
+      ▼
+  Mixer (with Local Oscillator input) ────▶ [Frequency Downconversion]
+      │
+      ▼
+  Bandpass Filter ────────────────────────▶ [Channel Selection]
+      │
+      ▼
+  Gain Block / IF Amplifier ─────────────▶ [Adjust signal strength]
+      │
+      ▼
+      Output to ADC or Baseband Processing
+```
+
+- **Control voltages** or digital signals may tune filter bandwidths, set LO frequency, or adjust gain.
+- Signal remains analog up to the ADC.
+
+---
+
+### **Visual Summary:**
+
+| Element | **Minimoog** | **MMIC RF Front-End** |
+|--------|--------------|-----------------------|
+| Source | VCO (audio waveform) | RF Signal from antenna |
+| Processing | VCF, VCA (sound shaping) | Mixer, Filter, Amplifier |
+| Modulation | Keyboard CV, LFO | LO frequency, gain control |
+| Output | Analog audio | IF/baseband RF to ADC |
+
+---
+
+If you're designing your own RF front-end and you're familiar with synth architecture, thinking of your RF chain **as a synth tuned for GHz instead of Hz** is actually a great way to reason about it.
+
+Want a downloadable schematic-style diagram version of this analogy? I can generate one for you.
