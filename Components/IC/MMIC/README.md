@@ -1,4 +1,4 @@
-# MMIC
+# [MMIC](https://en.wikipedia.org/wiki/Monolithic_microwave_integrated_circuit)
 
 
 A key concept when you’re choosing between building RF circuits from scratch or using integrated solutions.
