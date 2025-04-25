@@ -142,3 +142,5 @@ Antenna Input
 If you're designing your own RF front-end and you're familiar with synth architecture, thinking of your RF chain **as a synth tuned for GHz instead of Hz** is actually a great way to reason about it.
 
 Want a downloadable schematic-style diagram version of this analogy? I can generate one for you.
+
+<img src=images/mood_mmic.png width='50%' height='50%'> </img>
