@@ -5,3 +5,5 @@
 - [ ] [Status OpenPDK and Open Tooling for IHP SG13G2 BiCMOS Technology](https://www.youtube.com/watch?v=Opw-KX3hNRU)
 - [ ] [FOSSDEM: Wladek Grabinski](https://fosdem.org/2025/schedule/speaker/wladek_grabinski)
 - [ ] [FOSSDEM: The IHP OpenPDK Initiative: Status and RoadMap](https://fosdem.org/2025/schedule/event/fosdem-2025-5882-the-ihp-openpdk-initiative-status-and-roadmap/)
+- [ ] [:blue_book: FOSSDEM: The IHP OpenPDK Initiative](https://fosdem.org/2025/events/attachments/fosdem-2025-5882-the-ihp-openpdk-initiative-status-and-roadmap/slides/238751/WG_OpenPD_9dCyxJt.pdf)
+
