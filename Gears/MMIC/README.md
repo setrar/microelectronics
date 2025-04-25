@@ -138,3 +138,8 @@ Yes, and this is common:
 ---
 
 If you're curious about trying MMIC design for real, there are academic PDKs (like the **Skywater SKY130** for CMOS, or Wolfspeed for GaN) — and you can run analog sims with **ngspice** or **Xyce**, or go all-in with **Cadence** and **ADS** if you can access them.
+
+# References
+
+- [ ] [ADF5901: 24 GHz VCO and PGA with 2-Channel PA Output](https://www.analog.com/en/products/adf5901.html)
+- [ ] [EVAL-RADAR-MMIC: Evaluation Board for the ADF5901, ADF5904, and ADF4159 Chipset for a 24 GHz FMCW Radar](https://www.analog.com/en/resources/evaluation-hardware-and-software/evaluation-boards-kits/eval-radar-mmic.html)
