@@ -194,3 +194,26 @@ Also see 'opts-help' for analyzer options.
 Please, refer to the GHDL manual for more information.
 Report issues on https://github.com/ghdl/ghdl
 ```
+
+## Yosys GHDL Plugin
+
+- [ ] Add to libs
+
+```sh
+ln -s /opt/homebrew/Caskroom/ghdl/5.0.1/ghdl-llvm-5.0.1-macos15-aarch64/lib/libghdl-5_0_1.dylib /opt/homebrew/lib/libghdl-5_0_1.dylib
+```
+
+- [ ] Remove from Quarantine
+
+```
+xattr -d com.apple.quarantine /opt/homebrew/lib/libghdl-5_0_1.dylib
+xattr -d com.apple.quarantine /opt/homebrew/Caskroom/ghdl/5.0.1/ghdl-llvm-5.0.1-macos15-aarch64/lib/libgnat-14.dylib
+xattr -d com.apple.quarantine /opt/homebrew/Caskroom/ghdl/5.0.1/ghdl-llvm-5.0.1-macos15-aarch64/lib/libgcc_s.1.1.dylib
+```
+
+- [ ] Test plugin
+
+```sh
+export GHDL_YOSYS_PLUGIN=/opt/homebrew/lib/libghdl-5_0_1.dylib    
+yosys -m $GHDL_YOSYS_PLUGIN
+```
