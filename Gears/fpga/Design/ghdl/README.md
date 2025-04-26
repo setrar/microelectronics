@@ -82,11 +82,18 @@ xattr -d com.apple.quarantine /opt/homebrew/Caskroom/ghdl/5.0.1/ghdl-llvm-5.0.1-
 ln -s /opt/homebrew/Caskroom/ghdl/5.0.1/ghdl-llvm-5.0.1-macos15-aarch64/lib/libghdl-5_0_1.dylib /opt/homebrew/lib/libghdl-5_0_1.dylib
 ```
 
+- [ ] Link the GHDL shared library to Yosys
+
+```
+ln -s /opt/homebrew/lib/libghdl-5_0_1.dylib /opt/homebrew/Cellar/yosys/0.52/share/yosys/plugins/ghdl.so
+```
+
 - [ ] Test plugin
 
 ```sh
 export GHDL_YOSYS_PLUGIN=/opt/homebrew/lib/libghdl-5_0_1.dylib    
 ```
+
 
 ```sh
 yosys -m $GHDL_YOSYS_PLUGIN
@@ -102,3 +109,4 @@ yosys -m $GHDL_YOSYS_PLUGIN
 
 yosys>
 ```
+
