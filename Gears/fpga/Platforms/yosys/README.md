@@ -20,7 +20,9 @@ sudo make install
 cd ..
 git clone https://github.com/YosysHQ/yosys.git
 cd yosys
-make ENABLE_GHDL=1 -j$(sysctl -n hw.logicalcpu)
+git submodule update --init --recursive
+# explicitly use clang and clang++ instead of gcc/g++ as the C and C++ compilers.
+make ENABLE_GHDL=1 CC=clang CXX=clang++ -j$(sysctl -n hw.logicalcpu)
 sudo make install
 
 # Step 5: Verify
