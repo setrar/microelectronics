@@ -1,6 +1,6 @@
 
 
-```
+```sh
 # Step 1: Clean old crap (optional but recommended)
 brew uninstall yosys
 brew uninstall ghdl
