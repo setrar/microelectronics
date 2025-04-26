@@ -2,8 +2,9 @@
 
 ```sh
 # Step 1: Clean old crap (optional but recommended)
-brew uninstall yosys
-brew uninstall ghdl
+brew uninstall yosys ghdl
+sudo rm -rf /usr/local/bin/yosys /usr/local/bin/ghdl
+sudo rm -rf /usr/local/lib/libghdl* /usr/local/share/yosys
 
 # Step 2: Install prerequisites
 brew install gnat llvm bison flex cmake
