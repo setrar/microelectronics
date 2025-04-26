@@ -82,27 +82,31 @@ xattr -d com.apple.quarantine /opt/homebrew/Caskroom/ghdl/5.0.1/ghdl-llvm-5.0.1-
 ln -s /opt/homebrew/Caskroom/ghdl/5.0.1/ghdl-llvm-5.0.1-macos15-aarch64/lib/libghdl-5_0_1.dylib /opt/homebrew/lib/libghdl-5_0_1.dylib
 ```
 
-- [ ] Test plugin
+- [ ] enable ghdl1-llvm through security & privacy
 
-```sh
-export GHDL_YOSYS_PLUGIN=/opt/homebrew/lib/libghdl-5_0_1.dylib    
 ```
-
-
-```sh
-yosys -m $GHDL_YOSYS_PLUGIN
+codesign -dvvv /usr/local/bin/ghdl1-llvm
 ```
 >
 ```powershell
- /----------------------------------------------------------------------------\
- |  yosys -- Yosys Open SYnthesis Suite                                       |
- |  Copyright (C) 2012 - 2025  Claire Xenia Wolf <claire@yosyshq.com>         |
- |  Distributed under an ISC-like license, type "license" to see terms        |
- \----------------------------------------------------------------------------/
- Yosys 0.52 (git sha1 fee39a3284c90249e1d9684cf6944ffbbcbb8f90, clang++ 16.0.0 -fPIC -O3)
-
-yosys>
+Executable=/usr/local/bin/ghdl1-llvm
+Identifier=ghdl1-llvm
+Format=Mach-O thin (arm64)
+CodeDirectory v=20400 size=53347 flags=0x20002(adhoc,linker-signed) hashes=1664+0 location=embedded
+Hash type=sha256 size=32
+CandidateCDHash sha256=5314b9641af2a904b69722c6941a0e43c8564fce
+CandidateCDHashFull sha256=5314b9641af2a904b69722c6941a0e43c8564fcebe6f6c3f4c1c5c78c5319f0e
+Hash choices=sha256
+CMSDigest=5314b9641af2a904b69722c6941a0e43c8564fcebe6f6c3f4c1c5c78c5319f0e
+CMSDigestType=2
+CDHash=5314b9641af2a904b69722c6941a0e43c8564fce
+Signature=adhoc
+Info.plist=not bound
+TeamIdentifier=not set
+Sealed Resources=none
+Internal requirements=none
 ```
+
 
 # References
 
