@@ -26,3 +26,6 @@ which yosys
 yosys -m ghdl
 ```
 
+do the same for the `ghdl-yosys-plugin`
+
+https://github.com/ghdl/ghdl-yosys-plugin
