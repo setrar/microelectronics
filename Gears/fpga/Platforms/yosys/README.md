@@ -12,7 +12,7 @@ brew install gnat llvm bison flex cmake
 # Step 3: Build GHDL from source
 git clone https://github.com/ghdl/ghdl.git
 cd ghdl
-./configure --prefix=/usr/local --enable-synth --with-llvm-config=/opt/homebrew/opt/llvm@15/bin/llvm-config
+./configure --prefix=/usr/local --enable-synth --enable-libghdl --with-llvm-config=/opt/homebrew/opt/llvm@15/bin/llvm-config
 make -j$(sysctl -n hw.logicalcpu)
 sudo make install
 
