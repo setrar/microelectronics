@@ -104,3 +104,24 @@ yosys -m $GHDL_YOSYS_PLUGIN
 yosys>
 ```
 
+# References
+
+- [ ] Manually install ghdl
+
+Note: the homebrew oackage comes with gnat and other shared libraries (homebrew has better approach)
+
+```sh
+# Step 1: Clean old crap (optional but recommended)
+brew uninstall ghdl
+sudo rm -rf /usr/local/bin/yosys /usr/local/bin/ghdl
+
+# Step 2: Install prerequisites
+brew install gnat llvm bison flex cmake
+
+# Step 3: Build GHDL from source
+git clone https://github.com/ghdl/ghdl.git
+cd ghdl
+./configure --prefix=/usr/local --enable-synth --enable-libghdl --with-llvm-config=/opt/homebrew/opt/llvm@15/bin/llvm-config
+make -j$(sysctl -n hw.logicalcpu)
+sudo make install
+```
