@@ -2,7 +2,7 @@
 
 cat blink.v 
 
-```werilog
+```verilog
 module rgb_test (input clk,
                  output led_blue,
                  output led_green,
