@@ -2,6 +2,17 @@
 
 **0.**  Blinks the device led in 3 different colors.
 
+- [ ] pin file `up5k.pcf`
+
+```pcf
+set_io -nowarn led_blue 39
+set_io -nowarn led_green 40
+set_io -nowarn led_red 41
+set_io -nowarn clk 35
+```
+
+- [ ] HDL file `blink.v`
+
 ```
 cat blink.v
 ```
