@@ -1,4 +1,6 @@
-# Plain without apio
+# Plain 
+
+**0.**  Blinks the device led in 3 different colors.
 
 ```
 cat blink.v
@@ -26,7 +28,7 @@ endmodule
 ```
 
 
-**1.**  **-json hardware.json**: Output the synthesized netlist into `hardware.json`.
+**1.**  Outputs the synthesized netlist into `hardware.json`.
 ```bash
 yosys -p "synth_ice40 -top rgb_test -json hardware.json" -q blink.v
 ```
@@ -38,7 +40,7 @@ yosys -p "synth_ice40 -top rgb_test -json hardware.json" -q blink.v
 
 ---
 
-**2.**  
+**2.**  Outputs placement and routing info in ASCII format `hardware.asc`.
 ```bash
 nextpnr-ice40 --up5k --package sg48 --json hardware.json --asc hardware.asc --pcf up5k.pcf -q
 ```
@@ -52,7 +54,7 @@ nextpnr-ice40 --up5k --package sg48 --json hardware.json --asc hardware.asc --pc
 
 ---
 
-**3.**  
+**3.**  Converts the `.asc` text file into a binary bitstream `.bin` file
 ```bash
 icepack hardware.asc hardware.bin
 ```
@@ -61,7 +63,7 @@ icepack hardware.asc hardware.bin
 
 ---
 
-**4.**  
+**4.**  Downloads `hardware.bin` to the device.
 ```bash
 dfu-util -d 1209:b1c0 -a 0 -D hardware.bin --reset
 ```
