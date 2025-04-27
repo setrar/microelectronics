@@ -18,7 +18,7 @@ make && sudo make install
 ```
 
 
-:round_pushpin: [programming_the_fpga](https://pico-ice.tinyvision.ai/md_programming_the_fpga.html)
+:round_pushpin: [programming_the_fpga](https://pico-ice.tinyvision.ai/md_programming__the__fpga.html)
 
 
 - [ ] [Programming the Raspberry Pi Pico in Arduino IDE on a Mac](https://jaygould.co.uk/2023-06-01-using-raspberry-pi-pico-arduino-ide/)
