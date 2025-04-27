@@ -26,7 +26,7 @@ endmodule
 ```
 
 
-**1.**  
+**1.**  **-json hardware.json**: Output the synthesized netlist into `hardware.json`.
 ```bash
 yosys -p "synth_ice40 -top rgb_test -json hardware.json" -q blink.v
 ```
