@@ -1,4 +1,27 @@
 
+Alright, let me explain it clearly:
+
+| Feature          | OpenFPGA                               | APIO (by FPGAwars)                        |
+|------------------|----------------------------------------|-------------------------------------------|
+| **Purpose**      | Create your *own FPGA architecture*    | Easily *program existing FPGA boards*     |
+| **What it does** | Build FPGA designs from scratch, including the FPGA hardware structure itself (LUTs, routing, etc.) | Simplifies using FPGAs like iCE40 or UPduino; handles toolchains automatically |
+| **Input**        | Verilog code describing a custom FPGA | Verilog/VHDL design for an existing FPGA board |
+| **Output**       | Bitstream for a *custom-made FPGA* chip or simulation results | Bitstream uploaded to a dev board like Lattice iCEstick |
+| **Tools used**   | Verilog + OpenFPGA CAD flow + (optionally) VTR, OpenROAD, etc. | Wraps tools like yosys, nextpnr, icepack, dfu-util |
+| **Skill level**  | Advanced (you are designing the FPGA hardware itself) | Beginner to intermediate (you just program it) |
+| **Examples**     | Create your own soft-core FPGA on ASIC or FPGA | Flash your design onto an iCE40 USB key or UPduino |
+
+---
+
+**Quick Summary:**
+- **OpenFPGA** = *Design your own FPGA.*
+- **APIO** = *Use an FPGA easily.*
+
+---
+
+Would you like me to draw a little schematic comparing them visually too? 🎨 (takes me like 30 sec!)
+
+---
 
 Good one — now you’re asking about two *real* FPGA research tools.
 
