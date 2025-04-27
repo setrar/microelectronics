@@ -1,0 +1,3 @@
+set_io btn1 IOB_2a
+set_io btn2 IOB_9b
+set_io led  RGB0
