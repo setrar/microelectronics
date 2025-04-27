@@ -1,3 +1,13 @@
+# openFPGA
+
+## Run
+
+```sh
+nextpnr-ice40 --version
+```
+> "nextpnr-ice40" -- Next Generation Place and Route (Version 20241022 (9c2d96f8))
+
+## Install
 
 ```sh
 brew tap twam/openfpga
@@ -1725,3 +1735,7 @@ If your list of available capture interfaces is empty
 (default macOS behavior), install ChmodBPF:
   brew install --cask wireshark-chmodbpf
 ```
+
+# References
+
+- [ ] [Installing the Open Source FPGA tool chain on Mac](https://datacore.nanographs.io/000+Publish/Installing+the+Open+Source+FPGA+tool+chain+on+Mac)
