@@ -19,3 +19,8 @@ In those cases, the **5G baseband SoC** has **an embedded NoC** — but the **5G
 In short:  
 - **5G (as a technology)** does not *require* NoC, but  
 - **5G chips (hardware implementations)** often *internally use* NoC to manage complexity, bandwidth, and parallelism.
+
+# References
+
+- [ ] [Network on Chip (NoC) with FPGAs|Part 1|Introduction](https://www.youtube.com/watch?v=iBAnGLZ6fMY)
+- [ ] [Network on Chip (NoC) with FPGAs|Part 2|Design of a Torus NoC](https://www.youtube.com/watch?v=zVD0MJ00ZZQ)
