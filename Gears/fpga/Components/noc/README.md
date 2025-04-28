@@ -20,6 +20,8 @@ In short:
 - **5G (as a technology)** does not *require* NoC, but  
 - **5G chips (hardware implementations)** often *internally use* NoC to manage complexity, bandwidth, and parallelism.
 
+<img src=images/NOC-explanation.png width='50%' height='50%' > </img>
+
 # References
 
 - [ ] [Network on Chip (NoC) with FPGAs|Part 1|Introduction](https://www.youtube.com/watch?v=iBAnGLZ6fMY)
