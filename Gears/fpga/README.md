@@ -133,4 +133,5 @@ That's the view on traditional FPGAs - but all of the really interesting high-en
 - [ ] [Three Ages of FPGAs: A Retrospective on the First Thirty Years of FPGA Technology](https://ieeexplore.ieee.org/document/7086413)
 - [ ] [Future of FPGA](https://www.maven-silicon.com/blog/future-of-fpga/)
 - [ ] [The nextpnr FOSS FPGA place-and-route tool](https://media.ccc.de/v/35c3-9612-the_nextpnr_foss_fpga_place-and-route_tool)
+- [ ] [1978: PAL User-Programmable Logic Devices Introduced](https://www.computerhistory.org/siliconengine/pal-user-programmable-logic-devices-introduced/)
 
