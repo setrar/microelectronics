@@ -1,5 +1,55 @@
 # FPGA
 
+| **FPGA** | **eFPGA** | **FPGA Chiplet** |
+|:---|:---|:---|
+| Full, standalone programmable chip. | Small programmable block *inside* another ASIC. | Small FPGA **die** mounted as a **separate mini-chip** inside a multi-chip package. |
+| Example: Xilinx Artix-7, Lattice iCE40. | Example: Flex Logix EFLX block inside an SoC. | Example: AMD/Xilinx Versal FPGAs with "AI Engine" chiplets. |
+| You buy a complete FPGA device. | You tape out your ASIC with eFPGA inside. | Companies combine chiplets (FPGA + CPU + Memory) into one "super chip." |
+
+---
+
+### ✨ Simple image:
+- **FPGA** = A house you bought, already built.
+- **eFPGA** = An extra flexible room *built inside* your house.
+- **FPGA Chiplet** = You ordered a **whole small house**, *built separately*, *then glued* into your big house.
+
+---
+
+### 🔥 FPGA Chiplet idea:
+- **Chiplets** are *modular dies* manufactured independently and connected together inside a package (using advanced packaging like **2.5D interposers** or **3D stacking**).
+- Instead of designing a single giant chip (which becomes very expensive and hard), you design smaller specialized dies (CPU chiplet, FPGA chiplet, AI chiplet) and combine them.
+- **Example**: AMD uses CPU + GPU + IO chiplets in Ryzen; similarly, Xilinx's Versal Adaptive SoCs use "programmable logic chiplets" connected to fast NoCs.
+
+---
+
+### ⚡ Advantages of FPGA chiplets:
+- Faster time to market: reuse old designs.
+- Better yield: small dies are easier and cheaper to manufacture.
+- Heterogeneous system: mix FPGA logic, CPU cores, accelerators, memory controllers as you like.
+- Lower power and cost at very high performance.
+
+---
+
+### 📸 Quick comparison:
+
+| FPGA Monolith | FPGA Chiplet |
+|:---|:---|
+| Big single die (large FPGA). | Multiple small dies combined (small FPGA block + CPU + others). |
+| Limited scaling beyond ~600mm² die size. | Easier to scale: mix & match chiplets. |
+| Expensive if any manufacturing defect. | Higher yield (defect in one chiplet doesn’t waste everything). |
+
+---
+
+### 🚀 To summarize:
+> **Chiplet FPGA** = A piece of FPGA inside a modular system — but **still** a full FPGA **die** (not like an eFPGA, which is soft IP).
+
+---
+
+Would you like me to also show you a **real-world block diagram** how these chiplets connect (like a CPU+FPGA chiplet package)?  
+It can be super helpful if you’re thinking of future custom silicon or advanced FPGA board design! 🎯
+
+## Research
+
 - [ ] [Which are the best universities for FPGA related research](https://www.quora.com/Which-are-the-best-universities-for-FPGA-related-research)
 
 The University of Toronto has engaged in collaborations with EURECOM, a research and higher education institution based in France, particularly in areas related to telecommunications, signal processing, and network systems. While specific details on FPGA-related projects may vary, here are some general aspects of the collaboration:
