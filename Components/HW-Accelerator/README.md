@@ -147,5 +147,75 @@ Here’s a practical list of **hardware accelerators commonly used in 5G and SDR
 
 ---
 
-Would you like me to create a visual block diagram of a sample accelerator chain (e.g., FIR + FFT + demapper)?
+## **DSP slices**
+
+**DSP slices** are **dedicated, hardwired digital signal processing blocks** embedded inside modern FPGAs, designed to efficiently perform arithmetic operations like:
+
+* **Multiply**
+* **Multiply-Accumulate (MAC)**
+* **Addition/Subtraction**
+* **Shifting/Bitwise logic**
+
+---
+
+### **Why They Matter:**
+
+Instead of using **general-purpose LUTs + flip-flops** to implement math, **DSP slices do it faster and with less power** — essential for high-performance applications like:
+
+* **5G baseband**
+* **Radar**
+* **Image/video processing**
+* **Machine learning (ML)**
+
+---
+
+### **Typical Architecture (e.g., Xilinx DSP48E1 Slice):**
+
+* **18x25-bit multiplier**
+* **48-bit accumulator**
+* **Pre-adder (optional)**
+* **Optional pipeline registers**
+* **Flexible data path control**
+
+Think of it as a **configurable hardware MAC unit** embedded in your FPGA — ready to run at hundreds of MHz.
+
+---
+
+### **Use Case Examples:**
+
+| Application            | DSP Slice Usage                      |
+| ---------------------- | ------------------------------------ |
+| FIR Filter             | One DSP slice per tap (MAC unit)     |
+| FFT                    | Butterfly units (complex multiplies) |
+| Matrix Multiply (MIMO) | Vector MACs                          |
+| AI/ML Inference        | Dot products                         |
+
+---
+
+### **How You Use Them (in HDL):**
+
+When you write something like:
+
+```vhdl
+result <= a * b + c;
+```
+
+If your FPGA has DSP slices available, the synthesis tool **automatically maps this** to a DSP block — if timing and resource constraints permit.
+
+---
+
+### **Vendor-Specific Naming:**
+
+* **Xilinx**: DSP48, DSP58 (for Versal), etc.
+* **Intel (Altera)**: DSP Blocks or DSP Elements
+* **Lattice**: Multiply-accumulate blocks in ECP5, Nexus
+
+---
+
+### Summary:
+
+DSP slices are the **beating heart of math-heavy FPGA designs** — use them for any fast signal processing, matrix math, or hardware acceleration.
+
+Would you like an annotated diagram showing what’s inside a DSP slice?
+
 
