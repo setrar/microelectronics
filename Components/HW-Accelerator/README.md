@@ -1,6 +1,6 @@
 # Hardware Accelerator
 
-### **What Is a Hardware Accelerator?**
+## **What Is a Hardware Accelerator?**
 
 A hardware accelerator is a **dedicated logic block** that performs a specific task **faster and more efficiently** than general-purpose CPUs.
 
