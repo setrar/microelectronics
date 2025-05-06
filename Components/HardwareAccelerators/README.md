@@ -1,12 +1,12 @@
-Yes, **hardware accelerators can absolutely be programmed with an FPGA** — in fact, **FPGAs are one of the best platforms for building custom hardware accelerators**.
-
----
+# Hardware Accelerator
 
 ### **What Is a Hardware Accelerator?**
 
 A hardware accelerator is a **dedicated logic block** that performs a specific task **faster and more efficiently** than general-purpose CPUs.
 
 ---
+
+**FPGAs are one of the best platforms for building custom hardware accelerators**.
 
 ### **FPGAs Are Ideal For This Because:**
 
