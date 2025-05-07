@@ -25,3 +25,8 @@ Warning: openfpgaloader 0.13.1 is already installed and up-to-date.
 To reinstall 0.13.1, run:
   brew reinstall openfpgaloader
 ```
+
+
+# References
+
+- [ ] [How do I program a Xilinx Artix-7 without Vivado?](https://www.reddit.com/r/FPGA/comments/oah0pf/how_do_i_program_a_xilinx_artix7_without_vivado/)
