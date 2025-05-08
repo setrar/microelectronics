@@ -2,7 +2,9 @@
 
 
 
-## **Project X-Ray *can* be used with the Artix-7 50T**, specifically for certain variants—**but with some caveats**:
+## **Project X-Ray**:
+
+Yes, **Project X-Ray *can* be used with the Artix-7 50T**, specifically for certain variants—**but with some caveats**:
 
 ---
 
