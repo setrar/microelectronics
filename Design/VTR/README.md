@@ -92,5 +92,54 @@ Great question — the distinction between **VTR** and **VPR** can definitely be
 
 ---
 
-Would you like a visual diagram showing how the VTR flow connects its components including VPR?
+The **University of Toronto (UofT)** has been the primary academic driver behind the **VTR project**, and its contributions are foundational to open-source FPGA CAD research. Here's a breakdown of the components developed or co-developed by UofT:
 
+---
+
+## 🏛️ Components Developed by University of Toronto
+
+### ✅ **VPR (Versatile Place and Route)**
+
+* The **core backend** of the VTR flow.
+* Handles **packing**, **placement**, and **routing**.
+* Most extensively developed and maintained by the UofT FPGA research group.
+* Supports parameterized and heterogeneous FPGA architectures.
+
+### ✅ **VTR Framework / Toolchain**
+
+* The overarching **Verilog-to-Routing (VTR)** project that ties together:
+
+  * Front-end (Verilog parsing)
+  * Mid-end (logic optimization)
+  * Back-end (placement & routing)
+* UofT leads development and integration of this whole pipeline for **academic FPGA architecture research**.
+
+### ✅ **Architecture Modeling and Analysis Tools**
+
+* UofT developed the XML-based FPGA architecture description format used in VTR.
+* They also contributed to the cost modeling, power estimation, and analytical tools within the framework.
+
+---
+
+## 🤝 Third-Party Tools Integrated into VTR
+
+While UofT integrates these into the VTR flow, they were **not developed** by UofT:
+
+| Tool        | Function                       | Origin                                       |
+| ----------- | ------------------------------ | -------------------------------------------- |
+| **ODIN II** | Verilog elaboration & parsing  | University of New Brunswick                  |
+| **ABC**     | Logic synthesis & optimization | UC Berkeley (Berkeley Logic Synthesis Group) |
+
+---
+
+### 🧠 Summary
+
+| Component          | Developed by UofT? | Role                               |
+| ------------------ | ------------------ | ---------------------------------- |
+| VPR                | ✅ Yes              | Place & route engine               |
+| VTR framework      | ✅ Yes              | Full synthesis-to-routing pipeline |
+| Architecture tools | ✅ Yes              | FPGA model parsing & analysis      |
+| ODIN II            | ❌ No               | Verilog parser (by UNB)            |
+| ABC                | ❌ No               | Logic optimizer (by Berkeley)      |
+
+Would you like a list of research papers or PhD theses from UofT related to VPR and VTR development?
