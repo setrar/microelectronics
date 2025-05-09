@@ -1,5 +1,7 @@
 # ZCU706
 
+## **HW-Z7-ZC706 REV 2.0**
+
 The **HW-Z7-ZC706 REV 2.0** refers to the **Xilinx ZC706 Evaluation Kit**, Revision 2.0, manufactured by Xilinx (now part of AMD). It is a powerful development and evaluation platform based on the **Zynq-7000 All Programmable SoC**, specifically the **Zynq XC7Z045-2FFG900C**.
 
 ---
