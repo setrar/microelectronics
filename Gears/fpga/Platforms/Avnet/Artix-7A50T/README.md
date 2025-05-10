@@ -1,6 +1,34 @@
 # Artix-7A50T
 
 
+## Example
+
+Here’s a **"Hello World" style** Verilog example — a simple LED blinker using a counter. This is often used as a minimal test design for FPGAs like the Artix-7:
+
+### 📄 `blinky.v`
+
+```verilog
+module blinky (
+    input wire clk,      // Input clock
+    output reg led       // Output to an LED
+);
+    reg [23:0] counter = 0;
+
+    always @(posedge clk) begin
+        counter <= counter + 1;
+        led <= counter[23]; // Blink every ~0.5s with 100MHz clock
+    end
+endmodule
+```
+
+### ✅ To synthesize it with Yosys for Artix-7:
+
+```bash
+yosys -p "synth_xilinx -top blinky -family xc7" blinky.v
+```
+
+This will run synthesis targeting Xilinx 7-series FPGAs (like Artix-7).
+
 
 ## **Project X-Ray**:
 
