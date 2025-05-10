@@ -26,6 +26,8 @@ endmodule
 ```bash
 yosys -p "synth_xilinx -top blinky -family xc7" blinky.v
 ```
+>
+[🧻 view log](logs/blinky.v.md)
 
 This will run synthesis targeting Xilinx 7-series FPGAs (like Artix-7).
 
