@@ -1,4 +1,4 @@
-
+```powershell
  /----------------------------------------------------------------------------\
  |  yosys -- Yosys Open SYnthesis Suite                                       |
  |  Copyright (C) 2012 - 2025  Claire Xenia Wolf <claire@yosyshq.com>         |
@@ -1070,3 +1070,4 @@ Found and reported 0 problems.
 End of script. Logfile hash: 8f297e2860, CPU: user 1.28s system 0.02s, MEM: 131.02 MB peak
 Yosys 0.52+104 (git sha1 3d1f2161d, clang++ 15.0.7 -fPIC -O3)
 Time spent: 86% 19x read_verilog (1 sec), 3% 1x synth_xilinx (0 sec), ...
+```
