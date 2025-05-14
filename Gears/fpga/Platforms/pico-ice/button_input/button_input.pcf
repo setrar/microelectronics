@@ -1,0 +1,4 @@
+set_io button IOB_13b
+set_io led    IOB_22a
+set_property -pin IOB_13b -pullup true
+
