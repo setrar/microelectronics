@@ -1,6 +1,73 @@
 # petalinux project
 
+## 🔍 What Can You Do With an `.xsa` *Without* a Bitstream?
 
+An `.xsa` without a bitstream still includes:
+
+* The **Zynq PS7 configuration** (DDR, UART, Ethernet, SD, clocks, etc.)
+* The **block diagram and IPI metadata**
+* The **part and board information**
+* The **address map and hardware interfaces**
+
+This is **enough for software tools** like PetaLinux, Yocto, or Vitis to:
+
+---
+
+### ✅ You **CAN**:
+
+| Task                                              | Why it works                                           |
+| ------------------------------------------------- | ------------------------------------------------------ |
+| 🟢 **Build U-Boot, FSBL, and ATF (if needed)**    | FSBL configures PS (DDR, clocks, UART) from `.xsa`     |
+| 🟢 **Generate Linux device trees (`system.dts`)** | Extracts hardware mapping (UART, Ethernet, etc.)       |
+| 🟢 **Build and boot Linux on PS (CPU)**           | No need for PL/FPGA unless your logic is in the fabric |
+| 🟢 **Run applications on Linux (ARM A9)**         | Full PS operation with bootloaders and OS              |
+| 🟢 **Use UART/USB/SD/Ethernet from PS**           | These peripherals are connected to Zynq PS, not PL     |
+
+---
+
+### ❌ You **CANNOT**:
+
+| Task                                                       | Why it fails                                     |
+| ---------------------------------------------------------- | ------------------------------------------------ |
+| 🔴 **Configure PL (Programmable Logic) with custom logic** | No bitstream in the `.xsa` = PL is unused        |
+| 🔴 **Use GPIO/AXI IPs mapped into PL**                     | PL peripherals need bitstream to be active       |
+| 🔴 **Accelerate applications using custom IP blocks**      | These must be implemented and included in `.bit` |
+| 🔴 **Verify IP cores, DMA, BRAM, DSP, etc.**               | PL side is empty unless synthesized/implemented  |
+
+---
+
+## 🧠 Think of it this way:
+
+* `.xsa` **without bitstream** = pure **PS configuration only**
+* `.xsa` **with bitstream** = PS + your **custom PL logic**
+
+This makes a minimal `.xsa` ideal for:
+
+* Bootstrapping embedded Linux fast
+* Validating basic boot infrastructure
+* Early-stage driver or system bring-up
+* Hosting software development before full FPGA flow
+
+---
+
+## ✅ Typical Minimal `.xsa` Use Case
+
+You want to:
+
+1. Boot Linux on ZC706
+2. Use UART, SD card, Ethernet
+3. Build with Yocto or Petalinux
+4. Skip long Vivado synth/impl steps
+
+A minimal `.xsa` lets you:
+
+* Skip Vivado licenses (no synthesis)
+* Bring up the board faster
+* Add bitstream later when needed
+
+---
+
+## ✅ Minimal TCL Script to Create a PS-Only `.xsa` for ZC706
 
 ```tcl
 set proj_name "zc706_proj"
@@ -37,3 +104,42 @@ update_compile_order -fileset sources_1
 
 write_hw_platform -fixed -force -file ./zc706_minimal.xsa
 ```
+
+---
+
+## ✅ Run it:
+
+```bash
+vivado -mode batch -source create_project.tcl
+```
+
+---
+
+## ✅ What You Get
+
+This produces:
+
+* A clean project at `./zc706_proj`
+* A block design with just the Zynq PS
+* A valid `zc706_minimal.xsa` that:
+
+  * Can be used in **Yocto** or **PetaLinux**
+  * Does **not** contain a bitstream or PL (programmable logic)
+  * Is good enough for booting U-Boot + Linux on PS cores
+
+---
+
+## 🧪 Optional: Verify `.xsa` Contents
+
+```bash
+unzip -l zc706_minimal.xsa
+```
+
+You should see:
+
+* `hardware/hw.hdf`
+* `xsa.xml`
+* No `.bit` file → expected.
+
+---
+
