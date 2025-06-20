@@ -246,3 +246,4 @@ That's the view on traditional FPGAs - but all of the really interesting high-en
 - [ ] [1978: PAL User-Programmable Logic Devices Introduced](https://www.computerhistory.org/siliconengine/pal-user-programmable-logic-devices-introduced/)
 - [ ] [Vaughn Betz: Crossroads FPGA Seminar: Verilog to Routing (VTR) A Flexible CAD Flow to Explore FPGA Architectures](https://www.youtube.com/watch?v=lQ1RKbEJZmE)
 
+- [ ] [fpga4student](https://www.fpga4student.com/)
