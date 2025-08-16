@@ -61,6 +61,8 @@ Here's a breakdown:
 | Use SERDES (e.g., high-speed ADC/DAC, JESD204B, etc.)  | **AC701**                                                  |
 | Build a full SDR or hardware accelerator               | **AC701** (or even ZU or Kintex/UltraScale for more power) |
 
----
+# References
 
-Would you like a detailed recommendation based on your specific project (e.g., O-RAN RU, SDR, DSP chain)?
+- [ ] [7 Series Product Tables and Product Selection Guide (XMP101)
+](https://docs.amd.com/v/u/en-US/7-series-product-selection-guide)
+- [ ] [Artix 7 FPGAs Data Sheet: DC and AC Switching Characteristics (DS181)](https://docs.amd.com/v/u/en-US/ds181_Artix_7_Data_Sheet)
