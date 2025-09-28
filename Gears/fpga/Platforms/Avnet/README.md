@@ -66,3 +66,4 @@ Here's a breakdown:
 - [ ] [7 Series Product Tables and Product Selection Guide (XMP101)
 ](https://docs.amd.com/v/u/en-US/7-series-product-selection-guide)
 - [ ] [Artix 7 FPGAs Data Sheet: DC and AC Switching Characteristics (DS181)](https://docs.amd.com/v/u/en-US/ds181_Artix_7_Data_Sheet)
+- [ ] [UARTLite FPGA to Linux: TTY Driver + Python Access via PCIe](https://www.hackster.io/konstantin-tiutin/uartlite-fpga-to-linux-tty-driver-python-access-via-pcie-4a6fd0)
