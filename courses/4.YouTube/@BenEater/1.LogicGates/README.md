@@ -49,7 +49,7 @@
 | Turns ON when    | Base **>** Emitter (~0.7V)     | Base **<** Emitter (~0.7V)     |
 | Control Signal   | **Positive** to base           | **Negative** to base           |
 | Typical Use      | **Low-side switch**            | **High-side switch**           |
-| Symbol Arrow     | ➝ (out of emitter)             | ⬅ (into emitter)               |
+| Symbol Arrow     | ➡️ (out of emitter)             | ⬅ (into emitter)               |
 | Easier for MCU   | ✅ Yes                          | ⚠️ Needs level shifting         |
 
 ---
