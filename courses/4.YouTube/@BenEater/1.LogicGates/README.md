@@ -45,7 +45,7 @@
 
 | Feature          | **NPN**                        | **PNP**                        |
 |------------------|--------------------------------|--------------------------------|
-| Current flow     | Collector → Emitter            | Emitter → Collector            |
+| Current flow     | Collector ➡️ Emitter            | Emitter ➡️ Collector            |
 | Turns ON when    | Base **>** Emitter (~0.7V)     | Base **<** Emitter (~0.7V)     |
 | Control Signal   | **Positive** to base           | **Negative** to base           |
 | Typical Use      | **Low-side switch**            | **High-side switch**           |
