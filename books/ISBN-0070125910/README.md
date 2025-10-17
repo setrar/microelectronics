@@ -159,3 +159,8 @@
 ---
 
 🧠 _“Think logically, simulate thoroughly, synthesize wisely — the FPGA will obey.”_ 🔧⚡
+
+
+# :books: References
+
+[Fundamentals of Digital Logic with VHDL Design, 4th Edition, by Stephen Brown and Zvonko Vranesic](https://www.eecg.toronto.edu/~brown/VHDL_4e/vhdl_source/Welcome.html) [VHDL Source Code](https://www.eecg.toronto.edu/~brown/VHDL_4e/vhdl_source/VHDL_code_4E.zip)

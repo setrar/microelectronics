@@ -1,0 +1,47 @@
+LIBRARY ieee ;
+USE ieee.std_logic_1164.all ;
+
+ENTITY testbench IS
+END testbench;
+
+ARCHITECTURE Behavior OF testbench IS
+    COMPONENT swap
+        PORT ( Data      : IN    STD_LOGIC_VECTOR(7 DOWNTO 0);
+               Resetn, w : IN    STD_LOGIC ;
+               Clock     : IN    STD_LOGIC ;
+               RinExt    : IN    STD_LOGIC_VECTOR(1 TO 3);
+               BusWires  : INOUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+               Done      : OUT   STD_LOGIC );
+    END COMPONENT ;
+    SIGNAL Resetn, w, Clock, Extern, Done : STD_LOGIC;
+    SIGNAL RinExt : STD_LOGIC_VECTOR(1 TO 3);
+    SIGNAL Data, BusWires : STD_LOGIC_VECTOR(7 DOWNTO 0);
+BEGIN
+    clock_process: PROCESS
+    BEGIN
+        Clock <= '0';
+        WAIT FOR 10 ns;
+        Clock <= '1';
+        WAIT FOR 10 ns;
+    END PROCESS;
+
+    vectors: PROCESS           
+    BEGIN
+        Resetn <= '0'; w <= '0'; RinExt <= "000";
+        WAIT FOR 20 ns;
+        Resetn <= '1'; 
+        Data <= 17; RinExt <= "100";
+        WAIT FOR 20 ns;
+        Data <= X"22"; RinExt <= "010";
+        WAIT FOR 20 ns;
+        Data <= X"33"; RinExt <= "001";
+        WAIT FOR 20 ns;
+        RinExt <= "000"; Data <= X"00";
+        w <= '1';
+        WAIT FOR 20 ns;
+        w <= '0';
+        WAIT;
+   END PROCESS;                                          
+
+   U1: swap PORT MAP (Data, Resetn, w, Clock, RinExt, BusWires, Done);
+END;

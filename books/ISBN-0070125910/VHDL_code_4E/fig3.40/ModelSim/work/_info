@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/profb/Dropbox/Books/VHDL_4e/ch3/VHDL_code/fig3.40/ModelSim
+Ecomparator
+Z1 w1602105107
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z6 8../comparator.vhd
+Z7 F../comparator.vhd
+l0
+L5
+VQP5bl^;mATB<1IJimQ3c]1
+!s100 zCzUQPoo2@bCH7TGi]gG20
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1602105112
+!i10b 1
+Z10 !s108 1602105112.000000
+Z11 !s90 -reportprogress|300|../comparator.vhd|
+Z12 !s107 ../comparator.vhd|
+!i113 1
+Z13 tExplicit 1 CvgOpt 0
+Abehavior
+R2
+R3
+R4
+R5
+DEx4 work 10 comparator 0 22 QP5bl^;mATB<1IJimQ3c]1
+l12
+L10
+V;hXZhb::@SWPk<:T:1]BF0
+!s100 hRUXY=Wa8:f39KmaLROPG1
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+Etestbench
+Z14 w1602103488
+R4
+R5
+R0
+Z15 8testbench.vht
+Z16 Ftestbench.vht
+l0
+L4
+V3_B<Dhnn0@ZCeVoK;X[OT3
+!s100 WV8]bWO10KX<j:R^oP2Az3
+R8
+32
+R9
+!i10b 1
+R10
+Z17 !s90 -reportprogress|300|testbench.vht|
+Z18 !s107 testbench.vht|
+!i113 1
+R13
+Abehavior
+R4
+R5
+Z19 DEx4 work 9 testbench 0 22 3_B<Dhnn0@ZCeVoK;X[OT3
+l16
+L7
+Z20 V0Dj568cS@GhW<?MCV4m5M1
+Z21 !s100 NzDMgaJK1XXENKc]d^K]c1
+R8
+32
+R9
+!i10b 1
+R10
+R17
+R18
+!i113 1
+R13

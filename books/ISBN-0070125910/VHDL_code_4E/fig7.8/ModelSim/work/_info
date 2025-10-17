@@ -1,0 +1,143 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/profb/Dropbox/Books/VHDL_4e/ch7/VHDL_code/fig7.8/MOdelSim
+Pcomponents
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+w1603002498
+R0
+8../components.vhd
+F../components.vhd
+l0
+L4
+VLcfeaYd_66>HWj5Pm@DOh1
+!s100 lE>IF4m0SH4DG1R_1<[8>1
+Z3 OV;C;10.5b;63
+32
+Z4 !s110 1603750910
+!i10b 1
+Z5 !s108 1603750910.000000
+!s90 -reportprogress|300|../components.vhd|
+!s107 ../components.vhd|
+!i113 1
+Z6 tExplicit 1 CvgOpt 0
+Eregn
+Z7 w1602982185
+R1
+R2
+R0
+Z8 8../regn.vhd
+Z9 F../regn.vhd
+l0
+L4
+VQeMe_bhk`E>9DYTa7Cg^I1
+!s100 jnHB7_^OY`aKEeQo?ab2>1
+R3
+32
+R4
+!i10b 1
+R5
+Z10 !s90 -reportprogress|300|../regn.vhd|
+Z11 !s107 ../regn.vhd|
+!i113 1
+R6
+Abehavior
+R1
+R2
+DEx4 work 4 regn 0 22 QeMe_bhk`E>9DYTa7Cg^I1
+l12
+L11
+V73De:nN9AXz07>i>`L`fC3
+!s100 P5U]dazb3Z^mTmf1WY]gF2
+R3
+32
+R4
+!i10b 1
+R5
+R10
+R11
+!i113 1
+R6
+Eswap
+Z12 w1603065828
+Z13 DPx4 work 10 components 0 22 LcfeaYd_66>HWj5Pm@DOh1
+R1
+R2
+R0
+Z14 8../swap.vhd
+Z15 F../swap.vhd
+l0
+L5
+Va0F1Pd6XT]6D_?b3DE9:e1
+!s100 nJOdaBaeQ;nZPnaCeU1J;1
+R3
+32
+R4
+!i10b 1
+R5
+Z16 !s90 -reportprogress|300|../swap.vhd|
+Z17 !s107 ../swap.vhd|
+!i113 1
+R6
+Abehavior
+R13
+R1
+R2
+DEx4 work 4 swap 0 22 a0F1Pd6XT]6D_?b3DE9:e1
+l19
+L14
+VzCZik9hA24U<FiDZKaT<h2
+!s100 bFnJDX^mA_JHRjkBnN^lz3
+R3
+32
+R4
+!i10b 1
+R5
+R16
+R17
+!i113 1
+R6
+Etestbench
+Z18 w1603750908
+R1
+R2
+R0
+Z19 8testbench.vht
+Z20 Ftestbench.vht
+l0
+L4
+V3_B<Dhnn0@ZCeVoK;X[OT3
+!s100 WV8]bWO10KX<j:R^oP2Az3
+R3
+32
+R4
+!i10b 1
+R5
+Z21 !s90 -reportprogress|300|testbench.vht|
+Z22 !s107 testbench.vht|
+!i113 1
+R6
+Abehavior
+R1
+R2
+Z23 DEx4 work 9 testbench 0 22 3_B<Dhnn0@ZCeVoK;X[OT3
+l19
+L7
+Z24 VkIKcA>90zEkZA12:1KZQK1
+Z25 !s100 mlo4i7HlXJ225ag2z10GJ2
+R3
+32
+R4
+!i10b 1
+R5
+R21
+R22
+!i113 1
+R6
