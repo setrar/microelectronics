@@ -1,6 +1,8 @@
 # usb-uart connection
 
-- [ ] Linux
+
+
+## :penguin: Linux
 
 ```sh
 lsusb
@@ -36,3 +38,87 @@ Choose Feature to Test:
 A: Run all tests
 0: Exit
 ```
+
+## :apple: MacOS
+
+```zsh
+system_profiler SPUSBDataType
+```
+<details>
+
+```powershell
+USB:
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleT8112USBXHCI
+
+        USB3.0 Hub             :
+
+          Product ID: 0x0031
+          Vendor ID: 0x291a
+          Version: 3.e3
+          Speed: Up to 5 Gb/s
+          Manufacturer: Anker                  
+          Location ID: 0x01200000 / 1
+          Current Available (mA): 900
+          Current Required (mA): 0
+          Extra Operating Current (mA): 0
+
+            USB3.0 Card Reader:
+
+              Product ID: 0x0749
+              Vendor ID: 0x05e3  (Genesys Logic, Inc.)
+              Version: 15.39
+              Serial Number: 000000001539
+              Speed: Up to 5 Gb/s
+              Manufacturer: Generic
+              Location ID: 0x01210000 / 2
+              Current Available (mA): 900
+              Current Required (mA): 896
+              Extra Operating Current (mA): 0
+
+        USB2.0 Hub             :
+
+          Product ID: 0x0020
+          Vendor ID: 0x291a
+          Version: 3.e3
+          Speed: Up to 480 Mb/s
+          Manufacturer: Anker                  
+          Location ID: 0x01100000 / 3
+          Current Available (mA): 500
+          Current Required (mA): 0
+          Extra Operating Current (mA): 0
+
+            CP2104 USB to UART Bridge Controller:
+
+              Product ID: 0xea60
+              Vendor ID: 0x10c4  (Silicon Laboratories, Inc.)
+              Version: 1.00
+              Serial Number: 008FCD8C
+              Speed: Up to 12 Mb/s
+              Manufacturer: Silicon Labs
+              Location ID: 0x01120000 / 5
+              Current Available (mA): 500
+              Current Required (mA): 100
+              Extra Operating Current (mA): 0
+
+            Anker USB-C Hub Device :
+
+              Product ID: 0x8371
+              Vendor ID: 0x291a
+              Version: 0.01
+              Serial Number: 0000000000000001
+              Speed: Up to 480 Mb/s
+              Manufacturer: Anker Innovations Limited
+              Location ID: 0x01150000 / 4
+              Current Available (mA): 500
+              Current Required (mA): 100
+              Extra Operating Current (mA): 0
+
+    USB 3.1 Bus:
+
+      Host Controller Driver: AppleT8112USBXHCI
+```
+
+</details>
