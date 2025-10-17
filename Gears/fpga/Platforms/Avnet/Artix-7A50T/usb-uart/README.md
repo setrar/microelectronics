@@ -166,3 +166,60 @@ Ctrl-A \
 * If it doesn’t respond, try pressing `Ctrl-A` **then hold Shift** and type `\` (i.e., `Ctrl-A Shift-\`).
 * This ensures Terminal sends the literal backslash.
 
+
+Great! Here's a **simple macOS CLI setup using `picocom`** (recommended over `screen`) that continuously logs UART output from your Digilent device and reconnects if it resets.
+
+---
+
+### **1️⃣ Install picocom**
+
+```bash
+brew install picocom
+```
+
+---
+
+### **2️⃣ Create a small reconnect script**
+
+You can make a script called `digilent-uart.sh`:
+
+```bash
+#!/bin/bash
+
+DEVICE="/dev/cu.usbserial-210251946724"  # Digilent USB-UART device
+BAUD=115200                               # FPGA UART baud rate
+
+while true; do
+    echo "Connecting to $DEVICE at $BAUD baud..."
+    picocom --baud $BAUD --flow n $DEVICE
+    echo "Disconnected. Reconnecting in 2s..."
+    sleep 2
+done
+```
+
+* Make it executable:
+
+```bash
+chmod +x digilent-uart.sh
+```
+
+---
+
+### **3️⃣ Run the script**
+
+```bash
+./digilent-uart.sh
+```
+
+* It will automatically reconnect if the FPGA resets or USB disconnects.
+* Displays all UART output in real-time.
+* Press `Ctrl-A` then `Ctrl-X` inside picocom to exit safely.
+
+---
+
+### ✅ Advantages
+
+* Automatically reconnects — no need to manually restart `screen`.
+* Handles line endings and baud rate consistently.
+* Works well for long FPGA debug sessions.
+
