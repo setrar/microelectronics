@@ -85,3 +85,84 @@ screen /dev/cu.usbserial-008FCD8C 115200
 * Replace `115200` with the FPGA UART baud rate.
 * To exit `screen`: `Ctrl-A` → `K` → `Y`.
 
+# :books: References
+
+Classic **`screen` confusion on macOS**! The `Ctrl-A → \` doesn’t work to exit is **because `\` is not the default quit command in `screen`**, and macOS Terminal may also interpret certain key sequences differently.
+
+---
+
+### 1️⃣ Default `screen` key bindings
+
+* **`Ctrl-A`** is the **command prefix** in `screen`.
+* After pressing `Ctrl-A`, you issue a **command key**:
+
+| Command | Action                                                               |
+| ------- | -------------------------------------------------------------------- |
+| `K`     | Kill the current window (you’ll be asked to confirm)                 |
+| `D`     | Detach from the screen session (leaves it running in the background) |
+| `\`     | **Quit all screen sessions** (asks for confirmation)                 |
+
+So normally, `Ctrl-A \` **should quit all sessions**, but there are some quirks on macOS:
+
+---
+
+### 2️⃣ Why `Ctrl-A \` may not work
+
+1. **Terminal key interpretation**
+
+   * macOS Terminal, iTerm2, or other terminal apps sometimes intercept `\` differently (especially with Option/Alt keys).
+   * If your keyboard layout or Terminal settings remap `\`, `screen` never sees it.
+
+2. **Screen configuration**
+
+   * If you have a `.screenrc` file, the quit binding may be overridden.
+   * Some default macOS `screen` builds disable `\` as a global quit.
+
+---
+
+### 3️⃣ Recommended ways to exit `screen` on macOS
+
+#### Option A — Kill current window
+
+```text
+Ctrl-A K
+```
+
+* `screen` will ask: `Really kill this window [y/n] ?`
+* Press `y` to close.
+
+#### Option B — Detach and kill from terminal
+
+1. Detach the session:
+
+```text
+Ctrl-A D
+```
+
+* You’re returned to your shell.
+
+2. List sessions:
+
+```bash
+screen -ls
+```
+
+* Example output: `12345.pts-0.MacBook (Detached)`
+
+3. Kill the session:
+
+```bash
+screen -X -S 12345 quit
+```
+
+---
+
+#### Option C — Quit all windows (works in most cases)
+
+```text
+Ctrl-A \
+```
+
+* If it doesn’t respond, try pressing `Ctrl-A` **then hold Shift** and type `\` (i.e., `Ctrl-A Shift-\`).
+* This ensures Terminal sends the literal backslash.
+
