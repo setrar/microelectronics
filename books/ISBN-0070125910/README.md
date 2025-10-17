@@ -9,7 +9,7 @@
 
 |  Episodes                              | :grey_question:    | :scroll: | &#x1F5E3; |
 |----------------------------------------|--------------------|------|-|
-| 1. [🧩 Chapter 1 — Introduction / Design Concepts](#-chapter-1--introduction--design-concepts) | :eight_pointed_black_star: | [:scroll:](Chapter1) |
+| 1. [🧩 Chapter 1 — Design Concepts](#-chapter-1--introduction--design-concepts) | :eight_pointed_black_star: | [:scroll:](Chapter1) |
 | 2. [🔢 Chapter 2 — Introduction to Logic Circuits](#-chapter-2--introduction-to-logic-circuits)
 | 3. [🧮 Chapter 3 — Number Representation and Arithmetic Circuits](#-chapter-3--number-representation-and-arithmetic-circuits)
 | 4. [🔧 Chapter 4 — Combinational-Circuit Building Blocks](#-chapter-4--combinational-circuit-building-blocks)
