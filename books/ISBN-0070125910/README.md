@@ -5,7 +5,30 @@
 
 ---
 
+
+|  :hash:            |  Episodes                              | :grey_question:    | :scroll: | &#x1F5E3; |
+|--------------------|----------------------------------------|--------------------|------|-|
+| Lecture[(1)](1)    | An Overview                            | :white_check_mark: | 
+| Lecture[(2)](2)    | Basic Signals                          | :white_check_mark: | 
+| Lecture[(3)](3)    | Exponential Signals                    | :white_check_mark: | 
+| Lecture[(4)](4)    | Impulses and Steps                     | :white_check_mark: | 
+| Lecture[(5)](5)    | Properties of Signals                  | :white_check_mark: | 
+| Lecture[(6)](6)    | LTI Systems                            | :white_check_mark: | 
+| Lecture[(7)](7)    | Continuous LTI Systems                 | :white_check_mark: | 
+| Lecture[(8)](8)    | LTI System Properties                  | :white_check_mark: | 
+| Lecture[(9)](9)    | LTI Differential Equations             | :white_check_mark: | 
+| Lecture[(10)](_10) | Singular Functions                     | :white_check_mark: | 
+| Lecture[(11)](_11) | Fourier Series                         | :white_check_mark: | 
+| Lecture[(12)](_12) | Convergence of Fourier Series          | :white_check_mark: | [:scroll:](_12/fourier_approximation.jl.ipynb) |
+| Lecture[(13)](_13) | Discrete Fourier Series                | :eight_pointed_black_star: | 
+| 
+
 ## 📚 Table of Contents
+
+|  :hash:            |  Episodes                              | :grey_question:    | :scroll: | &#x1F5E3; |
+|--------------------|----------------------------------------|--------------------|------|-|
+| | 1. [🧩 Chapter 1 — Introduction / Design Concepts](#-chapter-1--introduction--design-concepts) | :white_check_mark: | [:scroll:](_12/fourier_approximation.jl.ipynb) |
+
 1. [🧩 Chapter 1 — Introduction / Design Concepts](#-chapter-1--introduction--design-concepts)
 2. [🔢 Chapter 2 — Introduction to Logic Circuits](#-chapter-2--introduction-to-logic-circuits)
 3. [🧮 Chapter 3 — Number Representation and Arithmetic Circuits](#-chapter-3--number-representation-and-arithmetic-circuits)
