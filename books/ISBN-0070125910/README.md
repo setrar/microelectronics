@@ -5,41 +5,21 @@
 
 ---
 
-
-|  :hash:            |  Episodes                              | :grey_question:    | :scroll: | &#x1F5E3; |
-|--------------------|----------------------------------------|--------------------|------|-|
-| Lecture[(1)](1)    | An Overview                            | :white_check_mark: | 
-| Lecture[(2)](2)    | Basic Signals                          | :white_check_mark: | 
-| Lecture[(3)](3)    | Exponential Signals                    | :white_check_mark: | 
-| Lecture[(4)](4)    | Impulses and Steps                     | :white_check_mark: | 
-| Lecture[(5)](5)    | Properties of Signals                  | :white_check_mark: | 
-| Lecture[(6)](6)    | LTI Systems                            | :white_check_mark: | 
-| Lecture[(7)](7)    | Continuous LTI Systems                 | :white_check_mark: | 
-| Lecture[(8)](8)    | LTI System Properties                  | :white_check_mark: | 
-| Lecture[(9)](9)    | LTI Differential Equations             | :white_check_mark: | 
-| Lecture[(10)](_10) | Singular Functions                     | :white_check_mark: | 
-| Lecture[(11)](_11) | Fourier Series                         | :white_check_mark: | 
-| Lecture[(12)](_12) | Convergence of Fourier Series          | :white_check_mark: | [:scroll:](_12/fourier_approximation.jl.ipynb) |
-| Lecture[(13)](_13) | Discrete Fourier Series                | :eight_pointed_black_star: | 
-| 
-
 ## 📚 Table of Contents
 
-|  :hash:            |  Episodes                              | :grey_question:    | :scroll: | &#x1F5E3; |
-|--------------------|----------------------------------------|--------------------|------|-|
-| | 1. [🧩 Chapter 1 — Introduction / Design Concepts](#-chapter-1--introduction--design-concepts) | :white_check_mark: | [:scroll:](_12/fourier_approximation.jl.ipynb) |
-
-1. [🧩 Chapter 1 — Introduction / Design Concepts](#-chapter-1--introduction--design-concepts)
-2. [🔢 Chapter 2 — Introduction to Logic Circuits](#-chapter-2--introduction-to-logic-circuits)
-3. [🧮 Chapter 3 — Number Representation and Arithmetic Circuits](#-chapter-3--number-representation-and-arithmetic-circuits)
-4. [🔧 Chapter 4 — Combinational-Circuit Building Blocks](#-chapter-4--combinational-circuit-building-blocks)
-5. [⏱️ Chapter 5 — Flip-Flops, Registers, and Counters](#️-chapter-5--flip-flops-registers-and-counters)
-6. [🔁 Chapter 6 — Synchronous Sequential Circuits](#-chapter-6--synchronous-sequential-circuits)
-7. [🏗️ Chapter 7 — Digital System Design](#️-chapter-7--digital-system-design)
-8. [⚡ Chapter 8 — Optimized Implementation of Logic Functions](#-chapter-8--optimized-implementation-of-logic-functions)
-9. [🌐 Chapter 9 — Asynchronous Sequential Circuits](#-chapter-9--asynchronous-sequential-circuits)
-10. [🧰 Chapter 10 — Computer Aided Design Tools](#-chapter-10--computer-aided-design-tools)
-11. [🧪 Chapter 11 — Testing of Logic Circuits](#-chapter-11--testing-of-logic-circuits)
+|  Episodes                              | :grey_question:    | :scroll: | &#x1F5E3; |
+|----------------------------------------|--------------------|------|-|
+| 1. [🧩 Chapter 1 — Introduction / Design Concepts](#-chapter-1--introduction--design-concepts) | :eight_pointed_black_star: | [:scroll:](Chapter1) |
+| 2. [🔢 Chapter 2 — Introduction to Logic Circuits](#-chapter-2--introduction-to-logic-circuits)
+| 3. [🧮 Chapter 3 — Number Representation and Arithmetic Circuits](#-chapter-3--number-representation-and-arithmetic-circuits)
+| 4. [🔧 Chapter 4 — Combinational-Circuit Building Blocks](#-chapter-4--combinational-circuit-building-blocks)
+| 5. [⏱️ Chapter 5 — Flip-Flops, Registers, and Counters](#️-chapter-5--flip-flops-registers-and-counters)
+| 6. [🔁 Chapter 6 — Synchronous Sequential Circuits](#-chapter-6--synchronous-sequential-circuits)
+| 7. [🏗️ Chapter 7 — Digital System Design](#️-chapter-7--digital-system-design)
+| 8. [⚡ Chapter 8 — Optimized Implementation of Logic Functions](#-chapter-8--optimized-implementation-of-logic-functions)
+| 9. [🌐 Chapter 9 — Asynchronous Sequential Circuits](#-chapter-9--asynchronous-sequential-circuits)
+| 10. [🧰 Chapter 10 — Computer Aided Design Tools](#-chapter-10--computer-aided-design-tools)
+| 11. [🧪 Chapter 11 — Testing of Logic Circuits](#-chapter-11--testing-of-logic-circuits)
 
 ---
 
