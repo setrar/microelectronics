@@ -1209,16 +1209,6 @@ INFO: For more information please check /home/b300098957/installLibs.sh_2025-10-
 	 fi
 	 # <<< Source Xilinx Vivado and Vitis settings <<<
 
-	# >>> Source Xilinx Petalinux settings >>>
-	export PLNX_VRSN=2025.1
-
-	# Only source PetaLinux for interactive shells (e.g., not scp or cron)
-	if [[ $- == *i* ]]; then
-    	if [ -f /tools/Xilinx/Petalinux/${PLNX_VRSN}/settings.sh ]; then
-        	source /tools/Xilinx/Petalinux/${PLNX_VRSN}/settings.sh
-    	fi
-	fi
-	# <<< Source Xilinx Petalinux settings <<<
    ```
    
 2. Verify the installation:
