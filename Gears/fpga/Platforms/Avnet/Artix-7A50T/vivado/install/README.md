@@ -78,11 +78,14 @@ Since Vitis includes Vivado in the 2025.1 unified installer, you can install bot
 
 2. The installer GUI will launch.
 
+
    * Accept license agreement.
    * Select installation directory (e.g., `/tools/Xilinx/Vivado/2025.1` or whatever path you prefer).
    * When prompted for products to install: **select both Vivado Design Suite** and **Vitis Unified Software Platform** (or “Vitis Core Development Kit”) depending on your license/edition.
    * Select the device families you need (e.g., for Artix-7, ensure the 7 Series devices are selected).
    * Follow through the installer until it finishes.
+
+<img src=images/vivado-install1.png width='30%' height='30%' > </img>
 
 3. After installation completes, run the post-install library script if available. Some users have needed to run `installlibs.sh` from the installer folder to satisfy missing dependencies. ([element14 Community][2])
    e.g.,
@@ -134,7 +137,6 @@ If you like, I can **pull together a detailed script** that automates most of th
 [6]: https://tutorials.logictronix.com/our-resources/linux-for-fpga-design/how-to-install-vivado-on-ubuntu "Install VIVADO on Ubuntu - Linux for FPGA Design - LogicTronix"
 
 
-<img src=images/vivado-install1.png width='30%' height='30%' > </img>
 
 # :books: References
 
