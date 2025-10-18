@@ -159,7 +159,35 @@ Caused by: java.io.FileNotFoundException: /tools/Xilinx/Downloads/Vitis_2025.1/d
 <details>
 
 ```lua
-...
+ubuntu-24 install
+Hit:1 http://ca.archive.ubuntu.com/ubuntu noble InRelease
+Get:2 http://ca.archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+Get:3 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+Get:4 http://ca.archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+Get:5 http://ca.archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [1,498 kB]
+Get:6 http://ca.archive.ubuntu.com/ubuntu noble-updates/main amd64 Components [175 kB]
+Get:7 http://ca.archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Components [212 B]
+Get:8 http://ca.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [1,496 kB]
+Get:9 http://ca.archive.ubuntu.com/ubuntu noble-updates/universe amd64 Components [378 kB]
+Get:10 http://ca.archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Components [940 B]
+Get:11 http://ca.archive.ubuntu.com/ubuntu noble-backports/main amd64 Components [7,140 B]
+Get:12 http://ca.archive.ubuntu.com/ubuntu noble-backports/restricted amd64 Components [216 B]
+Get:13 http://ca.archive.ubuntu.com/ubuntu noble-backports/universe amd64 Components [11.0 kB]
+Get:14 http://ca.archive.ubuntu.com/ubuntu noble-backports/multiverse amd64 Components [212 B]
+Get:15 http://security.ubuntu.com/ubuntu noble-security/main amd64 Components [21.6 kB]
+Get:16 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Components [212 B]
+Get:17 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Components [52.3 kB]
+Get:18 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Components [208 B]
+Fetched 4,019 kB in 1s (2,975 kB/s)
+Reading package lists...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  gcc-13-multilib gcc-multilib lib32asan8 lib32atomic1 lib32gcc-13-dev
+  lib32gcc-s1 lib32gomp1 lib32itm1 lib32quadmath0 lib32stdc++6 lib32ubsan1
+  libc6-dev-x32 libc6-i386 libc6-x32 libx32asan8 libx32atomic1
+  libx32gcc-13-dev libx32gcc-s1 libx32gomp1 libx32itm1 libx32quadmath0
   libx32stdc++6 libx32ubsan1
 The following NEW packages will be installed:
   gcc-13-multilib gcc-multilib lib32asan8 lib32atomic1 lib32gcc-13-dev
