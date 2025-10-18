@@ -30,11 +30,11 @@ To avoid installer hang-ups or missing dependencies, do the following first:
    Also, for Ubuntu 22.04 some guides mention adding `libncursesw5`, etc. ([element14 Community][2])
 
 3. Ensure you have enough disk space. For the full installation you’ll likely need **60 GB or more**. ([People ECE][3])
-   Consider where you’ll install (e.g., `/opt/Xilinx` or `/tools/Xilinx`) and ensure your user has permissions:
+   Consider where you’ll install (e.g., `/tools/Xilinx` or `/tools/Xilinx`) and ensure your user has permissions:
 
    ```bash
-   sudo mkdir -p /opt/Xilinx
-   sudo chown -R $USER:$USER /opt/Xilinx
+   sudo mkdir -p /tools/Xilinx
+   sudo chown -R $USER:$USER /tools/Xilinx
    ```
 
 4. (Optional but recommended) Make sure the default shell `/bin/sh` is `bash` rather than `dash`, if you later install PetaLinux or other scripts expect it:
@@ -74,12 +74,12 @@ Since Vitis includes Vivado in the 2025.1 unified installer, you can install bot
    sudo ./FPGAs_AdaptiveSoCs_Unified_SDI_2025.1_0530_0145_Lin64.bin
    ```
 
-   (Use `sudo` if installing to a system location like `/opt/Xilinx`.)
+   (Use `sudo` if installing to a system location like `/tools/Xilinx`.)
 
 2. The installer GUI will launch.
 
    * Accept license agreement.
-   * Select installation directory (e.g., `/opt/Xilinx/Vivado/2025.1` or whatever path you prefer).
+   * Select installation directory (e.g., `/tools/Xilinx/Vivado/2025.1` or whatever path you prefer).
    * When prompted for products to install: **select both Vivado Design Suite** and **Vitis Unified Software Platform** (or “Vitis Core Development Kit”) depending on your license/edition.
    * Select the device families you need (e.g., for Artix-7, ensure the 7 Series devices are selected).
    * Follow through the installer until it finishes.
@@ -88,7 +88,7 @@ Since Vitis includes Vivado in the 2025.1 unified installer, you can install bot
    e.g.,
 
    ```bash
-   cd /opt/Xilinx/…/InstallFiles
+   cd /tools/Xilinx/…/InstallFiles
    ./installLibs.sh
    ```
 
@@ -100,9 +100,9 @@ Since Vitis includes Vivado in the 2025.1 unified installer, you can install bot
 
    ```bash
    # Vivado/Vitis setup
-   source /opt/Xilinx/Vivado/2025.1/settings64.sh
+   source /tools/Xilinx/Vivado/2025.1/settings64.sh
    # or if Vitis installs its own path:
-   source /opt/Xilinx/Vitis/2025.1/settings64.sh
+   source /tools/Xilinx/Vitis/2025.1/settings64.sh
    ```
 2. Verify the installation:
 
