@@ -4,17 +4,17 @@ Here is a **step-by-step installation guide** to install **Vivado Design Suite 2
 
 ---
 
-## :x: Pre-installation preparation (not sure about this section)
+## Pre-installation preparation 
 
 To avoid installer hang-ups or missing dependencies, do the following first:
 
-1. Update your system:
+1. Update your system: 
 
    ```bash
    sudo apt update && sudo apt upgrade
    ```
 
-2. Install required libraries and add i386 architecture (because some legacy libs may be 32-bit):
+2. Install required libraries and add i386 architecture (because some legacy libs may be 32-bit): (:x: not sure about this section)
 
    ```bash
    sudo dpkg --add-architecture i386
@@ -71,7 +71,7 @@ Since Vitis includes Vivado in the 2025.1 unified installer, you can install bot
 1. Run the installer:
 
    ```bash
-   sudo ./FPGAs_AdaptiveSoCs_Unified_SDI_2025.1_0530_0145_Lin64.bin
+   bash ./FPGAs_AdaptiveSoCs_Unified_SDI_2025.1_0530_0145_Lin64.bin
    ```
 <details>
 
