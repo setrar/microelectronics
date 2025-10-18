@@ -1197,11 +1197,34 @@ INFO: For more information please check /home/b300098957/installLibs.sh_2025-10-
 1. Add the tool settings to your shell initialization (~/.bashrc or ~/.zshrc):
 
    ```bash
-   # Vivado/Vitis setup
-   source /tools/Xilinx/Vivado/2025.1/settings64.sh
-   # or if Vitis installs its own path:
-   source /tools/Xilinx/Vitis/2025.1/settings64.sh
+   # >>> Source Xilinx Vivado and Vitis settings >>>
+	export XILINX_VRSN=2025.1
+
+	if [ -f /tools/Xilinx/Vivado/${XILINX_VRSN}/settings64.sh ]; then
+    	source /tools/Xilinx/Vivado/${XILINX_VRSN}/settings64.sh
+	fi
+
+	if [ -f /tools/Xilinx/Vitis_HLS/${XILINX_VRSN}/settings64.sh ]; then
+    	source /tools/Xilinx/Vitis_HLS/${XILINX_VRSN}/settings64.sh
+	fi
+
+	if [ -f /tools/Xilinx/Vitis/${XILINX_VRSN}/settings64.sh ]; then
+    	source /tools/Xilinx/Vitis/${XILINX_VRSN}/settings64.sh
+	fi
+	# <<< Source Xilinx Vivado and Vitis settings <<<
+
+	# >>> Source Xilinx Petalinux settings >>>
+	export PLNX_VRSN=2025.1
+
+	# Only source PetaLinux for interactive shells (e.g., not scp or cron)
+	if [[ $- == *i* ]]; then
+    	if [ -f /tools/Xilinx/Petalinux/${PLNX_VRSN}/settings.sh ]; then
+        	source /tools/Xilinx/Petalinux/${PLNX_VRSN}/settings.sh
+    	fi
+	fi
+	# <<< Source Xilinx Petalinux settings <<<
    ```
+   
 2. Verify the installation:
 
    ```bash
