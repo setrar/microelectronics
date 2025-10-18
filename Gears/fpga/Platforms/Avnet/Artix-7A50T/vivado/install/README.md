@@ -73,6 +73,18 @@ Since Vitis includes Vivado in the 2025.1 unified installer, you can install bot
    ```bash
    sudo ./FPGAs_AdaptiveSoCs_Unified_SDI_2025.1_0530_0145_Lin64.bin
    ```
+<details>
+
+```lua
+Verifying archive integrity... All good.
+Uncompressing AMD Installer for FPGAs and Adaptive SoCs..............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+This is a fresh install.
+INFO  - Internet connection validated, can connect to internet. 
+INFO  - Installing Edition: Vitis Unified Software Platform 
+INFO  - Installation directory is /tools/Xilinx 
+```
+
+</details>
 
    (Use `sudo` if installing to a system location like `/tools/Xilinx`.)
 
