@@ -82,6 +82,54 @@ This is a fresh install.
 INFO  - Internet connection validated, can connect to internet. 
 INFO  - Installing Edition: Vitis Unified Software Platform 
 INFO  - Installation directory is /tools/Xilinx 
+INFO  - Cleaning the download folder: /tools/Xilinx/Downloads/Vitis_2025.1 
+WARN  - Couldn't remove all downloaded files in /tools/Xilinx/Downloads/Vitis_2025.1, please remove them manually. 
+WARN  - Failed copying from: /tmp/selfgz909715391/data to: /tools/Xilinx/Downloads/Vitis_2025.1/data 
+java.nio.file.NoSuchFileException: /tools/Xilinx/Downloads/Vitis_2025.1/data
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystem.copyDirectory(UnixFileSystem.java:522)
+	at java.base/sun.nio.fs.UnixFileSystem.copy(UnixFileSystem.java:1066)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.copy(UnixFileSystemProvider.java:300)
+	at java.base/java.nio.file.Files.copy(Files.java:1304)
+	at com.xilinx.installer.utils.g.a(Unknown Source)
+	at com.xilinx.installer.utils.g.preVisitDirectory(Unknown Source)
+	at java.base/java.nio.file.Files.walkFileTree(Files.java:2792)
+	at com.xilinx.installer.utils.FileUtilities.a(Unknown Source)
+	at com.xilinx.installer.workflow.j.g(Unknown Source)
+	at com.xilinx.installer.workflow.j.d(Unknown Source)
+	at com.xilinx.installer.workflow.j.c(Unknown Source)
+	at com.xilinx.installer.workflow.k.run(Unknown Source)
+WARN  - Failed copying idata file under /tmp/selfgz909715391/data/idata.dat 
+java.nio.file.NoSuchFileException: /tools/Xilinx/Downloads/Vitis_2025.1/data/idata.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystem.copyFile(UnixFileSystem.java:668)
+	at java.base/sun.nio.fs.UnixFileSystem.copy(UnixFileSystem.java:1075)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.copy(UnixFileSystemProvider.java:300)
+	at java.base/java.nio.file.Files.copy(Files.java:1304)
+	at com.xilinx.installer.workflow.j.g(Unknown Source)
+	at com.xilinx.installer.workflow.j.d(Unknown Source)
+	at com.xilinx.installer.workflow.j.c(Unknown Source)
+	at com.xilinx.installer.workflow.k.run(Unknown Source)
+javax.xml.bind.JAXBException
+ - with linked exception:
+[java.io.FileNotFoundException: /tools/Xilinx/Downloads/Vitis_2025.1/data/downloadRecord.dat (No such file or directory)]
+	at javax.xml.bind.helpers.AbstractMarshallerImpl.marshal(AbstractMarshallerImpl.java:123)
+	at com.xilinx.installer.data.postInst.a.b(Unknown Source)
+	at com.xilinx.installer.workflow.Workflow.h(Unknown Source)
+	at com.xilinx.installer.workflow.j.d(Unknown Source)
+	at com.xilinx.installer.workflow.j.c(Unknown Source)
+	at com.xilinx.installer.workflow.k.run(Unknown Source)
+Caused by: java.io.FileNotFoundException: /tools/Xilinx/Downloads/Vitis_2025.1/data/downloadRecord.dat (No such file or directory)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:179)
+	at javax.xml.bind.helpers.AbstractMarshallerImpl.marshal(AbstractMarshallerImpl.java:116)
+	... 5 more
 ```
 
 </details>
@@ -101,6 +149,8 @@ INFO  - Installation directory is /tools/Xilinx
 
 3. After installation completes, run the post-install library script if available. Some users have needed to run `installlibs.sh` from the installer folder to satisfy missing dependencies. ([element14 Community][2])
    e.g.,
+
+<img src=images/vivado-install2.png width='30%' height='30%' > </img>
 
    ```bash
    cd /tools/Xilinx/…/InstallFiles
