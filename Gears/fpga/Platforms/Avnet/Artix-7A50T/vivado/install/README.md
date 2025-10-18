@@ -153,8 +153,7 @@ Caused by: java.io.FileNotFoundException: /tools/Xilinx/Downloads/Vitis_2025.1/d
 <img src=images/vivado-install2.png width='30%' height='30%' > </img>
 
    ```bash
-   cd /tools/Xilinx/…/InstallFiles
-   ./installLibs.sh
+   sudo bash /tools/Xilinx/2025.1/Vitis/scripts/installLibs.sh
    ```
 <details>
 
