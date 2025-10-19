@@ -25,7 +25,7 @@ Each IOB tile contains:
 
 | Variant    | Full Name                  | Role                                       | Used For                                                  | Connection                                                          |
 | ---------- | -------------------------- | ------------------------------------------ | --------------------------------------------------------- | ------------------------------------------------------------------- |
-| **IOB33S** | *I/O Block 3.3 V — Single* | **Single-ended** I/O block                 | LVCMOS, LVTTL, or as the **slave** in a differential pair | Directly to a single package pin (PAD)                              |
+| [**IOB33S**](IOB33S) | *I/O Block 3.3 V — Single* | **Single-ended** I/O block                 | LVCMOS, LVTTL, or as the **slave** in a differential pair | Directly to a single package pin (PAD)                              |
 | **IOB33M** | *I/O Block 3.3 V — Master* | **Master** half of a **differential pair** | LVDS, TMDS, or other differential standards               | Provides shared differential biasing & control to the paired IOB33S |
 
 ---
