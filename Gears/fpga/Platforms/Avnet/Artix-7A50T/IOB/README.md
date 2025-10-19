@@ -1,6 +1,6 @@
 # **IOB33S**
 
-<img src=images/IOB33S.png width='50%' height='50% > </img>
+<img src=images/IOB33S.png width='50%' height='50%' > </img>
 
 This schematic represents a **Xilinx I/O Block (IOB)** — specifically an **IOB33S** (Single-ended I/O Block for 3.3 V standards) tile from a **7-series FPGA** (Artix-7, Kintex-7, or Virtex-7).
 
