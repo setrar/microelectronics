@@ -14,7 +14,7 @@ To avoid installer hang-ups or missing dependencies, do the following first:
    sudo apt update && sudo apt upgrade
    ```
 
-2. Install required libraries and add i386 architecture (because some legacy libs may be 32-bit): (:x: not sure about this section)
+2. Install required libraries and add i386 architecture (because some legacy libs may be 32-bit): ( :x: not sure about this section)
 
    ```bash
    sudo dpkg --add-architecture i386
@@ -43,8 +43,6 @@ To avoid installer hang-ups or missing dependencies, do the following first:
    sudo dpkg-reconfigure dash  
    # choose “No” when asked if you want /bin/sh to be dash.
    ```
-
-   Nice observation — that actually tells us something interesting about your Ubuntu setup.
 
 	If `sudo dpkg-reconfigure dash` **didn’t prompt you** (and `/bin/sh` is still pointing to `dash`), it means one of these:
 	
