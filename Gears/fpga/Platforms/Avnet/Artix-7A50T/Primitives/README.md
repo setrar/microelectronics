@@ -61,7 +61,7 @@ FPGA (7-Series)
 
 ```mermaid
 graph TD
-    A[FPGA Device (7-Series)] --> B[Configuration & Control]
+    A[FPGA Device [7-Series]] --> B[Configuration & Control]
     A --> C[Logic Fabric (CLBs)]
     A --> D[Block RAM Columns]
     A --> E[DSP Columns]
