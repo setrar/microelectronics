@@ -116,7 +116,7 @@ Which would you like me to do next — gather the driver/firmware references for
 
 ---
 
-<img src=images/CX78921-11Z.png width='50%' height='50%' > </img>
+<img src=images/CX78921-11Z.png width='40%' height='40%' > </img>
 
 The photo looks nearly identical to the **Conexant CX78921-11Z** family used in older USB video-capture sticks.
 Your marking:
