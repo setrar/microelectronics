@@ -91,8 +91,8 @@ graph TD
     F --> F3[ISERDESE2 / OSERDESE2]
     F --> F4[IDDR / ODDR / IDELAYE2 / ODELAYE2]
 
-    G --> G1[BUFG (Global)]
-    G --> G2[BUFH / BUFR / BUFIO (Regional)]
+    G --> G1[BUFG - Global]
+    G --> G2[BUFH / BUFR / BUFIO - Regional]
 
     H --> H1[GTXE2 / GTHE2 Channels]
     H --> H2[IBUFDS_GTE2 / OBUFDS_GTE2]
