@@ -176,3 +176,120 @@ Instead, use it as a **black-box reference**:
   * Artix-7 for digital processing
   * FT601 for USB3 streaming
 
+---
+
+# Kicad Design
+
+You *can* design a small KiCad board that hosts the **ADV7181B** (analog video decoder) and **FT601** (USB3 FIFO bridge), then connect both to your **Artix-7A50T** board via PMODs (or a more suitable header).
+However, you’ll need to consider **pin count, signaling speed, and power** carefully.
+Let’s break it down precisely 👇
+
+---
+
+## 🧩 1. Core concept
+
+Here’s the modular concept you’re describing:
+
+```mermaid
+graph LR
+A[Hi8 PAL Analog In] -->|Composite / S-Video| B[ADV7181B@{shape: rect, label: "Analog Decoder\n(PAL→YCbCr 4:2:2, BT.656)"}]
+B -->|8-bit YCbCr @27 MHz| C[Artix-7A50T@{shape: rect, label: "FPGA Board\n(Video FIFO + Preproc)"}]
+C -->|16/32-bit FIFO Bus| D[FT601@{shape: rect, label: "USB3 Bridge\n(Streaming to PC)"}]
+D -->|USB3| E[PC@{shape: rect, label: "OBS / ffmpeg"}]
+```
+
+So your KiCad board is basically a **video I/O daughterboard**.
+It sits between the analog source (Hi8 PAL) and the FPGA + PC.
+
+---
+
+## ⚙️ 2. Electrical considerations
+
+### 🧠 (a) PMOD connector limits
+
+* A PMOD gives **only 8 GPIOs + GND + 3.3 V**, typically at ≤ 33 MHz reliable rate.
+* ADV7181B outputs an **8-bit BT.656 video stream at 27 MHz**, plus sync/clock signals (≈11 lines).
+  → This *just* fits, but only if you dedicate **two PMODs** (≈16 data + 2 control lines).
+
+So you’ll likely need a **dual-PMOD ribbon or FMC-style breakout**.
+
+**Recommended:**
+Use a **2×6 or 2×12 pin header** instead of strict PMOD to avoid signal integrity issues.
+
+---
+
+### ⚡ (b) FT601 interface
+
+* FT601 uses a **FIFO interface (16-bit or 32-bit)** at up to 100 MHz.
+* That’s *far* beyond PMOD capability.
+* It’s better to connect it via a **dedicated high-speed header** (short traces, solid ground return).
+
+Thus, I’d propose **two connectors**:
+
+* One low-speed for the ADV7181B (27 MHz domain).
+* One high-speed (short ribbon) for FT601 (USB streaming).
+
+---
+
+### 🔌 (c) Power
+
+* ADV7181B: 1.8 V core + 3.3 V I/O.
+* FT601: 1.2 V core + 3.3 V I/O + 5 V USB input.
+* Add local LDOs or DC/DC converters:
+
+  * **TPS7A02** or **AP7333** (for 1.8 V, 1.2 V rails).
+  * USB 5 V can feed 3.3 V via a regulator.
+
+---
+
+### 📶 (d) Clocks
+
+* ADV7181B needs a **27 MHz crystal** (for PAL).
+* FT601 has an **internal PLL** from USB refclock.
+* Your Artix-7 can sample ADV7181B output using its **27 MHz pixel clock** directly.
+
+---
+
+## 🧩 3. FPGA I/O summary
+
+| Signal                 | From     | To    | Voltage | Notes                   |
+| ---------------------- | -------- | ----- | ------- | ----------------------- |
+| Y[7:0]                 | ADV7181B | FPGA  | 3.3 V   | 8-bit video data        |
+| PCLK                   | ADV7181B | FPGA  | 3.3 V   | 27 MHz pixel clock      |
+| HS/VS/FIELD            | ADV7181B | FPGA  | 3.3 V   | optional syncs          |
+| FIFO_DATA[31:0]        | FPGA     | FT601 | 3.3 V   | synchronous data to USB |
+| FIFO_CTRL (WR/RD/FLAG) | FPGA     | FT601 | 3.3 V   | handshake               |
+
+---
+
+## 🛠️ 4. What to put on your KiCad board
+
+| Section           | Components                                            |
+| ----------------- | ----------------------------------------------------- |
+| **Video input**   | RCA or S-Video jacks, anti-alias RC filters           |
+| **Decoder**       | ADV7181B + 27 MHz crystal + 1.8 V/3.3 V LDOs          |
+| **USB bridge**    | FT601Q + ESD protection + USB3 Type-B connector       |
+| **Connectors**    | Dual-PMOD header or 2×12 expansion header for Artix-7 |
+| **Power**         | LDOs from 5 V USB, optional jumper for external 5 V   |
+| **Clock routing** | 27 MHz → FPGA via buffer or direct from ADV7181B      |
+
+---
+
+## 🧰 5. Open-source reference designs
+
+You can look at:
+
+* **Analog Devices ADV7181B eval board** (schematic publicly available).
+* **FT601Q evaluation board** (FTDI has full KiCad/Altium design files).
+* Combine their reference schematics into one small daughterboard.
+
+---
+
+## ✅ Feasibility summary
+
+| Function            | Status | Notes                                            |
+| ------------------- | ------ | ------------------------------------------------ |
+| PAL capture         | ✅      | ADV7181B handles it natively                     |
+| 8-bit video to FPGA | ✅      | 27 MHz BT.656 over PMOD (prefer dual-PMOD)       |
+| USB3 to PC          | ⚠️     | Needs FT601 header, not PMOD                     |
+| KiCad layout        | ✅      | Both chips are QFP/QFN, can route on 4-layer PCB |
