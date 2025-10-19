@@ -69,14 +69,14 @@ graph TD
     A --> G[Clocking Network]
     A --> H[Transceiver Columns]
     A --> I[Analog Block]
-    A --> J[Embedded Processor (Zynq only)]
+    A --> J[Embedded Processor - Zynq only]
 
     B --> B1[ICAP / FRAME_ECC / DNA_PORT]
     B --> B2[STARTUPE2 / BSCAN]
     B --> B3[MMCM / PLL / BUFG / BUFR]
 
     C --> C1[LUT6 / LUT5]
-    C --> C2[FDRE / FDCE (Flip-Flops)]
+    C --> C2[FDRE / FDCE - Flip-Flops]
     C --> C3[CARRY4 / MUXF7 / MUXF8]
     C --> C4[SRL16E / SRLC32E]
     C --> C5[PIPs & Routing Switches]
