@@ -139,7 +139,7 @@ graph LR
 
 Think of the **7-series architecture** as a **columnar grid**:
 
-* **CLBs** (logic) form most of the fabric.
+* [**CLBs**](CLBs) (logic) form most of the fabric.
 * **BRAMs**, **DSPs**, [**IOBs**](IOBs), and **GTXs** form vertical **columns** interleaved with CLBs.
 * The **clocking network** and **routing matrices** interconnect everything.
 * On **Zynq**, a **Processing System (PS7)** block connects via **AXI** to the programmable logic (PL).
