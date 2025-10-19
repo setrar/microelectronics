@@ -60,47 +60,77 @@ FPGA (7-Series)
 ## 🧭 **Mermaid Flowchart Representation**
 
 ```mermaid
-graph TD
-    A[FPGA Device 7-Series] --> B[Configuration & Control]
-    A --> C[Logic Fabric - CLBs]
-    A --> D[Block RAM Columns]
-    A --> E[DSP Columns]
-    A --> F[IO Columns]
-    A --> G[Clocking Network]
-    A --> H[Transceiver Columns]
-    A --> I[Analog Block]
-    A --> J[Embedded Processor - Zynq only]
+graph LR
+    A@{ shape: procs, label: "FPGA Device (7-Series)" }
+    B@{ shape: procs, label: "Configuration & Control" }
+    C@{ shape: procs, label: "Logic Fabric (CLBs)" }
+    D@{ shape: procs, label: "Block RAM Columns" }
+    E@{ shape: procs, label: "DSP Columns" }
+    F@{ shape: procs, label: "I/O Columns" }
+    G@{ shape: procs, label: "Clocking Network" }
+    H@{ shape: procs, label: "Transceiver Columns" }
+    I@{ shape: procs, label: "Analog Block" }
+    J@{ shape: procs, label: "Embedded Processor (Zynq only)" }
 
-    B --> B1[ICAP / FRAME_ECC / DNA_PORT]
-    B --> B2[STARTUPE2 / BSCAN]
-    B --> B3[MMCM / PLL / BUFG / BUFR]
+    %% Top-level structure
+    A --> B
+    A --> C
+    A --> D
+    A --> E
+    A --> F
+    A --> G
+    A --> H
+    A --> I
+    A --> J
 
-    C --> C1[LUT6 / LUT5]
-    C --> C2[FDRE / FDCE - Flip-Flops]
-    C --> C3[CARRY4 / MUXF7 / MUXF8]
-    C --> C4[SRL16E / SRLC32E]
-    C --> C5[PIPs & Routing Switches]
+    %% Subnodes for Configuration & Control
+    B1@{ shape: rect, label: "ICAP / FRAME_ECC / DNA_PORT" }
+    B2@{ shape: rect, label: "STARTUPE2 / BSCAN" }
+    B3@{ shape: rect, label: "MMCM / PLL / BUFG / BUFR" }
+    B --> B1 --> B2 --> B3
 
-    D --> D1[RAMB18E1 / RAMB36E1]
-    D --> D2[FIFO36E1]
+    %% Subnodes for Logic Fabric
+    C1@{ shape: rect, label: "LUT6 / LUT5" }
+    C2@{ shape: rect, label: "FDRE / FDCE (Flip-Flops)" }
+    C3@{ shape: rect, label: "CARRY4 / MUXF7 / MUXF8" }
+    C4@{ shape: rect, label: "SRL16E / SRLC32E" }
+    C5@{ shape: rect, label: "PIPs & Routing Switches" }
+    C --> C1 --> C2 --> C3 --> C4 --> C5
 
-    E --> E1[DSP48E1 Blocks]
+    %% Subnodes for BRAM
+    D1@{ shape: rect, label: "RAMB18E1 / RAMB36E1" }
+    D2@{ shape: rect, label: "FIFO36E1" }
+    D --> D1 --> D2
 
-    F --> F1[IOB33S / IOB33M]
-    F --> F2[IBUF / OBUF / IOBUF / OBUFDS]
-    F --> F3[ISERDESE2 / OSERDESE2]
-    F --> F4[IDDR / ODDR / IDELAYE2 / ODELAYE2]
+    %% Subnodes for DSP
+    E1@{ shape: rect, label: "DSP48E1 Blocks" }
+    E --> E1
 
-    G --> G1[BUFG - Global]
-    G --> G2[BUFH / BUFR / BUFIO - Regional]
+    %% Subnodes for IO
+    F1@{ shape: rect, label: "IOB33S / IOB33M" }
+    F2@{ shape: rect, label: "IBUF / OBUF / IOBUF / OBUFDS" }
+    F3@{ shape: rect, label: "ISERDESE2 / OSERDESE2" }
+    F4@{ shape: rect, label: "IDDR / ODDR / IDELAYE2 / ODELAYE2" }
+    F --> F1 --> F2 --> F3 --> F4
 
-    H --> H1[GTXE2 / GTHE2 Channels]
-    H --> H2[IBUFDS_GTE2 / OBUFDS_GTE2]
+    %% Subnodes for Clocking
+    G1@{ shape: rect, label: "BUFG (Global)" }
+    G2@{ shape: rect, label: "BUFH / BUFR / BUFIO (Regional)" }
+    G --> G1 --> G2
 
-    I --> I1[XADC Sensors]
+    %% Subnodes for Transceivers
+    H1@{ shape: rect, label: "GTXE2 / GTHE2 Channels" }
+    H2@{ shape: rect, label: "IBUFDS_GTE2 / OBUFDS_GTE2" }
+    H --> H1 --> H2
 
-    J --> J1[PS7 ARM Cortex-A9]
-    J --> J2[AXI Interconnect]
+    %% Analog
+    I1@{ shape: rect, label: "XADC Sensors" }
+    I --> I1
+
+    %% Processor
+    J1@{ shape: rect, label: "PS7 ARM Cortex-A9" }
+    J2@{ shape: rect, label: "AXI Interconnect" }
+    J --> J1 --> J2
 ```
 
 ---
