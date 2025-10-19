@@ -44,6 +44,47 @@ To avoid installer hang-ups or missing dependencies, do the following first:
    # choose “No” when asked if you want /bin/sh to be dash.
    ```
 
+   Nice observation — that actually tells us something interesting about your Ubuntu setup.
+
+	If `sudo dpkg-reconfigure dash` **didn’t prompt you** (and `/bin/sh` is still pointing to `dash`), it means one of these:
+	
+	#### 1. **`dash` package is not fully configured**
+	
+	Sometimes `dpkg-reconfigure` doesn’t trigger the prompt because the `dash` package was preseeded or auto-configured.
+	Try forcing it:
+	
+	```bash
+	sudo dpkg-reconfigure -f dialog dash
+	```
+	
+	#### 2. **Symbolic link manually set or locked**
+	
+	If `/bin/sh` has been manually linked or managed by an automation policy, the system may skip the question.
+	You can manually switch it with:
+	
+	```bash
+	sudo ln -sf bash /bin/sh
+	```
+	
+	Then verify:
+	
+	```bash
+	ls -l /bin/sh
+	# should now show /bin/sh -> bash
+	```
+	
+	---
+	
+	### 🧠 Quick summary
+	
+	* `dpkg-reconfigure dash` normally asks:
+	
+	  ```
+	  Install dash as /bin/sh? <Yes/No>
+	  ```
+	* Selecting **No** makes `/bin/sh → bash`.
+	* If you didn’t get that dialog, forcing the interactive mode or manually relinking fixes it.
+
    (While this is more relevant for PetaLinux, many FPGA tool flows assume bash.) ([FPGA Developer][4])
 
 ---
