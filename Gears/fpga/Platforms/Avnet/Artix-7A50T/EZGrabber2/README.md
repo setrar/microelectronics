@@ -113,3 +113,66 @@ Which would you like me to do next — gather the driver/firmware references for
 [2]: https://patrolfull.blogg.se/2022/june/ez-grabber-2-windows-8.html?utm_source=chatgpt.com "Ez grabber 2 windows 8"
 [3]: https://linux-media.vger.kernel.narkive.com/xbsm0L6h/cx231xx-add-support-for-otg102-aka-ezgrabber2?utm_source=chatgpt.com "cx231xx : Add support for OTG102 aka EZGrabber2"
 [4]: https://www.digitalfaq.com/forum/video-capture/9190-comparing-capture-cards.html?utm_source=chatgpt.com "Comparing capture cards handling lousy tapes?"
+
+---
+
+<img src=images/CX78921-11Z.png width='50%' height='50%' > </img>
+
+The photo looks nearly identical to the **Conexant CX78921-11Z** family used in older USB video-capture sticks.
+Your marking:
+
+```
+CX78921-11Z
+EP1920.05
+1341 SGP
+```
+
+suggests:
+
+* **CX78921-11Z** → main part number (Conexant analog video capture SoC).
+* **EP1920.05** → internal lot or mask revision.
+* **1341 SGP** → manufactured in week 41 of 2013 (Singapore).
+
+---
+
+### 🔍 What this chip does
+
+This is a **Conexant video capture SoC**, functionally similar to the CX231xx line.
+It integrates:
+
+1. **Analog Front-End (AFE)** — Composite/S-Video input + ADC.
+2. **PAL/NTSC decoder** — Color demodulation, sync, timing.
+3. **Audio ADC (optional)**.
+4. **USB 2.0 device controller** — transfers digitized YUV video to the host.
+5. **Optional MPEG encoder block** (depends on variant).
+
+Essentially, it performs the *entire* Hi8-to-USB conversion on its own.
+That’s why the Elgato or EasyCAP stick doesn’t have separate decoder + USB chips — this one does both.
+
+---
+
+### ⚙️ Why this matters for your FPGA plan
+
+If your goal is to **replace or tap into** the video path with your **Artix-7A50T**, then:
+
+| Objective                                                               | Feasibility                             | Comment                                                                                                             |
+| ----------------------------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| Tap raw digital video before USB                                        | ⚠️ Hard                                 | You’d need to probe internal BT.656/YCbCr bus lines between the AFE and USB engine—often buried inside the package. |
+| Replace the chip with FPGA                                              | ❌ Not realistic                         | It’s a large mixed-signal SoC with analog front-end and USB PHY.                                                    |
+| Reuse its analog front-end, output to FPGA                              | ⚠️ Possible *if* it exposes BT.656 pins | You’d need to trace pins and find datasheet/pinout (none public).                                                   |
+| Fully re-create the function using FPGA + external decoder + USB bridge | ✅ Feasible                              | Use ADV7181B → Artix-7 → FT601/CYUSB3014 chain (open design).                                                       |
+
+---
+
+### 🧩 Practical recommendation
+
+Since Conexant datasheets are NDA-only and the CX78921 USB protocol is closed, **don’t try to reverse engineer it electrically**.
+Instead, use it as a **black-box reference**:
+
+* Study USB enumeration (e.g., with `usbmon` or Wireshark) to understand the data format.
+* Replicate the *system architecture* with open components:
+
+  * Analog decoder (ADV7181B / TVP5150)
+  * Artix-7 for digital processing
+  * FT601 for USB3 streaming
+
