@@ -93,4 +93,33 @@ FPGA Fabric
 
 ---
 
-Would you like me to follow this with a **Mermaid diagram** showing the full hierarchy (CLB → Slice → LUT/FF/CARRY/MUX) in a **horizontal** layout for GitHub rendering?
+```mermaid
+graph LR
+
+A@{ label: "FPGA Fabric" } --> B@{ label: "CLB Tile" }
+
+B --> B1@{ label: "CLBLL (Logic-only)" }
+B --> B2@{ label: "CLBLM (Logic + Memory)" }
+
+%% CLBLL structure
+B1 --> C1@{ label: "SLICEL #1" }
+B1 --> C2@{ label: "SLICEL #2" }
+
+%% CLBLM structure
+B2 --> D1@{ label: "SLICEL" }
+B2 --> D2@{ label: "SLICEM" }
+
+%% SLICEL internals
+C1 --> E1@{ label: "4 × LUT6 (Logic)" }
+C1 --> E2@{ label: "8 × Flip-Flops (FDRE/FDSE)" }
+C1 --> E3@{ label: "CARRY4 (Arithmetic Chain)" }
+C1 --> E4@{ label: "MUXF7 / MUXF8 (Wide Logic)" }
+
+%% SLICEM extras
+D2 --> F1@{ label: "4 × LUT6 (Logic + Memory)" }
+D2 --> F2@{ label: "8 × Flip-Flops" }
+D2 --> F3@{ label: "CARRY4" }
+D2 --> F4@{ label: "MUXF7 / MUXF8" }
+D2 --> F5@{ label: "SRL16E / SRLC32E (Shift Register)" }
+D2 --> F6@{ label: "Distributed RAM (RAM32X1D / RAM64X1S)" }
+```
