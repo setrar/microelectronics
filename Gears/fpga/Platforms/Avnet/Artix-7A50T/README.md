@@ -80,4 +80,5 @@ Would you like help checking support for your board's exact part number?
 
 # References
 
-- [ ] [Artix 7A50T - Hardware User Guide ](https://www.avnet.com/apac/products/product-highlights/xilinx-artix7)
+- [ ] [Xilinx Artix-7 FPGA 50T Evaluation Kit, AES-A](https://www.avnet.com/apac/products/product-highlights/xilinx-artix7)
+- [ ] [Artix 7A50T - Hardware User Guide ](https://www.avnet.com/opasdata/d120001/medias/docus/4/$v2/7A50T_User_Guide.pdf)
