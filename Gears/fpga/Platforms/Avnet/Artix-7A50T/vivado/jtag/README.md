@@ -1,6 +1,12 @@
 
 
 ```sh
+lsusb | grep UART
+```
+> Bus 002 Device 002: ID 0403:6014 Future Technology Devices International, Ltd FT232H Single HS USB-UART/FIFO IC
+
+
+```sh
 sudo /tools/Xilinx/2025.1/Vivado/data/xicom/cable_drivers/lin64/install_script/install_drivers/install_drivers
 ```
 <details>
