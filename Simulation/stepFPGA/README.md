@@ -54,9 +54,9 @@ EIM Technology is a Canadian company (Vancouver) that specializes in hands-on el
 
 If you like, I can **pull up a full profile** (founding date, key people, number of employees, product catalog with pricing) of EIM Technology, or compare them with **two or three similar companies** in the electronics-learning-kit space. Would you like that?
 
-[1]: https://www.eimtechnology.com/collections/all-products?srsltid=AfmBOoro44V0QjS3dqFG1fLkVgb7X0jXBWh81EgOIrTJBMwQBKP433YH&utm_source=chatgpt.com "Our Products | Electronic Kits, Tools, & Modules - EIM Technology"
-[2]: https://www.crowdsupply.com/eim-technology?utm_source=chatgpt.com "EIM Technology - Crowd Supply"
-[3]: https://www.tindie.com/stores/evoinmotion/?utm_source=chatgpt.com "Browse products by EIM Technology on Tindie"
-[4]: https://github.com/eimtechnology?utm_source=chatgpt.com "EIM Technology - GitHub"
-[5]: https://www.instagram.com/eimtechnology/?utm_source=chatgpt.com "EIM Technology (@eimtechnology) • Instagram photos and videos"
+[1]: https://www.eimtechnology.com/collections/all-products?srsltid=AfmBOoro44V0QjS3dqFG1fLkVgb7X0jXBWh81EgOIrTJBMwQBKP433YH "Our Products | Electronic Kits, Tools, & Modules - EIM Technology"
+[2]: https://www.crowdsupply.com/eim-technology "EIM Technology - Crowd Supply"
+[3]: https://www.tindie.com/stores/evoinmotion/ "Browse products by EIM Technology on Tindie"
+[4]: https://github.com/eimtechnology "EIM Technology - GitHub"
+[5]: https://www.instagram.com/eimtechnology/ "EIM Technology (@eimtechnology) • Instagram photos and videos"
 [6]: https://www.youtube.com/watch?v=7Txt-N6yz18&utm_source=chatgpt.com "EIM Technology MEGO & Zoolark: Review, Demo & Teardown"
