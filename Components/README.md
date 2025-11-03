@@ -4,7 +4,7 @@
 
 Say for example: (Inductor)
 
-### ⚙️ 1️⃣ Inductor in general electronics (i.e. [Discrete](discrete)
+### ⚙️ 1️⃣ Inductor in general electronics (i.e. [Discrete](discrete) )
 
 An **inductor** is a **discrete passive component**, not an IC by itself.
 
@@ -15,7 +15,7 @@ So in the classic sense, **an inductor is not an integrated circuit (IC)**.
 
 ---
 
-### ⚙️ 2️⃣ Inductor in RF / CMOS chips (i.e. [IC - Integrated Circuit](IC)
+### ⚙️ 2️⃣ Inductor in RF / CMOS chips (i.e. [IC - Integrated Circuit](ic) )
 
 In **RFIC / CMOS design**, inductors **can be fabricated on-chip**, typically as:
 
