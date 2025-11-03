@@ -14,7 +14,7 @@ A **discrete component** is a **single, individual electronic element** with **o
 | Type                 | Function                        | Notes                                       |
 | -------------------- | ------------------------------- | ------------------------------------------- |
 | Resistor (R)         | Limits current                  | Can be carbon, metal-film, or chip resistor |
-| Capacitor (C)        | Stores electric energy          | Ceramic, electrolytic, tantalum             |
+| Capacitor (C)        | Stores electric energy          | Ceramic, [electrolytic](https://en.wikipedia.org/wiki/Electrolytic_capacitor), tantalum             |
 | Inductor (L)         | Stores magnetic energy          | Air-core or ferrite coil                    |
 | Diode                | Allows current in one direction | Includes LEDs, Schottky, Zener              |
 | Transistor           | Amplification or switching      | BJT, MOSFET, JFET                           |
