@@ -148,7 +148,7 @@ $1,\mu H = 10^{-6},H$
 | Unit       | Symbol | Relation             |
 | ---------- | ------ | -------------------- |
 | Henry      | **H**  | Base SI unit         |
-| Millihenry | **mH** | ( 1,mH = 10^{-3},H ) |
+| Millihenry | **mH** | $( 1,mH = 10^{-3},H )$ |
 | Microhenry | **µH** | ( 1,µH = 10^{-6},H ) |
 | Nanohenry  | **nH** | ( 1,nH = 10^{-9},H ) |
 
