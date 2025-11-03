@@ -17,3 +17,4 @@ Open Source
 # References
 
 - [ ] [Open Source OrCAD (All Products) Alternatives](https://alternativeto.net/software/cadence-orcad/?license=opensource)
+- [ ] [Introducing: EasyEDA 2 KiCad](https://blog.wokwi.com/introducing-easyeda-2-kicad)
