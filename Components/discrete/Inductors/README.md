@@ -158,5 +158,5 @@ $1,\mu H = 10^{-6},H$
 
 If you wind a small coil of wire and measure:
 $L = 2.2,\mu H$
-that means it has an inductance of ( 2.2 \times 10^{-6} ) henries.
+that means it has an inductance of $( 2.2 \times 10^{-6} )$ henries.
 
