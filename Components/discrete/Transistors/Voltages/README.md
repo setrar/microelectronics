@@ -54,8 +54,8 @@ Depending on how it’s biased:
 ---
 
 So:
-✅ **Digital View:** NMOS inverter (logic NOT gate)
-✅ **Analog View:** Common-source amplifier
+- ✅ **Digital View:** NMOS inverter (logic NOT gate)
+- ✅ **Analog View:** Common-source amplifier
 
 <img src=images/VTC.png width='50%' height='50%' > </img>
 
