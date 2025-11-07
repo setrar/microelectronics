@@ -63,8 +63,8 @@ Nice — perfect plot. Here's a short explanation to go with the voltage-transfe
 
 # What the plot shows
 
-* The **horizontal axis** is the input gate voltage (V_{in}).
-* The **vertical axis** is the output/drain voltage (V_{out}=V_D) (node pulled up by (R_D) to (V_{DD}) when the NMOS is off).
+* The **horizontal axis** is the input gate voltage ($V_{in}$).
+* The **vertical axis** is the output/drain voltage ($V_{out}$=$V_D$) (node pulled up by ($R_D$) to ($V_{DD}$) when the NMOS is off).
 * The dashed diagonal line (y=x) is shown for reference.
 
 # Regions and behavior
@@ -72,12 +72,12 @@ Nice — perfect plot. Here's a short explanation to go with the voltage-transfe
 1. **Left region (Vin < Vth ≈ 1.5 V)**
 
    * NMOS is **off** (no channel).
-   * No drain current, so the pull-up resistor pulls the drain to (V_{DD}) (here ≈ 5 V).
+   * No drain current, so the pull-up resistor pulls the drain to ($V_{DD}$) (here ≈ 5 V).
    * Output is HIGH.
 
 2. **Transition region (around Vin ≈ Vth → a bit above)**
 
-   * The transistor begins to conduct; the drain starts to fall from (V_{DD}).
+   * The transistor begins to conduct; the drain starts to fall from ($V_{DD}$).
    * The device may operate first in **saturation** (current limited by gate overdrive) and then in **triode**, depending on Vds vs Vov.
    * This region produces the sharp fall (gain) — the inverter switching threshold lies somewhere here.
 
@@ -95,7 +95,7 @@ Nice — perfect plot. Here's a short explanation to go with the voltage-transfe
 # Practical notes
 
 * This Rd-loaded NMOS inverter is simple but **inefficient** (static power drawn when input is HIGH because current flows through Rd and NMOS). CMOS inverters avoid that by using complementary devices.
-* The VTC is useful for finding the **switching threshold (Vm)** where (V_{in}=V_{out}) and for calculating gain (slope) at that point.
+* The VTC is useful for finding the **switching threshold (Vm)** where ($V_{in}$=$V_{out}$) and for calculating gain (slope) at that point.
 
 ---
 
