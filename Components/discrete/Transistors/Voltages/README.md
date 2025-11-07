@@ -64,7 +64,7 @@ Nice — perfect plot. Here's a short explanation to go with the voltage-transfe
 # What the plot shows
 
 * The **horizontal axis** is the input gate voltage ($V_{in}$).
-* The **vertical axis** is the output/drain voltage ($V_{out}$=$V_D$) (node pulled up by ($R_D$) to ($V_{DD}$) when the NMOS is off).
+* The **vertical axis** is the output/drain voltage ($V_{out}$ = $V_D$) (node pulled up by ($R_D$) to ($V_{DD}$) when the NMOS is off).
 * The dashed diagonal line (y=x) is shown for reference.
 
 # Regions and behavior
