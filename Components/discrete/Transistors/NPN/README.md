@@ -2,7 +2,7 @@
 
 ```mermaid
 graph TD
-  VDD["V<sub>DD</sub> (+)"]
+  VDD["$V_{DD}$ (+)"]
   R["Pull-up Resistor"]
   Vf["Vf (Output Node)"]
   Q["NPN Transistor"]
