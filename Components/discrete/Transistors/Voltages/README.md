@@ -1,7 +1,7 @@
 
 
 
-<img src=images/NMOS-inverter.png width='50%' height='50%' > </img>
+<img src=images/NMOS-inverter.png width='30%' height='30%' > </img>
 
 A **common-source NMOS amplifier** (or **inverter**, depending on biasing).
 
