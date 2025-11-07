@@ -1,7 +1,7 @@
 
 
 ```mermaid
-graph LR
+graph TD
   VDD["VDD (+)"]
   R["Pull-up Resistor"]
   Vf["Vf (Output Node)"]
