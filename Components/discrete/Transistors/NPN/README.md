@@ -39,8 +39,8 @@ In BJT-based circuits you might see:
 
 ### ⚡ Summary
 
-* **(V_{DD})** → “Drain-to-Drain voltage” → positive rail.
-* **(V_{SS})** → “Source-to-Source voltage” → ground/negative rail.
+* **($V_{DD}$)** → “Drain-to-Drain voltage” → positive rail.
+* **($V_{SS}$)** → “Source-to-Source voltage” → ground/negative rail.
 * Historical artifact:
 
   * **D** = Drain
@@ -50,8 +50,8 @@ In BJT-based circuits you might see:
 
 So in short:
 
-> 🔹 **(V_{DD})** = positive supply voltage
-> 🔹 **(V_{SS})** = ground or 0 V (negative supply)
+> 🔹 **($V_{DD}$)** = positive supply voltage
+> 🔹 **($V_{SS}$)** = ground or 0 V (negative supply)
 
 
 
