@@ -1,5 +1,47 @@
 
 
+Perfect ✅ — here’s a **Mermaid schematic** comparing **BJT vs MOSFET** rail conventions side-by-side:
+
+```mermaid
+graph TD
+  subgraph BJT_Circuit["BJT Circuit (VCC / VEE)"]
+    VCC["+VCC (Collector Rail)"]
+    Q1["NPN Transistor"]
+    VEE["0V / -VEE (Emitter Rail)"]
+    VCC --> Q1
+    Q1 --> VEE
+    Q1 -->|Base Input| Vin1["V_in (Base)"]
+  end
+
+  subgraph MOSFET_Circuit["MOSFET Circuit (VDD / VSS)"]
+    VDD["+VDD (Drain Rail)"]
+    M1["nMOS Transistor"]
+    VSS["0V / -VSS (Source Rail)"]
+    VDD --> M1
+    M1 --> VSS
+    M1 -->|Gate Input| Vin2["V_in (Gate)"]
+  end
+
+  style BJT_Circuit fill:#ffe9d6,stroke:#f68b1f,stroke-width:2px
+  style MOSFET_Circuit fill:#d6f5ff,stroke:#007acc,stroke-width:2px
+```
+
+---
+
+### 🧠 Explanation
+
+| Type       | Positive Rail | Negative / Ground Rail | Controlled by | Typical Symbol |
+| ---------- | ------------- | ---------------------- | ------------- | -------------- |
+| **BJT**    | **VCC**       | **VEE**                | Base current  | NPN or PNP     |
+| **MOSFET** | **VDD**       | **VSS**                | Gate voltage  | nMOS or pMOS   |
+
+So:
+
+* BJTs → **Collector/E**mitter rails → (V_{CC}), (V_{EE})
+* MOSFETs → **Drain/S**ource rails → (V_{DD}), (V_{SS})
+
+
+
 ```mermaid
 graph TD
   VDD["VDD (+)"]
