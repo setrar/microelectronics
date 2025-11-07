@@ -78,13 +78,13 @@ Nice — perfect plot. Here's a short explanation to go with the voltage-transfe
 2. **Transition region (around Vin ≈ Vth → a bit above)**
 
    * The transistor begins to conduct; the drain starts to fall from ($V_{DD}$).
-   * The device may operate first in **saturation** (current limited by gate overdrive) and then in **triode**, depending on Vds vs Vov.
+   * The device may operate first in **saturation** (current limited by gate overdrive) and then in **triode**, depending on V<sub>ds</sub> vs V<sub>0v</sub>.
    * This region produces the sharp fall (gain) — the inverter switching threshold lies somewhere here.
 
 3. **Right region (Vin large)**
 
-   * NMOS is strongly on; it pulls the drain near ground (small Vout).
-   * Output is LOW (but not exactly 0 V because of voltage drop across the on-resistance and the finite Rd).
+   * NMOS is strongly on; it pulls the drain near ground (small V<sub>out</sub>).
+   * Output is LOW (but not exactly 0 V because of voltage drop across the on-resistance and the finite R<sub>d</sub>).
 
 # Design knobs that change the curve
 
