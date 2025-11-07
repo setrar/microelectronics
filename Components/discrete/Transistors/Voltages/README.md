@@ -1,14 +1,103 @@
 
-```mermaid
 
-graph TD
-    VDD["VDD (+5V)"] --> R["Pull-up resistor (Rc)"]
-    R --> D[Drain of NMOS]
-    S[GND] --> S
-    D --> Out["(Output)"]
-    G[Gate] -->|Input| Vin["(Logic Input)"]
 
-```
+<images src=images/NMOS-inverter.png width='50% height='50%' > </img>
+
+A **common-source NMOS amplifier** (or **inverter**, depending on biasing).
+
+Here’s how to classify it:
+
+---
+
+### ⚙️ Circuit Type
+
+**→ Common-Source NMOS Configuration**
+
+---
+
+### 🔋 Structure
+
+* **Drain** connected to **V<sub>DD</sub>** through a **resistor** → provides the load.
+* **Source** connected to **ground (V<sub>SS</sub>)** → reference node.
+* **Gate** receives the **input voltage (V<sub>G</sub>)** → controls current through the channel.
+
+---
+
+### 🔄 Function
+
+Depending on how it’s biased:
+
+1. **As a digital logic inverter (switching region):**
+
+   * If **V<sub>G</sub> < V<sub>th</sub>**, the NMOS is **OFF**, so **V<sub>D</sub> ≈ V<sub>DD</sub>** → logic ‘1’.
+   * If **V<sub>G</sub> > V<sub>th</sub>**, the NMOS is **ON**, pulling **V<sub>D</sub> ≈ 0 V (V<sub>SS</sub>)** → logic ‘0’.
+   * ➜ Acts as a **NOT gate**.
+
+2. **As an analog amplifier (active region):**
+
+   * For small signals, the NMOS operates in the **saturation region**.
+   * **V<sub>D</sub>** varies inversely with **V<sub>G</sub>**, giving voltage amplification.
+   * ➜ Acts as a **common-source amplifier**.
+
+---
+
+### 🧩 Summary Table
+
+| Node     | Symbol         | Function           |
+| -------- | -------------- | ------------------ |
+| Drain    | D              | Output             |
+| Gate     | G              | Input              |
+| Source   | S              | Reference (ground) |
+| Resistor | R<sub>D</sub>  | Load               |
+| Supply   | V<sub>DD</sub> | Positive rail      |
+
+---
+
+So:
+✅ **Digital View:** NMOS inverter (logic NOT gate)
+✅ **Analog View:** Common-source amplifier
+
+<images src=images/VTC.png width='50% height='50%' > </img>
+
+Nice — perfect plot. Here's a short explanation to go with the voltage-transfer characteristic (VTC) you just saw.
+
+# What the plot shows
+
+* The **horizontal axis** is the input gate voltage (V_{in}).
+* The **vertical axis** is the output/drain voltage (V_{out}=V_D) (node pulled up by (R_D) to (V_{DD}) when the NMOS is off).
+* The dashed diagonal line (y=x) is shown for reference.
+
+# Regions and behavior
+
+1. **Left region (Vin < Vth ≈ 1.5 V)**
+
+   * NMOS is **off** (no channel).
+   * No drain current, so the pull-up resistor pulls the drain to (V_{DD}) (here ≈ 5 V).
+   * Output is HIGH.
+
+2. **Transition region (around Vin ≈ Vth → a bit above)**
+
+   * The transistor begins to conduct; the drain starts to fall from (V_{DD}).
+   * The device may operate first in **saturation** (current limited by gate overdrive) and then in **triode**, depending on Vds vs Vov.
+   * This region produces the sharp fall (gain) — the inverter switching threshold lies somewhere here.
+
+3. **Right region (Vin large)**
+
+   * NMOS is strongly on; it pulls the drain near ground (small Vout).
+   * Output is LOW (but not exactly 0 V because of voltage drop across the on-resistance and the finite Rd).
+
+# Design knobs that change the curve
+
+* **Rd (pull-up resistor)**: larger Rd → weaker pull-up → steeper transition and lower static HIGH→LOW current (slower switching). Smaller Rd → stronger pull-up → Vout HIGH closer to VDD when off but larger static power when ON.
+* **Vth (threshold)** and **k (device strength)**: change where the transistor turns on and how strongly it pulls the output down — shifts and steepness of the transition.
+* **Vdd**: scales the HIGH and influences where regions fall.
+
+# Practical notes
+
+* This Rd-loaded NMOS inverter is simple but **inefficient** (static power drawn when input is HIGH because current flows through Rd and NMOS). CMOS inverters avoid that by using complementary devices.
+* The VTC is useful for finding the **switching threshold (Vm)** where (V_{in}=V_{out}) and for calculating gain (slope) at that point.
+
+---
 
 Perfect ✅ — here’s a **Mermaid schematic** comparing **BJT vs MOSFET** rail conventions side-by-side:
 
