@@ -36,13 +36,9 @@ Excellent — here’s a **comparison chart** showing the different supply-volta
 
 ### 🧠 Quick Summary
 
-| Context                       | You’ll usually see           |
-| ----------------------------- | ---------------------------- |
-| **Digital CMOS**              | ($V_{DD}$), (V_{SS})           |
-| **Digital TTL / BJT**         | (V_{CC}), (V_{EE})           |
-| **Analog / Op-Amp**           | (V_{+}), (V_{-})             |
-| **Ground (common reference)** | (V_{SS}), (V_{EE}), or (GND) |
-
----
-
-If you want, I can also include how **logic levels (HIGH/LOW)** relate to these rails for each technology (TTL vs CMOS) — want me to add that next?
+| Context                       | You’ll usually see               |
+| ----------------------------- | -------------------------------- |
+| **Digital CMOS**              | ($V_{DD}$), ($V_{SS}$)           |
+| **Digital TTL / BJT**         | ($V_{CC}$), ($V_{EE}$)           |
+| **Analog / Op-Amp**           | ($V_{+}$), ($V_{-}$)             |
+| **Ground (common reference)** | ($V_{SS}$), ($V_{EE}$), or (GND) |
