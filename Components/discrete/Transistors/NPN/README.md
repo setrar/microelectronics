@@ -14,14 +14,14 @@ graph TD
   Vx -->|Base| Q
 ```
 
-The “**DD**” in **(V_{DD})** actually comes from **old MOSFET terminology**:
+The “**DD**” in **($V_{DD}$)** actually comes from **old MOSFET terminology**:
 
 ### 🧩 Origin of the notation
 
-| Symbol  | Meaning                                          | Common Use                                    |
-| ------- | ------------------------------------------------ | --------------------------------------------- |
-| **VDD** | Voltage at the **drain** of an n-channel MOSFET  | Used as the **positive supply**               |
-| **VSS** | Voltage at the **source** of an n-channel MOSFET | Used as **ground** or the **negative supply** |
+| Symbol         | Meaning                                          | Common Use                                    |
+| -------------- | ------------------------------------------------ | --------------------------------------------- |
+| **($V_{DD}$)** | Voltage at the **drain** of an n-channel MOSFET  | Used as the **positive supply**               |
+| **($V_{SS}$)** | Voltage at the **source** of an n-channel MOSFET | Used as **ground** or the **negative supply** |
 
 ---
 
