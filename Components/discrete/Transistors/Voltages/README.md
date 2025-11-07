@@ -88,13 +88,13 @@ Nice — perfect plot. Here's a short explanation to go with the voltage-transfe
 
 # Design knobs that change the curve
 
-* **Rd (pull-up resistor)**: larger Rd → weaker pull-up → steeper transition and lower static HIGH→LOW current (slower switching). Smaller Rd → stronger pull-up → Vout HIGH closer to VDD when off but larger static power when ON.
-* **Vth (threshold)** and **k (device strength)**: change where the transistor turns on and how strongly it pulls the output down — shifts and steepness of the transition.
-* **Vdd**: scales the HIGH and influences where regions fall.
+* **R<sub>d</sub> (pull-up resistor)**: larger Rd → weaker pull-up → steeper transition and lower static HIGH→LOW current (slower switching). Smaller R<sub>d</sub> → stronger pull-up → Vout HIGH closer to VDD when off but larger static power when ON.
+* **V<sub>th</sub> (threshold)** and **k (device strength)**: change where the transistor turns on and how strongly it pulls the output down — shifts and steepness of the transition.
+* **V<sub>dd</sub>**: scales the HIGH and influences where regions fall.
 
 # Practical notes
 
-* This Rd-loaded NMOS inverter is simple but **inefficient** (static power drawn when input is HIGH because current flows through Rd and NMOS). CMOS inverters avoid that by using complementary devices.
+* This Rd-loaded NMOS inverter is simple but **inefficient** (static power drawn when input is HIGH because current flows through R<sub>d</sub> and NMOS). CMOS inverters avoid that by using complementary devices.
 * The VTC is useful for finding the **switching threshold (Vm)** where ($V_{in}$=$V_{out}$) and for calculating gain (slope) at that point.
 
 ---
