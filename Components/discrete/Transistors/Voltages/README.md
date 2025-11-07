@@ -1,4 +1,13 @@
 
+```mermaid
+
+graph TD
+    VDD[VDD] --> R[R (base bias resistor)]
+    R --> D[Diode (Vf)]
+    D --> B[Base (Vx)]
+    B -->|Vbe≈0.7V| E[Emitter (GND)]
+
+```
 
 Perfect ✅ — here’s a **Mermaid schematic** comparing **BJT vs MOSFET** rail conventions side-by-side:
 
