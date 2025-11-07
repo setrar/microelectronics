@@ -51,6 +51,7 @@ In BJT-based circuits you might see:
 So in short:
 
 > 🔹 **($V_{DD}$)** = positive supply voltage
+> 
 > 🔹 **($V_{SS}$)** = ground or 0 V (negative supply)
 
 
