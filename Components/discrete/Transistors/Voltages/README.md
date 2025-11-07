@@ -95,7 +95,7 @@ Nice — perfect plot. Here's a short explanation to go with the voltage-transfe
 # Practical notes
 
 * This Rd-loaded NMOS inverter is simple but **inefficient** (static power drawn when input is HIGH because current flows through R<sub>d</sub> and NMOS). CMOS inverters avoid that by using complementary devices.
-* The VTC is useful for finding the **switching threshold (Vm)** where ($V_{in}$=$V_{out}$) and for calculating gain (slope) at that point.
+* The VTC is useful for finding the **switching threshold (Vm)** where ($V_{in}$ = $V_{out}$) and for calculating gain (slope) at that point.
 
 ---
 
