@@ -27,13 +27,13 @@ The “**DD**” in **(V_{DD})** actually comes from **old MOSFET terminology**:
 
 ### 🧠 Why it’s used even for BJTs
 
-Even though BJTs have **collector/emitter** instead of **drain/source**, engineers kept using (V_{DD}) and (V_{SS}) for consistency in digital circuits, especially CMOS logic.
+Even though BJTs have **collector/emitter** instead of **drain/source**, engineers kept using ($V_{DD}$) and ($V_{SS}$) for consistency in digital circuits, especially CMOS logic.
 In BJT-based circuits you might see:
 
-| BJT notation                | Equivalent MOSFET notation |
-| --------------------------- | -------------------------- |
-| (V_{CC}) (collector supply) | (V_{DD})                   |
-| (V_{EE}) (emitter supply)   | (V_{SS})                   |
+| BJT notation                  | Equivalent MOSFET notation |
+| ----------------------------- | -------------------------- |
+| ($V_{CC}$) (collector supply) | ($V_{DD}$)                 |
+| ($V_{EE}$) (emitter supply)   | ($V_{SS}$)                 |
 
 ---
 
