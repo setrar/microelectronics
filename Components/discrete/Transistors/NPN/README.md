@@ -37,8 +37,8 @@ graph LR
 
 So:
 
-* BJTs → **Collector/E**mitter rails → (V_{CC}), (V_{EE})
-* MOSFETs → **Drain/S**ource rails → (V_{DD}), (V_{SS})
+* BJTs → **Collector/E**mitter rails → ($V_{CC}$), ($V_{EE}$)
+* MOSFETs → **Drain/S**ource rails → ($V_{DD}$), ($V_{SS}$)
 
 
 
