@@ -2,11 +2,11 @@
 ```mermaid
 
 graph TD
-    VDD[VDD (+5V)] --> R[Pull-up resistor (Rc)]
+    VDD["VDD (+5V)"] --> R["Pull-up resistor (Rc)"]
     R --> D[Drain of NMOS]
     S[GND] --> S
-    D --> Out[(Output)]
-    G[Gate] -->|Input| Vin[(Logic Input)]
+    D --> Out["(Output)"]
+    G[Gate] -->|Input| Vin["(Logic Input)"]
 
 ```
 
