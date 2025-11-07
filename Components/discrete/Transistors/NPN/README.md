@@ -32,8 +32,8 @@ graph LR
 
 | Type       | Positive Rail | Negative / Ground Rail | Controlled by | Typical Symbol |
 | ---------- | ------------- | ---------------------- | ------------- | -------------- |
-| **BJT**    | **VCC**       | **VEE**                | Base current  | NPN or PNP     |
-| **MOSFET** | **VDD**       | **VSS**                | Gate voltage  | nMOS or pMOS   |
+| **BJT**    | **$V_{CC}$**       | **$V_{EE}$**                | Base current  | NPN or PNP     |
+| **MOSFET** | **$V_{DD}$**       | **$V_{SS}$**                | Gate voltage  | nMOS or pMOS   |
 
 So:
 
