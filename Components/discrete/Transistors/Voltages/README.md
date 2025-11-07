@@ -2,10 +2,11 @@
 ```mermaid
 
 graph TD
-    VDD[VDD] --> R["R (base bias resistor)"]
-    R --> D["Diode (Vf)"]
-    D --> B["Base (Vx)"]
-    B -->|Vbe≈0.7V| E["Emitter (GND)"]
+    VDD[VDD (+5V)] --> R[Pull-up resistor (Rc)]
+    R --> D[Drain of NMOS]
+    S[GND] --> S
+    D --> Out[(Output)]
+    G[Gate] -->|Input| Vin[(Logic Input)]
 
 ```
 
