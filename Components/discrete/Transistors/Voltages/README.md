@@ -1,7 +1,7 @@
 
 
 
-<img src=images/NMOS-inverter.png width='50% height='50%' > </img>
+<img src=images/NMOS-inverter.png width='50%' height='50%' > </img>
 
 A **common-source NMOS amplifier** (or **inverter**, depending on biasing).
 
@@ -57,7 +57,7 @@ So:
 ✅ **Digital View:** NMOS inverter (logic NOT gate)
 ✅ **Analog View:** Common-source amplifier
 
-<img src=images/VTC.png width='50% height='50%' > </img>
+<img src=images/VTC.png width='50%' height='50%' > </img>
 
 Nice — perfect plot. Here's a short explanation to go with the voltage-transfer characteristic (VTC) you just saw.
 
