@@ -3,7 +3,7 @@
 Perfect ✅ — here’s a **Mermaid schematic** comparing **BJT vs MOSFET** rail conventions side-by-side:
 
 ```mermaid
-graph TD
+graph LR
   subgraph BJT_Circuit["BJT Circuit (VCC / VEE)"]
     VCC["+VCC (Collector Rail)"]
     Q1["NPN Transistor"]
