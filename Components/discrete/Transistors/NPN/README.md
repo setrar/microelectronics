@@ -38,7 +38,7 @@ Excellent — here’s a **comparison chart** showing the different supply-volta
 
 | Context                       | You’ll usually see           |
 | ----------------------------- | ---------------------------- |
-| **Digital CMOS**              | (V_{DD}), (V_{SS})           |
+| **Digital CMOS**              | ($V_{DD}$), (V_{SS})           |
 | **Digital TTL / BJT**         | (V_{CC}), (V_{EE})           |
 | **Analog / Op-Amp**           | (V_{+}), (V_{-})             |
 | **Ground (common reference)** | (V_{SS}), (V_{EE}), or (GND) |
