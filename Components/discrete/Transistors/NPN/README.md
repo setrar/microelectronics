@@ -14,8 +14,48 @@ graph TD
   Vx -->|Base| Q
 ```
 
+The “**DD**” in **(V_{DD})** actually comes from **old MOSFET terminology**:
 
-Excellent — here’s a **comparison chart** showing the different supply-voltage notations used across common electronic device families:
+### 🧩 Origin of the notation
+
+| Symbol  | Meaning                                          | Common Use                                    |
+| ------- | ------------------------------------------------ | --------------------------------------------- |
+| **VDD** | Voltage at the **drain** of an n-channel MOSFET  | Used as the **positive supply**               |
+| **VSS** | Voltage at the **source** of an n-channel MOSFET | Used as **ground** or the **negative supply** |
+
+---
+
+### 🧠 Why it’s used even for BJTs
+
+Even though BJTs have **collector/emitter** instead of **drain/source**, engineers kept using (V_{DD}) and (V_{SS}) for consistency in digital circuits, especially CMOS logic.
+In BJT-based circuits you might see:
+
+| BJT notation                | Equivalent MOSFET notation |
+| --------------------------- | -------------------------- |
+| (V_{CC}) (collector supply) | (V_{DD})                   |
+| (V_{EE}) (emitter supply)   | (V_{SS})                   |
+
+---
+
+### ⚡ Summary
+
+* **(V_{DD})** → “Drain-to-Drain voltage” → positive rail.
+* **(V_{SS})** → “Source-to-Source voltage” → ground/negative rail.
+* Historical artifact:
+
+  * **D** = Drain
+  * **S** = Source
+  * **C** = Collector
+  * **E** = Emitter
+
+So in short:
+
+> 🔹 **(V_{DD})** = positive supply voltage
+> 🔹 **(V_{SS})** = ground or 0 V (negative supply)
+
+
+
+Here’s a **comparison chart** showing the different supply-voltage notations used across common electronic device families:
 
 ---
 
