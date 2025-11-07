@@ -5,7 +5,7 @@ graph TD
     VDD[VDD] --> R["R (base bias resistor)"]
     R --> D["Diode (Vf)"]
     D --> B["Base (Vx)"]
-    B -->|Vbe≈0.7V| E[Emitter (GND)]
+    B -->|Vbe≈0.7V| E["Emitter (GND)"]
 
 ```
 
