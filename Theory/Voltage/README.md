@@ -9,9 +9,7 @@
 
    * If you have two points, say **A** and **B**, the voltage $(V_{AB})$ is the difference in electric potential energy per unit charge between these points.
    * Formula:
-     $
-     V_{AB} = V_A - V_B
-     $
+     $V_{AB} = V_A - V_B$
      Where $(V_A)$ and $(V_B)$ are the electric potentials at points A and B.
 
 2. **Analogy**: Water in a tank
