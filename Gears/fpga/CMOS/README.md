@@ -52,10 +52,8 @@ Step 1 — LUT configuration memory:
 * If you implement each config bit with a standard 6-transistor SRAM cell:
   16 bits × 6 transistors/bit = 96 transistors.
 
-(Arithmetic shown)
-
-* (2^4 = 16).
-* (16 \times 6 = 96).
+* $(2^4 = 16)$.
+* $(16 \times 6 = 96)$.
 
 Step 2 — LUT output multiplexing:
 
@@ -63,9 +61,7 @@ Step 2 — LUT output multiplexing:
 * If each 2:1 node is implemented with a transmission gate pair ≈ 2 MOSFETs (one NMOS + one PMOS), then approx:
   15 nodes × 2 transistors/node = 30 transistors.
 
-(Arithmetic)
-
-* (15 \times 2 = 30).
+* $(15 \times 2 = 30)$.
 
 Step 3 — D flip-flop (edge-triggered, static CMOS master-slave):
 
@@ -78,9 +74,7 @@ Step 4 — routing / programmable switches:
 * So per switch: 2 (transmission gate) + 6 (SRAM) = 8 transistors. For 8 switches:
   8 switches × 8 transistors/switch = 64 transistors.
 
-(Arithmetic)
-
-* (8 \times 8 = 64).
+* $(8 \times 8 = 64)$.
 
 Step 5 — add up the pieces:
 
@@ -90,8 +84,6 @@ Step 5 — add up the pieces:
 * Routing: 64
 
 Total: (96 + 30 + 24 + 64 = 214) transistors for this tiny tile.
-
-(Arithmetic step-by-step)
 
 * (96 + 30 = 126).
 * (126 + 24 = 150).
