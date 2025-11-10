@@ -7,12 +7,12 @@
 
 1. **Potential Difference**
 
-   * If you have two points, say **A** and **B**, the voltage (V_{AB}) is the difference in electric potential energy per unit charge between these points.
+   * If you have two points, say **A** and **B**, the voltage $(V_{AB})$ is the difference in electric potential energy per unit charge between these points.
    * Formula:
-     [
+     $
      V_{AB} = V_A - V_B
-     ]
-     Where (V_A) and (V_B) are the electric potentials at points A and B.
+     $
+     Where $(V_A)$ and $(V_B)$ are the electric potentials at points A and B.
 
 2. **Analogy**: Water in a tank
 
@@ -24,9 +24,9 @@
 
    * Voltage is measured in **volts (V)**.
    * 1 Volt = 1 Joule of energy per 1 Coulomb of charge:
-     [
+     $
      1,\text{V} = 1,\text{J/C}
-     ]
+     $
 
 4. **Why it matters**
 
@@ -35,8 +35,8 @@
 
 5. **In a circuit**
 
-   * (V_{DD}) or (V_{CC}) often represents the positive rail.
-   * (V_{SS}) or (V_{EE}) is often the ground or negative rail.
+   * $(V_{DD})$ or $(V_{CC})$ often represents the positive rail.
+   * $(V_{SS})$ or $(V_{EE})$ is often the ground or negative rail.
    * The difference between these rails is the supply voltage (e.g., 5 V, 3.3 V).
 
 
@@ -52,7 +52,7 @@ Example:
 | A     | 5 V       |
 | B     | ?         |
 
-* The voltage **only makes sense** if we define a reference, like B = 0 V (ground). Then (V_{AB} = 5 - 0 = 5 V).
+* The voltage **only makes sense** if we define a reference, like B = 0 V (ground). Then $(V_{AB} = 5 - 0 = 5 V)$.
 
 ---
 
