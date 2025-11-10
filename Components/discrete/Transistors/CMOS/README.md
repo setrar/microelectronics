@@ -229,3 +229,6 @@ graph LR
 * Each **SRAM bit** can be emulated initially using DIP switches or 74HC595 shift registers to avoid wiring 6T cells by hand.
 * Start small: try making a **2-input LUT (4 bits)** before a 4-input one.
 
+# :books: References
+
+- [ ] [Activity : Build CMOS Logic Functions Using CD4007 Array](https://wiki.analog.com/university/courses/alm1k/alm-lab-28)
