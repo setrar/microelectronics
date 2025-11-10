@@ -1,7 +1,7 @@
 
 
 
-<images src=images/NMOS-inverter.png width='50% height='50%' > </img>
+<img src=images/NMOS-inverter.png width='30%' height='30%' > </img>
 
 A **common-source NMOS amplifier** (or **inverter**, depending on biasing).
 
@@ -54,17 +54,17 @@ Depending on how it’s biased:
 ---
 
 So:
-✅ **Digital View:** NMOS inverter (logic NOT gate)
-✅ **Analog View:** Common-source amplifier
+- ✅ **Digital View:** NMOS inverter (logic NOT gate)
+- ✅ **Analog View:** Common-source amplifier
 
-<images src=images/VTC.png width='50% height='50%' > </img>
+<img src=images/VTC.png width='50%' height='50%' > </img>
 
 Nice — perfect plot. Here's a short explanation to go with the voltage-transfer characteristic (VTC) you just saw.
 
 # What the plot shows
 
-* The **horizontal axis** is the input gate voltage (V_{in}).
-* The **vertical axis** is the output/drain voltage (V_{out}=V_D) (node pulled up by (R_D) to (V_{DD}) when the NMOS is off).
+* The **horizontal axis** is the input gate voltage ($V_{in}$).
+* The **vertical axis** is the output/drain voltage ($V_{out}$ = $V_D$) (node pulled up by ($R_D$) to ($V_{DD}$) when the NMOS is off).
 * The dashed diagonal line (y=x) is shown for reference.
 
 # Regions and behavior
@@ -72,30 +72,30 @@ Nice — perfect plot. Here's a short explanation to go with the voltage-transfe
 1. **Left region (Vin < Vth ≈ 1.5 V)**
 
    * NMOS is **off** (no channel).
-   * No drain current, so the pull-up resistor pulls the drain to (V_{DD}) (here ≈ 5 V).
+   * No drain current, so the pull-up resistor pulls the drain to ($V_{DD}$) (here ≈ 5 V).
    * Output is HIGH.
 
 2. **Transition region (around Vin ≈ Vth → a bit above)**
 
-   * The transistor begins to conduct; the drain starts to fall from (V_{DD}).
-   * The device may operate first in **saturation** (current limited by gate overdrive) and then in **triode**, depending on Vds vs Vov.
+   * The transistor begins to conduct; the drain starts to fall from ($V_{DD}$).
+   * The device may operate first in **saturation** (current limited by gate overdrive) and then in **triode**, depending on V<sub>ds</sub> vs V<sub>0v</sub>.
    * This region produces the sharp fall (gain) — the inverter switching threshold lies somewhere here.
 
 3. **Right region (Vin large)**
 
-   * NMOS is strongly on; it pulls the drain near ground (small Vout).
-   * Output is LOW (but not exactly 0 V because of voltage drop across the on-resistance and the finite Rd).
+   * NMOS is strongly on; it pulls the drain near ground (small V<sub>out</sub>).
+   * Output is LOW (but not exactly 0 V because of voltage drop across the on-resistance and the finite R<sub>d</sub>).
 
 # Design knobs that change the curve
 
-* **Rd (pull-up resistor)**: larger Rd → weaker pull-up → steeper transition and lower static HIGH→LOW current (slower switching). Smaller Rd → stronger pull-up → Vout HIGH closer to VDD when off but larger static power when ON.
-* **Vth (threshold)** and **k (device strength)**: change where the transistor turns on and how strongly it pulls the output down — shifts and steepness of the transition.
-* **Vdd**: scales the HIGH and influences where regions fall.
+* **R<sub>d</sub> (pull-up resistor)**: larger Rd → weaker pull-up → steeper transition and lower static HIGH→LOW current (slower switching). Smaller R<sub>d</sub> → stronger pull-up → Vout HIGH closer to VDD when off but larger static power when ON.
+* **V<sub>th</sub> (threshold)** and **k (device strength)**: change where the transistor turns on and how strongly it pulls the output down — shifts and steepness of the transition.
+* **V<sub>dd</sub>**: scales the HIGH and influences where regions fall.
 
 # Practical notes
 
-* This Rd-loaded NMOS inverter is simple but **inefficient** (static power drawn when input is HIGH because current flows through Rd and NMOS). CMOS inverters avoid that by using complementary devices.
-* The VTC is useful for finding the **switching threshold (Vm)** where (V_{in}=V_{out}) and for calculating gain (slope) at that point.
+* This Rd-loaded NMOS inverter is simple but **inefficient** (static power drawn when input is HIGH because current flows through R<sub>d</sub> and NMOS). CMOS inverters avoid that by using complementary devices.
+* The VTC is useful for finding the **switching threshold (Vm)** where ($V_{in}$ = $V_{out}$) and for calculating gain (slope) at that point.
 
 ---
 
