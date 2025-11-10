@@ -7,7 +7,7 @@ This is not transistor-by-transistor (that would be hundreds of MOSFETs) — ins
 ### 🧩 FPGA Tile Schematic (Mermaid Diagram)
 
 ```mermaid
-graph TD
+graph LR
   subgraph CFG["Configuration SRAM"]
     C1((Bit0))
     C2((Bit1))
