@@ -22,9 +22,7 @@
 
    * Voltage is measured in **volts (V)**.
    * 1 Volt = 1 Joule of energy per 1 Coulomb of charge:
-     $
-     1,\text{V} = 1,\text{J/C}
-     $
+     $1,\text{V} = 1,\text{J/C}$
 
 4. **Why it matters**
 
