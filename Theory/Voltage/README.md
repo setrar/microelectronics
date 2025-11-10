@@ -84,3 +84,4 @@ Example:
 # :books: References
 
 - [ ] [Let's build a voltage multiplier!](https://www.youtube.com/watch?v=4alV5LzHLE4)
+- [ ] [What are the Differences Between VCC, VEE, VDD, and VSS?](https://www.pcbway.com/blog/technology/What_are_the_Differences_Between_VCC_VEE_VDD_and_VSS_e10f250c.html)
