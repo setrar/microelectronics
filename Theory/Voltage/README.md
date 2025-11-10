@@ -81,3 +81,6 @@ Example:
 
 * GND is like the zero mark on a ruler. A measurement of 5 cm only makes sense because there’s a 0 cm reference.
 
+# :books: References
+
+- [ ] [Let's build a voltage multiplier!](https://www.youtube.com/watch?v=4alV5LzHLE4)
