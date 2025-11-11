@@ -3,6 +3,7 @@
 
 # :books: References
 
+- [ ] [Designing a low-cost high-performance 10 MHz - 15 GHz vector network analyzer](https://hforsten.com/designing-a-low-cost-high-performance-10-mhz-15-ghz-vector-network-analyzer.html)
 - [ ] [Henrik Forsten’s Workspace for Evolutionary Algorithms, Circuit Design, & Academics in Espoo, Finland](https://circuitcellar.com/community/workspaces/henrik-forstens-workspace-for-evolutionary-algorithms-circuit-design-academics-in-espoo-finland)
 - [ ] [TRY TO DO SOME HARD STUFF Circuit Cellar Workspaces](https://www.youtube.com/watch?v=oE8bJMk258Y)
    Feb 19, 2016
