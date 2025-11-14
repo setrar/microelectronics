@@ -24,7 +24,7 @@ Build reusable macrocell(s) that implement a 4-input LUT (configurable by hardwi
 Buy 2–4 of each core part to prototype several macrocells.
 
 | Qty | Part (DIP)                | Family | Role in DIY FPGA cell                                         | Notes                                                |
-| --: | ------------------------- | ------ | ------------------------------------------------------------- | ---------------------------------------------------- |
+| :-- | ------------------------- | ------ | ------------------------------------------------------------- | ---------------------------------------------------- |
 | 2–4 | **74HC153** (DIP)         | 74HC   | Dual 4:1 MUX — used as two halves of a 4-input LUT            | Each IC has 2 × 4:1 muxes.                           |
 | 2–4 | **74HC157** (DIP)         | 74HC   | Quad 2:1 MUX — final selection (D) + reg/combinational select | Use to choose between halves or between LUT_OUT/Q.   |
 | 4–6 | **74HC74** (DIP)          | 74HC   | Dual D flip-flop — macrocell registers                        | Tie PRE/CLR inactive unless used.                    |
