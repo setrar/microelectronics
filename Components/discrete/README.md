@@ -19,7 +19,7 @@ Build reusable macrocell(s) that implement a 4-input LUT (configurable by hardwi
 
 ---
 
-# 📦 Combined BOM (DIP-friendly parts)
+## 📦 Combined BOM (DIP-friendly parts)
 
 Buy 2–4 of each core part to prototype several macrocells.
 
@@ -38,7 +38,7 @@ Buy 2–4 of each core part to prototype several macrocells.
 
 ---
 
-# 🧰 Configuration & support parts
+## 🧰 Configuration & support parts
 
 | Item                                                 | Purpose                                                   |
 | ---------------------------------------------------- | --------------------------------------------------------- |
@@ -52,7 +52,7 @@ Buy 2–4 of each core part to prototype several macrocells.
 
 ---
 
-# ⚡ Voltage & mixing notes
+## ⚡ Voltage & mixing notes
 
 * **Run everything at 5.0 V** for easiest compatibility between 74HC and CD40xx.
 * 74HC parts like 74HCxx are fastest at 5 V; CD40xx are slower but work at 5 V.
@@ -61,7 +61,7 @@ Buy 2–4 of each core part to prototype several macrocells.
 
 ---
 
-# 🧭 Minimal parts per single macrocell (concrete)
+## 🧭 Minimal parts per single macrocell (concrete)
 
 * 1 × 74HC153 (both halves used)
 * 1 × 74HC157 (use 1 channel; leads left for extra choices)
@@ -74,7 +74,7 @@ This is exactly the set you used earlier in textual wiring.
 
 ---
 
-# 🔗 Quick wiring summary (macrocell mapping)
+## 🔗 Quick wiring summary (macrocell mapping)
 
 (You already have a textual wiring diagram earlier — here’s the BOM→signal quick map.)
 
@@ -88,7 +88,7 @@ This is exactly the set you used earlier in textual wiring.
 
 ---
 
-# 🧪 Suggested prototyping plan
+## 🧪 Suggested prototyping plan
 
 1. Build a single macrocell following your earlier textual wiring — get LUT→FF→OE working using hardwired config bits.
 2. Verify combinational outputs (LUT_OUT) with logic probe; then clock the FF and verify Q behavior.
@@ -96,17 +96,91 @@ This is exactly the set you used earlier in textual wiring.
 4. Replicate N macrocells (2–4) and connect through 74HC245 for bus experiments.
 5. If you want reprogrammable LUTs, replace DIP switches with a small shift register (74HC595) or an 8-bit SRAM/EEPROM and a small driver.
 
+# :books: References
+
+
+# 🧲 **Case-by-case compatibility**
+
+## ✅ **Are 74HC and 74LC compatible?**
+
+**Generally YES**, because both are **CMOS**, but:
+
+* **74HC** = High-speed CMOS (V_CC = 2–6 V, fast edges)
+* **74LC** = Low-voltage CMOS (typically V_CC = 2–3.6 V; optimized for 3.3 V logic)
+
+So compatibility depends on the **operating voltage**.
+
 ---
 
-# 🛒 Where to buy (quick)
 
-Common vendors: **DigiKey, Mouser, Newark, LCSC, Amazon**. For hobby quantities, Amazon / eBay / AliExpress kit sellers are often cheaper (but QC/time varies). No links here unless you want them.
+## ✔ **Case 1 — Both powered at 3.3 V**
+
+Everything works perfectly.
+
+* 74HC at 3.3 V sees “high” at ~2.0 V
+* 74LC at 3.3 V outputs up to V_CC (3.3 V)
+* Noise margins OK
+* No danger to chips
+
+👉 **This is the best situation if you want to mix HC and LC.**
 
 ---
 
-# Final — want me to do next?
+## ⚠ **Case 2 — 74HC at 5 V and 74LC at 3.3 V**
 
-* I can produce a **pin-by-pin DIP netlist** (exact pin numbers for TI/NXP/ON Semiconductor pinouts) you can paste into a breadboard plan — say “Pin numbers — TI pinout” and I’ll list them.
-* Or I can convert the wiring into a **Logisim netlist** or a **SPICE / NGSpice** netlist for simulation.
+This is **NOT safe** without level shifting.
 
-Which one should I generate now?
+### Why?
+
+* **74HC at 5 V outputs 5.0 V**, which:
+
+  * Can **damage** 74LC inputs (rated 3.6–4.0 V max)
+* 74LC output at 3.3 V may not reach the **VIH threshold** of 5 V-powered HC (~3.5–3.8 V).
+
+👉 **DON’T mix HC @ 5 V with LC @ 3.3 V unless you use level shifters**
+(e.g., 74LVC245, 74AHCT125, resistor divider, MOSFET level shift).
+
+---
+
+## ✔ **Case 3 — Both at 5 V?**
+
+Impossible for 74LC.
+
+* 74LC is **not rated for 5 V**.
+* You will damage it.
+
+---
+
+# 📝 Summary Table
+
+| Family           | Supply Range | Notes                                                    |
+| ---------------- | ------------ | -------------------------------------------------------- |
+| **74HC**         | 2.0–6.0 V    | Fastest general CMOS family                              |
+| **74HCT**        | 4.5–5.5 V    | TTL-compatible thresholds, good for 5 V systems          |
+| **74LC / 74LVC** | 1.65–3.6 V   | Low-voltage CMOS; very fast at 3.3 V but cannot take 5 V |
+
+---
+
+# ⭐ Final answer
+
+### ✔ You *can* mix **74HC** and **74LC**
+
+**ONLY IF they both run at the same voltage**,
+and that voltage must be **≤ 3.3 V**.
+
+### ✖ You *cannot* mix them at 5 V
+
+74LC cannot tolerate 5 V inputs or supply.
+
+---
+
+# If your DIY FPGA logic cell runs at 5 V
+
+Stick with:
+
+* **74HC**
+* **CD4000**
+* **74HCT** (if interfacing with 5 V TTL)
+
+and **avoid 74LC/LVC** unless you add level shifters.
+
