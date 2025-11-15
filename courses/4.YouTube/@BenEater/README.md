@@ -30,7 +30,7 @@ Mastering FPGA development requires a strong foundation in several microelectron
 - **Why**: FPGAs implement custom data paths, control logic, and arithmetic using these.
 - **Example**: Designing a 4-bit ALU or priority encoder in VHDL/Verilog.
 
-#### 3. **Sequential Logic**
+#### [3. **Sequential Logic**](3.SequentialLogic)
 - Covers **SR latches**, **D latches**, **D flip-flops**, **JK flip-flops**, **T flip-flops**.
 - **Why**: FPGAs are inherently synchronous. State machines and pipelines depend on these.
 - **Skills**: Understand setup/hold time, clock skew, metastability.
