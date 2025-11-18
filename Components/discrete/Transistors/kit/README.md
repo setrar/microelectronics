@@ -40,7 +40,7 @@ A **ready-to-go MOSFET shopping list** for discrete DIY CMOS FPGA experiments. I
 ✅ **Tips for old stores:**
 
 1. Prefer **TO-92 packages** for easy breadboarding.
-2. Make sure **$V_{GS}$(th) < 3V** for 5V logic.
+2. Make sure **$V_{GS}(th)$ < 3V** for 5V logic.
 3. Any logic-level small-signal N-MOS / P-MOS in that list works; you can mix and match.
 4. Avoid power MOSFETs with high V_GS(th) — they may not fully turn on at 5V.
 
