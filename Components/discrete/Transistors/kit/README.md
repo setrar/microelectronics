@@ -9,7 +9,7 @@ A **ready-to-go MOSFET shopping list** for discrete DIY CMOS FPGA experiments. I
 
 | Part Number   | Package   | $V_{DS}$ | $V_{GS}$(th) | Notes                                                             |
 | ------------- | --------- | ---- | -------- | ----------------------------------------------------------------- |
-| **2N7000**    | TO-92     | 60V  | 2–3V     | Classic, widely available, easy to breadboard                     |
+| **2N7000**    | TO-92     | 60V  | 2–3V     | Classic, widely available, easy to breadboard   2N**7**000                  |
 | **BS170**     | TO-92     | 60V  | 2–3V     | Very similar to 2N7000                                            |
 | **VN2222**    | TO-92     | 60V  | 2–3V     | Small-signal, you mentioned this one                              |
 | **IRLML6344** | SOT-23    | 30V  | 1–2V     | Tiny, very low R_DS(on), optional if you have breadboard adapters |
