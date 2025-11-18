@@ -7,7 +7,7 @@ A **ready-to-go MOSFET shopping list** for discrete DIY CMOS FPGA experiments. I
 
 ## **1. N-Channel MOSFETs (for pull-down networks and pass transistors)**
 
-| Part Number   | Package   | $V_{DS}$ | V_GS(th) | Notes                                                             |
+| Part Number   | Package   | $V_{DS}$ | $V_{GS}$(th) | Notes                                                             |
 | ------------- | --------- | ---- | -------- | ----------------------------------------------------------------- |
 | **2N7000**    | TO-92     | 60V  | 2–3V     | Classic, widely available, easy to breadboard                     |
 | **BS170**     | TO-92     | 60V  | 2–3V     | Very similar to 2N7000                                            |
@@ -19,7 +19,7 @@ A **ready-to-go MOSFET shopping list** for discrete DIY CMOS FPGA experiments. I
 
 ## **2. P-Channel MOSFETs (for pull-up networks and pass transistors / transmission gates)**
 
-| Part Number  | Package | V_DS | V_GS(th)    | Notes                                            |
+| Part Number  | Package | $V_{DS}$ | $V_{GS}$    | Notes                                            |
 | ------------ | ------- | ---- | ----------- | ------------------------------------------------ |
 | **BSS84**    | TO-92   | 50V  | –2 to –4V   | Classic, breadboard-friendly, logic-level        |
 | **IRF9540N** | TO-220  | 100V | –2 to –4V   | Larger, optional if TO-92 not available          |
@@ -40,7 +40,7 @@ A **ready-to-go MOSFET shopping list** for discrete DIY CMOS FPGA experiments. I
 ✅ **Tips for old stores:**
 
 1. Prefer **TO-92 packages** for easy breadboarding.
-2. Make sure **V_GS(th) < 3V** for 5V logic.
+2. Make sure **$V_{GS}$(th) < 3V** for 5V logic.
 3. Any logic-level small-signal N-MOS / P-MOS in that list works; you can mix and match.
 4. Avoid power MOSFETs with high V_GS(th) — they may not fully turn on at 5V.
 
