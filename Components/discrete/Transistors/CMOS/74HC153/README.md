@@ -14,8 +14,8 @@ $$
 
 * **Select lines:**
 
-  * (S_1 = B)
-  * (S_0 = C)
+  * $(S_1 = B)$
+  * $(S_0 = C)$
 
 * **Data inputs (I0–I3):** determine the output for each BC combination
 
