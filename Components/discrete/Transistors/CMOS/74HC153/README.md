@@ -2,9 +2,9 @@
 
 Perfect — let’s describe the **implementation of**
 
-$
+$$
 f(A,B,C) = \Sigma_m(1,3,5,6,7)
-$
+$$
 
 **using one half of the SNx4HC153 (a 4:1 MUX) in textual form**.
 
