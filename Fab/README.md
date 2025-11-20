@@ -1,5 +1,28 @@
 # Fab
 
+## The Semiconductor Manufacturing Strategy Spectrum
+
+| | **Fabless Company**<br/>(e.g., Qualcomm, AMD, NVIDIA) | **Fab-Lite / IDM**<br/>(e.g., Analog Devices, STMicroelectronics) | **Pure Play Foundry**<br/>(e.g., TSMC, GlobalFoundries) | **IDM & "More-than-Moore" Specialist**<br/>(e.g., Nexperia) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Core Business** | Design and sell chips. | **Design, manufacture, and sell chips.** | Manufacture chips for others. | Design and manufacture high-volume, reliable discrete & analog chips. |
+| **Manufacturing** | 100% outsourced to foundries. | **Strategic mix of internal fabs and external foundries.** | N/A | **Primarily internal fabs,** highly optimized for specific processes. |
+| **Technology Focus** | Leading-edge digital (CPUs, GPUs, SoCs). | **Mixed-signal, Power, Automotive, Industrial, MEMS.** ("More-than-Moore") | Leading-edge & mature nodes for a wide range of customers. | **Discrete semiconductors (MOSFETs, Diodes), Power Logic, Analog.** |
+| **Advantages** | Lower capital costs, agility to use the best available process. | **Control over specialty processes, IP protection, guaranteed supply for critical markets.** | Economies of scale, access to leading-edge tech for all. | **Unmatched cost-efficiency & quality in high-volume, mature nodes.** |
+| **Disadvantages** | Dependent on foundry capacity/pricing; limited process customization. | **High capital expenditure (CapEx) to maintain a hybrid fab strategy.** | Must serve a wide range of customers with differing needs. | **Vulnerable to market cycles for mature products; less focus on leading-edge.** |
+
+---
+
+### Key Explanations for the New Entries:
+
+*   **STMicroelectronics (ST):** A classic **Fab-Lite/IDM** player, very similar to Analog Devices. ST maintains its own fabs for critical technologies like **BCD (Bipolar-CMOS-DMOS)** for power management, MEMS sensors, and automotive semiconductors. However, for leading-edge digital or to supplement capacity, they also partner with foundries like TSMC.
+
+*   **Nexperia:** Represents a different kind of **IDM (Integrated Device Manufacturer)**. They are not fab-lite; they are heavily focused on their own manufacturing. After spinning off from NXP, Nexperia specialized in "efficiency" products—high-volume, high-reliability discrete semiconductors and simple ICs. Their strategy is the polar opposite of Fabless:
+    *   They acquire and perfect older, mature fabrication plants.
+    *   They relentlessly optimize these fabs for cost, yield, and quality for a specific set of products (like MOSFETs and small logic chips).
+    *   Their strength is not in leading-edge nodes but in dominating specific, high-volume market segments with unparalleled manufacturing efficiency. They are masters of the "More-than-Moore" domain.
+
+This expanded table shows that "IDM" isn't a single strategy. ADI and ST use a hybrid approach for high-performance mixed-signal, while Nexperia uses a pure, manufacturing-centric IDM model to dominate the high-volume, mainstream semiconductor market.
+
 ## is ADI a fabless company?
 
 That's a nuanced question, and the answer is key to understanding Analog Devices' (ADI) position in the semiconductor industry.
