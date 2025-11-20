@@ -1,6 +1,6 @@
 # Fab
 
-## The Semiconductor Manufacturing Strategy Spectrum
+## :one: The Semiconductor Manufacturing Strategy Spectrum
 
 | | **Fabless Company**<br/>(e.g., Qualcomm, AMD, NVIDIA) | **Fab-Lite / IDM**<br/>(e.g., Analog Devices, STMicroelectronics) | **Pure Play Foundry**<br/>(e.g., TSMC, GlobalFoundries) | **IDM & "More-than-Moore" Specialist**<br/>(e.g., Nexperia) |
 | :--- | :--- | :--- | :--- | :--- |
@@ -23,7 +23,7 @@
 
 This expanded table shows that "IDM" isn't a single strategy. ADI and ST use a hybrid approach for high-performance mixed-signal, while Nexperia uses a pure, manufacturing-centric IDM model to dominate the high-volume, mainstream semiconductor market.
 
-## is ADI a fabless company?
+## :two: is ADI a fabless company?
 
 That's a nuanced question, and the answer is key to understanding Analog Devices' (ADI) position in the semiconductor industry.
 
