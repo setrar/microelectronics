@@ -16,21 +16,21 @@ Perfect! Here’s the **final BOM** for **Option B — full 2×2 FPGA fabric, co
 | 2                             | 74HC245N                 | DIP              | Bus transceivers / buffer config lines   | ✅
 | 1                             | Raspberry Pi Pico        | SMT / DIP header | FPGA controller / config loader          | ✅
 | **New parts to buy**          |                          |                  |                                          |
-| 8                             | 74HC151                  | DIP              | 8-input LUTs (2 per CLB)                 | :x:
-| 20                            | 74HC595                  | DIP              | Serial → parallel configuration latches  |
-| 14                            | 74HC4066                 | DIP              | Switch boxes / connection boxes          |
-| Optional                      | 74HC125 / 74HC245        | DIP              | Extra buffering if needed                |
+| 8                             | 74HC151                  | DIP              | 8-input LUTs (2 per CLB)                 | ❌
+| 20                            | 74HC595                  | DIP              | Serial → parallel configuration latches  | ❌
+| 14                            | 74HC4066                 | DIP              | Switch boxes / connection boxes          | ❌
+| Optional                      | 74HC125 / 74HC245        | DIP              | Extra buffering if needed                | ❓
 | **Passives & misc**           |                          |                  |                                          |
-| 60+                           | 0.1 µF ceramic           | per IC           | Decoupling                               |
-| 100+                          | 10 kΩ resistors          |                  | Pull-ups / pull-downs / unused inputs    |
-| 2–4                           | Breadboards or perfboard |                  | Mount ICs                                |
-| Jumper wires / headers        |                          |                  | For connections                          |
-| DIP switches (8–16 positions) |                          |                  | Optional manual LUT programming / debug  |
+| 60+                           | 0.1 µF ceramic           | per IC           | Decoupling                               | ❌
+| 100+                          | 10 kΩ resistors          |                  | Pull-ups / pull-downs / unused inputs    | ❌
+| 2–4                           | Breadboards or perfboard |                  | Mount ICs                                | ✅
+| Jumper wires / headers        |                          |                  | For connections                          | ✅
+| DIP switches (8–16 positions) |                          |                  | Optional manual LUT programming / debug  | ❌
 | **Power**                     |                          |                  |                                          |
-| 1                             | SRS50‑5                  | 5 V / 10 A       | Main supply                              |
-| 1                             | LM1117‑3.3 DIP           | 3.3 V / ~800 mA  | 3.3 V regulator for HC chips             |
-| 10 µF electrolytic            |                          |                  | LM1117 output stability                  |
-| Optional                      | Heatsink                 | LM1117           | For higher current draw                  |
+| 1                             | SRS50‑5                  | 5 V / 10 A       | Main supply                              | ✅
+| 1                             | LM1117‑3.3 DIP           | 3.3 V / ~800 mA  | 3.3 V regulator for HC chips             | ❌
+| 10 µF electrolytic            |                          |                  | LM1117 output stability                  | ❌
+| Optional                      | Heatsink                 | LM1117           | For higher current draw                  | ❓
 
 ---
 
