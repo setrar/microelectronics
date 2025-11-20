@@ -7,16 +7,16 @@ Perfect! Here’s the **final BOM** for **Option B — full 2×2 FPGA fabric, co
 | Qty                           | Part                     | Package / Notes  | Purpose                                  | Own |
 | ----------------------------- | ------------------------ | ---------------- | ---------------------------------------- |-----|
 | **You already have**          |                          |                  |                                          |
-| 1                             | 74HC08                   | DIP              | Glue logic for CLB control               |
-| 8                             | 74HCTLC04N               | DIP              | Inverters (use only if 3.3 V compatible) |
-| 5                             | 74HC74N                  | DIP              | D flip-flops (1 per CLB)                 |
-| 4                             | 74HC125                  | DIP              | Output buffers / tri-state               |
-| 4                             | 74HC153N                 | DIP              | Optional mux trees for routing           |
-| 4                             | 74HC157                  | DIP              | 2:1 mux per CLB                          |
-| 2                             | 74HC245N                 | DIP              | Bus transceivers / buffer config lines   |
-| 1                             | Raspberry Pi Pico        | SMT / DIP header | FPGA controller / config loader          |
+| 1                             | 74HC08                   | DIP              | Glue logic for CLB control               | ✅
+| 8                             | 74HCTLC04N               | DIP              | Inverters (use only if 3.3 V compatible) | ✅
+| 5                             | 74HC74N                  | DIP              | D flip-flops (1 per CLB)                 | ✅
+| 4                             | 74HC125                  | DIP              | Output buffers / tri-state               | ✅
+| 4                             | 74HC153N                 | DIP              | Optional mux trees for routing           | ✅
+| 4                             | 74HC157                  | DIP              | 2:1 mux per CLB                          | ✅
+| 2                             | 74HC245N                 | DIP              | Bus transceivers / buffer config lines   | ✅
+| 1                             | Raspberry Pi Pico        | SMT / DIP header | FPGA controller / config loader          | ✅
 | **New parts to buy**          |                          |                  |                                          |
-| 8                             | 74HC151                  | DIP              | 8-input LUTs (2 per CLB)                 |
+| 8                             | 74HC151                  | DIP              | 8-input LUTs (2 per CLB)                 | :x:
 | 20                            | 74HC595                  | DIP              | Serial → parallel configuration latches  |
 | 14                            | 74HC4066                 | DIP              | Switch boxes / connection boxes          |
 | Optional                      | 74HC125 / 74HC245        | DIP              | Extra buffering if needed                |
