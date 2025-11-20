@@ -4,8 +4,8 @@ Perfect! Here’s the **final BOM** for **Option B — full 2×2 FPGA fabric, co
 
 # **Final BOM — Option B**
 
-| Qty                           | Part                     | Package / Notes  | Purpose                                  |
-| ----------------------------- | ------------------------ | ---------------- | ---------------------------------------- |
+| Qty                           | Part                     | Package / Notes  | Purpose                                  | Own |
+| ----------------------------- | ------------------------ | ---------------- | ---------------------------------------- |-----|
 | **You already have**          |                          |                  |                                          |
 | 1                             | 74HC08                   | DIP              | Glue logic for CLB control               |
 | 8                             | 74HCTLC04N               | DIP              | Inverters (use only if 3.3 V compatible) |
