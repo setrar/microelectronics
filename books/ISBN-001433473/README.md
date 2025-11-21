@@ -1,3 +1,5 @@
+
+```lua
 Preface xiii
 Acknowledgments xix
 PART 1 Digital Fundamentals
@@ -180,3 +182,4 @@ Appendix A Further Education. . . . . . . . . . . . . . . . . . . . . . . . . . 
 Index 445
 
 Reprint this index
+```
