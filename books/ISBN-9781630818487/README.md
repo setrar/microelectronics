@@ -64,7 +64,6 @@ Bogatin’s book is a **hands-on guide for engineers and hobbyists** who want to
 
 ---
 
-[:tv: Bogatin’s “Practical Guide to” Book Series](https://www.youtube.com/watch?v=BmwnGxhJqO8)
 
 Eric Bogatin is very insistent about understanding **transmission lines** in “*Practical Guide to Prototype, Breadboard, and PCB Design*.” The reason isn’t just academic; it’s deeply practical, especially for high-speed PCB design. Let me break it down clearly:
 
@@ -180,3 +179,9 @@ Perfect! Here’s a **one-page cheat sheet** summarizing Bogatin’s practical r
 
 * Early consideration of signal integrity saves **debugging headaches**.
 * Breadboards teach concepts, but **PCBs reveal reality**.
+
+# :books: References
+
+- [ ] [:tv: Bogatin’s “Practical Guide to” Book Series](https://www.youtube.com/watch?v=BmwnGxhJqO8)
+
+- [ ] [What Every PCB Designer Should Know - Crosstalk Explained (with Eric Bogatin)](https://www.youtube.com/watch?v=EF7SxgcDfCo)
