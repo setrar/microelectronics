@@ -25,6 +25,7 @@
 
 ## Chapter 2 Integrated Circuits and the 7400 Logic Families. . . . . . . . . . . . . . . . . . . . .33
 
+```lua
 2.1 The Integrated Circuit / 33
 2.2 IC Packaging / 38
 2.3 The 7400-Series Discrete Logic Family / 41
@@ -32,9 +33,11 @@
 2.5 Synchronous Logic Design with the 7400 Family / 45
 2.6 Common Variants of the 7400 Family / 50
 2.7 Interpreting a Digital IC Data Sheet / 51
+```
 
 ## Chapter 3 Basic Computer Architecture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .55
 
+```lua
 3.1 The Digital Computer / 56
 3.2 Microprocessor Internals / 58
 3.3 Subroutines and the Stack / 60
@@ -44,8 +47,11 @@
 3.7 Direct Memory Access / 68
 3.8 Extending the Microprocessor Bus / 70
 3.9 Assembly Language and Addressing Modes / 72
+```
 
-Chapter 4 Memory. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .77
+## Chapter 4 Memory. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .77
+
+```lua
 4.1 Memory Classifications / 77
 4.2 EPROM / 79
 4.3 Flash Memory / 81
@@ -54,7 +60,11 @@ Chapter 4 Memory. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 4.6 Asynchronous DRAM / 88
 4.7 Multiport Memory / 92
 4.8 The FIFO / 94
-Chapter 5 Serial Communications. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .97
+```
+
+## Chapter 5 Serial Communications. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .97
+
+```lua
 5.1 Serial vs. Parallel Communication / 98
 5.2 The UART / 99
 5.3 ASCII Data Representation / 102
@@ -66,16 +76,24 @@ Chapter 5 Serial Communications. . . . . . . . . . . . . . . . . . . . . . . . .
 5.9 RS-485 / 112
 5.10 A Simple RS-485 Network / 114
 5.11 Interchip Serial Communications / 117
-Chapter 6 Instructive Microprocessors and Microcomputer Elements . . . . . . . . . .121
+```
+
+## Chapter 6 Instructive Microprocessors and Microcomputer Elements . . . . . . . . . .121
+
+```lua
 6.1 Evolution / 121
 6.2 Motorola 6800 Eight-bit Microprocessor Family / 122
 6.3 Intel 8051 Microcontroller Family / 125
 6.4 Microchip PIC® Microcontroller Family / 131
 6.5 Intel 8086 16-Bit Microprocessor Family / 134
 6.6 Motorola 68000 16/32-Bit Microprocessor Family / 139
+```
 
-PART 2 Advanced Digital Systems
-Chapter 7 Advanced Microprocessor Concepts . . . . . . . . . . . . . . . . . . . . . . . . . . . . .145
+# PART 2 Advanced Digital Systems
+
+## Chapter 7 Advanced Microprocessor Concepts . . . . . . . . . . . . . . . . . . . . . . . . . . . . .145
+
+```lua
 7.1 RISC and CISC / 145
 7.2 Cache Structures / 149
 7.3 Caches in Practice / 154
@@ -84,14 +102,21 @@ Chapter 7 Advanced Microprocessor Concepts . . . . . . . . . . . . . . . . . . .
 7.6 Floating-Point Arithmetic / 165
 7.7 Digital Signal Processors / 167
 7.8 Performance Metrics / 169
-Chapter 8 High-Performance Memory Technologies. . . . . . . . . . . . . . . . . . . . . . . . .173
+```
+
+## Chapter 8 High-Performance Memory Technologies. . . . . . . . . . . . . . . . . . . . . . . . .173
+
+```lua
 8.1 Synchronous DRAM / 173
 8.2 Double Data Rate SDRAM / 179
 8.3 Synchronous SRAM / 182
 8.4 DDR and QDR SRAM / 185
 8.5 Content Addressable Memory / 188
+```
 
-Chapter 9 Networking. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .193
+## Chapter 9 Networking. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .193
+
+```lua
 9.1 Protocol Layers One and Two / 193
 9.2 Protocol Layers Three and Four / 194
 9.3 Physical Media / 197
@@ -101,7 +126,11 @@ Chapter 9 Networking. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 9.7 Checksum / 208
 9.8 Cyclic Redundancy Check / 209
 9.9 Ethernet / 215
-Chapter 10 Logic Design and Finite State Machines . . . . . . . . . . . . . . . . . . . . . . . . .221
+```
+
+## Chapter 10 Logic Design and Finite State Machines . . . . . . . . . . . . . . . . . . . . . . . . .221
+
+```lua
 10.1 Hardware Description Languages / 221
 10.2 CPU Support Logic / 227
 10.3 Clock Domain Crossing / 233
@@ -109,14 +138,22 @@ Chapter 10 Logic Design and Finite State Machines . . . . . . . . . . . . . . . 
 10.5 FSM Bus Control / 239
 10.6 FSM Optimization / 243
 10.7 Pipelining / 245
-Chapter 11 Programmable Logic Devices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .249
+```
+
+## Chapter 11 Programmable Logic Devices . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .249
+
+```lua
 11.1 Custom and Programmable Logic / 249
 11.2 GALs and PALs / 252
 11.3 CPLDs / 255
 11.4 FPGAs / 257
+```
 
-PART 3 Analog Basics for Digital Systems
-Chapter 12 Electrical Fundamentals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .267
+# PART 3 Analog Basics for Digital Systems
+
+## Chapter 12 Electrical Fundamentals . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .267
+
+```lua
 12.1 Basic Circuits / 267
 12.2 Loop and Node Analysis / 268
 12.3 Resistance Combination / 271
@@ -127,7 +164,11 @@ Chapter 12 Electrical Fundamentals . . . . . . . . . . . . . . . . . . . . . . .
 12.8 Frequency Domain Analysis / 279
 12.9 Lowpass and Highpass Filters / 283
 12.10 Transformers / 288
-Chapter 13 Diodes and Transistors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .293
+```
+
+## Chapter 13 Diodes and Transistors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .293
+
+```lua
 13.1 Diodes / 293
 13.2 Power Circuits with Diodes / 296
 13.3 Diodes in Digital Applications / 298
@@ -136,8 +177,11 @@ Chapter 13 Diodes and Transistors . . . . . . . . . . . . . . . . . . . . . . . 
 13.6 Logic Functions with the BJT / 304
 13.7 Field-Effect Transistors / 306
 13.8 Power FETs and JFETs / 309
+```
 
-Chapter 14 Operational Amplifiers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .311
+## Chapter 14 Operational Amplifiers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .311
+
+```lua
 14.1 The Ideal Op-amp / 311
 14.2 Characteristics of Real Op-amps / 316
 14.3 Bandwidth Limitations / 324
@@ -145,22 +189,34 @@ Chapter 14 Operational Amplifiers . . . . . . . . . . . . . . . . . . . . . . . 
 14.5 Summation Amplifier Circuits / 328
 14.6 Active Filters / 331
 14.7 Comparators and Hysteresis / 333
-Chapter 15 Analog Interfaces for Digital Systems . . . . . . . . . . . . . . . . . . . . . . . . . . .339
+```
+
+## Chapter 15 Analog Interfaces for Digital Systems . . . . . . . . . . . . . . . . . . . . . . . . . . .339
+
+```lua
 15.1 Conversion between Analog and Digital Domains / 339
 15.2 Sampling Rate and Aliasing / 341
 15.3 ADC Circuits / 345
 15.4 DAC Circuits / 348
 15.5 Filters in Data Conversion Systems / 350
+```
 
-PART 4 Digital System Design in Practice
-Chapter 16 Clock Distribution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .355
+# PART 4 Digital System Design in Practice
+
+## Chapter 16 Clock Distribution . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .355
+
+```lua
 16.1 Crystal Oscillators and Ceramic Resonators / 355
 16.2 Low-Skew Clock Buffers / 357
 16.3 Zero-Delay Buffers: The PLL / 360
 16.4 Frequency Synthesis / 364
 16.5 Delay-Locked Loops / 366
 16.6 Source-Synchronous Clocking / 367
-Chapter 17 Voltage Regulation and Power Distribution . . . . . . . . . . . . . . . . . . . . . .371
+```
+
+## Chapter 17 Voltage Regulation and Power Distribution . . . . . . . . . . . . . . . . . . . . . .371
+
+```lua
 17.1 Voltage Regulation Basics / 372
 17.2 Thermal Analysis / 374
 17.3 Zener Diodes and Shunt Regulators / 376
@@ -169,15 +225,22 @@ Chapter 17 Voltage Regulation and Power Distribution . . . . . . . . . . . . . .
 17.6 Switching Regulators / 386
 17.7 Power Distribution / 389
 17.8 Electrical Integrity / 392
-Chapter 18 Signal Integrity. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .397
+```
+
+## Chapter 18 Signal Integrity. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .397
+
+```lua
 18.1 Transmission Lines / 398
 18.2 Termination / 403
 18.3 Crosstalk / 408
 18.4 Electromagnetic Interference / 410
 18.5 Grounding and Electromagnetic Compatibility / 413
 18.6 Electrostatic Discharge / 415
+```
 
-Chapter 19 Designing for Success . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .419
+## Chapter 19 Designing for Success . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .419
+
+```lua
 19.1 Practical Technologies / 420
 19.2 Printed Circuit Boards / 422
 19.3 Manually Wired Circuits / 425
@@ -187,8 +250,11 @@ Chapter 19 Designing for Success . . . . . . . . . . . . . . . . . . . . . . . .
 19.7 Diagnostic Software / 433
 19.8 Schematic Capture and Spice / 436
 19.9 Test Equipment / 440
-Appendix A Further Education. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .443
-Index 445
+```
+
+## Appendix A Further Education. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .443
+
+## Index 445
 
 Reprint this index
 
