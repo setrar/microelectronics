@@ -118,9 +118,7 @@ Perfect! Here’s a **one-page cheat sheet** summarizing Bogatin’s practical r
 #### **1. Transmission Lines**
 
 * **Rule of Thumb:** Treat a trace as a transmission line if
-  $
-  \text{Trace length} > \frac{t_\text{rise}}{6} \times v_\text{prop}
-  $
+  $\text{Trace length} > \frac{t_\text{rise}}{6} \times v_\text{prop}$
   where $(t_\text{rise})$ = signal rise time, $(v_\text{prop} \approx 0.5c)$ in PCB.
 * **Key Parameters:**
 
