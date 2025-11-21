@@ -7,9 +7,9 @@ Acknowledgments xix
 
 ## Chapter 1 Digital Logic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .3
 
-1.1 Boolean Logic / 3
-1.2 Boolean Manipulation / 7
-1.3 The Karnaugh map / 8
+### 1.1 Boolean Logic / 3
+### 1.2 Boolean Manipulation / 7
+### 1.3 The Karnaugh map / 8
 1.4 Binary and Hexadecimal Numbering / 10
 1.5 Binary Addition / 14
 1.6 Subtraction and Negative Numbers / 15
