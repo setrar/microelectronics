@@ -184,4 +184,4 @@ Perfect! Here’s a **one-page cheat sheet** summarizing Bogatin’s practical r
 
 - [ ] [:tv: Bogatin’s “Practical Guide to” Book Series](https://www.youtube.com/watch?v=BmwnGxhJqO8)
 
-- [ ] [What Every PCB Designer Should Know - Crosstalk Explained (with Eric Bogatin)](https://www.youtube.com/watch?v=EF7SxgcDfCo)
+- [ ] [:tv: What Every PCB Designer Should Know - Crosstalk Explained (with Eric Bogatin)](https://www.youtube.com/watch?v=EF7SxgcDfCo)
