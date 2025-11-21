@@ -1,6 +1,8 @@
 
  **Complete Digital Design: A Comprehensive Guide to Digital Electronics and Computer System Architecture**
 
+**Mark BALCH**
+
 ---
 
 # **📘 BOOK RESUME**
