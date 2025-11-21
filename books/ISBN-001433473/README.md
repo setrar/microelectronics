@@ -7,9 +7,10 @@ Acknowledgments xix
 
 ## Chapter 1 Digital Logic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .3
 
-### 1.1 Boolean Logic / 3
-### 1.2 Boolean Manipulation / 7
-### 1.3 The Karnaugh map / 8
+```lua
+1.1 Boolean Logic / 3
+1.2 Boolean Manipulation / 7
+1.3 The Karnaugh map / 8
 1.4 Binary and Hexadecimal Numbering / 10
 1.5 Binary Addition / 14
 1.6 Subtraction and Negative Numbers / 15
@@ -20,6 +21,7 @@ Acknowledgments xix
 1.11 Clock Skew / 25
 1.12 Clock Jitter / 27
 1.13 Derived Logical Building Blocks / 28
+```
 
 ## Chapter 2 Integrated Circuits and the 7400 Logic Families. . . . . . . . . . . . . . . . . . . . .33
 
