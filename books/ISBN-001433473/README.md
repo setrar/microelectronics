@@ -1,9 +1,12 @@
 
-```lua
+
 Preface xiii
 Acknowledgments xix
-PART 1 Digital Fundamentals
-Chapter 1 Digital Logic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .3
+
+# PART 1 Digital Fundamentals
+
+## Chapter 1 Digital Logic . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .3
+
 1.1 Boolean Logic / 3
 1.2 Boolean Manipulation / 7
 1.3 The Karnaugh map / 8
@@ -17,7 +20,9 @@ Chapter 1 Digital Logic . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 1.11 Clock Skew / 25
 1.12 Clock Jitter / 27
 1.13 Derived Logical Building Blocks / 28
-Chapter 2 Integrated Circuits and the 7400 Logic Families. . . . . . . . . . . . . . . . . . . . .33
+
+## Chapter 2 Integrated Circuits and the 7400 Logic Families. . . . . . . . . . . . . . . . . . . . .33
+
 2.1 The Integrated Circuit / 33
 2.2 IC Packaging / 38
 2.3 The 7400-Series Discrete Logic Family / 41
@@ -25,7 +30,9 @@ Chapter 2 Integrated Circuits and the 7400 Logic Families. . . . . . . . . . . .
 2.5 Synchronous Logic Design with the 7400 Family / 45
 2.6 Common Variants of the 7400 Family / 50
 2.7 Interpreting a Digital IC Data Sheet / 51
-Chapter 3 Basic Computer Architecture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .55
+
+## Chapter 3 Basic Computer Architecture . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .55
+
 3.1 The Digital Computer / 56
 3.2 Microprocessor Internals / 58
 3.3 Subroutines and the Stack / 60
@@ -182,4 +189,4 @@ Appendix A Further Education. . . . . . . . . . . . . . . . . . . . . . . . . . 
 Index 445
 
 Reprint this index
-```
+
