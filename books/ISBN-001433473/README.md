@@ -1,7 +1,7 @@
 
 
-Preface xiii
-Acknowledgments xix
+- Preface xiii
+- Acknowledgments xix
 
 # PART 1 Digital Fundamentals
 
