@@ -90,8 +90,8 @@ Eric Bogatin is very insistent about understanding **transmission lines** in “
 * Bogatin emphasizes that even prototype designs need proper **termination** and **trace routing** to avoid reflections.
 * Key concepts:
 
-  * Characteristic impedance ((Z_0))
-  * Reflection coefficient ((\Gamma))
+  * Characteristic impedance $((Z_0))$
+  * Reflection coefficient $((\Gamma))$
   * Propagation delay
   * Rise/fall time vs. trace length
 
@@ -121,7 +121,7 @@ Perfect! Here’s a **one-page cheat sheet** summarizing Bogatin’s practical r
   $
   \text{Trace length} > \frac{t_\text{rise}}{6} \times v_\text{prop}
   $
-  where $(t_\text{rise}) = signal rise time, (v_\text{prop} \approx 0.5c)$ in PCB.
+  where $(t_\text{rise})$ = signal rise time, $(v_\text{prop} \approx 0.5c)$ in PCB.
 * **Key Parameters:**
 
   * Characteristic impedance $((Z_0))$
