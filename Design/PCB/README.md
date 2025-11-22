@@ -1,6 +1,6 @@
-# PDB
+# PCB **Printed Circuit Board**
 
-## PDB Designer
+## PCB Designer
 
 Becoming a self-sufficient PCB designer and creating your own boards requires a mix of **theoretical knowledge, practical skills, and hands-on experience** with design tools and manufacturing processes. Here’s a structured path:
 
