@@ -2,7 +2,7 @@
 
 ## What does this diagram represent?
 
-<img src=images/voltage-divider.png width='50%' height='50%' > </img>
+<img src=images/voltage-divider.png width='30%' height='30%' > </img>
 
 This schematic is a **high-impedance RC low-pass filter / bias network**.
 
