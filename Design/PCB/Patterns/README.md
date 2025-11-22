@@ -4,7 +4,7 @@
 
 <img src=images/voltage-divider.png width='30%' height='30%' > </img>
 
-This schematic is a **high-impedance RC low-pass filter / bias network**.
+This schematic is a **high-impedance RC low-pass filter / bias network**.[^1]
 
 ### ✅ What the circuit is doing
 
@@ -45,3 +45,5 @@ It combines **two resistors (R7 = 649 kΩ and R8 = 200 kΩ)** and **a capacitor 
 ### 🧠 In one sentence
 
 **This is a voltage divider that generates a DC reference (bias) voltage and filters it using an RC network to make it clean and noise-free.**
+
+[^1]: https://www.youtube.com/watch?v=X0hd_v8qRiY
