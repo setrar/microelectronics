@@ -1,4 +1,4 @@
-
+# Design Patterns
 
 ## What does this diagram represent?
 
@@ -24,7 +24,7 @@ It combines **two resistors (R7 = 649 kΩ and R8 = 200 kΩ)** and **a capacitor 
 
    $f_c = \frac{1}{2\pi (R_\text{eq}) C}$
 
-   Here ( R_\text{eq} ) is the parallel combination of R7 and R8:
+   Here $( R_\text{eq} )$ is the parallel combination of R7 and R8:
 
    $R_\text{eq} = \frac{R7 \cdot R8}{R7 + R8} \approx 150 \text{ kΩ}$
 
