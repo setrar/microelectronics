@@ -103,6 +103,14 @@ Here’s a clear diagram showing how the different PCB/ASIC manufacturing files 
       +-------------------+
 ```
 
+```mermaid
+flowchart TD
+    A[PCB Design Tool<br>(KiCad, Altium, Cadence, etc.)] -->|Export| B[Manufacturing Files<br>Gerber (layers)<br>ODB++ (all-in-one)<br>IPC-2581 (open standard)]
+    B -->|Add| C[Fab Notes / Instructions<br>Special copper thickness<br>Controlled impedance<br>Thermal/via instructions<br>Assembly notes]
+    C -->|Send to| D[PCB Fabricator / Assembly House<br>Fabricates board<br>Applies solder mask, silkscreen<br>Drills vias, assembles parts<br>Testing & inspection]
+    D --> E[Finished PCB]
+```
+
 **Workflow Explanation:**  
 1. **Design Tool**: Create your PCB schematic and layout.  
 2. **Manufacturing Files**: Export the technical data in a format your fab can read.  
