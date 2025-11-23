@@ -102,5 +102,3 @@ Final Thoughts
 	•	3-6 months: HDL, FPGA basics, simple RTL design.
 	•	6-12 months: FPGA projects, ASIC theory, open-source tools.
 	•	1+ year: Advanced chip design, PDK work, first tapeout.
-
-Would you like project suggestions, recommended PDKs, or FPGA boards to start with? 🚀
