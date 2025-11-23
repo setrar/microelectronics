@@ -50,21 +50,21 @@ Before jumping into ASICs, FPGA prototyping is essential:
 ## 4. Get into ASIC Design & EDA Tools
 
 🛠 ASIC Flow Overview:
-	1.	RTL Design (Verilog/VHDL) – Describe the circuit behavior.
-	2.	Logic Synthesis (Yosys, Synopsys DC) – Convert RTL to gate-level.
-	3.	Place & Route (OpenROAD, Cadence Innovus) – Layout optimization.
-	4.	DFT & Timing Analysis (OpenSTA, PrimeTime) – Check for delays.
-	5.	GDSII Export & Tapeout (Sky130, GF, TSMC, Intel)
+1.	RTL Design (Verilog/VHDL) – Describe the circuit behavior.
+2.	Logic Synthesis (Yosys, Synopsys DC) – Convert RTL to gate-level.
+3.	Place & Route (OpenROAD, Cadence Innovus) – Layout optimization.
+4.	DFT & Timing Analysis (OpenSTA, PrimeTime) – Check for delays.
+5.	GDSII Export & Tapeout (Sky130, GF, TSMC, Intel)
 
 📚 Tools & Open-Source Alternatives:
-	•	Yosys – Open-source logic synthesis.
-	•	OpenROAD – Free PNR tool.
-	•	Magic VLSI / KLayout – IC layout editor.
-	•	Sky130 (Google & SkyWater PDK) – Free PDK for IC design.
+•	Yosys – Open-source logic synthesis.
+•	OpenROAD – Free PNR tool.
+•	Magic VLSI / KLayout – IC layout editor.
+•	Sky130 (Google & SkyWater PDK) – Free PDK for IC design.
 
 👨‍🔬 Fabrication Options (MPW Runs)
-	•	Efabless (SkyWater 130nm) – Free IC tapeout (Google-funded).
-	•	GlobalFoundries, TSMC, Intel Foundry Services – For commercial tapeouts.
+•	Efabless (SkyWater 130nm) – Free IC tapeout (Google-funded).
+•	GlobalFoundries, TSMC, Intel Foundry Services – For commercial tapeouts.
 
 ## 5. Learn Analog/Mixed-Signal IC Design (Optional)
 
