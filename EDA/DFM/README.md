@@ -112,3 +112,7 @@ Here’s a clear diagram showing how the different PCB/ASIC manufacturing files 
 
 This makes it clear why **Fab Notes are crucial**, even if you’re using modern formats like IPC-2581 — they capture intent that files alone might not convey.
 ````
+
+# :books: References
+
+- [ ] [KiCon North America 2025 - Day 1](https://youtu.be/v2uiwDnLGx8?t=20922)
