@@ -1,5 +1,7 @@
 # Simulation
 
+<img src=images/SPICE-triage.png width='30%' height='30%' > </img>
+
 All the tools you mentioned—**Berkeley SPICE, PSpice, LTspice, QSPICE**—are **SPICE simulators**. SPICE stands for **Simulation Program with Integrated Circuit Emphasis**, created at UC Berkeley in the 1970s. They are called “spicy” because they’re the **secret sauce for electronics engineers**: they let you simulate circuits before physically building them. That’s pretty hot in the world of electronics! 🔥
 
 Here’s why each is “spicy”:
