@@ -15,9 +15,9 @@ Becoming a chip designer (IC design engineer) requires deeper knowledge of semic
 *	Microelectronic Circuits – Sedra & Smith (Analog)
 
 🛠 Simulators:
-	•	LTSpice – Circuit simulation.
-	•	ngspice / Qucs – Open-source alternatives.
-	•	Falstad Circuit Simulator – Good for quick digital logic tests.
+•	LTSpice – Circuit simulation.
+•	ngspice / Qucs – Open-source alternatives.
+•	Falstad Circuit Simulator – Good for quick digital logic tests.
 
 ## 2. Learn HDL (VHDL / Verilog / SystemVerilog)
 
