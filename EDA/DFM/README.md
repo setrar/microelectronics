@@ -59,7 +59,7 @@ Here’s a clear diagram showing how the different PCB/ASIC manufacturing files 
 
 ````{"variant":"standard","title":"PCB Fabrication Handoff Workflow","id":"94413"}
 
-```
+```text
       +-------------------+
       |  PCB Design Tool  |
       | (KiCad, Altium,   |
@@ -112,7 +112,7 @@ Here’s a clear diagram showing how the different PCB/ASIC manufacturing files 
 5. **Finished PCB**: The end product ready for testing or integration.  
 
 This makes it clear why **Fab Notes are crucial**, even if you’re using modern formats like IPC-2581 — they capture intent that files alone might not convey.
-````
+
 
 # :books: References
 
