@@ -115,4 +115,4 @@ This makes it clear why **Fab Notes are crucial**, even if you’re using modern
 
 # :books: References
 
-- [ ] [KiCon North America 2025 - Day 1](https://youtu.be/v2uiwDnLGx8?t=20922)
+- [ ] [KiCon North America 2025 - Day 1: Amit Bahl Sierra Circuits](https://youtu.be/v2uiwDnLGx8?t=20922)
