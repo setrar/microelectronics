@@ -57,10 +57,7 @@ In short: **DFM is about designing in a way that makes fabrication predictable, 
 
 Here’s a clear diagram showing how the different PCB/ASIC manufacturing files and Fab Notes fit into the full handoff workflow:
 
-```
-{"variant":"standard","title":"PCB Fabrication Handoff Workflow","id":"94413"}
-
-```
+```{"variant":"standard","title":"PCB Fabrication Handoff Workflow","id":"94413"}
 
       +-------------------+
       |  PCB Design Tool  |
