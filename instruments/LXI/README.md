@@ -103,8 +103,6 @@ For your **RFSoC**, **O-RAN**, **FPGA**, or **SoC development**, LXI becomes imp
 
 ---
 
-If you want, I can also explain:
-🔹 LXI Class A vs B vs C
-🔹 How LXI instruments are discovered
-🔹 LXI vs SCPI vs VISA
-🔹 LXI in RF / 5G test systems (relevant to your O-RAN project)
+# :books: References
+
+- [ ] [LXI Standard](https://www.lxistandard.org)
