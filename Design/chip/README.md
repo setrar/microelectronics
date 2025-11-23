@@ -10,9 +10,9 @@ Becoming a chip designer (IC design engineer) requires deeper knowledge of semic
 ✅ Learn Microprocessor Architecture – RISC vs. CISC, pipelining, caches, etc.
 
 📚 Books:
-	•	CMOS VLSI Design – Weste & Harris
-	•	Digital Integrated Circuits – Rabaey
-	•	Microelectronic Circuits – Sedra & Smith (Analog)
+	*	CMOS VLSI Design – Weste & Harris
+	*	Digital Integrated Circuits – Rabaey
+	*	Microelectronic Circuits – Sedra & Smith (Analog)
 
 🛠 Simulators:
 	•	LTSpice – Circuit simulation.
