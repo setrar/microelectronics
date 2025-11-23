@@ -51,4 +51,64 @@ Here’s a breakdown:
 
 In short: **DFM is about designing in a way that makes fabrication predictable, cost-effective, and high-yield.**
 
-If you want, I can give a **DFM checklist specifically for ICs (like Sky130) or FPGAs** that’s used in open-source tapeouts. This is highly practical if your goal is a custom FPGA/ASIC. Do you want me to do that?
+---
+
+## handoff workflow
+
+Here’s a clear diagram showing how the different PCB/ASIC manufacturing files and Fab Notes fit into the full handoff workflow:
+
+````{"variant":"standard","title":"PCB Fabrication Handoff Workflow","id":"94413"}
+```
+      +-------------------+
+      |  PCB Design Tool  |
+      | (KiCad, Altium,   |
+      |  Cadence, etc.)   |
+      +-------------------+
+                |
+                | Export
+                v
+  +-------------------------------+
+  | Manufacturing Files           |
+  | ----------------------------- |
+  | Gerber (layers)               |
+  | ODB++ (all-in-one)            |
+  | IPC-2581 (open standard)      |
+  +-------------------------------+
+                |
+                | Add
+                v
+  +-------------------------------+
+  | Fab Notes / Instructions       |
+  | ----------------------------- |
+  | Special copper thickness       |
+  | Controlled impedance          |
+  | Thermal/via instructions      |
+  | Assembly notes                |
+  +-------------------------------+
+                |
+                | Send to
+                v
+  +-------------------------------+
+  | PCB Fabricator / Assembly House|
+  | ----------------------------- |
+  | Fabricates board               |
+  | Applies solder mask, silkscreen|
+  | Drills vias, assembles parts  |
+  | Testing & inspection          |
+  +-------------------------------+
+                |
+                v
+      +-------------------+
+      |   Finished PCB    |
+      +-------------------+
+```
+
+**Workflow Explanation:**  
+1. **Design Tool**: Create your PCB schematic and layout.  
+2. **Manufacturing Files**: Export the technical data in a format your fab can read.  
+3. **Fab Notes**: Provide human-readable instructions for anything not explicitly captured in the files.  
+4. **Fabricator / Assembly**: Uses both the files and notes to produce and assemble the PCB correctly.  
+5. **Finished PCB**: The end product ready for testing or integration.  
+
+This makes it clear why **Fab Notes are crucial**, even if you’re using modern formats like IPC-2581 — they capture intent that files alone might not convey.
+````
