@@ -4,10 +4,10 @@ Becoming a chip designer (IC design engineer) requires deeper knowledge of semic
 
 ## 1. Master the Fundamentals
 
-✅ Learn Semiconductor Physics – How transistors work (MOSFETs, CMOS, FinFETs).
-✅ Understand Digital Logic Design – Boolean algebra, logic gates, flip-flops, FSMs.
-✅ Study Analog Circuits (if needed) – Op-amps, comparators, ADCs/DACs.
-✅ Learn Microprocessor Architecture – RISC vs. CISC, pipelining, caches, etc.
+* ✅ Learn Semiconductor Physics – How transistors work (MOSFETs, CMOS, FinFETs).
+* ✅ Understand Digital Logic Design – Boolean algebra, logic gates, flip-flops, FSMs.
+* ✅ Study Analog Circuits (if needed) – Op-amps, comparators, ADCs/DACs.
+* ✅ Learn Microprocessor Architecture – RISC vs. CISC, pipelining, caches, etc.
 
 📚 Books:
 *	CMOS VLSI Design – Weste & Harris
