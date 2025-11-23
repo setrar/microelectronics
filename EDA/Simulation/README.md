@@ -1,7 +1,5 @@
 # Simulation
 
-<img src=images/SPICE-triage.png width='30%' height='30%' > </img>
-
 All the tools you mentioned—**Berkeley SPICE, PSpice, LTspice, QSPICE**—are **SPICE simulators**. SPICE stands for **Simulation Program with Integrated Circuit Emphasis**, created at UC Berkeley in the 1970s. They are called “spicy” because they’re the **secret sauce for electronics engineers**: they let you simulate circuits before physically building them. That’s pretty hot in the world of electronics! 🔥
 
 Here’s why each is “spicy”:
@@ -52,11 +50,11 @@ So: **All SPICE simulators are descendants of Berkeley SPICE**, but only **LTspi
 
 ---
 
-Ah, now we’re getting into the *other branches of the SPICE family tree*. Let’s unpack **NGSPICE** and **Qucs‑S**, and why they exist alongside LTspice and QSPICE.
+<img src=images/SPICE-triage.png width='30%' height='30%' > </img>
 
 ---
 
-## 1️⃣ NGSPICE – The “Open-Source Workhorse”
+### 1️⃣ NGSPICE – The “Open-Source Workhorse”
 
 * **What it is:**
   NGSPICE is a fully **open-source SPICE simulator**, descended from **Berkeley SPICE 3f5**.
@@ -84,7 +82,7 @@ Ah, now we’re getting into the *other branches of the SPICE family tree*. Let�
 
 ---
 
-## 2️⃣ Qucs‑S – “Graphical, Symbolic, and Spice-Friendly”
+### 2️⃣ Qucs‑S – “Graphical, Symbolic, and Spice-Friendly”
 
 * **What it is:**
   Qucs‑S stands for **Quite Universal Circuit Simulator – SPICE version**.
@@ -110,7 +108,7 @@ Ah, now we’re getting into the *other branches of the SPICE family tree*. Let�
 
 ---
 
-## 🔹 So why so many SPICE variants?
+### 🔹 So why so many SPICE variants?
 
 | Simulator      | Open / Commercial   | GUI / CLI          | Target                 | Strengths                            |
 | -------------- | ------------------- | ------------------ | ---------------------- | ------------------------------------ |
@@ -126,3 +124,34 @@ Ah, now we’re getting into the *other branches of the SPICE family tree*. Let�
 * **NGSPICE** = open, hackable, scriptable SPICE engine.
 * **Qucs‑S** = GUI wrapper that uses SPICE engines like NGSPICE.
 * **LTspice / QSPICE** = proprietary / free but tuned for performance, models, and usability.
+
+---
+
+## **Qucs-S**
+
+Yes — **Qucs-S** (the “Simulations” version of Qucs) is designed to support multiple simulation engines, but it depends on **what engines are actually installed and configured** on your system. Qucs-S primarily supports these engines:
+
+* **Ngspice** – most common, open-source SPICE engine.
+* **Xyce** – another SPICE-compatible engine.
+* **QSPICE** – less common, mostly Windows-focused.
+
+You **can use QSPICE** in Qucs-S if:
+
+1. You have a version of QSPICE installed on your system.
+2. Qucs-S is configured to recognize it as a simulation engine.
+
+### Steps to enable QSPICE in Qucs-S:
+
+1. Open Qucs-S.
+2. Go to **Options → Settings → Simulation**.
+3. In the “SPICE engine” or “External simulator” field, see if QSPICE appears. If not, you may need to add its path manually.
+4. Set the path to the QSPICE executable.
+5. Save settings, restart Qucs-S.
+
+Once configured, any SPICE simulation you run can use QSPICE as the backend engine.
+
+⚠️ **Notes / Caveats:**
+
+* QSPICE is primarily Windows-oriented; on Linux/macOS it might not run natively without Wine or similar.
+* Some Qucs-S features may not work with all engines (e.g., schematic-to-SPICE translation is tested mainly with Ngspice).
+* Make sure your netlist syntax is compatible with QSPICE.
