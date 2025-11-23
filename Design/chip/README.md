@@ -2,7 +2,7 @@
 
 Becoming a chip designer (IC design engineer) requires deeper knowledge of semiconductor physics, digital/analog circuit design, and EDA tools used in ASIC and FPGA development. Here’s a structured roadmap to designing your own custom chips (ASICs, SoCs, or FPGA IPs).
 
-1. Master the Fundamentals
+## 1. Master the Fundamentals
 
 ✅ Learn Semiconductor Physics – How transistors work (MOSFETs, CMOS, FinFETs).
 ✅ Understand Digital Logic Design – Boolean algebra, logic gates, flip-flops, FSMs.
@@ -19,7 +19,7 @@ Becoming a chip designer (IC design engineer) requires deeper knowledge of semic
 	•	ngspice / Qucs – Open-source alternatives.
 	•	Falstad Circuit Simulator – Good for quick digital logic tests.
 
-2. Learn HDL (VHDL / Verilog / SystemVerilog)
+## 2. Learn HDL (VHDL / Verilog / SystemVerilog)
 
 You’ll need Hardware Description Languages (HDLs) to design digital circuits:
 🟢 Verilog/SystemVerilog – Industry standard for ASIC and FPGA.
@@ -35,7 +35,7 @@ You’ll need Hardware Description Languages (HDLs) to design digital circuits:
 	•	Design simple circuits: ALUs, FIFOs, UART, CPU cores
 	•	Use GHDL (VHDL) or Icarus Verilog for simulation
 
-3. Work with FPGA Prototyping
+## 3. Work with FPGA Prototyping
 
 Before jumping into ASICs, FPGA prototyping is essential:
 ✅ Learn Xilinx Vivado, Intel Quartus, Lattice Radiant
@@ -47,7 +47,7 @@ Before jumping into ASICs, FPGA prototyping is essential:
 	•	Create a Signal Processing Module (FFT, FIR filters)
 	•	Implement Custom Peripherals (I2C, SPI, DDR controller)
 
-4. Get into ASIC Design & EDA Tools
+## 4. Get into ASIC Design & EDA Tools
 
 🛠 ASIC Flow Overview:
 	1.	RTL Design (Verilog/VHDL) – Describe the circuit behavior.
@@ -66,7 +66,7 @@ Before jumping into ASICs, FPGA prototyping is essential:
 	•	Efabless (SkyWater 130nm) – Free IC tapeout (Google-funded).
 	•	GlobalFoundries, TSMC, Intel Foundry Services – For commercial tapeouts.
 
-5. Learn Analog/Mixed-Signal IC Design (Optional)
+## 5. Learn Analog/Mixed-Signal IC Design (Optional)
 
 If you’re interested in RFICs, ADCs, or power ICs, learn analog design:
 ✅ Cadence Virtuoso – Standard for custom IC layout.
@@ -77,7 +77,7 @@ If you’re interested in RFICs, ADCs, or power ICs, learn analog design:
 	•	Analog Integrated Circuit Design – Razavi
 	•	Design of Analog CMOS Integrated Circuits – Razavi
 
-6. Work on Open-Source IC Design Projects
+## 6. Work on Open-Source IC Design Projects
 
 🚀 Join Open-Source Hardware Communities:
 	•	RISC-V community – Build your own CPU.
@@ -89,7 +89,7 @@ If you’re interested in RFICs, ADCs, or power ICs, learn analog design:
 	•	Implement a hardware accelerator (FFT, AI inference, LDPC decoder).
 	•	Develop a custom RF front-end for SDR applications.
 
-7. Get a Job or Start a Chip Startup
+## 7. Get a Job or Start a Chip Startup
 
 Once you have hands-on experience, you can:
 🛠 Work in ASIC/FPGA design roles at companies like Intel, AMD, Qualcomm, or startups.
