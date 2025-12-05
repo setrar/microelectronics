@@ -8,7 +8,7 @@ Here is a table classifying and detailing the integrated circuits (ICs) shown in
 | MN74HC125 (MC74HC125AN) | Buffer / Line Driver | Quad Bus Buffer Gate | 14 | 3-State Outputs with active-low enables; ideal for bus-oriented systems. |
 | SN74HC153N | Multiplexer (MUX) | Dual 4-Input Data Selector | 16 | Selects one of four data lines for each of the two independent MUX channels. |
 | SN74HC157N (MC74HC157N) | Multiplexer (MUX) | Quad 2-Input Data Selector | 16 | Selects one of two 4-bit sources; controlled by a common select line. |
-| SN74HC215N | Logic Gate | Dual 4-Input AND Gate (Likely 74HC21) | 14 | Performs the (A \cdot B \cdot C \cdot D) operation twice. |
+| SN74HC215N | Logic Gate | Dual 4-Input AND Gate (Likely 74HC21) | 14 | Performs the $(A \cdot B \cdot C \cdot D)$ operation twice. |
 | SN74HC243N | Bus Transceiver | Quad Bus Transceiver | 14 | Allows data to flow bidirectionally between two 4-bit buses; 3-State Outputs. |
 Summary of Chip Families
 The collection is primarily designed for data management in digital circuits:
