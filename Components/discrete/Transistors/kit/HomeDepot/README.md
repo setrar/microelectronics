@@ -3,13 +3,13 @@ Here is a table classifying and detailing the integrated circuits (ICs) shown in
 🎛️ 74HC Series Digital Logic ICs
 | Part Number (Marking) | General Function | Specific Logic | Pin Count | Key Feature / Application |
 |---|---|---|---|---|
-| SN74HC157N (MC74HC157N) | Multiplexer (MUX) | Quad 2-Input Data Selector | 16 | Selects one of two 4-bit sources; controlled by a common select line. |
-| SN74HC153N | Multiplexer (MUX) | Dual 4-Input Data Selector | 16 | Selects one of four data lines for each of the two independent MUX channels. |
-| MN74HC125 (MC74HC125AN) | Buffer / Line Driver | Quad Bus Buffer Gate | 14 | 3-State Outputs with active-low enables; ideal for bus-oriented systems. |
-| SN74HC243N | Bus Transceiver | Quad Bus Transceiver | 14 | Allows data to flow bidirectionally between two 4-bit buses; 3-State Outputs. |
 | SN74HC40N | Logic Gate | Dual 4-Input NAND Gate | 14 | Performs the \overline{(A \cdot B \cdot C \cdot D)} operation twice. |
-| SN74HC215N | Logic Gate | Dual 4-Input AND Gate (Likely 74HC21) | 14 | Performs the (A \cdot B \cdot C \cdot D) operation twice. |
 | GD74HC86 | Logic Gate | Quad 2-Input Exclusive-OR (XOR) Gate | 14 | Output is HIGH if the two inputs are different (odd parity checker). |
+| MN74HC125 (MC74HC125AN) | Buffer / Line Driver | Quad Bus Buffer Gate | 14 | 3-State Outputs with active-low enables; ideal for bus-oriented systems. |
+| SN74HC153N | Multiplexer (MUX) | Dual 4-Input Data Selector | 16 | Selects one of four data lines for each of the two independent MUX channels. |
+| SN74HC157N (MC74HC157N) | Multiplexer (MUX) | Quad 2-Input Data Selector | 16 | Selects one of two 4-bit sources; controlled by a common select line. |
+| SN74HC215N | Logic Gate | Dual 4-Input AND Gate (Likely 74HC21) | 14 | Performs the (A \cdot B \cdot C \cdot D) operation twice. |
+| SN74HC243N | Bus Transceiver | Quad Bus Transceiver | 14 | Allows data to flow bidirectionally between two 4-bit buses; 3-State Outputs. |
 Summary of Chip Families
 The collection is primarily designed for data management in digital circuits:
  * Multiplexers ('157, '153): Act as digital switches, choosing which input signal is passed to the output.
