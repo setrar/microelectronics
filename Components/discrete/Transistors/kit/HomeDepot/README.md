@@ -1,6 +1,11 @@
 
 
-<img src=images/signal-2025-12-05-094314_004.jpeg width='50%' height='50%' > </img>
+<img src=images/signal-2025-12-05-094314_002.jpeg width='50%' height='50%' > </img>
+
+<img src=images/signal-2025-12-05-094314_003.jpeg width='30%' height='30%' > </img>
+
+## :one:  **74HC-series logic ICs**
+<img src=images/signal-2025-12-05-094314_004.jpeg width='30%' height='30%' > </img>
 
 Looking at the photo, these are **74HC-series logic ICs**, mainly from ST, Texas Instruments, and Samsung/Korea Semiconductor. Here’s a classification based on what’s visible:
 
