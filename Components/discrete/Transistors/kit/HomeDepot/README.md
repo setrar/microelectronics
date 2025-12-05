@@ -3,7 +3,7 @@ Here is a table classifying and detailing the integrated circuits (ICs) shown in
 🎛️ 74HC Series Digital Logic ICs
 | Part Number (Marking) | General Function | Specific Logic | Pin Count | Key Feature / Application |
 |---|---|---|---|---|
-| SN74HC40N | Logic Gate | Dual 4-Input NAND Gate | 14 | Performs the \overline{(A \cdot B \cdot C \cdot D)} operation twice. |
+| SN74HC40N | Logic Gate | Dual 4-Input NAND Gate | 14 | Performs the $\overline{(A \cdot B \cdot C \cdot D)}$ operation twice. |
 | GD74HC86 | Logic Gate | Quad 2-Input Exclusive-OR (XOR) Gate | 14 | Output is HIGH if the two inputs are different (odd parity checker). |
 | MN74HC125 (MC74HC125AN) | Buffer / Line Driver | Quad Bus Buffer Gate | 14 | 3-State Outputs with active-low enables; ideal for bus-oriented systems. |
 | SN74HC153N | Multiplexer (MUX) | Dual 4-Input Data Selector | 16 | Selects one of four data lines for each of the two independent MUX channels. |
