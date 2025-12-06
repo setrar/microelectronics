@@ -403,8 +403,3 @@ Expanded single-channel view:
 
 ---
 
-If you want, I can also generate:
-
-✅ **High-resolution PNG schematics**
-✅ **SVG symbols for KiCad / EasyEDA**
-✅ **Combined “logic crib sheet” PDF**
