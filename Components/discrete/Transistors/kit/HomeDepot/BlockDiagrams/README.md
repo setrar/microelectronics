@@ -91,14 +91,6 @@ graph LR
 
 ## **4. 74HC40 — Dual 4-Input NAND Gate**
 
-```
-      ______________________           ______________________
- A --|                      |-- Y   A --|                      |-- Y
- B --|                      |         B --|                      |
- C --|      4-INPUT NAND    |         C --|      4-INPUT NAND    |
- D --|______________________|         D --|______________________|
-```
-
 ```mermaid
 graph LR
     subgraph NAND1 [ ]
@@ -127,12 +119,38 @@ graph LR
 
 ## **5. 74HC86 — Quad 2-Input XOR Gate**
 
-```
-      _______          _______          _______          _______
- A --|      ⊕|-- Y   A --|      ⊕|-- Y   A --|      ⊕|-- Y   A --|      ⊕|-- Y
- B --|       |       B --|       |       B --|       |       B --|       |
-     |  XOR  |           |  XOR  |           |  XOR  |           |  XOR  |
-     |_______|           |_______|           |_______|           |_______|
+```mermaid
+graph LR
+    subgraph XOR1 [ ]
+        direction LR
+        A1[A] --> X1[XOR]
+        B1[B] --> X1
+        X1 -- "⊕" --> Y1[Y]
+    end
+
+    subgraph XOR2 [ ]
+        direction LR
+        A2[A] --> X2[XOR]
+        B2[B] --> X2
+        X2 -- "⊕" --> Y2[Y]
+    end
+
+    subgraph XOR3 [ ]
+        direction LR
+        A3[A] --> X3[XOR]
+        B3[B] --> X3
+        X3 -- "⊕" --> Y3[Y]
+    end
+
+    subgraph XOR4 [ ]
+        direction LR
+        A4[A] --> X4[XOR]
+        B4[B] --> X4
+        X4 -- "⊕" --> Y4[Y]
+    end
+
+    %% Arrange subgraphs horizontally
+    XOR1 --- XOR2 --- XOR3 --- XOR4
 ```
 
 ---
