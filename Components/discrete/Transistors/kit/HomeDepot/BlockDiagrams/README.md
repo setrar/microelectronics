@@ -43,36 +43,6 @@ graph LR
     NAND1 --- NAND2 --- NAND3 --- NAND4
 ```
 
-```mermaid
-graph LR
-    %% NAND 1
-    A1[A] --> N1[NAND ≥1]
-    B1[B] --> N1
-    N1 --> Y1[Y]
-
-    %% NAND 2
-    A2[A] --> N2[NAND ≥1]
-    B2[B] --> N2
-    N2 --> Y2[Y]
-
-    %% NAND 3
-    A3[A] --> N3[NAND ≥1]
-    B3[B] --> N3
-    N3 --> Y3[Y]
-
-    %% NAND 4
-    A4[A] --> N4[NAND ≥1]
-    B4[B] --> N4
-    N4 --> Y4[Y]
-```
-
-```
-      _______          _______          _______          _______
- A --|     ≥1|-- Y   A --|     ≥1|-- Y   A --|     ≥1|-- Y   A --|     ≥1|-- Y
- B --|       |       B --|       |       B --|       |       B --|       |
-     | NAND  |           | NAND  |           | NAND  |           | NAND  |
-     |_______|           |_______|           |_______|           |_______|
-```
 
 ---
 
