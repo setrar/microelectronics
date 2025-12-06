@@ -48,12 +48,38 @@ graph LR
 
 ## **2. 74HC02 / 74HCT02 — Quad 2-Input NOR Gate**
 
-```
-      _______          _______          _______          _______
- A --|     =1|-- Y   A --|     =1|-- Y   A --|     =1|-- Y   A --|     =1|-- Y
- B --|       |       B --|       |       B --|       |       B --|       |
-     |  NOR  |           |  NOR  |           |  NOR  |           |  NOR  |
-     |_______|           |_______|           |_______|           |_______|
+```mermaid
+graph LR
+    subgraph NOR1 [ ]
+        direction LR
+        A1[A] --> N1[NOR]
+        B1[B] --> N1
+        N1 -- "=1" --> Y1[Y]
+    end
+
+    subgraph NOR2 [ ]
+        direction LR
+        A2[A] --> N2[NOR]
+        B2[B] --> N2
+        N2 -- "=1" --> Y2[Y]
+    end
+
+    subgraph NOR3 [ ]
+        direction LR
+        A3[A] --> N3[NOR]
+        B3[B] --> N3
+        N3 -- "=1" --> Y3[Y]
+    end
+
+    subgraph NOR4 [ ]
+        direction LR
+        A4[A] --> N4[NOR]
+        B4[B] --> N4
+        N4 -- "=1" --> Y4[Y]
+    end
+
+    %% Arrange subgraphs horizontally
+    NOR1 --- NOR2 --- NOR3 --- NOR4
 ```
 
 ---
