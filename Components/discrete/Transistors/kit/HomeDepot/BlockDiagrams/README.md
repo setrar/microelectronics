@@ -123,12 +123,6 @@ graph LR
     NOT1 --- NOT2 --- NOT3 --- NOT4 --- NOT5 --- NOT6
 ```
 
-```
- A ──►┌───────┐──► Y
-      │ NOT   │
-      └───────┘  ×6
-```
-
 ---
 
 ## **4. 74HC40 — Dual 4-Input NAND Gate**
