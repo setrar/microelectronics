@@ -13,30 +13,30 @@ These mimic the diagrams found in TI/Nexperia datasheets and are suitable for qu
 graph LR
     subgraph NAND1 [ ]
         direction LR
-        A1[A] --> N1[NAND ≥1]
+        A1[A] --> N1[NAND]
         B1[B] --> N1
-        N1 --> Y1[Y]
+        N1 -- "≥1" --> Y1[Y]
     end
 
     subgraph NAND2 [ ]
         direction LR
-        A2[A] --> N2[NAND ≥1]
+        A2[A] --> N2[NAND]
         B2[B] --> N2
-        N2 --> Y2[Y]
+        N2 -- "≥1" --> Y2[Y]
     end
 
     subgraph NAND3 [ ]
         direction LR
-        A3[A] --> N3[NAND ≥1]
+        A3[A] --> N3[NAND]
         B3[B] --> N3
-        N3 --> Y3[Y]
+        N3 -- "≥1" --> Y3[Y]
     end
 
     subgraph NAND4 [ ]
         direction LR
-        A4[A] --> N4[NAND ≥1]
+        A4[A] --> N4[NAND]
         B4[B] --> N4
-        N4 --> Y4[Y]
+        N4 -- "≥1" --> Y4[Y]
     end
 
     %% Arrange subgraphs horizontally
