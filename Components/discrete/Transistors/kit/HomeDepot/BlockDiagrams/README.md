@@ -16,6 +16,29 @@ flowchart TD
 ## **1. 74HC00 — Quad 2-Input NAND Gate**
 
 ```mermaid
+flowchart TD
+    %% NAND 1
+    A1[A] --> N1[NAND]
+    B1[B] --> N1
+    N1 -- "≥1" --> Y1[Y]
+
+    %% NAND 2
+    A2[A] --> N2[NAND]
+    B2[B] --> N2
+    N2 -- "≥1" --> Y2[Y]
+
+    %% NAND 3
+    A3[A] --> N3[NAND]
+    B3[B] --> N3
+    N3 -- "≥1" --> Y3[Y]
+
+    %% NAND 4
+    A4[A] --> N4[NAND]
+    B4[B] --> N4
+    N4 -- "≥1" --> Y4[Y]
+```
+
+```mermaid
 graph LR
     subgraph NAND1 [ ]
         direction LR
