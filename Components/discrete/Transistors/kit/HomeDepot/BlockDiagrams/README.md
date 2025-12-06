@@ -1,56 +1,8 @@
-```mermaid
-flowchart TD
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
-```
-
----
-
 # 🔷 **Logic Function Block Diagrams**
 
 ---
 
 ## **1. 74HC00 — Quad 2-Input NAND Gate**
-
-```mermaid
-flowchart TD
-    %% Row of inputs A
-    A1[A] --- A2[A] --- A3[A] --- A4[A]
-
-    %% Row of inputs B
-    B1[B] --- B2[B] --- B3[B] --- B4[B]
-
-    %% NAND gates as subgraphs
-    subgraph NAND1
-        A1 --> N1[NAND]
-        B1 --> N1
-        N1 -- "≥1" --> Y1[Y]
-    end
-
-    subgraph NAND2
-        A2 --> N2[NAND]
-        B2 --> N2
-        N2 -- "≥1" --> Y2[Y]
-    end
-
-    subgraph NAND3
-        A3 --> N3[NAND]
-        B3 --> N3
-        N3 -- "≥1" --> Y3[Y]
-    end
-
-    subgraph NAND4
-        A4 --> N4[NAND]
-        B4 --> N4
-        N4 -- "≥1" --> Y4[Y]
-    end
-
-    %% Row of outputs Y
-    Y1 --- Y2 --- Y3 --- Y4
-```
 
 ```mermaid
 graph LR
