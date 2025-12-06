@@ -275,7 +275,7 @@ graph LR
 ```mermaid
 flowchart TD
     %% MUX 1 (Channel 1)
-    subgraph MUX1 [4-TO-1 MUX - Channel 1]
+    subgraph MUX1["4-TO-1 MUX (Channel 1)"]
         S1_1[S1] --> M1[MUX]
         S0_1[S0] --> M1
         I0 --> M1
@@ -286,7 +286,7 @@ flowchart TD
     end
 
     %% MUX 2 (Channel 2)
-    subgraph MUX2 [4-TO-1 MUX - Channel 2]
+    subgraph MUX2["4-TO-1 MUX (Channel 2)"]
         S1_2[S1] --> M2[MUX]
         S0_2[S0] --> M2
         I4 --> M2
