@@ -285,7 +285,7 @@ graph LR
     %% MUX 0
     subgraph MUX0 [ ]
         direction LR
-        SEL[Select] --> M0[MUX]
+        SEL0[Select0] --> M0[MUX]
         A0[A0] --> M0
         B0[B0] --> M0
         M0 --> Y0[Y0]
@@ -294,7 +294,7 @@ graph LR
     %% MUX 1
     subgraph MUX1 [ ]
         direction LR
-        SEL --> M1[MUX]
+        SEL1[Select1] --> M1[MUX]
         A1[A1] --> M1
         B1[B1] --> M1
         M1 --> Y1[Y1]
@@ -303,7 +303,7 @@ graph LR
     %% MUX 2
     subgraph MUX2 [ ]
         direction LR
-        SEL --> M2[MUX]
+        SEL2[Select2] --> M2[MUX]
         A2[A2] --> M2
         B2[B2] --> M2
         M2 --> Y2[Y2]
@@ -312,7 +312,7 @@ graph LR
     %% MUX 3
     subgraph MUX3 [ ]
         direction LR
-        SEL --> M3[MUX]
+        SEL3[Select3] --> M3[MUX]
         A3[A3] --> M3
         B3[B3] --> M3
         M3 --> Y3[Y3]
