@@ -358,6 +358,22 @@ graph LR
 
 ## **10. 74HC243 — Quad Bus Transceiver (3-State)**
 
+```mermaid
+graph LR
+    %% Bi-directional Transceiver
+
+    %% Control signals
+    DIR[DIR] --> TR[TRANSCEIVER]
+    G1[G¯] --> TR
+    G2[G¯] --> TR
+
+    %% Data paths
+    A[A] -->|A→B| TR
+    B[B] -->|B→A| TR
+    TR --> A
+    TR --> B
+```
+
 ```
          DIR
      A ◄────► B
@@ -382,6 +398,8 @@ Expanded single-channel view:
                │
               G¯ (ENABLE LOW)
 ```
+
+
 
 ---
 
