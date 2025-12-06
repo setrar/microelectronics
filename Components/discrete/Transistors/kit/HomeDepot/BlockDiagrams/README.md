@@ -108,20 +108,20 @@ graph LR
 graph LR
     subgraph NAND1 [ ]
         direction LR
-        A1[A] --> N1[NAND]
+        A1[A] --> N1[4-INPUT NAND ]
         B1[B] --> N1
         C1[C] --> N1
         D1[D] --> N1
-        N1 -- "≥1" --> Y1[Y]
+        N1 --> Y1[Y]
     end
 
     subgraph NAND2 [ ]
         direction LR
-        A2[A] --> N2[NAND]
+        A2[A] --> N2[4-INPUT NAND ]
         B2[B] --> N2
         C2[C] --> N2
         D2[D] --> N2
-        N2 -- "≥1" --> Y2[Y]
+        N2 --> Y2[Y]
     end
 
     %% Arrange subgraphs horizontally
