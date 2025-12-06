@@ -209,6 +209,40 @@ graph LR
 
 ## **7. 74HC125 — Quad Tri-State Buffer (Active-LOW Enable)**
 
+```mermaid
+graph LR
+    subgraph BUF1 [ ]
+        direction LR
+        EN1[EN¯] --> B1[BUF]
+        A1[A] --> B1
+        B1 --> Y1[Y]
+    end
+
+    subgraph BUF2 [ ]
+        direction LR
+        EN2[EN¯] --> B2[BUF]
+        A2[A] --> B2
+        B2 --> Y2[Y]
+    end
+
+    subgraph BUF3 [ ]
+        direction LR
+        EN3[EN¯] --> B3[BUF]
+        A3[A] --> B3
+        B3 --> Y3[Y]
+    end
+
+    subgraph BUF4 [ ]
+        direction LR
+        EN4[EN¯] --> B4[BUF]
+        A4[A] --> B4
+        B4 --> Y4[Y]
+    end
+
+    %% Arrange subgraphs horizontally
+    BUF1 --- BUF2 --- BUF3 --- BUF4
+```
+
 ```
       EN¯   A          Y
       ───►┌─────┐──►────
