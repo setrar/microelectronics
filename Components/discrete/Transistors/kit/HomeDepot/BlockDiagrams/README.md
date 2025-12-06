@@ -1,5 +1,11 @@
-Below are **clean, readable ASCII-style block diagrams** for every part in your inventory.
-These mimic the diagrams found in TI/Nexperia datasheets and are suitable for quick reference or documentation.
+```mermaid
+flowchart TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+```
 
 ---
 
