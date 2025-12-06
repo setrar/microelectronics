@@ -274,26 +274,26 @@ graph LR
 
 ```mermaid
 flowchart TD
-    %% MUX 1 (Channel 1)
-    subgraph MUX1[" "]
-        S1_1[S1] --> M1["MUX<br>(Channel 1)"]
-        S0_1[S0] --> M1
-        I0 --> M1
-        I1 --> M1
-        I2 --> M1
-        I3 --> M1
-        M1 --> Y1[Y1]
-    end
-
     %% MUX 2 (Channel 2)
     subgraph MUX2[" "]
-        S1_2[S1] --> M2["MUX<br>(Channel 2)"]
+        S1_2[S1] --> M2["4-TO-1 MUX<br>(Channel 2)"]
         S0_2[S0] --> M2
         I4 --> M2
         I5 --> M2
         I6 --> M2
         I7 --> M2
         M2 --> Y2[Y2]
+    end
+
+    %% MUX 1 (Channel 1)
+    subgraph MUX1[" "]
+        S1_1[S1] --> M1["4-TO-1 MUX<br>(Channel 1)"]
+        S0_1[S0] --> M1
+        I0 --> M1
+        I1 --> M1
+        I2 --> M1
+        I3 --> M1
+        M1 --> Y1[Y1]
     end
 ```
 
