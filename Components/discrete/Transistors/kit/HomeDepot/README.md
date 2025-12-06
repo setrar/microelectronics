@@ -26,7 +26,7 @@
 ### Notes
 
 * **Package pins** listed are for standard DIP packages.
-* Manufacturer was inferred from prefixes (SN=TI, MC=Motorola, MN=Matsushita, GD=Goldstar/LG, KS=Samsung/Korea Semiconductor).
+* Manufacturer was inferred from prefixes (**SN**=TI, **MC**=Motorola, **MN**=Matsushita, **GD**=Goldstar/LG, **KS**=Samsung/Korea Semiconductor).
 * Logic families split into **HC** (high-speed CMOS) and **HCT** (CMOS with TTL-level inputs).
 
 ---
