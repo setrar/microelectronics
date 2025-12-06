@@ -81,6 +81,48 @@ graph LR
 
 ## **3. 74HCT04 — Hex Inverter**
 
+```mermaid
+graph LR
+    subgraph NOT1 [ ]
+        direction LR
+        A1[A] --> N1[NOT]
+        N1 --> Y1[Y]
+    end
+
+    subgraph NOT2 [ ]
+        direction LR
+        A2[A] --> N2[NOT]
+        N2 --> Y2[Y]
+    end
+
+    subgraph NOT3 [ ]
+        direction LR
+        A3[A] --> N3[NOT]
+        N3 --> Y3[Y]
+    end
+
+    subgraph NOT4 [ ]
+        direction LR
+        A4[A] --> N4[NOT]
+        N4 --> Y4[Y]
+    end
+
+    subgraph NOT5 [ ]
+        direction LR
+        A5[A] --> N5[NOT]
+        N5 --> Y5[Y]
+    end
+
+    subgraph NOT6 [ ]
+        direction LR
+        A6[A] --> N6[NOT]
+        N6 --> Y6[Y]
+    end
+
+    %% Arrange subgraphs horizontally
+    NOT1 --- NOT2 --- NOT3 --- NOT4 --- NOT5 --- NOT6
+```
+
 ```
  A ──►┌───────┐──► Y
       │ NOT   │
