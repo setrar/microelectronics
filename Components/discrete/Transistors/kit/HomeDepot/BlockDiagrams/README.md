@@ -19,6 +19,7 @@ flowchart TD
 flowchart TD
     %% NAND 1
     subgraph NAND1
+        direction TD
         A1[A] --> N1[NAND]
         B1[B] --> N1
         N1 -- "≥1" --> Y1[Y]
@@ -26,6 +27,7 @@ flowchart TD
 
     %% NAND 2
     subgraph NAND2
+        direction TD
         A2[A] --> N2[NAND]
         B2[B] --> N2
         N2 -- "≥1" --> Y2[Y]
@@ -33,6 +35,7 @@ flowchart TD
 
     %% NAND 3
     subgraph NAND3
+        direction TD
         A3[A] --> N3[NAND]
         B3[B] --> N3
         N3 -- "≥1" --> Y3[Y]
@@ -40,6 +43,7 @@ flowchart TD
 
     %% NAND 4
     subgraph NAND4
+        direction TD
         A4[A] --> N4[NAND]
         B4[B] --> N4
         N4 -- "≥1" --> Y4[Y]
