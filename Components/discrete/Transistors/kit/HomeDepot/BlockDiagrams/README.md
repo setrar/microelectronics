@@ -15,14 +15,17 @@ graph LR
     B1[B] --> N1
     N1 --> Y1[Y]
 
+graph LR
     A2[A] --> N2[NAND ≥1]
     B2[B] --> N2
     N2 --> Y2[Y]
 
+graph LR
     A3[A] --> N3[NAND ≥1]
     B3[B] --> N3
     N3 --> Y3[Y]
 
+graph LR
     A4[A] --> N4[NAND ≥1]
     B4[B] --> N4
     N4 --> Y4[Y]
