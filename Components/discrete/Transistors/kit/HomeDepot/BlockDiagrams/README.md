@@ -14,17 +14,23 @@ graph LR
     A1[A] --> N1[NAND ≥1]
     B1[B] --> N1
     N1 --> Y1[Y]
+```
 
+```mermaid
 graph LR
     A2[A] --> N2[NAND ≥1]
     B2[B] --> N2
     N2 --> Y2[Y]
+```
 
+```mermaid
 graph LR
     A3[A] --> N3[NAND ≥1]
     B3[B] --> N3
     N3 --> Y3[Y]
+```
 
+```mermaid
 graph LR
     A4[A] --> N4[NAND ≥1]
     B4[B] --> N4
