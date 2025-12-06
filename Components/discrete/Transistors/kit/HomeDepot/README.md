@@ -7,9 +7,12 @@
 | **74HC40**  | 74HC        | Texas Instruments             | Logic Gate           | Dual 4-Input NAND              | 14           |
 | **74HC86**  | 74HC        | Goldstar / LG (GD marking)    | Logic Gate           | Quad 2-Input XOR               | 14           |
 | **74HC21**  | 74HC        | Texas Instruments             | Logic Gate           | Dual 4-Input AND               | 14           |
+|             |             |                               |                      |                                |              |
 | **74HC125** | 74HC        | Motorola / Matsushita         | Buffer / Line Driver | Quad 3-State Buffer            | 14           |
+|             |             |                               |                      |                                |              |
 | **74HC153** | 74HC        | Texas Instruments             | Multiplexer          | Dual 4-Input MUX               | 16           |
 | **74HC157** | 74HC        | TI / Motorola                 | Multiplexer          | Quad 2-Input MUX               | 16           |
+|             |             |                               |                      |                                |              |
 | **74HC243** | 74HC        | Texas Instruments             | Bus Transceiver      | Quad Bus Transceiver (3-State) | 14           |
 
 | Part Number | Full Series | Manufacturer                  | General Function     | Specific Logic                 | Package Pins |
