@@ -10,7 +10,7 @@ These mimic the diagrams found in TI/Nexperia datasheets and are suitable for qu
 ## **1. 74HC00 — Quad 2-Input NAND Gate**
 
 ```mermaid
-graph TD
+graph LR
     A1[A] --> N1[NAND ≥1]
     B1[B] --> N1
     N1 --> Y1[Y]
