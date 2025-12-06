@@ -18,24 +18,39 @@ flowchart TD
 ```mermaid
 flowchart TD
     %% NAND 1
-    A1[A] --> N1[NAND]
-    B1[B] --> N1
-    N1 -- "≥1" --> Y1[Y]
+    subgraph NAND1
+        direction TD
+        A1[A] --> N1[NAND]
+        B1[B] --> N1
+        N1 -- "≥1" --> Y1[Y]
+    end
 
     %% NAND 2
-    A2[A] --> N2[NAND]
-    B2[B] --> N2
-    N2 -- "≥1" --> Y2[Y]
+    subgraph NAND2
+        direction TD
+        A2[A] --> N2[NAND]
+        B2[B] --> N2
+        N2 -- "≥1" --> Y2[Y]
+    end
 
     %% NAND 3
-    A3[A] --> N3[NAND]
-    B3[B] --> N3
-    N3 -- "≥1" --> Y3[Y]
+    subgraph NAND3
+        direction TD
+        A3[A] --> N3[NAND]
+        B3[B] --> N3
+        N3 -- "≥1" --> Y3[Y]
+    end
 
     %% NAND 4
-    A4[A] --> N4[NAND]
-    B4[B] --> N4
-    N4 -- "≥1" --> Y4[Y]
+    subgraph NAND4
+        direction TD
+        A4[A] --> N4[NAND]
+        B4[B] --> N4
+        N4 -- "≥1" --> Y4[Y]
+    end
+
+    %% Arrange subgraphs horizontally
+    NAND1 --- NAND2 --- NAND3 --- NAND4
 ```
 
 ```mermaid
