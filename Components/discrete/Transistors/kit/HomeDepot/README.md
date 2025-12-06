@@ -1,3 +1,29 @@
+# ✅ **Normalized Table (Clean & Standardized)**
+
+| Part Number | Full Series | Manufacturer                  | General Function     | Specific Logic                 | Package Pins |
+| ----------- | ----------- | ----------------------------- | -------------------- | ------------------------------ | ------------ |
+| **74HC00**  | 74HC        | STMicroelectronics            | Logic Gate           | Quad 2-Input NAND              | 14           |
+| **74HC02**  | 74HC        | Texas Instruments             | Logic Gate           | Quad 2-Input NOR               | 14           |
+| **74HCT02** | 74HCT       | Samsung / Korea Semiconductor | Logic Gate           | Quad 2-Input NOR               | 14           |
+| **74HCT04** | 74HCT       | Samsung / Korea Semiconductor | Logic Gate           | Hex Inverter (NOT)             | 14           |
+| **74HC40**  | 74HC        | Texas Instruments             | Logic Gate           | Dual 4-Input NAND              | 14           |
+| **74HC86**  | 74HC        | Goldstar / LG (GD marking)    | Logic Gate           | Quad 2-Input XOR               | 14           |
+| **74HC21**  | 74HC        | Texas Instruments             | Logic Gate           | Dual 4-Input AND               | 14           |
+| **74HC125** | 74HC        | Motorola / Matsushita         | Buffer / Line Driver | Quad 3-State Buffer            | 14           |
+| **74HC153** | 74HC        | Texas Instruments             | Multiplexer          | Dual 4-Input MUX               | 16           |
+| **74HC157** | 74HC        | TI / Motorola                 | Multiplexer          | Quad 2-Input MUX               | 16           |
+| **74HC243** | 74HC        | Texas Instruments             | Bus Transceiver      | Quad Bus Transceiver (3-State) | 14           |
+
+---
+
+### Notes
+
+* **Package pins** listed are for standard DIP packages.
+* Manufacturer was inferred from prefixes (SN=TI, MC=Motorola, MN=Matsushita, GD=Goldstar/LG, KS=Samsung/Korea Semiconductor).
+* Logic families split into **HC** (high-speed CMOS) and **HCT** (CMOS with TTL-level inputs).
+
+---
+
 
 | Part Number (Marking)   | General Function | Specific Logic                        | Pin Count | Key Feature / Application |
 |-------------------------|------------------|---------------------------------------|-----------|----------------------------|
