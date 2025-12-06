@@ -11,31 +11,35 @@ These mimic the diagrams found in TI/Nexperia datasheets and are suitable for qu
 
 ```mermaid
 graph LR
-    subgraph NAND1
+    subgraph NAND1 [ ]
+        direction LR
         A1[A] --> N1[NAND ≥1]
         B1[B] --> N1
         N1 --> Y1[Y]
     end
 
-    subgraph NAND2
+    subgraph NAND2 [ ]
+        direction LR
         A2[A] --> N2[NAND ≥1]
         B2[B] --> N2
         N2 --> Y2[Y]
     end
 
-    subgraph NAND3
+    subgraph NAND3 [ ]
+        direction LR
         A3[A] --> N3[NAND ≥1]
         B3[B] --> N3
         N3 --> Y3[Y]
     end
 
-    subgraph NAND4
+    subgraph NAND4 [ ]
+        direction LR
         A4[A] --> N4[NAND ≥1]
         B4[B] --> N4
         N4 --> Y4[Y]
     end
 
-    %% Force horizontal layout of subgraphs
+    %% Arrange subgraphs horizontally
     NAND1 --- NAND2 --- NAND3 --- NAND4
 ```
 
