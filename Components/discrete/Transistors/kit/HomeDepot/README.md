@@ -21,8 +21,10 @@ Perfect — if we order the table **alphabetically by the General Function colum
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
-| **74HCT02** | 74HCT       | Samsung / Korea Semiconductor | Logic Gate           | Quad 2-Input **NOR**           | 14           |
-| **74HCT04** | 74HCT       | Samsung / Korea Semiconductor | Logic Gate           | Hex Inverter (**NOT**)         | 14           |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
+| **74HC125**  | 74HC        | Motorola / Matsushita        | Buffer / Line Driver | Quad 3-State Buffer            | 14           |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
@@ -31,15 +33,18 @@ Perfect — if we order the table **alphabetically by the General Function colum
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
-| **74HC125**  | 74HC        | Motorola / Matsushita        | Buffer / Line Driver | Quad 3-State Buffer            | 14           |
 | **74HC243**  | 74HC        | Texas Instruments            | Bus Transceiver      | Quad Bus Transceiver (3-State) | 14           |
 
+| Part Number  | Full Series | Manufacturer                 | General Function     | Specific Logic                 | Package Pins |
+| ------------ | ----------- | ---------------------------- | -------------------- | ------------------------------ | ------------ |
+| **74HCT02** | 74HCT       | Samsung / Korea Semiconductor | Logic Gate           | Quad 2-Input **NOR**           | 14           |
+| **74HCT04** | 74HCT       | Samsung / Korea Semiconductor | Logic Gate           | Hex Inverter (**NOT**)         | 14           |
 
 ---
 
 ### ✅ Notes:
 
-* **Bus Transceivers** come first, followed by **Buffers**, then **Logic Gates**, and finally **Multiplexers**.
+* **Logic Gates** come first, followed by **Multiplexers**, then **Buffers**, and finally **Bus Transceivers**.
 * Within the same General Function, the original 74HC number ordering is preserved.
 * This ordering is useful for **selecting chips by function** in bench experiments or inventory planning.
 * **Package pins** listed are for standard DIP packages.
