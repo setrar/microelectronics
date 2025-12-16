@@ -216,6 +216,6 @@ This is **exactly the mental model needed** for:
 
 ## 6️⃣ Final Verdict (clear and unambiguous)
 
-✔ **Yes — using *all the ICs you listed*, you can build a complete, architecturally correct CLB.**
-✔ It will behave like an early FPGA logic block.
-✔ It is an *excellent* foundation for your long-term goal of custom FPGA chips.
+- ✔ **Yes — using *all the ICs you listed*, you can build a complete, architecturally correct CLB.**
+- ✔ It will behave like an early FPGA logic block.
+- ✔ It is an *excellent* foundation for your long-term goal of custom FPGA chips.
