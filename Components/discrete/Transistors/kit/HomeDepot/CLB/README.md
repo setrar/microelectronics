@@ -132,6 +132,64 @@ This is **how island-style FPGA routing works**, just on wires instead of silico
                ROUTING
 ```
 
+```mermaid
+flowchart LR
+    %% ========= INPUTS =========
+    IN0((IN0))
+    IN1((IN1))
+    IN2((IN2))
+    IN3((IN3))
+    CLK((CLK))
+    CE((CE))
+    SEL0((SEL0))
+    SEL1((SEL1))
+    REGSEL((REGSEL))
+
+    %% ========= INPUT MUX =========
+    MUXIN["74HC153<br/>Input MUX<br/>(4:1)"]
+    IN0 --> MUXIN
+    IN1 --> MUXIN
+    IN2 --> MUXIN
+    IN3 --> MUXIN
+    SEL0 --> MUXIN
+    SEL1 --> MUXIN
+
+    %% ========= LUT =========
+    LUT["LUT Logic<br/>74HC00 / 74HC02 / 74HC32 / 74HC86"]
+    MUXIN --> LUT
+
+    %% ========= COMB PATH =========
+    COMB_OUT((Comb Out))
+    LUT --> COMB_OUT
+
+    %% ========= FLIP-FLOP =========
+    FF["D Flip-Flop<br/>74HC02 + 74HC32"]
+    LUT --> FF
+    CLK --> FF
+    CE --> FF
+
+    %% ========= REGISTERED PATH =========
+    REG_OUT((Reg Out))
+    FF --> REG_OUT
+
+    %% ========= OUTPUT SELECT =========
+    MUXOUT["74HC157<br/>Output MUX"]
+    COMB_OUT --> MUXOUT
+    REG_OUT --> MUXOUT
+    REGSEL --> MUXOUT
+
+    %% ========= OUTPUT BUFFER =========
+    OUTBUF["74HC125 / 74HC243<br/>Tri-State Output"]
+    MUXOUT --> OUTBUF
+
+    %% ========= CLB OUTPUT =========
+    CLBOUT((CLB OUT))
+    OUTBUF --> CLBOUT
+
+    %% ========= FEEDBACK =========
+    CLBOUT -. Feedback .-> MUXIN
+```
+
 👉 This **is a CLB**.
 
 ---
