@@ -18,8 +18,6 @@ Perfect — if we order the table **alphabetically by the General Function colum
 | **74HC40**   | 74HC        | Texas Instruments            | Logic Gate           | Dual 4-Input **NAND**          | 14           |
 | **74HC86**   | 74HC        | Goldstar / LG (GD marking)   | Logic Gate           | Quad 2-Input **XOR**           | 14           |
 | **74HC4075** | 74HC        | OKI                          | Logic Gate           | Triple 3-Input **OR**          | 14           |
-
-| Part Number | Full Series | Manufacturer                  | General Function     | Specific Logic                 | Package Pins |
 | ----------- | ----------- | ----------------------------- | -------------------- | ------------------------------ | ------------ |
 | **74HCT02** | 74HCT       | Samsung / Korea Semiconductor | Logic Gate           | Quad 2-Input **NOR**           | 14           |
 | **74HCT04** | 74HCT       | Samsung / Korea Semiconductor | Logic Gate           | Hex Inverter (**NOT**)         | 14           |
