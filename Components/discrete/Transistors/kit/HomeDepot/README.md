@@ -19,11 +19,17 @@ Perfect — if we order the table **alphabetically by the General Function colum
 | **74HC86**   | 74HC        | Goldstar / LG (GD marking)   | Logic Gate           | Quad 2-Input **XOR**           | 14           |
 | **74HC4075** | 74HC        | OKI                          | Logic Gate           | Triple 3-Input **OR**          | 14           |
 |  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
 | **74HCT02** | 74HCT       | Samsung / Korea Semiconductor | Logic Gate           | Quad 2-Input **NOR**           | 14           |
 | **74HCT04** | 74HCT       | Samsung / Korea Semiconductor | Logic Gate           | Hex Inverter (**NOT**)         | 14           |
 |  |  |  |  |  |  |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
 | **74HC153**  | 74HC        | Texas Instruments            | Multiplexer          | Dual 4-Input MUX               | 16           |
 | **74HC157**  | 74HC        | Texas Instruments / Motorola | Multiplexer          | Quad 2-Input MUX               | 16           |
+|  |  |  |  |  |  |
+|  |  |  |  |  |  |
 |  |  |  |  |  |  |
 | **74HC125**  | 74HC        | Motorola / Matsushita        | Buffer / Line Driver | Quad 3-State Buffer            | 14           |
 | **74HC243**  | 74HC        | Texas Instruments            | Bus Transceiver      | Quad Bus Transceiver (3-State) | 14           |
