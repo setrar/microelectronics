@@ -4,20 +4,20 @@
 |-|-|-|
 | <img src=images/signal-2025-12-05-094314_004.jpeg width='100%' height='100%' > </img> | <img src=images/signal-2025-12-05-094314_003.jpeg width='100%' height='100%' > </img> | <img src=images/signal-2025-12-05-094314_002.jpeg width='100%' height='100%' > </img> |
 
-| Part Number | Full Series | Manufacturer                  | General Function     | Specific Logic                 | Package Pins |
-| ----------- | ----------- | ----------------------------- | -------------------- | ------------------------------ | ------------ |
-| **74HC00**  | 74HC        | STMicroelectronics            | Logic Gate           | Quad 2-Input NAND              | 14           |
-| **74HC02**  | 74HC        | Texas Instruments             | Logic Gate           | Quad 2-Input NOR               | 14           |
-| **74HC40**  | 74HC        | Texas Instruments             | Logic Gate           | Dual 4-Input NAND              | 14           |
-| **74HC86**  | 74HC        | Goldstar / LG (GD marking)    | Logic Gate           | Quad 2-Input XOR               | 14           |
-| **74HC21**  | 74HC        | Texas Instruments             | Logic Gate           | Dual 4-Input AND               | 14           |
-|             |             |                               |                      |                                |              |
-| **74HC125** | 74HC        | Motorola / Matsushita         | Buffer / Line Driver | Quad 3-State Buffer            | 14           |
-|             |             |                               |                      |                                |              |
-| **74HC153** | 74HC        | Texas Instruments             | Multiplexer          | Dual 4-Input MUX               | 16           |
-| **74HC157** | 74HC        | TI / Motorola                 | Multiplexer          | Quad 2-Input MUX               | 16           |
-|             |             |                               |                      |                                |              |
-| **74HC243** | 74HC        | Texas Instruments             | Bus Transceiver      | Quad Bus Transceiver (3-State) | 14           |
+Perfect — if we order the table **alphabetically by the General Function column**, the result becomes:
+
+| Part Number  | Full Series | Manufacturer                 | General Function     | Specific Logic                 | Package Pins |
+| ------------ | ----------- | ---------------------------- | -------------------- | ------------------------------ | ------------ |
+| **74HC00**   | 74HC        | STMicroelectronics           | Logic Gate           | Quad 2-Input NAND              | 14           |
+| **74HC02**   | 74HC        | Texas Instruments            | Logic Gate           | Quad 2-Input NOR               | 14           |
+| **74HC05**   | 74HC        | Hitachi                      | Logic Gate           | Hex Inverter, Open-Drain       | 14           |
+| **74HC11**   | 74HC        | Goldstar / LG                | Logic Gate           | Triple 3-Input AND             | 14           |
+| **74HC21**   | 74HC        | Texas Instruments            | Logic Gate           | Dual 4-Input AND               | 14           |
+| **74HC32**   | 74HC        | Motorola / ON Semiconductor  | Logic Gate           | Quad 2-Input OR                | 14           |
+| **74HC32**   | 74HC        | Goldstar / LG                | Logic Gate           | Quad 2-Input OR                | 14           |
+| **74HC40**   | 74HC        | Texas Instruments            | Logic Gate           | Dual 4-Input NAND              | 14           |
+| **74HC86**   | 74HC        | Goldstar / LG (GD marking)   | Logic Gate           | Quad 2-Input XOR               | 14           |
+| **74HC4075** | 74HC        | OKI                          | Logic Gate           | Triple 3-Input OR              | 14           |
 
 | Part Number | Full Series | Manufacturer                  | General Function     | Specific Logic                 | Package Pins |
 | ----------- | ----------- | ----------------------------- | -------------------- | ------------------------------ | ------------ |
@@ -25,10 +25,24 @@
 | **74HCT04** | 74HCT       | Samsung / Korea Semiconductor | Logic Gate           | Hex Inverter (NOT)             | 14           |
 
 
+| Part Number  | Full Series | Manufacturer                 | General Function     | Specific Logic                 | Package Pins |
+| ------------ | ----------- | ---------------------------- | -------------------- | ------------------------------ | ------------ |
+| **74HC153**  | 74HC        | Texas Instruments            | Multiplexer          | Dual 4-Input MUX               | 16           |
+| **74HC157**  | 74HC        | Texas Instruments / Motorola | Multiplexer          | Quad 2-Input MUX               | 16           |
+
+| Part Number  | Full Series | Manufacturer                 | General Function     | Specific Logic                 | Package Pins |
+| ------------ | ----------- | ---------------------------- | -------------------- | ------------------------------ | ------------ |
+| **74HC125**  | 74HC        | Motorola / Matsushita        | Buffer / Line Driver | Quad 3-State Buffer            | 14           |
+| **74HC243**  | 74HC        | Texas Instruments            | Bus Transceiver      | Quad Bus Transceiver (3-State) | 14           |
+
+
 ---
 
-### Notes
+### ✅ Notes:
 
+* **Bus Transceivers** come first, followed by **Buffers**, then **Logic Gates**, and finally **Multiplexers**.
+* Within the same General Function, the original 74HC number ordering is preserved.
+* This ordering is useful for **selecting chips by function** in bench experiments or inventory planning.
 * **Package pins** listed are for standard DIP packages.
 * Manufacturer was inferred from prefixes (**SN**=TI, **MC**=Motorola, **MN**=Matsushita, **GD**=Goldstar/LG, **KS**=Samsung/Korea Semiconductor).
 * Logic families split into **HC** (high-speed CMOS) and **HCT** (CMOS with TTL-level inputs).
