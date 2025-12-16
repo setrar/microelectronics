@@ -8,7 +8,7 @@ Perfect — if we order the table **alphabetically by the General Function colum
 
 | Part Number  | Full Series | Manufacturer                 | General Function     | Specific Logic                 | Package Pins |
 | ------------ | ----------- | ---------------------------- | -------------------- | ------------------------------ | ------------ |
-| **74HC00**   | 74HC        | STMicroelectronics           | Logic Gate           | Quad 2-Input NAND              | 14           |
+| **74HC00**   | 74HC        | STMicroelectronics           | Logic Gate           | Quad 2-Input **NAND**              | 14           |
 | **74HC02**   | 74HC        | Texas Instruments            | Logic Gate           | Quad 2-Input NOR               | 14           |
 | **74HC05**   | 74HC        | Hitachi                      | Logic Gate           | Hex Inverter, Open-Drain       | 14           |
 | **74HC11**   | 74HC        | Goldstar / LG                | Logic Gate           | Triple 3-Input AND             | 14           |
