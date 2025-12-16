@@ -83,7 +83,6 @@ The collection is primarily designed for data management in digital circuits:
 Is there any specific chip's function you'd like to explore in more detail?
 
 
-<img src=images/signal-2025-12-05-094314_002.jpeg width='50%' height='50%' > </img>
 
 That's a nice collection of integrated circuits (ICs)! Based on the markings visible in the image, these are all members of the 7400 series logic family, specifically the 74HC (High-speed CMOS) sub-family, and they perform various standard digital logic functions.
 Here is a classification of the chips you have, grouped by their function:
@@ -122,9 +121,9 @@ These chips perform fundamental Boolean logic operations.
 You have a collection focused on data routing (multiplexers like the '157 and '153) and bus control/driving (buffers/transceivers like the '125 and '243), along with fundamental logic gates (NAND, AND, XOR).
 Would you like me to look up the detailed pinout (pin configuration) and datasheet for a specific chip, such as the SN74HC157N?
 
-| | |
-|-|-|
-| <img src=images/signal-2025-12-05-094314_003.jpeg width='30%' height='30%' > </img> | <img src=images/signal-2025-12-05-094314_004.jpeg width='30%' height='30%' > </img> |
+| | | |
+|-|-|-|
+| <img src=images/signal-2025-12-05-094314_002.jpeg width='100%' height='100%' > </img> | <img src=images/signal-2025-12-05-094314_003.jpeg width='100%' height='100%' > </img> | <img src=images/signal-2025-12-05-094314_004.jpeg width='100%' height='100%' > </img> |
 
 
 Based on the markings visible in the image, the chips are Digital Logic Integrated Circuits (ICs), specifically from the widely used 7400 series of logic families.
