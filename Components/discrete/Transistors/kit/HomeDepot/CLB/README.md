@@ -112,26 +112,6 @@ This is **how island-style FPGA routing works**, just on wires instead of silico
 
 ### Minimal CLB you can build
 
-```
-      IN0 IN1 IN2 IN3
-        │   │   │   │
-        └──► INPUT MUX (74HC153)
-                 │
-             LUT LOGIC
-          (74HC00/02/32/86)
-                 │
-        ┌────────┴────────┐
-        │                 │
-    Direct Output     D Flip-Flop
-                        (74HC02+32)
-        │                 │
-        └────── OUTPUT MUX (74HC157)
-                 │
-           74HC125 / 243
-                 │
-               ROUTING
-```
-
 ```mermaid
 flowchart TB
     %% ========= INPUTS =========
@@ -239,12 +219,3 @@ This is **exactly the mental model needed** for:
 ✔ **Yes — using *all the ICs you listed*, you can build a complete, architecturally correct CLB.**
 ✔ It will behave like an early FPGA logic block.
 ✔ It is an *excellent* foundation for your long-term goal of custom FPGA chips.
-
----
-
-If you want, next I can:
-1️⃣ Define a **precise “CLB v1 spec”** (inputs, outputs, modes)
-2️⃣ Show **exact IC counts per CLB**
-3️⃣ Help you design **two CLBs + routing fabric** (mini FPGA)
-
-Just tell me which step you want next.
