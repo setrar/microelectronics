@@ -122,8 +122,10 @@ These chips perform fundamental Boolean logic operations.
 You have a collection focused on data routing (multiplexers like the '157 and '153) and bus control/driving (buffers/transceivers like the '125 and '243), along with fundamental logic gates (NAND, AND, XOR).
 Would you like me to look up the detailed pinout (pin configuration) and datasheet for a specific chip, such as the SN74HC157N?
 
+| | |
+|-|-|
+| <img src=images/signal-2025-12-05-094314_003.jpeg width='30%' height='30%' > </img> | <img src=images/signal-2025-12-05-094314_004.jpeg width='30%' height='30%' > </img> |
 
-<img src=images/signal-2025-12-05-094314_003.jpeg width='30%' height='30%' > </img>
 
 Based on the markings visible in the image, the chips are Digital Logic Integrated Circuits (ICs), specifically from the widely used 7400 series of logic families.
 Here is a classification of the chips visible:
@@ -161,7 +163,6 @@ Would you like to know the pinout diagram for any of these specific chips?
 
 
 ## :one:  **74HC-series logic ICs**
-<img src=images/signal-2025-12-05-094314_004.jpeg width='30%' height='30%' > </img>
 
 Looking at the photo, these are **74HC-series logic ICs**, mainly from ST, Texas Instruments, and Samsung/Korea Semiconductor. Here’s a classification based on what’s visible:
 
