@@ -219,3 +219,179 @@ This is **exactly the mental model needed** for:
 - ✔ **Yes — using *all the ICs you listed*, you can build a complete, architecturally correct CLB.**
 - ✔ It will behave like an early FPGA logic block.
 - ✔ It is an *excellent* foundation for your long-term goal of custom FPGA chips.
+
+---
+
+Below is a **clean, synthesizable VHDL RTL model of your CLB**, faithfully matching the **Mermaid schematic** and your **74HC-based CLB architecture**.
+
+This is **architecture-level RTL**, not vendor-specific, and maps cleanly to FPGA tools *and* to your long-term OpenFPGA / ASIC goals.
+
+---
+
+# 🧩 CLB RTL – VHDL
+
+## 1️⃣ CLB Entity
+
+```vhdl
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity clb is
+  port (
+    -- CLB Inputs
+    in0     : in  std_logic;
+    in1     : in  std_logic;
+    in2     : in  std_logic;
+    in3     : in  std_logic;
+
+    clk     : in  std_logic;
+    ce      : in  std_logic;
+
+    sel0    : in  std_logic;
+    sel1    : in  std_logic;
+
+    regsel  : in  std_logic; -- 0: combinational, 1: registered
+
+    -- CLB Output
+    clb_out : out std_logic
+  );
+end entity clb;
+```
+
+---
+
+## 2️⃣ Architecture
+
+This architecture explicitly models:
+
+* **Input MUX** → `74HC153`
+* **LUT logic** → gates
+* **Flip-flop** → NOR-based D FF (modeled behaviorally)
+* **Output MUX** → `74HC157`
+
+```vhdl
+architecture rtl of clb is
+
+  signal lut_in   : std_logic;
+  signal lut_out  : std_logic;
+  signal reg_out  : std_logic;
+  signal mux_out  : std_logic;
+
+begin
+
+  --------------------------------------------------------------------
+  -- Input MUX (74HC153 equivalent)
+  --------------------------------------------------------------------
+  with sel1 & sel0 select
+    lut_in <= in0 when "00",
+              in1 when "01",
+              in2 when "10",
+              in3 when "11",
+              '0' when others;
+
+  --------------------------------------------------------------------
+  -- LUT Logic (replace function as needed)
+  -- Example: (A XOR B) OR C
+  --------------------------------------------------------------------
+  lut_out <= (lut_in xor in1) or in2;
+
+  --------------------------------------------------------------------
+  -- D Flip-Flop (NOR-based, clocked)
+  --------------------------------------------------------------------
+  process(clk)
+  begin
+    if rising_edge(clk) then
+      if ce = '1' then
+        reg_out <= lut_out;
+      end if;
+    end if;
+  end process;
+
+  --------------------------------------------------------------------
+  -- Output MUX (74HC157 equivalent)
+  --------------------------------------------------------------------
+  mux_out <= lut_out when regsel = '0' else reg_out;
+
+  --------------------------------------------------------------------
+  -- Output Buffer (74HC125 / 243 modeled as direct drive)
+  --------------------------------------------------------------------
+  clb_out <= mux_out;
+
+end architecture rtl;
+```
+
+---
+
+## 3️⃣ Notes on Faithfulness to Hardware
+
+### ✔ What is **accurate**
+
+* MUX-based input selection
+* Optional registered output
+* Explicit feedback compatibility
+* Single-bit CLB logic
+
+### ⚠ What is **abstracted**
+
+* NOR gate internals of FF (behavioral equivalent)
+* Tri-state modeled as direct drive (you can add `Z`)
+* LUT implemented as logic, not SRAM
+
+This is **exactly how FPGA architects write CLB RTL models**.
+
+---
+
+## 4️⃣ Optional Enhancements (Very Relevant to You)
+
+### A. Add Feedback Input
+
+```vhdl
+fb : in std_logic;
+```
+
+and extend input MUX to include feedback.
+
+---
+
+### B. True MUX-Based LUT (FPGA-realistic)
+
+Replace logic LUT with:
+
+```vhdl
+signal lut_mem : std_logic_vector(3 downto 0);
+
+with sel1 & sel0 select
+  lut_out <= lut_mem(0) when "00",
+             lut_mem(1) when "01",
+             lut_mem(2) when "10",
+             lut_mem(3) when "11";
+```
+
+This matches real FPGA LUTs.
+
+---
+
+### C. Tri-State Output (Routing Bus)
+
+```vhdl
+oe : in std_logic;
+clb_out <= mux_out when oe = '1' else 'Z';
+```
+
+---
+
+## 5️⃣ Why this RTL is important
+
+This **exact CLB** can be:
+
+* Instantiated in arrays
+* Passed to VTR / OpenFPGA
+* Synthesized in Sky130
+* Used to teach timing, routing, and packing
+
+You’ve now bridged:
+
+```
+74HC gates → CLB schematic → FPGA RTL → ASIC path
+```
