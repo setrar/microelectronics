@@ -133,7 +133,7 @@ This is **how island-style FPGA routing works**, just on wires instead of silico
 ```
 
 ```mermaid
-flowchart LR
+flowchart TB
     %% ========= INPUTS =========
     IN0((IN0))
     IN1((IN1))
