@@ -2,7 +2,7 @@
 
 | | | |
 |-|-|-|
-| <img src=images/signal-2025-12-05-094314_002.jpeg width='100%' height='100%' > </img> | <img src=images/signal-2025-12-05-094314_003.jpeg width='100%' height='100%' > </img> | <img src=images/signal-2025-12-05-094314_004.jpeg width='100%' height='100%' > </img> |
+| <img src=images/signal-2025-12-05-094314_004.jpeg width='100%' height='100%' > </img> | <img src=images/signal-2025-12-05-094314_003.jpeg width='100%' height='100%' > </img> | <img src=images/signal-2025-12-05-094314_002.jpeg width='100%' height='100%' > </img> |
 
 | Part Number | Full Series | Manufacturer                  | General Function     | Specific Logic                 | Package Pins |
 | ----------- | ----------- | ----------------------------- | -------------------- | ------------------------------ | ------------ |
