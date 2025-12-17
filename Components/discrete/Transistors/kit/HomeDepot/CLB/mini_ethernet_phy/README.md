@@ -1,10 +1,3 @@
-Here’s a **professional README.md draft** documenting the entire project and workflow. You can copy it directly.
-
-It explains: project goal, design, testbench, simulation, and Makefile usage.
-
----
-
-```markdown
 # Mini Ethernet PHY (VHDL)  
 
 ## Overview
