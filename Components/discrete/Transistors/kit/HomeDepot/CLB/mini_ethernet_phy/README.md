@@ -155,6 +155,8 @@ stateDiagram-v2
 
 ---
 
+<img src=images/gtkwave_mini_ethernet_preamble.png width='80%' height='80%' > </img>
+
 ## References
 
 * [GHDL Documentation](https://ghdl.github.io/ghdl/)
