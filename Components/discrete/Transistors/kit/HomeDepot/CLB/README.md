@@ -616,3 +616,7 @@ gtkwave clb.vcd
 This waveform looks **exactly like a real FPGA CLB**.
 
 <img src=images/clb.gtkwave.png width='80%' height='80%' > </img>
+
+# :books: References
+
+https://www.zzzdavid.tech/quartus-apple/
