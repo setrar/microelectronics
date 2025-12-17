@@ -119,6 +119,7 @@ flowchart TB
     IN1((IN1))
     IN2((IN2))
     IN3((IN3))
+    FB((FB))
     CLK((CLK))
     CE((CE))
     SEL0((SEL0))
@@ -126,16 +127,17 @@ flowchart TB
     REGSEL((REGSEL))
 
     %% ========= INPUT MUX =========
-    MUXIN["74HC153<br/>Input MUX<br/>(4:1)"]
+    MUXIN["Input MUX<br/>(74HC153 equivalent)"]
     IN0 --> MUXIN
     IN1 --> MUXIN
     IN2 --> MUXIN
     IN3 --> MUXIN
+    FB  --> MUXIN
     SEL0 --> MUXIN
     SEL1 --> MUXIN
 
     %% ========= LUT =========
-    LUT["LUT Logic<br/>74HC00 / 74HC02 / 74HC32 / 74HC86"]
+    LUT["2-input LUT<br/>(MUX-based, SRAM-configured)"]
     MUXIN --> LUT
 
     %% ========= COMB PATH =========
@@ -143,7 +145,7 @@ flowchart TB
     LUT --> COMB_OUT
 
     %% ========= FLIP-FLOP =========
-    FF["D Flip-Flop<br/>74HC02 + 74HC32"]
+    FF["D Flip-Flop<br/>(Enable)"]
     LUT --> FF
     CLK --> FF
     CE --> FF
@@ -153,13 +155,13 @@ flowchart TB
     FF --> REG_OUT
 
     %% ========= OUTPUT SELECT =========
-    MUXOUT["74HC157<br/>Output MUX"]
+    MUXOUT["Output MUX<br/>(74HC157 equivalent)"]
     COMB_OUT --> MUXOUT
     REG_OUT --> MUXOUT
     REGSEL --> MUXOUT
 
     %% ========= OUTPUT BUFFER =========
-    OUTBUF["74HC125 / 74HC243<br/>Tri-State Output"]
+    OUTBUF["Output Buffer<br/>(74HC125/243 equiv)"]
     MUXOUT --> OUTBUF
 
     %% ========= CLB OUTPUT =========
@@ -167,7 +169,7 @@ flowchart TB
     OUTBUF --> CLBOUT
 
     %% ========= FEEDBACK =========
-    CLBOUT -. Feedback .-> MUXIN
+    CLBOUT -. Feedback .-> FB
 ```
 
 👉 This **is a CLB**.
