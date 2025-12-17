@@ -124,12 +124,34 @@ make clean
 4. **Stop simulation explicitly** to control VCD file size.
 5. **Byte alignment and FSM timing** is crucial for protocol correctness.
 
-This workflow reflects **real FPGA/ASIC verification methodology** and can be extended to:
 
-* TX path implementation
-* Full Ethernet MAC
-* AXI-stream interfaces
-* Mapping to 74HC logic gates or FPGA CLBs
+## DUT FSM Diagram
+
+```mermaid
+stateDiagram-v2
+    [*] --> IDLE : Reset / Start
+
+    IDLE --> PREAMBLE : shift_reg = 0xAA
+    PREAMBLE --> PREAMBLE : shift_reg = 0xAA, pre_cnt < 6
+    PREAMBLE --> SFD     : shift_reg = 0xAA, pre_cnt = 6
+    PREAMBLE --> IDLE    : shift_reg != 0xAA
+
+    SFD --> PAYLOAD : shift_reg = 0xAB
+    SFD --> IDLE    : shift_reg != 0xAB
+
+    PAYLOAD --> IDLE : payload captured, frame_ready asserted
+```
+
+
+---
+
+### ✅ How it works
+
+- `IDLE` waits for the first preamble byte.
+- `PREAMBLE` counts 7 consecutive `0xAA` bytes.
+- `SFD` detects the start-of-frame delimiter `0xAB`.
+- `PAYLOAD` captures the payload and asserts `frame_ready`.
+- Any unexpected byte in `PREAMBLE` or `SFD` returns to `IDLE`.
 
 ---
 
@@ -144,11 +166,6 @@ This workflow reflects **real FPGA/ASIC verification methodology** and can be ex
 
 ---
 
-This README:
-
-- Explains the **entire process**
-- Notes **all pitfalls** and **best practices**
-- Is suitable for **GitHub** or **class submission**  
 
 If you want, I can also **add a small diagram (mermaid)** showing the DUT FSM for the README — it will make it visually clear. Do you want me to do that?
 ```
