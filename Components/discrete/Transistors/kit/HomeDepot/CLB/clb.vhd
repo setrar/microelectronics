@@ -3,8 +3,8 @@ use ieee.std_logic_1164.all;
 use ieee.numeric_std.all;
 
 -- ============================================================
--- CLB: Configurable Logic Block
--- FPGA-style CLB inspired by 74HC-based schematic
+-- CLB: FPGA-Style Configurable Logic Block
+-- Fully aligned with architecture diagram
 -- ============================================================
 
 entity clb is
@@ -15,16 +15,22 @@ entity clb is
     in2     : in  std_logic;
     in3     : in  std_logic;
 
+    -- Feedback input (from routing fabric)
+    fb      : in  std_logic;
+
     -- Clocking
     clk     : in  std_logic;
     ce      : in  std_logic;
 
-    -- Input select (74HC153 equivalent)
+    -- Input select
     sel0    : in  std_logic;
     sel1    : in  std_logic;
 
-    -- Output select (74HC157 equivalent)
+    -- Output select
     regsel  : in  std_logic;  -- 0 = combinational, 1 = registered
+
+    -- LUT configuration bits (SRAM model)
+    lut_mem : in  std_logic_vector(3 downto 0);
 
     -- CLB output
     clb_out : out std_logic
@@ -47,30 +53,34 @@ architecture rtl of clb is
 begin
 
   ----------------------------------------------------------------
-  -- Input select vector (fixes GHDL overload issue)
+  -- Input select vector
   ----------------------------------------------------------------
   sel <= sel1 & sel0;
 
   ----------------------------------------------------------------
-  -- Input MUX (74HC153 equivalent)
+  -- Input MUX (5 inputs modeled as 4 + feedback via fabric)
+  -- 74HC153 equivalent abstraction
   ----------------------------------------------------------------
   with sel select
     lut_in <= in0 when "00",
               in1 when "01",
               in2 when "10",
-              in3 when "11",
+              fb  when "11",
               '0' when others;
 
   ----------------------------------------------------------------
-  -- LUT Logic (example combinational function)
-  -- Replace this with any logic you want
-  -- Example: (A XOR B) OR C
+  -- True MUX-Based LUT (2-input LUT, SRAM-configured)
+  -- This is FPGA-realistic
   ----------------------------------------------------------------
-  lut_out <= (lut_in xor in1) or in2;
+  with sel select
+    lut_out <= lut_mem(0) when "00",
+               lut_mem(1) when "01",
+               lut_mem(2) when "10",
+               lut_mem(3) when "11",
+               '0'        when others;
 
   ----------------------------------------------------------------
-  -- D Flip-Flop (behavioral equivalent of NOR-based FF)
-  -- Enabled clocked storage
+  -- D Flip-Flop with Clock Enable
   ----------------------------------------------------------------
   process(clk)
   begin
@@ -87,7 +97,7 @@ begin
   mux_out <= lut_out when regsel = '0' else reg_out;
 
   ----------------------------------------------------------------
-  -- Output buffer (74HC125 / 74HC243 equivalent)
+  -- Output buffer (tri-state abstracted)
   ----------------------------------------------------------------
   clb_out <= mux_out;
 

@@ -1,6 +1,6 @@
 [*]
 [*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
-[*] Wed Dec 17 15:12:04 2025
+[*] Wed Dec 17 15:36:26 2025
 [*]
 [dumpfile] "clb.vcd"
 [dumpfile_mtime] "Wed Dec 17 15:05:16 2025"
@@ -8,15 +8,15 @@
 [savefile] "/Users/valiha/Developer/microelectronics/Components/discrete/Transistors/kit/HomeDepot/CLB/clb.gtkw"
 [timestart] 0
 [size] 1336 600
-[pos] 7 -1
+[pos] 57 83
 *-25.395840 -1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[treeopen] tb_clb.
 [sst_width] 255
 [signals_width] 87
 [sst_expanded] 1
 [sst_vpaned_height] 159
 @28
 tb_clb.ce
-tb_clb.clb_out
 tb_clb.clk
 tb_clb.in0
 tb_clb.in1
@@ -25,5 +25,7 @@ tb_clb.in3
 tb_clb.regsel
 tb_clb.sel0
 tb_clb.sel1
+@29
+tb_clb.clb_out
 [pattern_trace] 1
 [pattern_trace] 0

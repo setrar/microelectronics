@@ -8,43 +8,40 @@ end entity;
 architecture sim of tb_clb is
 
   -- DUT signals
-  signal in0     : std_logic := '0';
-  signal in1     : std_logic := '0';
-  signal in2     : std_logic := '0';
-  signal in3     : std_logic := '0';
-
-  signal clk     : std_logic := '0';
-  signal ce      : std_logic := '0';
-
-  signal sel0    : std_logic := '0';
-  signal sel1    : std_logic := '0';
-  signal regsel  : std_logic := '0';
-
-  signal clb_out : std_logic;
+  signal in0, in1, in2, in3 : std_logic := '0';
+  signal fb                : std_logic := '0';
+  signal clk               : std_logic := '0';
+  signal ce                : std_logic := '0';
+  signal sel0, sel1         : std_logic := '0';
+  signal regsel             : std_logic := '0';
+  signal lut_mem            : std_logic_vector(3 downto 0) := (others => '0');
+  signal clb_out            : std_logic;
 
   constant CLK_PERIOD : time := 10 ns;
 
 begin
 
   ----------------------------------------------------------------
-  -- Instantiate DUT
+  -- DUT Instantiation
   ----------------------------------------------------------------
-  uut: entity work.clb
+  uut : entity work.clb
     port map (
       in0     => in0,
       in1     => in1,
       in2     => in2,
       in3     => in3,
+      fb      => fb,
       clk     => clk,
       ce      => ce,
       sel0    => sel0,
       sel1    => sel1,
       regsel  => regsel,
+      lut_mem => lut_mem,
       clb_out => clb_out
     );
 
   ----------------------------------------------------------------
-  -- Clock generator
+  -- Clock Generator
   ----------------------------------------------------------------
   clk_process : process
   begin
@@ -57,75 +54,56 @@ begin
   end process;
 
   ----------------------------------------------------------------
-  -- Stimulus process
+  -- Stimulus
   ----------------------------------------------------------------
-  stim_proc : process
+  stim : process
   begin
-    --------------------------------------------------------------
-    -- Initial state
-    --------------------------------------------------------------
-    ce     <= '0';
-    regsel <= '0';
-    sel1   <= '0';
-    sel0   <= '0';
+    ----------------------------------------------------------------
+    -- Program LUT: XOR truth table
+    -- sel = "00" -> 0
+    -- sel = "01" -> 1
+    -- sel = "10" -> 1
+    -- sel = "11" -> 0
+    ----------------------------------------------------------------
+    lut_mem <= "0110";
 
+    ce <= '1';
+    regsel <= '0';  -- combinational path
+
+    -- Drive inputs
     in0 <= '0';
-    in1 <= '0';
+    in1 <= '1';
     in2 <= '0';
-    in3 <= '0';
+    in3 <= '1';
+    fb  <= '0';
 
-    wait for 20 ns;
+    -- Sweep LUT select
+    sel1 <= '0'; sel0 <= '0'; wait for 20 ns;
+    sel1 <= '0'; sel0 <= '1'; wait for 20 ns;
+    sel1 <= '1'; sel0 <= '0'; wait for 20 ns;
+    sel1 <= '1'; sel0 <= '1'; wait for 20 ns;
 
-    --------------------------------------------------------------
-    -- Combinational mode
-    --------------------------------------------------------------
-    regsel <= '0';   -- combinational
-    ce     <= '1';
+    ----------------------------------------------------------------
+    -- Enable registered path
+    ----------------------------------------------------------------
+    regsel <= '1';
 
-    in0 <= '1';
-    in1 <= '0';
-    in2 <= '0';
-    in3 <= '0';
-    wait for 20 ns;
+    sel1 <= '0'; sel0 <= '0'; wait for 20 ns;
+    sel1 <= '0'; sel0 <= '1'; wait for 20 ns;
+    sel1 <= '1'; sel0 <= '0'; wait for 20 ns;
+    sel1 <= '1'; sel0 <= '1'; wait for 20 ns;
 
-    sel0 <= '1';     -- select in1
-    wait for 20 ns;
+    ----------------------------------------------------------------
+    -- Feedback test
+    ----------------------------------------------------------------
+    fb <= clb_out;
+    sel1 <= '1'; sel0 <= '1';
+    wait for 40 ns;
 
-    sel1 <= '1';     -- select in3
-    sel0 <= '1';
-    in3  <= '1';
-    wait for 20 ns;
-
-    --------------------------------------------------------------
-    -- Registered mode
-    --------------------------------------------------------------
-    regsel <= '1';   -- registered output
-    ce     <= '1';
-
-    sel1 <= '0';
-    sel0 <= '0';
-    in0  <= '0';
-    in1  <= '1';
-    in2  <= '1';
-
-    wait for 30 ns;
-
-    in1 <= '0';
-    in2 <= '0';
-    wait for 30 ns;
-
-    --------------------------------------------------------------
-    -- Disable clock enable
-    --------------------------------------------------------------
-    ce <= '0';
-    in0 <= '1';
-    wait for 30 ns;
-
-    --------------------------------------------------------------
+    ----------------------------------------------------------------
     -- End simulation
-    --------------------------------------------------------------
-    wait for 50 ns;
-    assert false report "Simulation finished" severity failure;
+    ----------------------------------------------------------------
+    wait;
   end process;
 
 end architecture sim;
