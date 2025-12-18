@@ -1,7 +1,8 @@
 
 
-```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'signalColor': '#4CAF50', 'axisColor': '#333'}}}%%
+
+```mermaid
 timing
     title Serial-to-Parallel Capture Waveform
 
