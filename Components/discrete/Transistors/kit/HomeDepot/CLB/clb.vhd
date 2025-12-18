@@ -80,7 +80,7 @@ begin
                '0'        when others;
 
   ----------------------------------------------------------------
-  -- D Flip-Flop with Clock Enable
+  -- D Flip-Flop (NOR-based) with Clock Enable
   ----------------------------------------------------------------
   process(clk)
   begin
@@ -97,7 +97,8 @@ begin
   mux_out <= lut_out when regsel = '0' else reg_out;
 
   ----------------------------------------------------------------
-  -- Output buffer (tri-state abstracted)
+  -- Output buffer (74HC125 / 243 modeled as direct drive) 
+  -- (tri-state abstracted)
   ----------------------------------------------------------------
   clb_out <= mux_out;
 

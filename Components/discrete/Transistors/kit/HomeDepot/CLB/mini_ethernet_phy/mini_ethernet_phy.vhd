@@ -14,14 +14,38 @@ end mini_ethernet_phy;
 
 architecture rtl of mini_ethernet_phy is
 
+    -- ==========================
+    -- FSM state definition
+    -- ==========================
     type state_type is (IDLE, PREAMBLE, SFD, PAYLOAD);
     signal state : state_type := IDLE;
+    -- FSM logic can be implemented with 74HC00, 74HC02, 74HC32, 74HC86, 74HC11
 
+    -- ==========================
+    -- Shift register (serial → byte)
+    -- ==========================
     signal shift_reg  : std_logic_vector(7 downto 0) := (others => '0');
+    -- 74HC164 can replace this as an 8-bit shift register
     signal byte_reg   : std_logic_vector(7 downto 0) := (others => '0');
+    -- 74HC173 or 74HC125 can latch the byte
+
+    -- ==========================
+    -- Bit counter
+    -- ==========================
     signal bit_cnt    : integer range 0 to 7 := 0;
+    -- 74HC161 (4-bit counter) could implement this
+
+    -- ==========================
+    -- Preamble counter
+    -- ==========================
     signal pre_cnt    : integer range 0 to 6 := 0;
+    -- 74HC161 (3-bit counter) could implement this
+
+    -- ==========================
+    -- Byte valid pulse
+    -- ==========================
     signal byte_valid : std_logic := '0';
+    -- Simple combinational logic with 74HC00/02/32 gates
 
 begin
 
@@ -42,18 +66,23 @@ begin
                 frame_ready <= '0';
                 byte_valid  <= '0';
 
+                -- ==========================
                 -- Shift in serial bit (MSB first)
+                -- ==========================
                 shift_reg <= shift_reg(6 downto 0) & din;
 
                 if bit_cnt = 7 then
                     bit_cnt    <= 0;
                     byte_reg   <= shift_reg(6 downto 0) & din;
                     byte_valid <= '1';
+                    -- Latch byte_reg with 74HC173/125
                 else
                     bit_cnt <= bit_cnt + 1;
                 end if;
 
-                -- FSM consumes FULL BYTES only
+                -- ==========================
+                -- FSM consumes full bytes only
+                -- ==========================
                 if byte_valid = '1' then
                     case state is
                         when IDLE =>
@@ -85,10 +114,11 @@ begin
                             payload_out <= byte_reg(3 downto 0);
                             frame_ready <= '1';
                             state <= IDLE;
-                    end case;
-                end if;
-            end if;
-        end if;
+
+                    end case; -- end of FSM
+                end if; -- end if byte_valid
+            end if; -- end if rst
+        end if; -- end if rising_edge(clk)
     end process;
 
 end rtl;
