@@ -3,15 +3,13 @@
 %%{init: {'theme': 'base', 'themeVariables': {'signalColor': '#4CAF50', 'axisColor': '#333'}}}%%
 
 ```mermaid
-timing
-    title Serial-to-Parallel Capture Waveform
-
-    clk        : 0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1
-    rst        : 1......................0..............................
-    bit_cnt    : 0,1,2,3,4,5,6,7,0,1,2,3,4,5,6,7
-    byte_valid : ........1........1................1................
-    shift_reg  : 0.......+.......+.......+.......+.......+.......+
-    byte_reg   : ....AA.................AB..........................
-    frame_ready: ........................................1...........
-    payload_out: ...................................................
+---
+title: "Serial-to-Parallel Capture"
+---
+packet
+0-7   : "shift_reg[7:0] (captured bits)"
+8-15  : "byte_reg 1 (AA)"
+16-23 : "byte_reg 2 (AB)"
+24    : "frame_ready"
+25-32 : "payload_out (next byte)"
 ```
