@@ -1,6 +1,5 @@
 
 
-%%{init: {'theme': 'base', 'themeVariables': {'signalColor': '#4CAF50', 'axisColor': '#333'}}}%%
 
 ```mermaid
 ---
