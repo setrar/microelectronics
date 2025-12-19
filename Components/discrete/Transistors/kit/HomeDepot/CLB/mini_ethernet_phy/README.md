@@ -158,6 +158,111 @@ stateDiagram-v2
 - `PAYLOAD` captures the payload and asserts `frame_ready`.
 - Any unexpected byte in `PREAMBLE` or `SFD` returns to `IDLE`.
 
+---
+
+Great! Let’s make a **textual/ASCII-style schematic** showing how this mini Ethernet PHY could be implemented using **74HC ICs**—D flip-flops for the shift register, AND gates for preamble detection, XOR gates for checksum, and a latch for payload.
+
+---
+
+### **Mini Ethernet PHY with 74HC ICs (Textual Schematic)**
+
+```mermaid
+graph TD
+    %% Serial input
+    DIN[Serial Input] --> SR[Shift Register (8 D-FFs)]
+
+    %% FSM for frame detection
+    SR --> FSM_PRE[Preamble Detection (AND 74HC08)]
+    FSM_PRE --> FSM_SFD[SFD Detection (AND/OR logic 74HC08+74HC32)]
+    FSM_SFD --> FSM_PAY[Payload Capture Latch (74HC75)]
+
+    %% Checksum logic
+    FSM_PAY --> XOR1[XOR Gate 74HC86]
+    XOR1 --> XOR2[XOR Gate 74HC86]
+    XOR2 --> CHECKSUM[Checksum Output]
+
+    %% Frame ready
+    FSM_SFD --> FRAME_READY[Frame Ready Signal]
+    CHECKSUM --> FRAME_READY
+
+    %% FSM states
+    subgraph FSM
+        IDLE --> PREAMBLE
+        PREAMBLE --> SFD
+        SFD --> PAYLOAD
+        PAYLOAD --> CHECKSUM_STATE[Checksum]
+        CHECKSUM_STATE --> IDLE
+    end
+```
+
+```
+Serial Input (DIN)
+      |
+      v
+  +-------+    +-------+    +-------+    +-------+    +-------+    +-------+    +-------+    +-------+
+  | D-FF1 | -> | D-FF2 | -> | D-FF3 | -> | D-FF4 | -> | D-FF5 | -> | D-FF6 | -> | D-FF7 | -> | D-FF8 |
+  +-------+    +-------+    +-------+    +-------+    +-------+    +-------+    +-------+    +-------+
+      |
+      v
+  [Shift register outputs bits Q1-Q8]
+
+      +----------------------------+
+      | Preamble Detection (ANDs)  |
+      |  Detect 7 consecutive 10101010 bytes
+      +----------------------------+
+                  |
+                  v
+           +-----------+
+           | SFD Check |  <-- detect 10101011
+           +-----------+
+                  |
+                  v
+           +-----------------+
+           | Payload Latch   |  <-- captures next 4 bits
+           | (D-FFs or 74HC75)|
+           +-----------------+
+                  |
+                  v
+           +-----------------+
+           | XOR Checksum    |  <-- 4-input XOR using 74HC86
+           +-----------------+
+                  |
+                  v
+           Frame Ready Signal
+```
+
+---
+
+### **Mapping to 74HC ICs**
+
+| Function                      | 74HC IC Example                              |
+| ----------------------------- | -------------------------------------------- |
+| Shift register / D flip-flops | 74HC74                                       |
+| Preamble AND gates            | 74HC08 (AND)                                 |
+| SFD Check (OR/AND logic)      | 74HC08 + 74HC32                              |
+| Payload latch                 | 74HC75 (4-bit latch)                         |
+| XOR Checksum                  | 74HC86 (XOR gates)                           |
+| Control logic / FSM           | 74HC00 / 74HC02 (NAND/NOR for state machine) |
+
+---
+
+### **How it works**
+
+1. **Shift register**: 8 D flip-flops capture incoming serial bits.
+2. **Preamble detection**: AND gates detect 7 consecutive `10101010` bytes.
+3. **SFD detection**: logic verifies the start frame delimiter `10101011`.
+4. **Payload latch**: stores the 4-bit payload in parallel.
+5. **Checksum**: XOR of payload bits.
+6. **Frame Ready**: output signal goes high when the frame is valid.
+7. **FSM**: implemented with NAND/NOR gates to control states (IDLE → PREAMBLE → SFD → PAYLOAD → CHECKSUM → IDLE).
+
+---
+
+This **textual schematic** gives you a **realistic CLB/74HC-level layout** of a mini PHY.
+
+---
+
+
 
 ## References
 
