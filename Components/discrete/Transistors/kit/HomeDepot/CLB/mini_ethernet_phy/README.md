@@ -160,15 +160,8 @@ stateDiagram-v2
 ## References
 
 * [GHDL Documentation](https://ghdl.github.io/ghdl/)
-* Ethernet preamble/SFD convention: 7× 0xAA + 0xAB
+* [Ethernet preamble/SFD convention: 7× 0xAA + 0xAB](https://sierrahardwaredesign.com/basic-networking/what-is-the-preamble-within-the-ethernet-frame/)
 * VHDL-2008 shift-register design patterns
 * Professional RTL verification techniques
 
 ```
-
----
-
-
-If you want, I can also **add a small diagram (mermaid)** showing the DUT FSM for the README — it will make it visually clear. Do you want me to do that?
-```
-
