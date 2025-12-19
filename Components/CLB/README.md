@@ -206,3 +206,255 @@ Pick the scope you need: pure logic behavior or real electrical timing.
 * Create a 2×2 CLB array and implement simple mapped logic across CLBs; experiment with a tiny place-and-route done manually.
 * Replace DIP switches with MCU-driven `74HC595` chain for fast reprogramming and to emulate dynamic reconfiguration.
 
+
+Execution-level view of what a CLB actually does, shown as data flowing through it, not a schematic.
+
+This answers your question:
+
+> “Taking input… translating to some language… doing logic/ALU… spitting result?”
+
+
+
+
+---
+
+🧠 CLB Function Flow (Mermaid)
+
+```mermaid
+
+flowchart LR
+    %% ===== INPUTS =====
+    A((IN0))
+    B((IN1))
+    C((IN2))
+    D((IN3))
+
+    CLK((Clock))
+    CE((Clock Enable))
+    REGSEL((Reg / Comb Select))
+
+    %% ===== INPUT SELECTION =====
+    INMUX["Input Selection<br/>(Routing / MUX)"]
+    A --> INMUX
+    B --> INMUX
+    C --> INMUX
+    D --> INMUX
+
+    %% ===== LUT =====
+    LUT["LUT<br/>(Boolean Function)<br/>f(inputs)"]
+    INMUX --> LUT
+
+    %% ===== COMBINATIONAL PATH =====
+    COMB["Combinational Result"]
+    LUT --> COMB
+
+    %% ===== SEQUENTIAL PATH =====
+    FF["Flip-Flop<br/>(State / Memory)"]
+    LUT --> FF
+    CLK --> FF
+    CE --> FF
+
+    REG["Registered Result"]
+    FF --> REG
+
+    %% ===== OUTPUT SELECT =====
+    OUTMUX["Output Select<br/>(MUX)"]
+    COMB --> OUTMUX
+    REG --> OUTMUX
+    REGSEL --> OUTMUX
+
+    %% ===== OUTPUT =====
+    OUT["CLB Output"]
+    OUTMUX --> OUT
+
+    %% ===== FEEDBACK =====
+    OUT -. Feedback for state .-> INMUX
+```
+
+---
+
+🧩 How to read this diagram (step by step)
+
+1️⃣ Inputs arrive
+
+Signals from:
+
+Other CLBs
+
+IO pins
+
+Feedback paths
+
+
+arrive at the input routing MUX.
+
+
+---
+
+2️⃣ Input selection (routing)
+
+The CLB does not take all inputs at once.
+
+Instead:
+
+Routing logic selects which signals feed the logic
+
+This is how the FPGA fabric connects logic together
+
+
+➡️ No “language translation” — just signal routing
+
+
+---
+
+3️⃣ LUT = programmable logic function
+
+The LUT evaluates:
+
+output = f(selected_inputs)
+
+Examples:
+
+AND, OR, XOR
+
+Half-adder
+
+Comparator
+
+Small ALU slice
+
+Control logic
+
+
+➡️ This is where computation happens
+
+
+---
+
+4️⃣ Two possible paths
+
+🟢 Combinational
+
+Output changes immediately when inputs change
+
+Used for pure logic
+
+
+🔵 Sequential
+
+Output stored in flip-flop
+
+Changes only on clock edge
+
+Used for state, counters, pipelines
+
+
+
+---
+
+5️⃣ Output selection
+
+A MUX chooses:
+
+Direct LUT result or
+
+Registered (clocked) result
+
+
+➡️ Same CLB can behave as:
+
+Logic gate
+
+Register
+
+FSM element
+
+
+
+---
+
+6️⃣ Output & feedback
+
+Result is driven onto routing fabric
+
+Can feed other CLBs
+
+Can feed itself → state machines
+
+
+
+---
+
+🧠 Mental Model (very important)
+
+A CLB is NOT:
+
+A CPU
+
+An instruction executor
+
+A “translator”
+
+
+A CLB IS:
+
+> A programmable Boolean function + optional memory
+
+
+
+Think of it as:
+
+> “A configurable logic neuron”
+
+
+
+Thousands of them together form:
+
+ALUs
+
+CPUs
+
+DSPs
+
+SDRs
+
+Ethernet MACs
+
+
+
+---
+
+🧪 Example: 1-bit ALU built from CLBs
+
+CLB	Role
+
+CLB 1	XOR → Sum
+CLB 2	AND → Carry
+CLB 3	Register sum
+CLB 4	Register carry
+
+
+➡️ Together: Adder ➡️ Replicated: ALU ➡️ With control: CPU
+
+
+---
+
+✅ Final Answer to Your Question
+
+> Does a CLB take input, translate, do logic, and spit out result?
+
+
+
+✔ Yes — but in hardware terms:
+
+No language
+
+No instructions
+
+No execution
+
+Only signal routing + Boolean evaluation + optional state
+
+
+
+
