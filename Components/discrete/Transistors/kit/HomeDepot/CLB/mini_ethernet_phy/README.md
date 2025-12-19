@@ -76,7 +76,7 @@ mini_ethernet_phy/
 
 ---
 
-<img src=images/gtkwave_mini_ethernet_preamble.png width='80%' height='80%' > </img>
+<img src=images/gtkwave_mini_ethernet_preamble.png width='100%' height='100%' > </img>
 
 ---
 
