@@ -20,10 +20,11 @@ The design is suitable for **learning purposes** and can later be mapped to **74
 ```
 
 mini_ethernet_phy/
+├── images
 ├── Makefile
+├── README.md
 ├── mini_ethernet_phy.vhd
-├── tb_mini_ethernet_phy.vhd
-└── README.md
+└── tb_mini_ethernet_phy.vhd
 
 ````
 
