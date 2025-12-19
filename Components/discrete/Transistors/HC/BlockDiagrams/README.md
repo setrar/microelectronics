@@ -783,3 +783,117 @@ end architecture;
 * Fully **ready-to-instantiate** in FPGA or ASIC projects.
 * Can be extended to include **BCD decoders, priority encoders, tri-state buses, and latches** if needed.
 
+---
+
+# **74HC Chip Combo Cheat Sheet**
+
+---
+
+## **1️⃣ Basic Combinational Logic**
+
+| HDL Pattern    | Chip Combination / Wiring                                             |
+| -------------- | --------------------------------------------------------------------- |
+| AND gate       | HC08 (2-input AND) per gate; for 4-input AND, HC21 (dual 4-input AND) |
+| OR gate        | HC32 (2-input OR) per gate                                            |
+| NAND gate      | HC00 (2-input NAND) per gate; HC40 (dual 4-input NAND) for 4-input    |
+| NOR gate       | HC02 (2-input NOR) per gate                                           |
+| XOR gate       | HC86 (2-input XOR) per gate                                           |
+| NOT / Inverter | HC04 (1-input inverter per gate)                                      |
+
+**Notes:** Chain gates to implement multi-level logic.
+
+---
+
+## **2️⃣ Multiplexers / Demuxes**
+
+| HDL Pattern      | Chip Combination / Wiring                                        |
+| ---------------- | ---------------------------------------------------------------- |
+| 2-to-1 MUX       | HC157 (quad 2-input MUX) per 4-bit bus; wire SEL to select line  |
+| 4-to-1 MUX       | HC153 (dual 4-input MUX) per 2-bit bus; SEL as 2-bit input       |
+| 3-to-8 Decoder   | HC138; input = 3-bit address, output = 8 lines                   |
+| 4-to-16 Decoder  | HC154; input = 4-bit address, output = 16 lines                  |
+| BCD to 7-Segment | HC4511; connect 4-bit BCD input, outputs drive 7-segment display |
+
+---
+
+## **3️⃣ Sequential Logic**
+
+| HDL Pattern     | Chip Combination / Wiring                                                        |
+| --------------- | -------------------------------------------------------------------------------- |
+| D Flip-Flop     | HC74; one flip-flop per bit; CLK = system clock, RST optional                    |
+| JK Flip-Flop    | HC112; wire J/K inputs according to HDL next-state logic                         |
+| T Flip-Flop     | HC74 D flip-flop + XOR for toggle logic                                          |
+| Registers       | HC74; group multiple flip-flops for multi-bit registers                          |
+| Counters        | HC90 (mod-10) for decimal counters; or HC74 + AND/NAND logic for binary counters |
+| Shift Registers | HC595 for serial-in / parallel-out; HC165 for parallel-in / serial-out           |
+
+**Notes:** Combine multiple ICs for wider registers/counters.
+
+---
+
+## **4️⃣ Bus / Tri-state Logic**
+
+| HDL Pattern       | Chip Combination / Wiring                                            |
+| ----------------- | -------------------------------------------------------------------- |
+| Tri-state buffer  | HC125; connect input → buffer → output; OE = control signal          |
+| Bidirectional bus | HC243; connect A/B lines, direction pin = bus direction, OE = enable |
+
+**Notes:** Use multiple chips for wider buses (e.g., 8-bit, 16-bit).
+
+---
+
+## **5️⃣ Finite State Machines (FSMs)**
+
+| HDL Pattern      | Chip Combination / Wiring                                                     |
+| ---------------- | ----------------------------------------------------------------------------- |
+| State Registers  | HC74 D flip-flops; one per bit of state                                       |
+| Next-State Logic | Combine HC00/HC08/HC32/HC86 gates according to state transition table         |
+| Output Logic     | Same gates as next-state logic; combinational outputs based on state + inputs |
+
+**Notes:**
+
+* Each flip-flop stores one bit of state.
+* Logic gates compute transitions and outputs.
+
+---
+
+## **6️⃣ ALU / Arithmetic**
+
+| HDL Pattern | Chip Combination / Wiring                                              |
+| ----------- | ---------------------------------------------------------------------- |
+| 1-bit Adder | XOR (HC86) for sum, AND (HC08) for carry, OR (HC32) to combine carries |
+| N-bit Adder | Chain 1-bit adders; propagate carry                                    |
+| Subtractor  | XOR + AND/OR/NAND to implement 2’s complement subtraction              |
+| Comparator  | AND/OR/XOR logic per bit; combine to detect greater/equal/less         |
+
+**Notes:** Use multiple gates per bit for multi-bit ALU; 4-bit is practical, 8+ bits get bulky.
+
+---
+
+## **7️⃣ Memory / Storage**
+
+| HDL Pattern           | Chip Combination / Wiring                                            |
+| --------------------- | -------------------------------------------------------------------- |
+| Register              | HC74 D flip-flops; one per bit                                       |
+| Shift Register        | HC595 (serial-in / parallel-out) or HC165 (parallel-in / serial-out) |
+| Small RAM (1–2 words) | HC74 flip-flops wired with decode logic (HC138)                      |
+| Large RAM             | Impractical with 74HC ICs; use real memory ICs or FPGA               |
+
+---
+
+## **8️⃣ Quick Reference Wiring Rules**
+
+1. **Bit-width expansion:** Use one IC per bit (e.g., 8-bit register = 8 flip-flops or HC74).
+2. **Tri-state buses:** Combine HC125/HC243 per byte of bus; OE controls enabling.
+3. **Counters / ALUs:** Combine multiple small gates (HC00, HC08, HC32, HC86) according to HDL formulas.
+4. **FSM:**
+
+   * Flip-flops = state memory
+   * Gates = next-state + output logic
+   * Inputs = external signals
+5. **Shift Registers:** Daisy-chain for longer bit-widths.
+
+---
+
+✅ **Result:** Using this cheat sheet, you can **take any HDL design and translate it into a discrete 74HC-based implementation**, at least for small- to medium-scale systems.
+
