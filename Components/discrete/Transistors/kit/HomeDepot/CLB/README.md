@@ -597,12 +597,12 @@ gtkwave clb.vcd
 
 ### Recommended signals to add:
 
-* `clk`
-* `ce`
-* `regsel`
-* `sel1 sel0`
-* `in0 in1 in2 in3`
-* `clb_out`
+- `clk`
+- `ce`
+- `regsel`
+- `sel1 sel0`
+- `in0 in1 in2 in3`
+- `clb_out`
 
 ---
 
