@@ -195,42 +195,6 @@ graph TD
     end
 ```
 
-```
-Serial Input (DIN)
-      |
-      v
-  +-------+    +-------+    +-------+    +-------+    +-------+    +-------+    +-------+    +-------+
-  | D-FF1 | -> | D-FF2 | -> | D-FF3 | -> | D-FF4 | -> | D-FF5 | -> | D-FF6 | -> | D-FF7 | -> | D-FF8 |
-  +-------+    +-------+    +-------+    +-------+    +-------+    +-------+    +-------+    +-------+
-      |
-      v
-  [Shift register outputs bits Q1-Q8]
-
-      +----------------------------+
-      | Preamble Detection (ANDs)  |
-      |  Detect 7 consecutive 10101010 bytes
-      +----------------------------+
-                  |
-                  v
-           +-----------+
-           | SFD Check |  <-- detect 10101011
-           +-----------+
-                  |
-                  v
-           +-----------------+
-           | Payload Latch   |  <-- captures next 4 bits
-           | (D-FFs or 74HC75)|
-           +-----------------+
-                  |
-                  v
-           +-----------------+
-           | XOR Checksum    |  <-- 4-input XOR using 74HC86
-           +-----------------+
-                  |
-                  v
-           Frame Ready Signal
-```
-
 ---
 
 ### **Mapping to 74HC ICs**
