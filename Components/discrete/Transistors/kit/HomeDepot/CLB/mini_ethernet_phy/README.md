@@ -164,5 +164,3 @@ stateDiagram-v2
 * [Ethernet preamble/SFD convention: 7× 0xAA + 0xAB](https://sierrahardwaredesign.com/basic-networking/what-is-the-preamble-within-the-ethernet-frame/)
 * VHDL-2008 shift-register design patterns
 * Professional RTL verification techniques
-
-```
