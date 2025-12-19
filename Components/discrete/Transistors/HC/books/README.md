@@ -185,21 +185,6 @@ That trio *is* a **digital design pattern curriculum**, whether they say so or n
 
 ---
 
-## 🔚 Want a Next Step?
+# References
 
-If you want, I can:
-
-* Create a **“Digital Design Pattern Catalog”** (like GoF but for hardware)
-* Show **pattern names** like:
-
-  * *Register–Adder–Feedback Counter*
-  * *FSM with Decoded Outputs*
-  * *MUX-based Datapath Selection*
-* Map each pattern to:
-
-  * HDL template
-  * 74HC chip combo
-  * FPGA LUT structure
-  * ASIC standard-cell view
-
-Just tell me 👍
+https://github.com/zhengyishiming/gongyi
