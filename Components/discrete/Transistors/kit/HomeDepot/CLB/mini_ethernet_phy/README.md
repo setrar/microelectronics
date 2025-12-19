@@ -75,6 +75,10 @@ mini_ethernet_phy/
 
 ---
 
+<img src=images/gtkwave_mini_ethernet_preamble.png width='80%' height='80%' > </img>
+
+---
+
 ## Usage
 
 ### Prerequisites
@@ -153,9 +157,6 @@ stateDiagram-v2
 - `PAYLOAD` captures the payload and asserts `frame_ready`.
 - Any unexpected byte in `PREAMBLE` or `SFD` returns to `IDLE`.
 
----
-
-<img src=images/gtkwave_mini_ethernet_preamble.png width='80%' height='80%' > </img>
 
 ## References
 
