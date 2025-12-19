@@ -169,28 +169,28 @@ Great! Let’s make a **textual/ASCII-style schematic** showing how this mini Et
 ```mermaid
 graph TD
     %% Serial input
-    DIN[Serial Input] --> SR[Shift Register (8 D-FFs)]
+    DIN[Serial Input] --> SR[Shift Register 8 DFFs]
 
     %% FSM for frame detection
-    SR --> FSM_PRE[Preamble Detection (AND 74HC08)]
-    FSM_PRE --> FSM_SFD[SFD Detection (AND/OR logic 74HC08+74HC32)]
-    FSM_SFD --> FSM_PAY[Payload Capture Latch (74HC75)]
+    SR --> FSM_PRE[Preamble Detection AND 74HC08]
+    FSM_PRE --> FSM_SFD[SFD Detection AND OR 74HC08 74HC32]
+    FSM_SFD --> FSM_PAY[Payload Capture Latch 74HC75]
 
     %% Checksum logic
     FSM_PAY --> XOR1[XOR Gate 74HC86]
     XOR1 --> XOR2[XOR Gate 74HC86]
     XOR2 --> CHECKSUM[Checksum Output]
 
-    %% Frame ready
+    %% Frame ready logic
     FSM_SFD --> FRAME_READY[Frame Ready Signal]
     CHECKSUM --> FRAME_READY
 
     %% FSM states
-    subgraph FSM
+    subgraph FSM_States
         IDLE --> PREAMBLE
         PREAMBLE --> SFD
         SFD --> PAYLOAD
-        PAYLOAD --> CHECKSUM_STATE[Checksum]
+        PAYLOAD --> CHECKSUM_STATE
         CHECKSUM_STATE --> IDLE
     end
 ```
