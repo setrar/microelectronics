@@ -16,7 +16,7 @@ This is the base reality.
 
 * AND / OR / XOR / NOT
 * Multiplexer
-* Flip-flop (D-FF)
+* Flip-flop ([D-FF](https://www.youtube.com/watch?v=YW-_GkUguMM))
 * Wires
 * Clock
 
