@@ -61,7 +61,7 @@ This book answers:
 
 ---
 
-### 🔹 *FPGA Prototyping by VHDL Examples* — **Pong P. Chu**
+### 🔹 *FPGA Prototyping by VHDL Examples* — **Pong P. Chu** [ISBN-9780470185315](ISBN-9780470185315.pdf)
 
 **Why**
 
