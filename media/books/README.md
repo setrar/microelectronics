@@ -3,7 +3,7 @@
 
 ## **book titles matched to the ISBNs you provided** (with available information):
 
-| **ISBN**  |                 | **Title**                                                                                                               |
+| **ISBN**  |    #️⃣            | **Title**                                                                                                               |
 | ----------|----------------:| ----------------------------------------------------------------------------------------------------------------------- |
 | :one::zero:| 0070125910    | *Fundamentals of Digital Logic with VHDL Design* (Stephen D. Brown & Zvonko Vranesic) ([abebooks.com][1])               |
 | :one::zero:| 0071433473    | *Complete Digital Design: A Comprehensive Guide to Digital Electronics and Computer System Architecture* (Mark Balch)   |
