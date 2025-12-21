@@ -3,20 +3,20 @@
 
 ## **book titles matched to the ISBNs you provided** (with available information):
 
-| **ISBN**                   | **Title**                                                                                                               |
-| -------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| **ISBN-10: 0070125910**    | *Fundamentals of Digital Logic with VHDL Design* (Stephen D. Brown & Zvonko Vranesic) ([abebooks.com][1])               |
-| **ISBN-10: 0071433473**    | *Complete Digital Design: A Comprehensive Guide to Digital Electronics and Computer System Architecture* (Mark Balch)   |
-| **ISBN-10: 0780353765**    | *Printed Circuit Board Design Techniques for EMC Compliance: A Handbook for Designers* (Mark I. Montrose)               |
-| **ISBN-13: 9780071771344** | *Practical Electronics for Inventors, 3rd Edition* (Paul Scherz & Simon Monk)                                           |
-| **ISBN-13: 9780199339136** | *Microelectronic Circuits* (Sedra & Smith)                                                                              |
-| **ISBN-13: 9781098144791** | *Applied Embedded Electronics: Design Essentials for Robust Systems* (Jerry Twomey)                                     |
-| **ISBN-13: 9781098151539** | *Making Embedded Systems* (likely 2nd Edition by Elecia White)                                                          |
-| **ISBN-13: 9781259837913** | *Digital System Design with FPGA: Implementation Using Verilog and VHDL* (Cem Unsalan & Bora Tar) ([Rakuten Books][2])  |
-| **ISBN-13: 9781260597783** | *Fundamentals of Digital Logic with VHDL Design ISE (4th Edition)* (Stephen Brown & Zvonko Vranesic) ([VitalSource][3]) |
-| **ISBN-13: 9781630818487** | *Bogatin’s Practical Guide to Prototype Breadboard and PCB Design* (Eric Bogatin) ([VitalSource][4])                    |
-| **ISBN-13: 9781718503366** | *Designing Electronics That Work: Real-World Hardware Development* (Hunter Scott) ([The Nile][5])                       |
-| **ISBN-13: 9781911531425** | *Title not found / not identified from available search data*                                                           |
+| **ISBN**  |                 | **Title**                                                                                                               |
+| ----------|---------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **ISBN-10:| 0070125910**    | *Fundamentals of Digital Logic with VHDL Design* (Stephen D. Brown & Zvonko Vranesic) ([abebooks.com][1])               |
+| **ISBN-10:| 0071433473**    | *Complete Digital Design: A Comprehensive Guide to Digital Electronics and Computer System Architecture* (Mark Balch)   |
+| **ISBN-10:| 0780353765**    | *Printed Circuit Board Design Techniques for EMC Compliance: A Handbook for Designers* (Mark I. Montrose)               |
+| **ISBN-13:| 9780071771344** | *Practical Electronics for Inventors, 3rd Edition* (Paul Scherz & Simon Monk)                                           |
+| **ISBN-13:| 9780199339136** | *Microelectronic Circuits* (Sedra & Smith)                                                                              |
+| **ISBN-13:| 9781098144791** | *Applied Embedded Electronics: Design Essentials for Robust Systems* (Jerry Twomey)                                     |
+| **ISBN-13:| 9781098151539** | *Making Embedded Systems* (likely 2nd Edition by Elecia White)                                                          |
+| **ISBN-13:| 9781259837913** | *Digital System Design with FPGA: Implementation Using Verilog and VHDL* (Cem Unsalan & Bora Tar) ([Rakuten Books][2])  |
+| **ISBN-13:| 9781260597783** | *Fundamentals of Digital Logic with VHDL Design ISE (4th Edition)* (Stephen Brown & Zvonko Vranesic) ([VitalSource][3]) |
+| **ISBN-13:| 9781630818487** | *Bogatin’s Practical Guide to Prototype Breadboard and PCB Design* (Eric Bogatin) ([VitalSource][4])                    |
+| **ISBN-13:| 9781718503366** | *Designing Electronics That Work: Real-World Hardware Development* (Hunter Scott) ([The Nile][5])                       |
+| **ISBN-13:| 9781911531425** | *Title not found / not identified from available search data*                                                           |
 
 [1]: https://www.abebooks.com/9780070125919/Fundamentals-Digital-Logic-Vhdl-Design-0070125910/plp?utm_source=chatgpt.com "Fundamentals of Digital Logic With Vhdl Design - Hardcover"
 [2]: https://books.rakuten.co.jp/rk/a9f2f28ccd3b350c97fbb6795a081ea1/?utm_source=chatgpt.com "楽天Kobo電子書籍ストア: Digital System Design with FPGA: Implementation Using Verilog and VHDL - Cem Unsalan - 9781259837913"
