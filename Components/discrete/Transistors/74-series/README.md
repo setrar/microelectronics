@@ -1,4 +1,4 @@
-# [74-series](https://www.build-electronic-circuits.com/7400-series-integrated-circuits/)
+# [7400_Series](https://commons.wikimedia.org/wiki/7400_Series_Overview)
 
 **The 74-series includes *both* TTL and CMOS families.**
 “74-series” is a **naming umbrella**, not a technology. The **suffix** tells you whether the logic family is TTL or CMOS.
@@ -82,4 +82,9 @@
 | ---------------- | ----- | ----- |
 | 74, LS, ALS, S   | ✅ Yes | ❌ No  |
 | HC, HCT, AC, LVC | ❌ No  | ✅ Yes |
+
+# :books: References
+
+### [74-series](https://www.build-electronic-circuits.com/7400-series-integrated-circuits/)
+
 
