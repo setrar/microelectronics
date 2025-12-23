@@ -1,6 +1,6 @@
 ```mermaid
 flowchart TB
-    A["FPGA Fabric Logic (Digital)"] -->|Parallel bits| B
+    A["FPGA Fabric Logic (Digital)"] -->|Parallel bits| B1
 
     subgraph FPGA["FPGA Silicon"]
         A
