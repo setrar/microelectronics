@@ -150,3 +150,306 @@ LVDS is the **bridge** between CMOS GPIO and full SerDes.
 
 
 <img src=images/Transmission-Lines.png width='50%' height='50%' > </img>
+
+Short answer: **yes — but in different ways**.
+
+Let’s be very precise 👇
+
+---
+
+## LVCMOS33 — **one wire per signal**
+
+✔️ **Yes, it is literally a single wire (trace)**
+✔️ Plus a **shared ground reference**
+
+```
+FPGA ────── signal ────── Receiver
+FPGA ────── GND    ────── Receiver
+```
+
+* Logic = voltage **on that one wire**
+* 0 V → logic 0
+* 3.3 V → logic 1
+* Ground noise directly corrupts the signal
+
+So when people say:
+
+> “a CMOS signal”
+
+They really mean:
+
+> **“a voltage on a single wire relative to ground”**
+
+---
+
+## LVDS — **two wires that form ONE signal**
+
+✔️ **Yes, wires — but always in pairs**
+✔️ The **pair together is the signal**
+
+```
+FPGA ──── P ( + ) ──── Receiver
+FPGA ──── N ( − ) ──── Receiver
+```
+
+* Logic = **voltage difference** between P and N
+* P > N → logic 1
+* N > P → logic 0
+* Absolute voltage doesn’t matter much
+
+👉 Important mindset shift:
+
+> **LVDS is not “two signals” — it’s one signal carried by two wires**
+
+---
+
+## Why this matters (physically)
+
+| Thing            | LVCMOS33 | LVDS            |
+| ---------------- | -------- | --------------- |
+| Wires per bit    | 1        | **2**           |
+| Reference        | Ground   | Other wire      |
+| Noise coupling   | High     | **Cancels out** |
+| Length tolerance | Short    | Long            |
+| EMI              | High     | Low             |
+
+---
+
+## Common beginner confusion (very important)
+
+❌ “LVDS uses two bits”
+❌ “LVDS is two GPIOs”
+
+✅ **No** — it is **one bit**, encoded differentially.
+
+FPGA tools know this:
+
+```vhdl
+signal data_p : std_logic;
+signal data_n : std_logic;
+-- together = one LVDS signal
+```
+
+---
+
+## Real-world analogy
+
+* **LVCMOS33** → shouting a number relative to silence
+* **LVDS** → whispering *the difference* between two tones
+
+Noise ruins shouting.
+Noise barely affects the difference.
+
+---
+
+## One sentence summary
+
+> **Yes — both are wires.**
+> **LVCMOS33 = 1 wire + ground**
+> **LVDS = 2 wires that act as one signal**
+
+If you want, next I can explain:
+
+Short answer: **yes — but in different ways**.
+
+Let’s be very precise 👇
+
+---
+
+## LVCMOS33 — **one wire per signal**
+
+✔️ **Yes, it is literally a single wire (trace)**
+✔️ Plus a **shared ground reference**
+
+```
+FPGA ────── signal ────── Receiver
+FPGA ────── GND    ────── Receiver
+```
+
+* Logic = voltage **on that one wire**
+* 0 V → logic 0
+* 3.3 V → logic 1
+* Ground noise directly corrupts the signal
+
+So when people say:
+
+> “a CMOS signal”
+
+They really mean:
+
+> **“a voltage on a single wire relative to ground”**
+
+---
+
+## LVDS — **two wires that form ONE signal**
+
+✔️ **Yes, wires — but always in pairs**
+✔️ The **pair together is the signal**
+
+```
+FPGA ──── P ( + ) ──── Receiver
+FPGA ──── N ( − ) ──── Receiver
+```
+
+* Logic = **voltage difference** between P and N
+* P > N → logic 1
+* N > P → logic 0
+* Absolute voltage doesn’t matter much
+
+👉 Important mindset shift:
+
+> **LVDS is not “two signals” — it’s one signal carried by two wires**
+
+---
+
+## Why this matters (physically)
+
+| Thing            | LVCMOS33 | LVDS            |
+| ---------------- | -------- | --------------- |
+| Wires per bit    | 1        | **2**           |
+| Reference        | Ground   | Other wire      |
+| Noise coupling   | High     | **Cancels out** |
+| Length tolerance | Short    | Long            |
+| EMI              | High     | Low             |
+
+---
+
+## Common beginner confusion (very important)
+
+❌ “LVDS uses two bits”
+❌ “LVDS is two GPIOs”
+
+✅ **No** — it is **one bit**, encoded differentially.
+
+FPGA tools know this:
+
+```vhdl
+signal data_p : std_logic;
+signal data_n : std_logic;
+-- together = one LVDS signal
+```
+
+---
+
+## Real-world analogy
+
+* **LVCMOS33** → shouting a number relative to silence
+* **LVDS** → whispering *the difference* between two tones
+
+Noise ruins shouting.
+Noise barely affects the difference.
+
+---
+
+## One sentence summary
+
+> **Yes — both are wires.**
+> **LVCMOS33 = 1 wire + ground**
+> **LVDS = 2 wires that act as one signal**
+
+If you want, next I can explain:
+
+* Why **twisted pairs** matter
+* Why **LVDS clocks look magic**
+* Why **SerDes doesn’t use either**
+
+Just tell me.
+
+
+Short answer: **yes — but in different ways**.
+
+Let’s be very precise 👇
+
+---
+
+## LVCMOS33 — **one wire per signal**
+
+✔️ **Yes, it is literally a single wire (trace)**
+✔️ Plus a **shared ground reference**
+
+```
+FPGA ────── signal ────── Receiver
+FPGA ────── GND    ────── Receiver
+```
+
+* Logic = voltage **on that one wire**
+* 0 V → logic 0
+* 3.3 V → logic 1
+* Ground noise directly corrupts the signal
+
+So when people say:
+
+> “a CMOS signal”
+
+They really mean:
+
+> **“a voltage on a single wire relative to ground”**
+
+---
+
+## LVDS — **two wires that form ONE signal**
+
+✔️ **Yes, wires — but always in pairs**
+✔️ The **pair together is the signal**
+
+```
+FPGA ──── P ( + ) ──── Receiver
+FPGA ──── N ( − ) ──── Receiver
+```
+
+* Logic = **voltage difference** between P and N
+* P > N → logic 1
+* N > P → logic 0
+* Absolute voltage doesn’t matter much
+
+👉 Important mindset shift:
+
+> **LVDS is not “two signals” — it’s one signal carried by two wires**
+
+---
+
+## Why this matters (physically)
+
+| Thing            | LVCMOS33 | LVDS            |
+| ---------------- | -------- | --------------- |
+| Wires per bit    | 1        | **2**           |
+| Reference        | Ground   | Other wire      |
+| Noise coupling   | High     | **Cancels out** |
+| Length tolerance | Short    | Long            |
+| EMI              | High     | Low             |
+
+---
+
+## Common beginner confusion (very important)
+
+❌ “LVDS uses two bits”
+❌ “LVDS is two GPIOs”
+
+✅ **No** — it is **one bit**, encoded differentially.
+
+FPGA tools know this:
+
+```vhdl
+signal data_p : std_logic;
+signal data_n : std_logic;
+-- together = one LVDS signal
+```
+
+---
+
+## Real-world analogy
+
+* **LVCMOS33** → shouting a number relative to silence
+* **LVDS** → whispering *the difference* between two tones
+
+Noise ruins shouting.
+Noise barely affects the difference.
+
+---
+
+## One sentence summary
+
+> **Yes — both are wires.**
+> **LVCMOS33 = 1 wire + ground**
+> **LVDS = 2 wires that act as one signal**
+
