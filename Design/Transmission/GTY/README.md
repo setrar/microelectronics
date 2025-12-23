@@ -1,5 +1,5 @@
 ```mermaid
-flowchart LR
+flowchart TB
     A["FPGA Fabric Logic (Digital)"] -->|Parallel bits| B
 
     subgraph FPGA["FPGA Silicon"]
