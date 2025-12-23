@@ -4,7 +4,7 @@ flowchart TB
 
     subgraph FPGA["FPGA Silicon"]
         A
-        subgraph GTY["GTY Transceiver (Mixed-Signal / Analog)"]
+        subgraph GTY["GTY Transceiver (Mixed-Signal - Analog)"]
             B1["Serializer"]
             B2["PLL / CDR"]
             B3["Pre-emphasis"]
